@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-14 17:31+0200\n"
-"PO-Revision-Date: 2026-04-21 05:09+0000\n"
+"PO-Revision-Date: 2026-04-21 08:27+0000\n"
 "Last-Translator: Nozomu Matsui <nozomu.matsui@gree.net>\n"
 "Language-Team: Japanese <http://127.0.0.1:8000/projects/weblate/docs/ja/>\n"
 "Language: ja\n"
@@ -6668,12 +6668,10 @@ msgid "Prevents or allows translators to make further changes in Weblate."
 msgstr ""
 
 #: admin/continuous.rst:227
-#, fuzzy
-#| msgid "Test pulling changes from your repository into Weblate"
 msgid ""
 "Freeze translation changes while doing repository maintenance outside "
 "Weblate."
-msgstr "リポジトリから Weblate へ変更をプルできることをテストします"
+msgstr "Weblate外のリポジトリメンテナンスの間、翻訳の変更を凍結します。"
 
 #: admin/continuous.rst:229
 #, fuzzy
@@ -6749,10 +6747,8 @@ msgid ":guilabel:`Rescan`"
 msgstr ":guilabel:`コメントの解決`"
 
 #: admin/continuous.rst:246
-#, fuzzy
-#| msgid "Test pulling changes from your repository into Weblate"
 msgid "Re-reads translation files from the local repository into Weblate."
-msgstr "リポジトリから Weblate へ変更をプルできることをテストします"
+msgstr "ローカルリポジトリからWeblateに翻訳を再読み込みします。"
 
 #: admin/continuous.rst:247
 msgid "Import file changes after manual repository work or file creation."
@@ -18750,10 +18746,8 @@ msgid "Added :ref:`bulk user invitations <invite-user>`."
 msgstr ":ref:`bulk user invitations <invite-user>` の追加。"
 
 #: changes.rst:16
-#, fuzzy
-#| msgid ":ref:`check-formats`,"
 msgid "Added :ref:`check-objc-format`."
-msgstr ":ref:`check-formats`、"
+msgstr ":ref:`check-objc-format` が追加されました。"
 
 #: changes.rst:17
 msgid "Added Forgejo notification webhook, see :ref:`forgejo-setup`."
@@ -18973,12 +18967,12 @@ msgid ""
 msgstr ""
 
 #: changes.rst:51
-#, fuzzy
-#| msgid ":ref:`addon-weblate.autotranslate.autotranslate` add-on"
 msgid ""
 "Fixed background failures in :ref:`addon-"
 "weblate.autotranslate.autotranslate`."
-msgstr ":ref:`addon-weblate.autotranslate.autotranslate` アドオン"
+msgstr ""
+"バックグラウンドで :ref:`addon-weblate.autotranslate.autotranslate` が失敗す"
+"る問題の修正。"
 
 #: changes.rst:52
 msgid ""
@@ -19095,10 +19089,8 @@ msgstr ""
 "で :setting:`ALLOWED_ASSET_DOMAINS` が適用されるようになりました。"
 
 #: changes.rst:70
-#, fuzzy
-#| msgid ":ref:`manage`, :ref:`addon-weblate.discovery.discovery`"
 msgid "Improved security of :ref:`addon-weblate.webhook.webhook`."
-msgstr ":ref:`manage`、:ref:`addon-weblate.discovery.discovery`"
+msgstr ":ref:`addon-weblate.webhook.webhook` のセキュリティ向上。"
 
 #: changes.rst:71
 msgid ""
@@ -53213,10 +53205,8 @@ msgstr "参照: :ref:`format-location`"
 #: snippets/format-features/xliff2-features.rst:21
 #: snippets/format-features/xlsx-features.rst:21
 #: snippets/format-features/yaml-features.rst:21
-#, fuzzy
-#| msgid "See :ref:`format-flags`."
 msgid "Supports flags :ref:`ⓘ <format-flags>`"
-msgstr "参照: :ref:`format-flags`。"
+msgstr "フラグに対応 :ref:`ⓘ <format-flags>`"
 
 #: snippets/format-features/appstore-features.rst:23
 #: snippets/format-features/arb-features.rst:23
@@ -56974,7 +56964,7 @@ msgstr "スクリーンショットの検索。"
 
 #: user/search.rst:121
 msgid "Filter by count of labels"
-msgstr "ラベル数で絞り込み。"
+msgstr "ラベル数で絞り込み"
 
 #: user/search.rst:126
 msgid "Boolean operators"
@@ -57285,7 +57275,7 @@ msgstr "一般的に、最もよく使われる 2 つの翻訳モード:"
 
 #: user/translating.rst:8
 msgid "Project accepts direct translations"
-msgstr "翻訳を直接受け付けるプロジェクト。"
+msgstr "直訳を受理するプロジェクト"
 
 #: user/translating.rst:9
 msgid "Project accepts the suggestions made by users."
