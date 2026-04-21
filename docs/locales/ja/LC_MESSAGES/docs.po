@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-14 17:31+0200\n"
-"PO-Revision-Date: 2026-04-21 02:48+0000\n"
+"PO-Revision-Date: 2026-04-21 05:09+0000\n"
 "Last-Translator: Nozomu Matsui <nozomu.matsui@gree.net>\n"
 "Language-Team: Japanese <http://127.0.0.1:8000/projects/weblate/docs/ja/>\n"
 "Language: ja\n"
@@ -228,7 +228,7 @@ msgstr ":ref:`査読処理 <reviews>` が有効化されている場合のみ使
 
 #: admin/access.rst:110
 msgid "For `Protected` and `Private` projects only:"
-msgstr "`保護` および `プライベート` プロジェクト専用のチーム"
+msgstr "`保護` および `プライベート` プロジェクト専用:"
 
 #: admin/access.rst:112 snippets/roles.rst:156
 msgid "`Translate`"
@@ -3956,7 +3956,7 @@ msgstr "現在、適用している場所："
 
 #: admin/config.rst:77
 msgid "Screenshot uploads, see :ref:`screenshots`"
-msgstr "スクリーンショットのアップロード。参照: :ref:`screenshots`。"
+msgstr "スクリーンショットのアップロード、:ref:`screenshots`参照"
 
 #: admin/config.rst:78
 msgid "Remote HTML downloads for the :ref:`addon-weblate.cdn.cdnjs` add-on"
@@ -4994,7 +4994,7 @@ msgstr ""
 
 #: admin/config.rst:1148
 msgid "The default is ``show``."
-msgstr "デフォルト値は``show``です。"
+msgstr "デフォルト値は ``show`` です。"
 
 #: admin/config.rst:1158
 msgid ""
@@ -8011,7 +8011,7 @@ msgstr "https://toolkit.translatehouse.org/"
 
 #: admin/install.rst:196
 msgid "translation-finder"
-msgstr "translation-finder"
+msgstr "翻訳ファインダー"
 
 #: admin/install.rst:197
 msgid "https://github.com/WeblateOrg/translation-finder"
@@ -13358,7 +13358,7 @@ msgstr ""
 
 #: admin/install/steps/install-python.rst:32
 msgid "`Using Python environments`_"
-msgstr "`Using Python environments`_"
+msgstr "`Python 環境を利用`_"
 
 #: admin/install/steps/install-system-devel.rst:5
 msgid "System requirements"
@@ -14333,7 +14333,7 @@ msgstr ""
 
 #: admin/management.rst:610
 msgid "Imports :ref:`projectbackup`."
-msgstr ":ref:`projectbackup` のインポート"
+msgstr ":ref:`projectbackup` をインポート。"
 
 #: admin/management.rst:614
 msgid ""
@@ -14908,15 +14908,15 @@ msgstr ""
 
 #: admin/memory.rst:157
 msgid "Exports the memory into JSON"
-msgstr "翻訳メモリを JSON にエクスポート。"
+msgstr "翻訳メモリを JSON にエクスポート"
 
 #: admin/memory.rst:159
 msgid "Imports TMX or JSON files into the translation memory"
-msgstr "TMX または JSON ファイルを翻訳メモリにインポート。"
+msgstr "TMX または JSON ファイルを翻訳メモリにインポート"
 
 #: admin/memory.rst:161
 msgid "Removes all entries with pending status from the translation memory"
-msgstr "翻訳メモリから、保留状態のすべてのエントリを削除します。"
+msgstr "保留状態のすべてのエントリを翻訳メモリから削除"
 
 #: admin/memory.rst:165
 msgid ""
@@ -17833,7 +17833,7 @@ msgstr ""
 
 #: admin/translating.rst:29 admin/translating.rst:36
 msgid "Turn on voting."
-msgstr "提案を有効にする"
+msgstr "投票をオンにする。"
 
 #: admin/translating.rst:30
 msgid "Turn off automatic acceptance."
@@ -18733,11 +18733,10 @@ msgid ""
 "weblate.gettext.meson`, :ref:`addon-weblate.gettext.django`, and :ref:`addon-"
 "weblate.gettext.sphinx` to update POT files with configurable update cadence."
 msgstr ""
-"POT ファイルを更新するための更新頻度（cadence）を設定可能にするた"
-"め、:ref:`addon-weblate.gettext.xgettext`、:ref:`addon-"
-"weblate.gettext.meson`、\n"
-":ref:`addon-weblate.gettext.django`、および :ref:`addon-"
-"weblate.gettext.sphinx` を追加しました。"
+"POT ファイルを更新するための更新頻度（cadence）を設定可能にするため"
+"、:ref:`addon-weblate.gettext.xgettext`、:ref:`addon-"
+"weblate.gettext.meson`、:ref:`addon-weblate.gettext.django`、および "
+":ref:`addon-weblate.gettext.sphinx` を追加しました。"
 
 #: changes.rst:14
 msgid ""
@@ -21635,7 +21634,7 @@ msgstr "*2025 年 3 月 13日にリリース。*"
 
 #: changes.rst:983
 msgid "Captcha is not shown for registrations via :ref:`invite-user`."
-msgstr ":ref:`invite-user` 経由の登録では CAPTCHA が表示されなくなりました。"
+msgstr ":ref:`invite-user` 経由の登録では CAPTCHA が表示されません。"
 
 #: changes.rst:987
 msgid "Improved performance of API download endpoints."
@@ -22065,7 +22064,7 @@ msgstr ""
 
 #: changes.rst:1144
 msgid "Captcha solution were sometimes not accepted."
-msgstr "CAPTCHA の解答が受け付けられないことがあった問題の修正。"
+msgstr "CAPTCHA の解答が時折受理されません。"
 
 #: changes.rst:1154
 msgid ""
@@ -22911,9 +22910,7 @@ msgstr "自動提案における一時的な機械翻訳エラーを適切に処
 #: changes.rst:1534
 msgid ""
 ":http:get:`/api/units/(int:id)/` now includes ``last_updated`` timestamp."
-msgstr ""
-":http:get:`/api/units/(int:id)/` の API に、``last_updated`` （最終更新日時）"
-"を追加。"
+msgstr ":http:get:`/api/units/(int:id)/` が ``last_updated`` を含みます。"
 
 #: changes.rst:1535
 msgid ""
@@ -43169,12 +43166,10 @@ msgid ""
 "instances are available for organizations needing isolated or customized "
 "environments."
 msgstr ""
-"顧客は自らのデータを完全にコントロールできます。\n"
-"- プロジェクト、翻訳、ユーザーアカウントは、いつでもエクスポートまたは削除で"
-"きます。\n"
-"- 外部サービスとの連携は任意であり、完全に設定可能です。\n"
-"- 分離された環境やカスタマイズされた環境を必要とする組織向けに、専用の "
-"Weblate インスタンスも利用できます。"
+"顧客は自らのデータを完全にコントロールできます。- プロジェクト、翻訳、"
+"ユーザーアカウントは、いつでもエクスポートまたは削除できます。- 外部サービス"
+"との連携は任意であり、完全に設定可能です。- 分離された環境やカスタマイズされ"
+"た環境を必要とする組織向けに、専用の Weblate インスタンスも利用できます。"
 
 #: security/dependencies.rst:2
 msgid "Dependencies"
