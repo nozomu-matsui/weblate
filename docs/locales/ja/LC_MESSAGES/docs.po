@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-14 17:31+0200\n"
-"PO-Revision-Date: 2026-04-21 02:38+0000\n"
+"PO-Revision-Date: 2026-04-21 02:48+0000\n"
 "Last-Translator: Nozomu Matsui <nozomu.matsui@gree.net>\n"
 "Language-Team: Japanese <http://127.0.0.1:8000/projects/weblate/docs/ja/>\n"
 "Language: ja\n"
@@ -740,8 +740,8 @@ msgid ""
 "Groups connect roles and users with authentication objects (projects, "
 "languages, components, and component lists)."
 msgstr ""
-"グループはロール、ユーザー、認証オブジェクト（プロジェクト、言語、コンポーネ"
-"ント、コンポーネント リスト）を紐づけます。"
+"グループはロールとユーザを認証オブジェクト（プロジェクト、言語、"
+"コンポーネント、コンポーネントリスト）で接続します。"
 
 #: admin/access.rst:368
 msgid ""
@@ -1204,10 +1204,8 @@ msgstr ""
 "は :wladmin:`install_addon` を使用してアドオンを設定できます。"
 
 #: admin/addons.rst:25
-#, fuzzy
-#| msgid "Delete add-on."
 msgid "Obsolete add-ons"
-msgstr "アドオンを削除します。"
+msgstr "廃止されたアドオン"
 
 #: admin/addons.rst:30
 msgid "Customize XML output"
@@ -2063,10 +2061,8 @@ msgstr ""
 "照してください。"
 
 #: admin/auth.rst:330 admin/install/docker.rst:1527
-#, fuzzy
-#| msgid "Microsoft Translator"
 msgid "Microsoft Entra ID"
-msgstr "Microsoft Translator"
+msgstr "Microsoft Entra ID"
 
 #: admin/auth.rst:332
 msgid ""
@@ -4952,10 +4948,8 @@ msgstr ""
 
 #: admin/config.rst:1127 admin/install/docker.rst:779
 #: admin/install/docker.rst:873
-#, fuzzy
-#| msgid "Supported features"
 msgid "Supported values are:"
-msgstr "対応機能"
+msgstr "対応されている値:"
 
 #: admin/config.rst:1130
 msgid ""
@@ -4999,10 +4993,8 @@ msgstr ""
 "バージョンを特定することを阻止できません。"
 
 #: admin/config.rst:1148
-#, fuzzy
-#| msgid "The default value is 10."
 msgid "The default is ``show``."
-msgstr "デフォルト値は 10 です。"
+msgstr "デフォルト値は``show``です。"
 
 #: admin/config.rst:1158
 msgid ""
