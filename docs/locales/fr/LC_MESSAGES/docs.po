@@ -36,16 +36,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-21 02:17+0200\n"
-"PO-Revision-Date: 2026-04-21 03:41+0000\n"
+"PO-Revision-Date: 2026-04-23 00:07+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/weblate/"
-"documentation/fr/>\n"
+"Language-Team: French <http://127.0.0.1:8000/projects/weblate/docs/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 5.16.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: admin/access.rst:4 admin/projects.rst:218
@@ -177,8 +176,8 @@ msgid ""
 "respective project."
 msgstr ""
 "Les :guilabel:`Contrôles d'accès` peuvent être changés dans "
-"l’onglet :guilabel:`Accès` de la configuration (:guilabel:`Opérations` "
-"↓ :guilabel:`Paramètres`) de chaque projet respectivement."
+"l’onglet :guilabel:`Accès` de la configuration (:guilabel:`Opérations` ↓ "
+":guilabel:`Paramètres`) de chaque projet respectivement."
 
 #: admin/access.rst:68
 msgid ""
@@ -265,8 +264,7 @@ msgstr "`Traduire`"
 
 #: admin/access.rst:113
 msgid "Translate the project and upload translations made offline."
-msgstr ""
-"Traduire le projet et téléverser les traductions effectuées hors ligne."
+msgstr "Traduire le projet et téléverser les traductions effectuées hors ligne."
 
 #: admin/access.rst:115
 msgid "`Sources`"
@@ -519,10 +517,10 @@ msgid ""
 "The API tokens can have expiry date set, and their permissions can be "
 "customized by team memberships same as with users."
 msgstr ""
-"Vous pouvez définir des jetons d'accès par projet dans "
-"l'onglet :guilabel:`Accès API` . Les jetons de l'API peuvent avoir une date "
-"limite de validité, et leurs privilèges peuvent être adaptés aussi bien pour "
-"les membres de l'équipe que pour les utilisateurs."
+"Vous pouvez définir des jetons d'accès par projet dans l'onglet "
+":guilabel:`Accès API` . Les jetons de l'API peuvent avoir une date limite de "
+"validité, et leurs privilèges peuvent être adaptés aussi bien pour les "
+"membres de l'équipe que pour les utilisateurs."
 
 #: admin/access.rst:256
 msgid "Site-wide access control"
@@ -549,10 +547,9 @@ msgstr ""
 "Les fonctionnalités les plus puissantes du système de contrôle d’accès de "
 "Weblate peuvent être configurées dans la :ref:`management-interface`. Vous "
 "pouvez l’utiliser pour gérer les droits de n’importe quel projet. Vous "
-"n’avez pas nécessairement besoin de passer en "
-"mode :guilabel:`Custom` :ref:`contrôle d'accès <acl>` pour l’utiliser. "
-"Cependant, vous devez avoir les privilèges de super-utilisateur pour "
-"l’utiliser."
+"n’avez pas nécessairement besoin de passer en mode :guilabel:`Custom` "
+":ref:`contrôle d'accès <acl>` pour l’utiliser. Cependant, vous devez avoir "
+"les privilèges de super-utilisateur pour l’utiliser."
 
 #: admin/access.rst:270
 msgid ""
@@ -691,8 +688,8 @@ msgid ""
 "<default-teams>`."
 msgstr ""
 "Retirer le droit de traduire en `Tchèque` pour tous les utilisateurs. Dans "
-"la configuration par défaut, cela peut être fait en modifiant "
-"`Users` :ref:`default team <default-teams>`."
+"la configuration par défaut, cela peut être fait en modifiant `Users` "
+":ref:`default team <default-teams>`."
 
 #: admin/access.rst:318
 msgid "Group `Users`"
@@ -895,8 +892,8 @@ msgstr ""
 "Si l’équipe spécifie un :guilabel:`Composants`, toutes les permissions "
 "données aux membres de cette équipe sont accordées pour tous les composants "
 "attachés à l’équipe et un accès sans permissions supplémentaires est accordé "
-"pour tous les projets dans lesquels ces composants se "
-"trouvent. :guilabel:`Projets` sont ignorés."
+"pour tous les projets dans lesquels ces composants se trouvent. "
+":guilabel:`Projets` sont ignorés."
 
 #: admin/access.rst:421
 msgid ""
@@ -1115,8 +1112,8 @@ msgstr "Définit les droits pour les utilisateurs non authentifiés."
 msgid ""
 "This team only contains anonymous users (see :setting:`ANONYMOUS_USER_NAME`)."
 msgstr ""
-"Ce groupe ne contient que des utilisateurs anonymes "
-"(voir :setting:`ANONYMOUS_USER_NAME`)."
+"Ce groupe ne contient que des utilisateurs anonymes (voir "
+":setting:`ANONYMOUS_USER_NAME`)."
 
 #: admin/access.rst:528
 msgid ""
@@ -1517,10 +1514,10 @@ msgid ""
 "manage/` URL. It is available for users signed in with admin privileges, "
 "accessible by using the wrench icon top right:"
 msgstr ""
-"L’interface de gestion offre des paramètres d’administration sous "
-"l’URL :file:`/manage/`. Elle est disponible pour les utilisateurs connectés "
-"avec des privilèges d’administrateur, et est accessible en utilisant l’icône "
-"en forme de clé située en haut à droite :"
+"L’interface de gestion offre des paramètres d’administration sous l’URL "
+":file:`/manage/`. Elle est disponible pour les utilisateurs connectés avec "
+"des privilèges d’administrateur, et est accessible en utilisant l’icône en "
+"forme de clé située en haut à droite :"
 
 #: admin/admin.rst:12
 msgid "It includes basic overview of your Weblate:"
@@ -1615,8 +1612,8 @@ msgid ""
 msgstr ""
 ":guilabel:`Files d'attente Celery` fournit un résumé des files d'attente "
 "Celery. Typiquement elles devraient être proches de zéro. La même chose peut "
-"être obtenue à partir de la ligne de commande en utilisant "
-" :wladmin:`celery_queues`."
+"être obtenue à partir de la ligne de commande en utilisant  "
+":wladmin:`celery_queues`."
 
 #: admin/admin.rst:44
 msgid ""
@@ -1808,8 +1805,8 @@ msgid ""
 "The announcements can posted on each level in the :guilabel:`Operations` "
 "menu, using :guilabel:`Post announcement`:"
 msgstr ""
-"Les annonces peuvent être postées à chaque niveau dans le "
-"menu :guilabel:`Opérations`, en utilisant :guilabel:`Poster l’annonce`:"
+"Les annonces peuvent être postées à chaque niveau dans le menu "
+":guilabel:`Opérations`, en utilisant :guilabel:`Poster l’annonce`:"
 
 #: admin/announcements.rst:21
 msgid ""
@@ -1980,8 +1977,8 @@ msgid ""
 "explicitly, otherwise Weblate will not be able to properly credit "
 "contributions users make."
 msgstr ""
-"Activer d’autres backends est plutôt simple, il suffit d’ajouter une ligne "
-"à :setting:`django:AUTHENTICATION_BACKENDS` et les clefs nécessaires à une "
+"Activer d’autres backends est plutôt simple, il suffit d’ajouter une ligne à "
+":setting:`django:AUTHENTICATION_BACKENDS` et les clefs nécessaires à une "
 "méthode d’authentification donnée. Notez que certains backends ne "
 "fournissent pas d’adresse e-mail utilisateur par défaut, vous devez la "
 "demander explicitement, sinon Weblate ne sera pas en mesure de créditer les "
@@ -1996,8 +1993,8 @@ msgid ""
 msgstr ""
 "La plupart des \"backends\" d'authentification nécessitent HTTPS. Une fois "
 "que HTTPS est activé sur votre serveur web, veuillez configurer Weblate pour "
-"qu'il l'annonce correctement en utilisant :setting:`ENABLE_HTTPS`, "
-"ou :envvar:`WEBLATE_ENABLE_HTTPS` dans un conteneur Docker."
+"qu'il l'annonce correctement en utilisant :setting:`ENABLE_HTTPS`, ou "
+":envvar:`WEBLATE_ENABLE_HTTPS` dans un conteneur Docker."
 
 #: admin/auth.rst:70
 msgid ":doc:`Python Social Auth backend <psa:backends/index>`"
@@ -2285,10 +2282,9 @@ msgid ""
 "For example overriding naming for Auth0 would look like:"
 msgstr ""
 "Vous pouvez remplacer le nom affiché et l'icône de la méthode "
-"d'authentification en utilisant des paramètres comme "
-"``SOCIAL_AUTH_<NAME>_IMAGE`` et ``SOCIAL_AUTH_<NAME>_TITLE``. Par exemple le "
-"remplacement du nom pour la méthode d'authentification utilisant Auth0 "
-"ressemblerait à ceci :"
+"d'authentification en utilisant des paramètres comme ``SOCIAL_AUTH_<NAME>"
+"_IMAGE`` et ``SOCIAL_AUTH_<NAME>_TITLE``. Par exemple le remplacement du nom "
+"pour la méthode d'authentification utilisant Auth0 ressemblerait à ceci :"
 
 #: admin/auth.rst:435
 msgid "Turning off password authentication"
@@ -2303,8 +2299,8 @@ msgid ""
 "Weblate functionality."
 msgstr ""
 "L’authentification par e-mail et mot de passe peut être désactivée en "
-"supprimant ``social_core.backends.email.EmailAuth`` "
-"de :setting:`django:AUTHENTICATION_BACKENDS`. Conservez toujours "
+"supprimant ``social_core.backends.email.EmailAuth`` de "
+":setting:`django:AUTHENTICATION_BACKENDS`. Conservez toujours "
 "``weblate.accounts.auth.WeblateUserBackend`` là, c’est nécessaire pour les "
 "fonctionnalités essentielles de Weblate."
 
@@ -2657,8 +2653,8 @@ msgid ""
 msgstr ""
 "Typiquement l’installation va consister à l’ajout d’un backend "
 "d’authentification à :setting:`django:AUTHENTICATION_BACKENDS` et "
-"l’installation d’une app d’authentification (s’il y en une) "
-"dans :setting:`django:INSTALLED_APPS` :"
+"l’installation d’une app d’authentification (s’il y en une) dans "
+":setting:`django:INSTALLED_APPS` :"
 
 #: admin/auth.rst:813
 msgid "Two-factor authentication"
@@ -2804,8 +2800,8 @@ msgid ""
 "↓ :guilabel:`Backups`. The backup can be restored when creating a project "
 "(see :ref:`adding-projects`)."
 msgstr ""
-"Vous pouvez effectuer une sauvegarde du projet :guilabel:`Opérations` "
-"↓ :guilabel:`Sauvegardes`. La sauvegarde peut être restaurée à la création "
+"Vous pouvez effectuer une sauvegarde du projet :guilabel:`Opérations` ↓ "
+":guilabel:`Sauvegardes`. La sauvegarde peut être restaurée à la création "
 "d'un projet (Voir :ref:`adding-projects`)."
 
 #: admin/backup.rst:25
@@ -2833,10 +2829,9 @@ msgid ""
 "and :setting:`PROJECT_BACKUP_KEEP_COUNT` (it defaults to keep at most 3 "
 "backups for 30 days)."
 msgstr ""
-"Les sauvegardes générées sont conservées sur le serveur comme configuré "
-"par :setting:`PROJECT_BACKUP_KEEP_DAYS` "
-"et :setting:`PROJECT_BACKUP_KEEP_COUNT` (par défaut, 3 sauvegardes au "
-"maximum sont conservées pendant 30 jours)."
+"Les sauvegardes générées sont conservées sur le serveur comme configuré par "
+":setting:`PROJECT_BACKUP_KEEP_DAYS` et :setting:`PROJECT_BACKUP_KEEP_COUNT` "
+"(par défaut, 3 sauvegardes au maximum sont conservées pendant 30 jours)."
 
 #: admin/backup.rst:35
 msgid ""
@@ -2943,14 +2938,14 @@ msgstr "Personnalisation de la sauvegarde"
 #: admin/backup.rst:92
 msgid "The database backup can be configured via :setting:`DATABASE_BACKUP`."
 msgstr ""
-"La sauvegarde de la base de données peut être configurée "
-"avec :setting:`DATABASE_BACKUP`."
+"La sauvegarde de la base de données peut être configurée avec "
+":setting:`DATABASE_BACKUP`."
 
 #: admin/backup.rst:93
 msgid "The backup creation can be customized using :setting:`BORG_EXTRA_ARGS`."
 msgstr ""
-"La création de la sauvegarde peut être personnalisée en "
-"utilisant :setting:`BORG_EXTRA_ARGS`."
+"La création de la sauvegarde peut être personnalisée en utilisant "
+":setting:`BORG_EXTRA_ARGS`."
 
 #: admin/backup.rst:98
 msgid "Weblate provisioned backup storage"
@@ -2992,8 +2987,8 @@ msgstr ""
 #: admin/backup.rst:107
 msgid "Turn on the new backup configuration from the :guilabel:`Backups` tab."
 msgstr ""
-"Activez la nouvelle configuration de sauvegarde sur "
-"l’onglet :guilabel:`Backups`."
+"Activez la nouvelle configuration de sauvegarde sur l’onglet "
+":guilabel:`Backups`."
 
 #: admin/backup.rst:108
 msgid ""
@@ -3212,9 +3207,8 @@ msgid ""
 "Copy the Weblate configuration (:file:`backups/settings.py`, "
 "see :ref:`backup-dumps`) to the correct location, see :ref:`configuration`."
 msgstr ""
-"Copier la configuration de Weblate :file:`backups/settings.py`. "
-"Voir :ref:`backup-dumps`. Pour la localisation exacte "
-"voir :ref:`configuration`."
+"Copier la configuration de Weblate :file:`backups/settings.py`. Voir "
+":ref:`backup-dumps`. Pour la localisation exacte voir :ref:`configuration`."
 
 #: admin/backup.rst:201
 msgid ""
@@ -3415,8 +3409,8 @@ msgid ""
 msgstr ""
 "Weblate dépose diverses données ici, et vous pouvez inclure ces fichiers "
 "pour des sauvegardes plus complètes. Les fichiers sont mis à jour "
-"quotidiennement (nécessite un serveur Celery beats fonctionnel, "
-"voir :ref:`celery`). Actuellement, ceci inclut :"
+"quotidiennement (nécessite un serveur Celery beats fonctionnel, voir "
+":ref:`celery`). Actuellement, ceci inclut :"
 
 #: admin/backup.rst:316
 msgid ""
@@ -3639,8 +3633,8 @@ msgid ""
 "in the :setting:`AUTOFIX_LIST`, see :ref:`custom-check-modules`."
 msgstr ""
 "Pour installer des contrôles personnalisés, fournissez un chemin d’accès "
-"complet à la classe Python dans le fichier :setting:`AUTOFIX_LIST`, "
-"voir :ref:`custom-check-modules`."
+"complet à la classe Python dans le fichier :setting:`AUTOFIX_LIST`, voir "
+":ref:`custom-check-modules`."
 
 #: admin/checks.rst:27
 msgid "Customizing behavior using flags"
@@ -3681,8 +3675,7 @@ msgstr ""
 
 #: admin/checks.rst:39
 msgid "Per-string flags extracted from the file format, see :ref:`formats`."
-msgstr ""
-"Drapeaux par chaîne extraits du format de fichier, voir :ref:`formats`."
+msgstr "Drapeaux par chaîne extraits du format de fichier, voir :ref:`formats`."
 
 #: admin/checks.rst:40
 #, fuzzy
@@ -3718,8 +3711,8 @@ msgid ""
 msgstr ""
 "Les drapeaux sont séparés par des virgules ; leurs paramètres sont séparés "
 "par un deux-points. Vous pouvez utiliser des guillemets pour inclure des "
-"espaces ou des caractères spéciaux dans la chaîne de caractères. Par "
-"exemple :"
+"espaces ou des caractères spéciaux dans la chaîne de caractères. Par exemple "
+":"
 
 #: admin/checks.rst:53
 msgid ""
@@ -3783,8 +3776,8 @@ msgid ""
 "string settings and in the translation file itself (for example in GNU "
 "gettext)."
 msgstr ""
-"Ces drapeaux sont compris à la fois dans les paramètres "
-"des :ref:`component`, par chaîne source et dans le fichier de traduction lui-"
+"Ces drapeaux sont compris à la fois dans les paramètres des "
+":ref:`component`, par chaîne source et dans le fichier de traduction lui-"
 "même (par exemple dans GNU gettext)."
 
 #: admin/checks.rst:93
@@ -4211,8 +4204,7 @@ msgstr "**Exemple:**"
 #, fuzzy
 #| msgid "This is currently applied in the following locations:"
 msgid "This is currently used in the following places:"
-msgstr ""
-"Ce paramètre est actuellement appliqué dans les emplacements suivants :"
+msgstr "Ce paramètre est actuellement appliqué dans les emplacements suivants :"
 
 #: admin/config.rst:77
 #, fuzzy
@@ -4309,8 +4301,7 @@ msgstr ""
 
 #: admin/config.rst:162
 msgid "This is currently applied in the following locations:"
-msgstr ""
-"Ce paramètre est actuellement appliqué dans les emplacements suivants :"
+msgstr "Ce paramètre est actuellement appliqué dans les emplacements suivants :"
 
 #: admin/config.rst:164
 msgid ""
@@ -4590,8 +4581,8 @@ msgid ""
 "Default location for static Django files, specified "
 "by :setting:`django:STATIC_ROOT`. See :ref:`static-files`."
 msgstr ""
-"Emplacement par défaut des fichiers statiques Django, spécifié "
-"par :setting:`django:STATIC_ROOT`. Voir :ref:`static-files`."
+"Emplacement par défaut des fichiers statiques Django, spécifié par "
+":setting:`django:STATIC_ROOT`. Voir :ref:`static-files`."
 
 #: admin/config.rst:381
 msgid "OCR trained data for :ref:`screenshots`."
@@ -4771,8 +4762,8 @@ msgstr "Polices téléversées par l'utilisateur, voir :ref:`fonts`."
 #: admin/config.rst:528
 msgid "Various caches. Can be placed elsewhere using :setting:`CACHE_DIR`."
 msgstr ""
-"Différents caches. Peut être placé n'importe où en "
-"utilisant :setting:`CACHE_DIR`."
+"Différents caches. Peut être placé n'importe où en utilisant "
+":setting:`CACHE_DIR`."
 
 #: admin/config.rst:534
 msgid ""
@@ -4896,8 +4887,8 @@ msgid ""
 "Configures the default value of :ref:`project-use_shared_tm` "
 "and :ref:`project-contribute_shared_tm`."
 msgstr ""
-"Configure les valeurs par défaut de :ref:`project-use_shared_tm` "
-"et :ref:`project-contribute_shared_tm`."
+"Configure les valeurs par défaut de :ref:`project-use_shared_tm` et "
+":ref:`project-contribute_shared_tm`."
 
 #: admin/config.rst:741 admin/install/docker.rst:931
 #, fuzzy
@@ -4908,8 +4899,8 @@ msgid ""
 "Configures the default value for :ref:`project-translation_review`, turned "
 "off by default."
 msgstr ""
-"Configure les valeurs par défaut de :ref:`project-use_shared_tm` "
-"et :ref:`project-contribute_shared_tm`."
+"Configure les valeurs par défaut de :ref:`project-use_shared_tm` et "
+":ref:`project-contribute_shared_tm`."
 
 #: admin/config.rst:750 admin/install/docker.rst:937
 #, fuzzy
@@ -4920,8 +4911,8 @@ msgid ""
 "Configures the default value for :ref:`project-source_review`, turned off by "
 "default."
 msgstr ""
-"Configure les valeurs par défaut de :ref:`project-use_shared_tm` "
-"et :ref:`project-contribute_shared_tm`."
+"Configure les valeurs par défaut de :ref:`project-use_shared_tm` et "
+":ref:`project-contribute_shared_tm`."
 
 #: admin/config.rst:759
 #, fuzzy
@@ -4930,8 +4921,8 @@ msgstr ""
 #| "and :ref:`project-contribute_shared_tm`."
 msgid "Configures the default value of :ref:`project-autoclean_tm`."
 msgstr ""
-"Configure les valeurs par défaut de :ref:`project-use_shared_tm` "
-"et :ref:`project-contribute_shared_tm`."
+"Configure les valeurs par défaut de :ref:`project-use_shared_tm` et "
+":ref:`project-contribute_shared_tm`."
 
 #: admin/config.rst:766
 msgid "Default setting for translation propagation, defaults to ``True``."
@@ -5957,8 +5948,8 @@ msgid ""
 "`Sentry Performance Monitoring <https://docs.sentry.io/product/sentry-basics/"
 "performance-monitoring/>`_"
 msgstr ""
-"`Gestion des performances Sentry <https://docs.sentry.io/product/performance/"
-">`_"
+"`Gestion des performances Sentry <https://docs.sentry.io/product/"
+"performance/>`_"
 
 #: admin/config.rst:2130
 msgid ""
@@ -7642,8 +7633,8 @@ msgid ""
 "To install your code for :ref:`custom-autofix`, :ref:`own-"
 "checks`, :ref:`custom-machinery` or :ref:`own-addon` in Weblate:"
 msgstr ""
-"Pour installer votre code pour :ref:`custom-autofix`, :ref:`own-checks` "
-"ou :ref:`own-addon` dans Weblate :"
+"Pour installer votre code pour :ref:`custom-autofix`, :ref:`own-checks` ou "
+":ref:`own-addon` dans Weblate :"
 
 #: admin/customize.rst:134
 msgid ""
@@ -10788,8 +10779,7 @@ msgstr "Ou le chemin vers un fichier contenant le dictionnaire Python :"
 
 #: admin/install/docker.rst:1296
 msgid "Configures :ref:`vcs-github` by changing :setting:`GITHUB_CREDENTIALS`."
-msgstr ""
-"Configure :ref:`vcs-github` en modifiant :setting:`GITHUB_CREDENTIALS`."
+msgstr "Configure :ref:`vcs-github` en modifiant :setting:`GITHUB_CREDENTIALS`."
 
 #: admin/install/docker.rst:1300 admin/install/docker.rst:1311
 #: admin/install/docker.rst:1322 admin/install/docker.rst:1333
@@ -10806,8 +10796,7 @@ msgstr ""
 
 #: admin/install/docker.rst:1307
 msgid "Configures :ref:`vcs-gitlab` by changing :setting:`GITLAB_CREDENTIALS`."
-msgstr ""
-"Configure :ref:`vcs-gitlab` en modifiant :setting:`GITLAB_CREDENTIALS`."
+msgstr "Configure :ref:`vcs-gitlab` en modifiant :setting:`GITLAB_CREDENTIALS`."
 
 #: admin/install/docker.rst:1318
 msgid "Configures :ref:`vcs-gitea` by changing :setting:`GITEA_CREDENTIALS`."
@@ -10815,8 +10804,7 @@ msgstr "Configure :ref:`vcs-gitea` en modifiant :setting:`GITEA_CREDENTIALS`
 
 #: admin/install/docker.rst:1329
 msgid "Configures :ref:`vcs-pagure` by changing :setting:`PAGURE_CREDENTIALS`."
-msgstr ""
-"Configure :ref:`vcs-pagure` en modifiant :setting:`PAGURE_CREDENTIALS`."
+msgstr "Configure :ref:`vcs-pagure` en modifiant :setting:`PAGURE_CREDENTIALS`."
 
 #: admin/install/docker.rst:1340
 msgid ""
@@ -11441,8 +11429,8 @@ msgstr ""
 #| "celery.bin.worker>`, :ref:`celery`"
 msgid ":doc:`Celery worker options <celery:reference/celery.bin.worker>`"
 msgstr ""
-":doc:`Celery worker options <celery:reference/"
-"celery.bin.worker>`, :ref:`celery`"
+":doc:`Celery worker options <celery:reference/celery.bin.worker>`, "
+":ref:`celery`"
 
 #: admin/install/docker.rst:2154
 msgid ""
@@ -12925,8 +12913,8 @@ msgid ""
 "The services translate from the source language as configured "
 "at :ref:`component`, see :ref:`component-source_language`."
 msgstr ""
-"Si la traduction vers la langue source est souhaitée, veuillez modifier "
-"le :ref:`component-source_language` dans les paramètres du composant."
+"Si la traduction vers la langue source est souhaitée, veuillez modifier le "
+":ref:`component-source_language` dans les paramètres du composant."
 
 #: admin/machine.rst:25
 msgid ""
@@ -13386,9 +13374,8 @@ msgid ""
 "More detailed examples can be found in the :ref:`starting` chapter, "
 "alternatively you might want to use :wladmin:`import_json`."
 msgstr ""
-"Vous trouverez d'autres exemples plus détaillés dans le "
-"chapître :ref:`starting` , mais vous pouvez aussi "
-"utiliser :wladmin:`import_json`."
+"Vous trouverez d'autres exemples plus détaillés dans le chapître "
+":ref:`starting` , mais vous pouvez aussi utiliser :wladmin:`import_json`."
 
 #: admin/management.rst:610
 #, fuzzy
@@ -14017,8 +14004,8 @@ msgstr ""
 #: admin/optionals.rst:16
 msgid "Add ``weblate.gitexport`` to installed apps in :file:`settings.py`:"
 msgstr ""
-"Ajouter ``weblate.gitexport`` aux applications installées "
-"dans :file:`settings.py` :"
+"Ajouter ``weblate.gitexport`` aux applications installées dans "
+":file:`settings.py` :"
 
 #: admin/optionals.rst:22
 msgid ""
@@ -14086,8 +14073,8 @@ msgstr ""
 #: admin/optionals.rst:79
 msgid "1. Add ``weblate.billing`` to installed apps in :file:`settings.py`:"
 msgstr ""
-"1. Ajouter ``weblate.billing`` aux applications installées "
-"dans :file:`settings.py` :"
+"1. Ajouter ``weblate.billing`` aux applications installées dans "
+":file:`settings.py` :"
 
 #: admin/optionals.rst:86 admin/optionals.rst:174
 msgid ""
@@ -14209,8 +14196,8 @@ msgstr ""
 #: admin/optionals.rst:157
 msgid "1. Add ``weblate.legal`` to installed apps in :file:`settings.py`:"
 msgstr ""
-"1. Ajouter ``weblate.legal`` aux applications installées "
-"dans :file:`settings.py`:"
+"1. Ajouter ``weblate.legal`` aux applications installées dans "
+":file:`settings.py`:"
 
 #: admin/optionals.rst:180
 msgid ""
@@ -14571,8 +14558,7 @@ msgstr "Démarrer de zéro"
 
 #: admin/projects.rst:81
 msgid "Create blank translation project and add strings manually."
-msgstr ""
-"Créer un projet de traduction vide et ajouter les chaînes manuellement."
+msgstr "Créer un projet de traduction vide et ajouter les chaînes manuellement."
 
 #: admin/projects.rst:83
 msgid ""
@@ -14646,8 +14632,8 @@ msgid ""
 "This is a required parameter unless turned off "
 "by :setting:`WEBSITE_REQUIRED`."
 msgstr ""
-"Ce paramètre est obligatoire sauf s'il est désactivé "
-"par :setting:`WEBSITE_REQUIRED`."
+"Ce paramètre est obligatoire sauf s'il est désactivé par "
+":setting:`WEBSITE_REQUIRED`."
 
 #: admin/projects.rst:159
 msgid "Translation instructions"
@@ -14679,8 +14665,8 @@ msgid ""
 "Whether to use shared translation memory, see :ref:`shared-tm` for more "
 "details."
 msgstr ""
-"Indique s'il faut utiliser le mémoire de traduction partagé, "
-"voir :ref:`shared-tm` pour d'autres détails."
+"Indique s'il faut utiliser le mémoire de traduction partagé, voir "
+":ref:`shared-tm` pour d'autres détails."
 
 #: admin/projects.rst:179 admin/projects.rst:190
 #, fuzzy
@@ -14688,8 +14674,8 @@ msgstr ""
 #| "The default value can be changed by :setting:`DEFAULT_ACCESS_CONTROL`."
 msgid "The default value can be changed by :setting:`DEFAULT_SHARED_TM`."
 msgstr ""
-"La valeur par défaut peut être modifiée "
-"avec :setting:`DEFAULT_ACCESS_CONTROL`."
+"La valeur par défaut peut être modifiée avec "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/projects.rst:184
 msgid "Contribute to shared translation memory"
@@ -14738,8 +14724,8 @@ msgstr ""
 #: admin/projects.rst:222
 msgid "The default value can be changed by :setting:`DEFAULT_ACCESS_CONTROL`."
 msgstr ""
-"La valeur par défaut peut être modifiée "
-"avec :setting:`DEFAULT_ACCESS_CONTROL`."
+"La valeur par défaut peut être modifiée avec "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/projects.rst:227
 msgid "Enforced two-factor authentication"
@@ -14761,8 +14747,8 @@ msgstr "Activer les révisions"
 #: admin/projects.rst:239
 msgid "Enable review workflow for translations, see :ref:`reviews`."
 msgstr ""
-"Activer le flux de travail de révision pour les traductions, "
-"voir :ref:`reviews`."
+"Activer le flux de travail de révision pour les traductions, voir "
+":ref:`reviews`."
 
 #: admin/projects.rst:249
 msgid "Enable source reviews"
@@ -15301,8 +15287,8 @@ msgid ""
 "Parameters used to configure how translation files are processed, see "
 "also :ref:`file_format_params`."
 msgstr ""
-"La configuration des paramètres a été déplacée "
-"dans :ref:`file_format_params`."
+"La configuration des paramètres a été déplacée dans "
+":ref:`file_format_params`."
 
 #: admin/projects.rst:645
 msgid "Source string bug reporting address"
@@ -15364,8 +15350,8 @@ msgid ""
 "The default value can be changed "
 "by :setting:`DEFAULT_TRANSLATION_PROPAGATION`."
 msgstr ""
-"La valeur par défaut peut être modifiée "
-"avec :setting:`DEFAULT_ACCESS_CONTROL`."
+"La valeur par défaut peut être modifiée avec "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/projects.rst:692 workflows.rst:123 workflows.rst:155 workflows.rst:188
 msgid "Enable suggestions"
@@ -15734,8 +15720,8 @@ msgstr ""
 #| "The default value can be changed by :setting:`DEFAULT_ACCESS_CONTROL`."
 msgid "The default value can be changed by :setting:`DEFAULT_MERGE_STYLE`."
 msgstr ""
-"La valeur par défaut peut être modifiée "
-"avec :setting:`DEFAULT_ACCESS_CONTROL`."
+"La valeur par défaut peut être modifiée avec "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/projects.rst:915
 #, fuzzy
@@ -15756,8 +15742,10 @@ msgid ""
 "The default value can be changed "
 "by :setting:`DEFAULT_ADD_MESSAGE`, :setting:`DEFAULT_ADDON_MESSAGE`, :setting:`DEFAULT_COMMIT_MESSAGE`, :setting:`DEFAULT_DELETE_MESSAGE`, :setting:`DEFAULT_MERGE_MESSAGE`, :setting:`DEFAULT_PULL_MESSAGE`."
 msgstr ""
-"Les valeurs par défaut peuvent être changées "
-"par :setting:`DEFAULT_ADD_MESSAGE`, :setting:`DEFAULT_ADDON_MESSAGE`, :setting:`DEFAULT_COMMIT_MESSAGE`, :setting:`DEFAULT_DELETE_MESSAGE`, :setting:`DEFAULT_MERGE_MESSAGE`, :setting:`DEFAULT_PULL_MESSAGE`."
+"Les valeurs par défaut peuvent être changées par "
+":setting:`DEFAULT_ADD_MESSAGE`, :setting:`DEFAULT_ADDON_MESSAGE`, "
+":setting:`DEFAULT_COMMIT_MESSAGE`, :setting:`DEFAULT_DELETE_MESSAGE`, "
+":setting:`DEFAULT_MERGE_MESSAGE`, :setting:`DEFAULT_PULL_MESSAGE`."
 
 #: admin/projects.rst:927
 msgid "Push on commit"
@@ -15789,8 +15777,8 @@ msgstr ""
 #| "The default value can be changed by :setting:`DEFAULT_ACCESS_CONTROL`."
 msgid "The default value can be changed by :setting:`COMMIT_PENDING_HOURS`."
 msgstr ""
-"La valeur par défaut peut être modifiée "
-"avec :setting:`DEFAULT_ACCESS_CONTROL`."
+"La valeur par défaut peut être modifiée avec "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/projects.rst:953
 msgid ""
@@ -18507,8 +18495,8 @@ msgid ""
 "Delete announcements permission can be assigned to teams, "
 "see :ref:`privileges`."
 msgstr ""
-"L’autorisation de supprimer des annonces peut être donnée aux équipes , "
-"voir :ref:`privileges`."
+"L’autorisation de supprimer des annonces peut être donnée aux équipes , voir "
+":ref:`privileges`."
 
 #: changes.rst:265
 msgid ":doc:`/user/search` better reports errors in the query strings."
@@ -18539,8 +18527,8 @@ msgid ""
 "The default values for :ref:`project-translation_review` and :ref:`project-"
 "source_review` can be configured in settings."
 msgstr ""
-"Configure les valeurs par défaut de :ref:`project-use_shared_tm` "
-"et :ref:`project-contribute_shared_tm`."
+"Configure les valeurs par défaut de :ref:`project-use_shared_tm` et "
+":ref:`project-contribute_shared_tm`."
 
 #: changes.rst:271
 msgid ""
@@ -20450,8 +20438,8 @@ msgstr ""
 #| "checks`"
 msgid "Inherited flags can now be discarded, see :ref:`custom-checks`."
 msgstr ""
-"Drapeaux de chaîne supplémentaires, disponibles sur les unités sources, "
-"voir :ref:`custom-checks`"
+"Drapeaux de chaîne supplémentaires, disponibles sur les unités sources, voir "
+":ref:`custom-checks`"
 
 #: changes.rst:962
 #, fuzzy
@@ -21695,8 +21683,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Improved handling of context in monolingual PO files."
 msgid "Improved readability of exception logs."
-msgstr ""
-"Amélioration du traitement du contexte dans les fichiers PO unilingues."
+msgstr "Amélioration du traitement du contexte dans les fichiers PO unilingues."
 
 #: changes.rst:1433
 #, fuzzy
@@ -22833,8 +22820,8 @@ msgstr ":doc:`tt:formats/flatxml`"
 #: changes.rst:1840
 msgid "Search input is now syntax highlighted, see :doc:`/user/search`."
 msgstr ""
-"La syntaxe de l'entrée de la recherche est maintenant mise en valeur, "
-"voir :doc:`/user/search`."
+"La syntaxe de l'entrée de la recherche est maintenant mise en valeur, voir "
+":doc:`/user/search`."
 
 #: changes.rst:1841
 #, fuzzy
@@ -24719,8 +24706,8 @@ msgstr ""
 "Johan Jacobsson, Peter Vančo, Sveinn í Felli, Oliver, Yvan Zo, meshari "
 "alnaim, தமிழ்நேரம், searinminecraft, Jwtiyar Nariman, gitelo4516, Vision, "
 "Chang-Chia Tseng, Kyotaro Iijima, Ricky Tigg, ei9, Martin Srebotnjak, "
-"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан "
-"Симић(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
+"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан Симић"
+"(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
 "Winston Sung, ChinskiKaczynski, Rafael Fontenelle"
 
 #: changes/contributors/5.9.rst:14
@@ -28467,8 +28454,7 @@ msgstr ""
 
 #: changes/v3.rst:347
 msgid "Reduce number of commits when updating upstream repository."
-msgstr ""
-"Réduire le nombre de validations lors de la mise à jour du dépôt amont."
+msgstr "Réduire le nombre de validations lors de la mise à jour du dépôt amont."
 
 #: changes/v3.rst:348
 msgid "Fixed possible metadata loss when moving component between projects."
@@ -29117,8 +29103,7 @@ msgstr "Prise en charge de la recherche dans les explications."
 #, fuzzy
 #| msgid "Extended search capabilities for changes in history."
 msgid "Extended search capabilities for finding users."
-msgstr ""
-"Capacités de recherche étendues pour les changements dans l’historique."
+msgstr "Capacités de recherche étendues pour les changements dans l’historique."
 
 #: changes/v4.rst:40
 msgid "Support for automatic update of screenshots from a repository."
@@ -29510,8 +29495,7 @@ msgstr "Ajout de la prise en charge des demandes de fusion Pagure."
 #, fuzzy
 #| msgid "Improved handling of context in monolingual PO files."
 msgid "Improved conflicts handling in gettext PO files."
-msgstr ""
-"Amélioration du traitement du contexte dans les fichiers PO unilingues."
+msgstr "Amélioration du traitement du contexte dans les fichiers PO unilingues."
 
 #: changes/v4.rst:162
 #, fuzzy
@@ -30996,8 +30980,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Improved handling of context in monolingual PO files."
 msgid "Improved handling of whitespace in flags."
-msgstr ""
-"Amélioration du traitement du contexte dans les fichiers PO unilingues."
+msgstr "Amélioration du traitement du contexte dans les fichiers PO unilingues."
 
 #: changes/v4.rst:563
 #, fuzzy
@@ -31074,8 +31057,8 @@ msgstr ""
 #| "size`."
 msgid "Fixed dimensions of rendered texts in :ref:`check-max-size`."
 msgstr ""
-"Taille maximale du rendu en pixels définie par des drapeaux, "
-"voir :ref:`check-max-size`."
+"Taille maximale du rendu en pixels définie par des drapeaux, voir "
+":ref:`check-max-size`."
 
 #: changes/v4.rst:581
 msgid ""
@@ -31947,8 +31930,7 @@ msgstr "Enregistrer la langue correcte de la source dans les fichiers TMX."
 #, fuzzy
 #| msgid "Improved handling of context in monolingual PO files."
 msgid "Better handling for uploads of monolingual PO using the API."
-msgstr ""
-"Amélioration du traitement du contexte dans les fichiers PO unilingues."
+msgstr "Amélioration du traitement du contexte dans les fichiers PO unilingues."
 
 #: changes/v4.rst:815
 #, fuzzy
@@ -32014,8 +31996,7 @@ msgstr "Version publiée le 19 février 2021."
 
 #: changes/v4.rst:831
 msgid "Added support for ``lua-format`` used in gettext PO."
-msgstr ""
-"Prise en charge de ``lua-format`` utilisé dans les fichiers PO gettext."
+msgstr "Prise en charge de ``lua-format`` utilisé dans les fichiers PO gettext."
 
 #: changes/v4.rst:832
 msgid "Added support for sharing a component between projects."
@@ -32227,8 +32208,7 @@ msgstr "Amélioration de l’administration des utilisateurs."
 
 #: changes/v4.rst:888
 msgid "Improved handling of context in monolingual PO files."
-msgstr ""
-"Amélioration du traitement du contexte dans les fichiers PO unilingues."
+msgstr "Amélioration du traitement du contexte dans les fichiers PO unilingues."
 
 #: changes/v4.rst:889
 #, fuzzy
@@ -32372,8 +32352,7 @@ msgstr ""
 
 #: changes/v4.rst:919
 msgid "Extended search capabilities for changes in history."
-msgstr ""
-"Capacités de recherche étendues pour les changements dans l’historique."
+msgstr "Capacités de recherche étendues pour les changements dans l’historique."
 
 #: changes/v4.rst:920
 #, fuzzy
@@ -32477,8 +32456,7 @@ msgstr "Version publiée le 4 novembre 2020."
 #, fuzzy
 #| msgid "Fixed crash on certain component filemasks."
 msgid "Fixed crash on certain component file masks."
-msgstr ""
-"Correction d’un plantage sur certains motifs de fichiers de composants."
+msgstr "Correction d’un plantage sur certains motifs de fichiers de composants."
 
 #: changes/v4.rst:955
 msgid "Added support for Pagure pull requests."
@@ -33004,8 +32982,8 @@ msgid ""
 "The Weblate domain is now configured in the settings, "
 "see :setting:`SITE_DOMAIN`."
 msgstr ""
-"Le domaine Weblate est maintenant configuré dans les paramètres, "
-"voir :setting:`SITE_DOMAIN`."
+"Le domaine Weblate est maintenant configuré dans les paramètres, voir "
+":setting:`SITE_DOMAIN`."
 
 #: changes/v4.rst:1092
 msgid "Add support for searching by component and project."
@@ -33054,9 +33032,9 @@ msgid ""
 "see :setting:`SITE_DOMAIN` (or :envvar:`WEBLATE_SITE_DOMAIN`). You will have "
 "to configure it before running Weblate."
 msgstr ""
-"Le domaine Weblate est configuré maintenant dans les paramètres, "
-"voir :setting:`SITE_DOMAIN` (ou :envvar:`WEBLATE_SITE_DOMAIN`). Vous devez "
-"le configurer avant d'exécuter Weblate."
+"Le domaine Weblate est configuré maintenant dans les paramètres, voir "
+":setting:`SITE_DOMAIN` (ou :envvar:`WEBLATE_SITE_DOMAIN`). Vous devez le "
+"configurer avant d'exécuter Weblate."
 
 #: changes/v4.rst:1106
 msgid ""
@@ -33632,8 +33610,8 @@ msgstr ""
 #: contributing/about.rst:13
 msgid "\"Weblate\" is a portmanteau of the words \"web\" and \"translate\"."
 msgstr ""
-"« Weblate » est un mot valise formé à partir des mots « web » et "
-"« translate »."
+"« Weblate » est un mot valise formé à partir des mots « web » et « translate "
+"»."
 
 #: contributing/about.rst:18
 #, fuzzy
@@ -34173,8 +34151,8 @@ msgstr ""
 msgid ""
 ":ref:`sample-configuration` contains :setting:`django:LOGGING` configuration."
 msgstr ""
-":ref:`sample-configuration` contient la "
-"configuration :setting:`django:LOGGING`."
+":ref:`sample-configuration` contient la configuration "
+":setting:`django:LOGGING`."
 
 #: contributing/debugging.rst:48
 msgid "Not processing background tasks"
@@ -35677,9 +35655,9 @@ msgid ""
 "for example running only tests in the ``weblate.machine`` module:"
 msgstr ""
 "Le script accepte aussi certains paramètres, pour exécuter les tests "
-"utilisez le paramètre ``test`` et spécifiez les "
-"paramètres :djadmin:`django:test` s'il y en a, par exemple pour ne faire que "
-"les tests du module ``weblate.machine`` :"
+"utilisez le paramètre ``test`` et spécifiez les paramètres "
+":djadmin:`django:test` s'il y en a, par exemple pour ne faire que les tests "
+"du module ``weblate.machine`` :"
 
 #: contributing/start.rst:101
 msgid ""
@@ -39765,8 +39743,8 @@ msgid ""
 "want to use `English (Developer)` as a source language, or "
 "utilize :ref:`source-quality-gateway`."
 msgstr ""
-"Si la traduction vers la langue source est souhaitée, veuillez modifier "
-"le :ref:`component-source_language` dans les paramètres du composant."
+"Si la traduction vers la langue source est souhaitée, veuillez modifier le "
+":ref:`component-source_language` dans les paramètres du composant."
 
 #: faq.rst:523
 msgid ""
@@ -39970,14 +39948,14 @@ msgid ""
 "(typically :ref:`aresource`). Some file formats are used in both variants, "
 "see the detailed description below."
 msgstr ""
-"Les formats :index:`monolingual <pair: translation; monolingual>` "
-"et :index:`bilingual <pair: translation; bilingual>` sont pris en charge. "
-"Les formats bilingues stockent deux langues dans un seul fichier — source et "
-"traduction (exemples principaux :ref:`gettext`, :ref:`xliff` "
-"ou :ref:`apple`). A l'opposé, les formats mono-langue identifient la chaîne "
-"par un identifiant, et chaque fichier de langue contient uniquement la "
-"traduction correspondante pour une langue donnée (exemple :ref:`aresource`). "
-"Certains formats de fichiers sont utilisés dans les deux variantes, veuillez "
+"Les formats :index:`monolingual <pair: translation; monolingual>` et "
+":index:`bilingual <pair: translation; bilingual>` sont pris en charge. Les "
+"formats bilingues stockent deux langues dans un seul fichier — source et "
+"traduction (exemples principaux :ref:`gettext`, :ref:`xliff` ou :ref:`apple`)"
+". A l'opposé, les formats mono-langue identifient la chaîne par un "
+"identifiant, et chaque fichier de langue contient uniquement la traduction "
+"correspondante pour une langue donnée (exemple :ref:`aresource`). Certains "
+"formats de fichiers sont utilisés dans les deux variantes, veuillez "
 "consulter la description détaillée ci-dessous."
 
 #: formats.rst:50
@@ -40078,8 +40056,8 @@ msgid ""
 msgstr ""
 "Les options de traduction permettent de personnaliser le comportement de "
 "Weblate. Certains formats prennent en charge leur définition dans la "
-"traduction (vous pouvez toujours les définir dans l'interface Weblate, "
-"voir :ref:`custom-checks`)."
+"traduction (vous pouvez toujours les définir dans l'interface Weblate, voir "
+":ref:`custom-checks`)."
 
 #: formats.rst:111
 msgid "This feature is modelled on flags in :ref:`gettext`."
@@ -40165,8 +40143,8 @@ msgid ""
 msgstr ""
 "Utiliser la forme plurielle des chaînes nécessite d'avoir aussi le propre "
 "support dans l'environnement de l'application. Choisissez le format natif de "
-"votre plateforme tel que :ref:`gettext`, :ref:`aresource` "
-"ou :ref:`stringsdict`."
+"votre plateforme tel que :ref:`gettext`, :ref:`aresource` ou "
+":ref:`stringsdict`."
 
 #: formats.rst:157
 msgid "Read-only strings"
@@ -40720,8 +40698,8 @@ msgid ""
 "The tag and attribute names can now be customized "
 "using :ref:`file_format_params`."
 msgstr ""
-"La configuration des paramètres a été déplacée "
-"dans :ref:`file_format_params`."
+"La configuration des paramètres a été déplacée dans "
+":ref:`file_format_params`."
 
 #: formats/flatxml.rst:18
 #, fuzzy
@@ -41338,8 +41316,8 @@ msgstr "Chaînes de caractères PHP Laravel"
 #: formats/laravel.rst:9
 msgid "The Laravel PHP localization files are supported as well with plurals:"
 msgstr ""
-"Les fichiers PHP Laravel traduits sont pris en charge ainsi que les "
-"pluriels :"
+"Les fichiers PHP Laravel traduits sont pris en charge ainsi que les pluriels "
+":"
 
 #: formats/laravel.rst:13
 msgid ""
@@ -42256,8 +42234,8 @@ msgid ""
 "Welcome to the official documentation of `Weblate <https://weblate.org>`_, "
 "the libre software web-based continuous localization system."
 msgstr ""
-"Bienvenue dans la documentation officielle de `Weblate <https://"
-"weblate.org>`_, le système libre de localisation continue basé sur le Web."
+"Bienvenue dans la documentation officielle de `Weblate <https://weblate.org>"
+"`_, le système libre de localisation continue basé sur le Web."
 
 #: index.rst:28
 msgid ""
@@ -42353,8 +42331,7 @@ msgstr "Clé utilisateur"
 #, fuzzy
 #| msgid "API server URL, if not specified default is used"
 msgid "API server URL, if not specified default is used."
-msgstr ""
-"URL du serveur API, si non spécifiée, la valeur par défaut est utilisée"
+msgstr "URL du serveur API, si non spécifiée, la valeur par défaut est utilisée"
 
 #: python.rst:42
 msgid "Configuration object, overrides any other parameters."
@@ -43465,8 +43442,8 @@ msgstr ":doc:`Django <django:internals/security>`"
 msgid ""
 "`Django REST framework <https://www.django-rest-framework.org/#security>`_"
 msgstr ""
-"`environnement Django REST <https://www.django-rest-framework.org/"
-"#security>`_"
+"`environnement Django REST <https://www.django-rest-framework.org/#security>"
+"`_"
 
 #: security/issues.rst:51
 msgid "`Python Social Auth <https://github.com/python-social-auth>`_"
@@ -43913,8 +43890,8 @@ msgid ""
 "The password hashing can be customized "
 "using :setting:`django:PASSWORD_HASHERS`."
 msgstr ""
-"La création de la sauvegarde peut être personnalisée en "
-"utilisant :setting:`BORG_EXTRA_ARGS`."
+"La création de la sauvegarde peut être personnalisée en utilisant "
+":setting:`BORG_EXTRA_ARGS`."
 
 #: security/passwords.rst:16
 #, fuzzy
@@ -43973,8 +43950,8 @@ msgid ""
 "The password validation can be customized "
 "using :setting:`django:AUTH_PASSWORD_VALIDATORS`."
 msgstr ""
-"La création de la sauvegarde peut être personnalisée en "
-"utilisant :setting:`BORG_EXTRA_ARGS`."
+"La création de la sauvegarde peut être personnalisée en utilisant "
+":setting:`BORG_EXTRA_ARGS`."
 
 #: security/passwords.rst:33
 #, fuzzy
@@ -44003,8 +43980,7 @@ msgstr ""
 
 #: security/privacy-compliance.rst:13
 msgid "This document outlines how Weblate supports compliance with:"
-msgstr ""
-"Ce document décrit comment Weblate prend en charge la conformité avec :"
+msgstr "Ce document décrit comment Weblate prend en charge la conformité avec :"
 
 #: security/privacy-compliance.rst:15
 msgid "EU General Data Protection Regulation (GDPR)"
@@ -46408,12 +46384,12 @@ msgid ""
 "they will be served (URL). Serving of the files is not done by Weblate and "
 "has to be set up externally (typically using a CDN service)."
 msgstr ""
-"Cette extension requiert un paramétrage complémentaire du serveur "
-"Weblate. :setting:`LOCALIZE_CDN_PATH` indique où les fichiers générés "
-"doivent être écrits (dans un système de fichiers) "
-"et :setting:`LOCALIZE_CDN_URL` définit où ils seront mis en ligne (URL). La "
-"mise en ligne n’est pas effectuée par Weblate et doit être effectuée par "
-"ailleurs (par exemple en utilisant un service CDN)."
+"Cette extension requiert un paramétrage complémentaire du serveur Weblate. "
+":setting:`LOCALIZE_CDN_PATH` indique où les fichiers générés doivent être "
+"écrits (dans un système de fichiers) et :setting:`LOCALIZE_CDN_URL` définit "
+"où ils seront mis en ligne (URL). La mise en ligne n’est pas effectuée par "
+"Weblate et doit être effectuée par ailleurs (par exemple en utilisant un "
+"service CDN)."
 
 #: snippets/addons-autogenerated.rst:103
 msgid ""
@@ -46448,8 +46424,8 @@ msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-repository-post-"
 "commit`, :ref:`addon-event-repository-post-update`"
 msgstr ""
-":ref:`addon-event-install`, :ref:`addon-event-repository-post-"
-"commit`, :ref:`addon-event-repository-post-update`"
+":ref:`addon-event-install`, :ref:`addon-event-repository-post-commit`, "
+":ref:`addon-event-repository-post-update`"
 
 #: snippets/addons-autogenerated.rst:127
 msgid "Removes strings without a translation from translation files."
@@ -46478,8 +46454,8 @@ msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-repository-post-"
 "update`, :ref:`addon-event-repository-pre-commit`"
 msgstr ""
-":ref:`addon-event-install`, :ref:`addon-event-repository-post-"
-"update`, :ref:`addon-event-repository-pre-commit`"
+":ref:`addon-event-install`, :ref:`addon-event-repository-post-update`, "
+":ref:`addon-event-repository-pre-commit`"
 
 #: snippets/addons-autogenerated.rst:151
 msgid ""
@@ -47461,9 +47437,9 @@ msgid ""
 "text` :guilabel:`Source string` :guilabel:`Appended variable "
 "text` :guilabel:`Appended static text`"
 msgstr ""
-":guilabel:`Texte statique du préfixe` :guilabel:`Texte variable du "
-"préfixe` :guilabel:`Chaîne source` :guilabel:`Texte variable du "
-"suffixe` :guilabel:`Texte statique du suffixe`"
+":guilabel:`Texte statique du préfixe` :guilabel:`Texte variable du préfixe` "
+":guilabel:`Chaîne source` :guilabel:`Texte variable du suffixe` "
+":guilabel:`Texte statique du suffixe`"
 
 #: snippets/addons-autogenerated.rst:910
 msgid ""
@@ -47539,8 +47515,8 @@ msgid ""
 "Updates the ALL_LINGUAS variable in \"configure\", \"configure.in\" or "
 "\"configure.ac\" files, when a translation is added or removed."
 msgstr ""
-"Met à jour la variable ALL_LINGUAS dans les fichiers « configure », "
-"« configure.in » ou « configure.ac » lors qu’une nouvelle traduction est "
+"Met à jour la variable ALL_LINGUAS dans les fichiers « configure », «"
+" configure.in » ou « configure.ac » lors qu’une nouvelle traduction est "
 "ajoutée."
 
 #: snippets/addons-autogenerated.rst:968
@@ -47553,9 +47529,9 @@ msgid ""
 "Updates the ALL_LINGUAS variable in :file:`configure`, :file:`configure.in` "
 "or any :file:`configure.ac` files, when a translation is added or removed."
 msgstr ""
-"Met à jour la variable ALL_LINGUAS dans les "
-"fichiers :file:`configure`, :file:`configure.in` ou :file:`configure.ac`, "
-"lorsqu’une nouvelle traduction est ajoutée."
+"Met à jour la variable ALL_LINGUAS dans les fichiers :file:`configure`, "
+":file:`configure.in` ou :file:`configure.ac`, lorsqu’une nouvelle traduction "
+"est ajoutée."
 
 #: snippets/addons-autogenerated.rst:974
 msgid "Customize gettext output"
@@ -47815,8 +47791,8 @@ msgid ""
 ":guilabel:`Settings` configuration has been moved "
 "to :ref:`file_format_params`."
 msgstr ""
-"La configuration des :guilabel:`Paramètres` a été déplacée "
-"vers :ref:`file_format_params`."
+"La configuration des :guilabel:`Paramètres` a été déplacée vers "
+":ref:`file_format_params`."
 
 #: snippets/addons-autogenerated.rst:1141
 msgid ""
@@ -47837,8 +47813,7 @@ msgstr ""
 
 #: snippets/addons-autogenerated.rst:1151
 msgid "New translatable strings appear in all languages"
-msgstr ""
-"Les nouvelles chaînes traductibles apparaissent dans toutes les langues"
+msgstr "Les nouvelles chaînes traductibles apparaissent dans toutes les langues"
 
 #: snippets/addons-autogenerated.rst:1152
 msgid "Removed strings are marked as obsolete"
@@ -48014,8 +47989,8 @@ msgid ""
 "receiving of upstream changes by webhooks or API, see :ref:`update-vcs`."
 msgstr ""
 "Afin d’éviter les conflits inutiles, il est recommandé de configurer la "
-"réception automatique des modifications amont via webhooks ou API, "
-"voir :ref:`update-vcs`."
+"réception automatique des modifications amont via webhooks ou API, voir "
+":ref:`update-vcs`."
 
 #: snippets/addons-autogenerated.rst:1326
 msgid ""
@@ -48061,8 +48036,7 @@ msgstr "Personnaliser la sortie JSON"
 
 #: snippets/addons-autogenerated.rst:1351
 msgid ":guilabel:`Avoid spaces after separators` option added."
-msgstr ""
-"Ajout de l'option :guilabel:`Eviter les espaces après les séparateurs`."
+msgstr "Ajout de l'option :guilabel:`Eviter les espaces après les séparateurs`."
 
 #: snippets/addons-autogenerated.rst:1361
 msgid "Reset repository to upstream"
@@ -48333,8 +48307,8 @@ msgstr ""
 "Dans Weblate, les traductions sont organisées en projets et composants. "
 "Chaque projet peut contenir un certain nombre de composants et ceux-ci "
 "contiennent des traductions dans des langues individuelles. Le composant "
-"correspond à un fichier traduisible (par exemple :ref:`gettext` "
-"ou :ref:`aresource`). Les projets sont là pour vous aider à organiser les "
+"correspond à un fichier traduisible (par exemple :ref:`gettext` ou "
+":ref:`aresource`). Les projets sont là pour vous aider à organiser les "
 "composants en ensembles logiques (par exemple pour regrouper toutes les "
 "traductions utilisées dans une application)."
 
@@ -48466,8 +48440,8 @@ msgid ""
 "Treat text as XML document, affects :ref:`check-xml-invalid` and :ref:`check-"
 "xml-tags`."
 msgstr ""
-"Traiter le texte comme document XML, affecte :ref:`check-xml-invalid` "
-"et :ref:`check-xml-tags`."
+"Traiter le texte comme document XML, affecte :ref:`check-xml-invalid` et "
+":ref:`check-xml-tags`."
 
 #: snippets/check-flags-autogenerated.rst:16
 msgid "Define font-family for rendering checks, see :ref:`fonts`."
@@ -48487,8 +48461,8 @@ msgstr ""
 #: snippets/check-flags-autogenerated.rst:22
 msgid "Define letter spacing for rendering checks, see :ref:`fonts`."
 msgstr ""
-"Définir l’espacement des caractères pour les contrôles du rendu, "
-"voir :ref:`fonts`."
+"Définir l’espacement des caractères pour les contrôles du rendu, voir "
+":ref:`fonts`."
 
 #: snippets/check-flags-autogenerated.rst:24
 msgid ""
@@ -48503,15 +48477,15 @@ msgid ""
 "Set a required prefix for XML tags for the :ref:`check-icu-message-format` "
 "quality check."
 msgstr ""
-"Définir un préfixe nécessaire pour les balises XML pour le contrôle "
-"qualité :ref:`check-icu-message-format`."
+"Définir un préfixe nécessaire pour les balises XML pour le contrôle qualité "
+":ref:`check-icu-message-format`."
 
 #: snippets/check-flags-autogenerated.rst:28
 msgid ""
 "Placeholder strings expected in translation, see :ref:`check-placeholders`."
 msgstr ""
-"Chaînes de caractères de remplacement attendues dans la traduction, "
-"voir :ref:`check-placeholders`."
+"Chaînes de caractères de remplacement attendues dans la traduction, voir "
+":ref:`check-placeholders`."
 
 #: snippets/check-flags-autogenerated.rst:30
 msgid ""
@@ -48521,10 +48495,10 @@ msgid ""
 "values, for example: ``replacements:%s:\"John Doe\"``."
 msgstr ""
 "Remplacements à effectuer lors de la vérification des paramètres du texte "
-"résultant (par exemple dans :ref:`check-max-size` ou :ref:`check-max-"
-"length`). Le cas d’utilisation typique est l’expansion des caractères à "
-"placer pour s’assurer que le texte s’adapte même aux grandes valeurs, par "
-"exemple : ``replacements:%s : \"John Doe\"``."
+"résultant (par exemple dans :ref:`check-max-size` ou :ref:`check-max-length`)"
+". Le cas d’utilisation typique est l’expansion des caractères à placer pour "
+"s’assurer que le texte s’adapte même aux grandes valeurs, par exemple : "
+"``replacements:%s : \"John Doe\"``."
 
 #: snippets/check-flags-autogenerated.rst:35
 msgid ""
@@ -48799,8 +48773,8 @@ msgid ""
 msgstr ""
 "Traiter le texte comme un document Markdown et afficher la mise en valeur de "
 "la syntaxe Markdown dans la zone textuelle de traduction. Activer les "
-"contrôles qualité :ref:`check-md-link`, :ref:`check-md-reflink` "
-"et :ref:`check-md-syntax`."
+"contrôles qualité :ref:`check-md-link`, :ref:`check-md-reflink` et "
+":ref:`check-md-syntax`."
 
 #: snippets/check-flags-autogenerated.rst:127
 #, fuzzy
@@ -48850,8 +48824,8 @@ msgid ""
 "The string should consist of only a URL. Enables the :ref:`check-url` "
 "quality check."
 msgstr ""
-"La chaîne doit être composée d'une URL seule. Activer le contrôle "
-"qualité :ref:`check-url`."
+"La chaîne doit être composée d'une URL seule. Activer le contrôle qualité "
+":ref:`check-url`."
 
 #: snippets/check-flags-autogenerated.rst:143
 #, fuzzy
@@ -49514,8 +49488,8 @@ msgid ""
 "case it triggers falsely in your case, let us know. See :ref:`report-issue`."
 msgstr ""
 "Ce contrôle copmprend des règles propres à la langue pour éviter les faux "
-"positifs. S'il se déclenche à tord dans votre cas, dites-le nous. "
-"Voir :ref:`report-issue`."
+"positifs. S'il se déclenche à tord dans votre cas, dites-le nous. Voir "
+":ref:`report-issue`."
 
 #: snippets/checks-autogenerated.rst:98
 msgid "Does not follow glossary"
@@ -49831,8 +49805,7 @@ msgstr "Chaîne d’interpolation AngularJS"
 
 #: snippets/checks-autogenerated.rst:424
 msgid "AngularJS interpolation strings do not match source."
-msgstr ""
-"Les chaînes d’interpolation AngularJS ne correspondent pas à la source."
+msgstr "Les chaînes d’interpolation AngularJS ne correspondent pas à la source."
 
 #: snippets/checks-autogenerated.rst:0
 #, fuzzy
@@ -49899,8 +49872,8 @@ msgstr ""
 #| "`Colon on Wikipedia <https://en.wikipedia.org/wiki/Colon_(punctuation)>`_"
 msgid "`C printf format <https://en.wikipedia.org/wiki/Printf_format_string>`_"
 msgstr ""
-"`Le deux-points dans Wikipedia <https://en.wikipedia.org/wiki/"
-"Colon_(punctuation)>`_"
+"`Le deux-points dans Wikipedia <https://en.wikipedia.org/wiki/Colon_"
+"(punctuation)>`_"
 
 #: snippets/checks-autogenerated.rst:500
 msgid "C# format"
@@ -50846,8 +50819,8 @@ msgstr ""
 msgid ""
 "`Colon on Wikipedia <https://en.wikipedia.org/wiki/Colon_(punctuation)>`_"
 msgstr ""
-"`Le deux-points dans Wikipedia <https://en.wikipedia.org/wiki/"
-"Colon_(punctuation)>`_"
+"`Le deux-points dans Wikipedia <https://en.wikipedia.org/wiki/Colon_"
+"(punctuation)>`_"
 
 #: snippets/checks-autogenerated.rst:1480
 msgid "Mismatched ellipsis"
@@ -51250,8 +51223,8 @@ msgstr "Erreur de syntaxe reStructuredText dans la traduction."
 #: snippets/checks-autogenerated.rst:1885
 msgid "reStructuredText syntax error in the translation. Issues to look for:"
 msgstr ""
-"Erreur de syntaxe reStructuredText dans la traduction. Problèmes à "
-"rechercher :"
+"Erreur de syntaxe reStructuredText dans la traduction. Problèmes à rechercher"
+" :"
 
 #: snippets/checks-autogenerated.rst:1887
 msgid "Mismatched closing/opening tags."
@@ -53401,8 +53374,8 @@ msgstr "Formalité"
 #: snippets/machines-autogenerated.rst:326
 msgid "Uses the specified formality if language is not specified as (in)formal"
 msgstr ""
-"Utilise la formalité spécifiée si la langue n’est pas spécifiée comme "
-"(in)formelle"
+"Utilise la formalité spécifiée si la langue n’est pas spécifiée comme (in)"
+"formelle"
 
 #: snippets/machines-autogenerated.rst:328 user/translating.rst:302
 msgid "Translation context"
@@ -55074,8 +55047,8 @@ msgid ""
 "Available options might be limited by :ref:`access control <access-control>` "
 "settings."
 msgstr ""
-"Les options disponibles peuvent être limitées par les paramètres "
-"du :ref:`contrôle d'accès <access-control>`."
+"Les options disponibles peuvent être limitées par les paramètres du "
+":ref:`contrôle d'accès <access-control>`."
 
 #: user/files.rst:16
 msgid "Downloading translations"
@@ -55541,8 +55514,8 @@ msgid ""
 msgstr ""
 "Un glossaire vide pour un projet donné est automatiquement créé à la "
 "création du projet. Les glossaires sont partagés entre toutes les "
-"composantes d’un même projet et facultativement entre projets en "
-"utilisant :ref:`component-links` à partir du composant glossaire respectif."
+"composantes d’un même projet et facultativement entre projets en utilisant "
+":ref:`component-links` à partir du composant glossaire respectif."
 
 #: user/glossary.rst:37
 msgid ""
@@ -55802,8 +55775,8 @@ msgid ""
 "You can configure your personal default dashboard view in "
 "the :guilabel:`Preferences` section of your user profile settings."
 msgstr ""
-"Vous pouvez configurer votre tableau de bord personnel dans la "
-"section :guilabel:`Préférences` des paramètres de votre profil d’utilisateur."
+"Vous pouvez configurer votre tableau de bord personnel dans la section "
+":guilabel:`Préférences` des paramètres de votre profil d’utilisateur."
 
 #: user/profile.rst:52
 msgid ""
@@ -55812,10 +55785,10 @@ msgid ""
 "(see :ref:`config`), the dashboard will not be shown, as the user will be "
 "redirected to a single project or component instead."
 msgstr ""
-"Lorsque Weblate est configuré pour un seul projet en "
-"utilisant :setting:`SINGLE_PROJECT` dans le fichier :file:`settings.py` "
-"(voir :ref:`config`), le tableau de bord ne sera pas affiché, car "
-"l’utilisateur sera redirigé vers l’unique projet ou composant à la place."
+"Lorsque Weblate est configuré pour un seul projet en utilisant "
+":setting:`SINGLE_PROJECT` dans le fichier :file:`settings.py` (voir "
+":ref:`config`), le tableau de bord ne sera pas affiché, car l’utilisateur "
+"sera redirigé vers l’unique projet ou composant à la place."
 
 #: user/profile.rst:59
 msgid "User profile"
@@ -55959,8 +55932,8 @@ msgid ""
 "Usually something like ``editor://open/?file={{filename}}&line={{line}}`` is "
 "a good option."
 msgstr ""
-"En général, quelque chose comme ``editor://open/?file={{filename}}"
-"&line={{line}}`` est une bonne option."
+"En général, quelque chose comme ``editor://open/?file={{filename}}&line={"
+"{line}}`` est une bonne option."
 
 #: user/profile.rst:149
 msgid ""
@@ -55990,8 +55963,8 @@ msgid ""
 "Notifications for selected events on watched or administered projects will "
 "be sent to you per e-mail."
 msgstr ""
-"Abonnez-vous aux différentes notifications de "
-"l’onglet :guilabel:`Notifications`. Les notifications pour les évènements "
+"Abonnez-vous aux différentes notifications de l’onglet "
+":guilabel:`Notifications`. Les notifications pour les évènements "
 "sélectionnés sur les projets surveillés ou administrés vous seront envoyées "
 "par courriel."
 
@@ -56018,8 +55991,8 @@ msgstr ""
 "Vous pouvez basculer les notifications pour les projets surveillés et les "
 "projets administrés et il est possible de les modifier (ou de les mettre en "
 "sourdine) pour chaque projet et chaque composant. Visitez la page d’aperçu "
-"du composant et sélectionnez le choix approprié dans le "
-"menu :guilabel:`Surveillé`."
+"du composant et sélectionnez le choix approprié dans le menu "
+":guilabel:`Surveillé`."
 
 #: user/profile.rst:177
 msgid ""
@@ -56095,9 +56068,9 @@ msgid ""
 "Avatar can be shown for each user (depending on :setting:`ENABLE_AVATARS`). "
 "These images are obtained using https://gravatar.com/."
 msgstr ""
-"L’avatar peut être affiché pour chaque utilisateur (en fonction du "
-"paramètre :setting:`ENABLE_AVATARS`). Les images sont obtenues en utilisant "
-"https://gravatar.com/."
+"L’avatar peut être affiché pour chaque utilisateur (en fonction du paramètre "
+":setting:`ENABLE_AVATARS`). Les images sont obtenues en utilisant https://"
+"gravatar.com/."
 
 #: user/profile.rst:230
 msgid "Licenses"
@@ -56175,8 +56148,7 @@ msgstr "Champs"
 
 #: user/search.rst:28
 msgid "Source string case-insensitive search."
-msgstr ""
-"Recherche insensible à la casse dans les chaînes de caractères sources."
+msgstr "Recherche insensible à la casse dans les chaînes de caractères sources."
 
 #: user/search.rst:30
 msgid "Target string case-insensitive search."
@@ -56247,8 +56219,7 @@ msgstr ""
 
 #: user/search.rst:54
 msgid "String pending for flushing to VCS."
-msgstr ""
-"Chaîne en attente d’archivage dans le système de contrôle des versions."
+msgstr "Chaîne en attente d’archivage dans le système de contrôle des versions."
 
 #: user/search.rst:56
 msgid ""
@@ -56321,8 +56292,8 @@ msgid ""
 "Component slug or name case-insensitive search, see :ref:`component-slug` "
 "and :ref:`component-name`."
 msgstr ""
-"Recherche d'identifiant de composant ou de nom insensible à la casse , "
-"voir :ref:`component-slug` et :ref:`component-name`."
+"Recherche d'identifiant de composant ou de nom insensible à la casse , voir "
+":ref:`component-slug` et :ref:`component-name`."
 
 #: user/search.rst:79
 msgid "Project slug, see :ref:`project-slug`."
@@ -56338,16 +56309,15 @@ msgstr ""
 
 #: user/search.rst:83
 msgid "String was changed by author with given username."
-msgstr ""
-"La chaîne a été modifiée par l’auteur avec le nom d’utilisateur fourni."
+msgstr "La chaîne a été modifiée par l’auteur avec le nom d’utilisateur fourni."
 
 #: user/search.rst:85
 msgid ""
 "String content was changed on date, supports :ref:`search-operators` "
 "and :ref:`date-search`."
 msgstr ""
-"Le contenu de la chaîne a été modifié à la date fournie, prend en "
-"charge :ref:`search-operators` et :ref:`date-search`."
+"Le contenu de la chaîne a été modifié à la date fournie, prend en charge "
+":ref:`search-operators` et :ref:`date-search`."
 
 #: user/search.rst:87
 msgid ""
@@ -56383,8 +56353,8 @@ msgid ""
 "Source string was last changed on date, supports :ref:`search-operators` "
 "and :ref:`date-search`."
 msgstr ""
-"La chaîne source a été modifiée à la date fournie et prend en "
-"charge :ref:`search-operators` et :ref:`date-search`."
+"La chaîne source a été modifiée à la date fournie et prend en charge "
+":ref:`search-operators` et :ref:`date-search`."
 
 #: user/search.rst:99
 msgid ""
@@ -56505,8 +56475,7 @@ msgstr ""
 
 #: user/search.rst:155
 msgid "State is ``translated`` or better (``approved``)."
-msgstr ""
-"L’état est ``translated`` (traduit) ou mieux (``approved`` (approuvé))."
+msgstr "L’état est ``translated`` (traduit) ou mieux (``approved`` (approuvé))."
 
 #: user/search.rst:157 user/search.rst:187
 msgid "Changed between two given dates (inclusive)."
@@ -56541,8 +56510,8 @@ msgid ""
 "English adverbs of time like :samp:`yesterday`, :samp:`last month`, "
 "and :samp:`2 days ago`."
 msgstr ""
-"Adverbes de temps en anglais comme :samp:`yesterday`, :samp:`last month`, "
-"et :samp:`2 days ago`."
+"Adverbes de temps en anglais comme :samp:`yesterday`, :samp:`last month`, et "
+":samp:`2 days ago`."
 
 #: user/search.rst:173
 msgid ""
@@ -56718,8 +56687,8 @@ msgstr ""
 #: user/search.rst:260
 msgid "String content was changed on date, supports :ref:`search-operators`."
 msgstr ""
-"Le contenu de la chaîne a été modifiée à la date fournie, prend en "
-"charge :ref:`search-operators`."
+"Le contenu de la chaîne a été modifiée à la date fournie, prend en charge "
+":ref:`search-operators`."
 
 #: user/search.rst:262
 msgid "User has contributed to a given language."
@@ -56833,8 +56802,8 @@ msgstr ""
 "Après avoir navigué vers un composant, un ensemble de liens a mené à la "
 "traduction proprement dite. La traduction est ensuite divisée en contrôles "
 "individuels, comme :guilabel:`Chaînes non traduites` ou :guilabel:`Chaînes "
-"non terminées`. Si l’ensemble du projet est traduit sans "
-"erreur, :guilabel:`Toutes les chaînes` est toujours disponible. Vous pouvez "
+"non terminées`. Si l’ensemble du projet est traduit sans erreur, "
+":guilabel:`Toutes les chaînes` est toujours disponible. Vous pouvez "
 "également utiliser la fonctionnalité :ref:`Chercher <Searching>` pour "
 "trouver une chaîne ou un terme spécifique."
 
@@ -57179,8 +57148,8 @@ msgid ""
 "Submit current form; this is same as pressing :guilabel:`Save and continue` "
 "while editing translation."
 msgstr ""
-"Envoie le formulaire courant ; c'est la même chose que "
-"presser :guilabel:`Enregistrer et poursuivre` pendant la traduction."
+"Envoie le formulaire courant ; c'est la même chose que presser "
+":guilabel:`Enregistrer et poursuivre` pendant la traduction."
 
 #: user/translating.rst:225
 msgid ":kbd:`Ctrl+Shift+Enter` or"
@@ -57374,8 +57343,8 @@ msgid ""
 "User configured :ref:`profile-specialchars` defined in the :ref:`user-"
 "profile`"
 msgstr ""
-":ref:`profile-specialchars` configurés par l’utilisateur définis "
-"dans :ref:`user-profile`"
+":ref:`profile-specialchars` configurés par l’utilisateur définis dans "
+":ref:`user-profile`"
 
 #: user/translating.rst:294
 msgid ""
@@ -57454,8 +57423,8 @@ msgstr ""
 #: user/translating.rst:322
 msgid "Look at similar strings translated in past, see :ref:`memory`."
 msgstr ""
-"Regarder les chaînes de caractères similaires traduites dans le passé, "
-"voir :ref:`memory`."
+"Regarder les chaînes de caractères similaires traduites dans le passé, voir "
+":ref:`memory`."
 
 #: user/translating.rst:324
 msgid "Displays terms from the project glossary used in the current message."
@@ -57528,8 +57497,8 @@ msgid ""
 "key for the actual source string. See :ref:`bimono` for more info."
 msgstr ""
 "La limite par défaut pour la traduction est dix fois plus longue que la "
-"chaîne source. Elle peut être désactivée à l’aide "
-"de :setting:`LIMIT_TRANSLATION_LENGTH_BY_SOURCE_LENGTH`. Dans le cas où vous "
+"chaîne source. Elle peut être désactivée à l’aide de "
+":setting:`LIMIT_TRANSLATION_LENGTH_BY_SOURCE_LENGTH`. Dans le cas où vous "
 "atteignez cette limite, cela peut également être dû au fait que la "
 "traduction monolingue est configurée par erreur comme bilingue, ce qui fait "
 "que Weblate voit la clé de traduction comme chaîne source au lieu de la "
@@ -57548,8 +57517,8 @@ msgid ""
 "Maximal rendered size in pixels as defined by flags; see :ref:`check-max-"
 "size`."
 msgstr ""
-"Taille maximale du rendu en pixels définie par des drapeaux ; "
-"voir :ref:`check-max-size`."
+"Taille maximale du rendu en pixels définie par des drapeaux ; voir "
+":ref:`check-max-size`."
 
 #: user/translating.rst:361
 msgid ""
@@ -57568,8 +57537,8 @@ msgstr ""
 msgid ""
 "You can also perform a concordance search on the :ref:`translation-memory`."
 msgstr ""
-"Vous pouvez aussi réaliser une recherche de concordance sur "
-"le :ref:`translation-memory`."
+"Vous pouvez aussi réaliser une recherche de concordance sur le "
+":ref:`translation-memory`."
 
 #: user/translating.rst:369
 msgid ""
@@ -57751,10 +57720,10 @@ msgid ""
 "on any translation to open and edit it."
 msgstr ""
 "Vous pouvez comparer l'efficacité de différentes langues en utilisant cette "
-"vue. Elle est disponible sur chaque page de composant, à partir du "
-"menu :guilabel:`Outils`. Sélectionnez d'abord toutes les langues que vous "
-"voulez comparer, confirmez votre sélection, puis cliquez sur n'importe "
-"quelle traduction pour l'ouvrir et la modifier."
+"vue. Elle est disponible sur chaque page de composant, à partir du menu "
+":guilabel:`Outils`. Sélectionnez d'abord toutes les langues que vous voulez "
+"comparer, confirmez votre sélection, puis cliquez sur n'importe quelle "
+"traduction pour l'ouvrir et la modifier."
 
 #: user/translating.rst:473
 msgid ""
@@ -57777,9 +57746,9 @@ msgid ""
 "editor (translation of a string)."
 msgstr ""
 "Ce mode simplifie l'affichage et supprime les éléments supplémentaires de "
-"l'interface utilisateur tels que les :guilabel:`Chaînes à proximité` ou "
-"le :guilabel:`Glossaire`. Il est disponible en cliquant sur le "
-"bouton :guilabel:`Zen` dans le coin supérieur droit de l'éditeur standard "
+"l'interface utilisateur tels que les :guilabel:`Chaînes à proximité` ou le "
+":guilabel:`Glossaire`. Il est disponible en cliquant sur le bouton "
+":guilabel:`Zen` dans le coin supérieur droit de l'éditeur standard "
 "(traduction d'une chaîne)."
 
 #: user/translating.rst:485
@@ -57807,10 +57776,10 @@ msgid ""
 "version control back-ends."
 msgstr ""
 "Weblate reconnait actuellement :ref:`vcs-git` (avec un suppor étendu with "
-"extended pour :ref:`vcs-github`, :ref:`vcs-gitlab`, :ref:`vcs-"
-"gitea`, :ref:`vcs-gerrit`, :ref:`vcs-git-svn`, :ref:`vcs-bitbucket-"
-"cloud`, :ref:`vcs-bitbucket-data-center`, et :ref:`vcs-azure-devops`) "
-"et :ref:`vcs-mercurial` comme serveurs de contrôle de version."
+"extended pour :ref:`vcs-github`, :ref:`vcs-gitlab`, :ref:`vcs-gitea`, "
+":ref:`vcs-gerrit`, :ref:`vcs-git-svn`, :ref:`vcs-bitbucket-cloud`, :ref:`vcs-"
+"bitbucket-data-center`, et :ref:`vcs-azure-devops`) et :ref:`vcs-mercurial` "
+"comme serveurs de contrôle de version."
 
 #: vcs.rst:14
 msgid "Accessing repositories"
@@ -57849,10 +57818,9 @@ msgid ""
 "description :guilabel:`Weblate push user`)."
 msgstr ""
 "Pour Hosted Weblate, il existe un utilisateur de push dédié enregistré sur "
-"GitHub, Bitbucket, Codeberg, et GitLab (avec le nom de "
-"l'utilisateur :guilabel:`weblate`, l'adresse courriel "
-"``hosted@weblate.org``, et un nom ou une description du "
-"profil :guilabel:`Utilisateur de push Weblate`)."
+"GitHub, Bitbucket, Codeberg, et GitLab (avec le nom de l'utilisateur "
+":guilabel:`weblate`, l'adresse courriel ``hosted@weblate.org``, et un nom ou "
+"une description du profil :guilabel:`Utilisateur de push Weblate`)."
 
 #: vcs.rst:39
 msgid ""
@@ -57941,12 +57909,12 @@ msgid ""
 "access the repository (see :ref:`ssh-repos`)."
 msgstr ""
 "L'accès aux dépôts pour les sites qui hébergent le code se fait typiquement "
-"en créant un utilisateur dédié qui est associé à une clé SSH Weblate "
-"(voir :ref:`weblate-ssh-key`). De cette manière vous associez une clé SSH "
-"Weblate à un utilisateur unique (les plateformes forcent souvent "
-"l'utilisation unique d'une clé SSH) et vous donnez à cet utilisateur l'accès "
-"au dépôt. Vous pouvez ensuite utiliser l'URL SSH pour accéder au dépôt "
-"(voir :ref:`ssh-repos`)."
+"en créant un utilisateur dédié qui est associé à une clé SSH Weblate (voir "
+":ref:`weblate-ssh-key`). De cette manière vous associez une clé SSH Weblate "
+"à un utilisateur unique (les plateformes forcent souvent l'utilisation "
+"unique d'une clé SSH) et vous donnez à cet utilisateur l'accès au dépôt. "
+"Vous pouvez ensuite utiliser l'URL SSH pour accéder au dépôt (voir :ref:`ssh-"
+"repos`)."
 
 #: vcs.rst:80
 msgid "SSH repositories"
@@ -57967,8 +57935,8 @@ msgid ""
 "On GitHub, each key can only be used once, see :ref:`vcs-repos-github` "
 "and :ref:`hosted-push`."
 msgstr ""
-"Dans GitHub, chaque clé ne peut être utilisée qu'une seule fois, "
-"voir :ref:`vcs-repos-github` et :ref:`hosted-push`."
+"Dans GitHub, chaque clé ne peut être utilisée qu'une seule fois, voir "
+":ref:`vcs-repos-github` et :ref:`hosted-push`."
 
 #: vcs.rst:91
 msgid ""
@@ -58359,8 +58327,8 @@ msgid ""
 "There is just single exported repository with Weblate translations "
 "(see :ref:`git-exporter`)."
 msgstr ""
-"Il n'y a qu'un seul dépôt exporté avec les traductions Weblate "
-"(voir :ref:`git-exporter`)."
+"Il n'y a qu'un seul dépôt exporté avec les traductions Weblate (voir "
+":ref:`git-exporter`)."
 
 #: vcs.rst:288
 msgid ""
@@ -58511,8 +58479,8 @@ msgid ""
 "(see :setting:`DATA_DIR`), therefore editing the user configuration needs to "
 "be done in ``DATA_DIR/home/.git``."
 msgstr ""
-"Weblate utilise toutes les commandes VCS avec ``HOME=$DATA_DIR/home`` "
-"(voir :setting:`DATA_DIR`), c'est pourquoi pour modifier la configuration de "
+"Weblate utilise toutes les commandes VCS avec ``HOME=$DATA_DIR/home`` (voir "
+":setting:`DATA_DIR`), c'est pourquoi pour modifier la configuration de "
 "l'utilisateur il faut être dans ``DATA_DIR/home/.git``."
 
 #: vcs.rst:390
@@ -58535,8 +58503,8 @@ msgid ""
 "github` creates pull requests. The latter is not needed for merely accessing "
 "Git repositories."
 msgstr ""
-":ref:`vcs-git` pousse les modifications directement sur un depôt, alors "
-"que :ref:`vcs-github` crée des demandes de tirage. Ces dernières ne sont pas "
+":ref:`vcs-git` pousse les modifications directement sur un depôt, alors que "
+":ref:`vcs-github` crée des demandes de tirage. Ces dernières ne sont pas "
 "nécessaires pour accéder à la plupart des dépôts Git."
 
 #: vcs.rst:399
@@ -58545,8 +58513,8 @@ msgid ""
 "Weblate settings to make this work. Once configured, you will see "
 "a :guilabel:`GitHub` option when selecting :ref:`component-vcs`."
 msgstr ""
-"Vous devez configurer vos informations de connexion à l'API "
-"( :setting:`GITHUB_CREDENTIALS`) dans les paramètres Weblate pour que cela "
+"Vous devez configurer vos informations de connexion à l'API ( "
+":setting:`GITHUB_CREDENTIALS`) dans les paramètres Weblate pour que cela "
 "fonctionne. Une fois configuré, vous verrez l'option :guilabel:`GitHub` "
 "quand vous sélectionnerez :ref:`component-vcs`."
 
@@ -58583,8 +58551,8 @@ msgid ""
 "Weblate settings to make this work. Once configured, you will see "
 "a :guilabel:`GitLab` option when selecting :ref:`component-vcs`."
 msgstr ""
-"Vous devez configurer vos informations de connexion à l'API "
-"( :setting:`GITLAB_CREDENTIALS`) dans les paramètres Weblate pour que cela "
+"Vous devez configurer vos informations de connexion à l'API ( "
+":setting:`GITLAB_CREDENTIALS`) dans les paramètres Weblate pour que cela "
 "fonctionne. Une fois configuré, vous verrez l'option :guilabel:`GitLab` "
 "quand vous sélectionnerez :ref:`component-vcs`."
 
@@ -58621,8 +58589,8 @@ msgid ""
 "Weblate settings to make this work. Once configured, you will see "
 "a :guilabel:`Gitea` option when selecting :ref:`component-vcs`."
 msgstr ""
-"Vous devez configurer les données de connexion à l'API "
-"( :setting:`GITEA_CREDENTIALS`) dans les paramètres de Weblate pour que cela "
+"Vous devez configurer les données de connexion à l'API ( "
+":setting:`GITEA_CREDENTIALS`) dans les paramètres de Weblate pour que cela "
 "fonctionne. Une fois configuré, vous verrez une option :guilabel:`Gitea` "
 "quand vous sélectionnerez :ref:`component-vcs`."
 
@@ -58667,9 +58635,9 @@ msgid ""
 msgstr ""
 "Vous devez configurer les informations de connexion à l'API "
 "(:setting:`BITBUCKETSERVER_CREDENTIALS`) dans les paramètres de Weblate pour "
-"que cela fonctionne. Une fois configuré, vous pourrez voir une "
-"option  :guilabel:`Bitbucket Data Server` quand vous "
-"sélectionnerez :ref:`component-vcs`."
+"que cela fonctionne. Une fois configuré, vous pourrez voir une option  "
+":guilabel:`Bitbucket Data Server` quand vous sélectionnerez :ref:`component-"
+"vcs`."
 
 #: vcs.rst:502
 msgid "Bitbucket Cloud pull requests"
@@ -58712,9 +58680,8 @@ msgid ""
 msgstr ""
 "Vous devez configurer les informations de connexion à l'API "
 "(:setting:`BITBUCKETCLOUD_CREDENTIALS`) dans les paramètres de Weblate pour "
-"que cela fonctionne. Une fois configuré, vous pourrez voir une "
-"option  :guilabel:`Bitbucket Cloud` quand vous "
-"sélectionnerez :ref:`component-vcs`."
+"que cela fonctionne. Une fois configuré, vous pourrez voir une option  "
+":guilabel:`Bitbucket Cloud` quand vous sélectionnerez :ref:`component-vcs`."
 
 #: vcs.rst:535
 msgid "Pagure merge requests"
@@ -58737,11 +58704,11 @@ msgid ""
 "handled. With :ref:`vcs-git` changes are pushed directly to the repository, "
 "while :ref:`vcs-pagure` creates merge request."
 msgstr ""
-"Il n'est pas utile d'utiliser ceci pour accéder aux dépôts Git, "
-"d'ordinaire :ref:`vcs-git` fonctionne de la même façon, mais la seule "
-"différence réside dans la manière de pousser sur un dépôt. Avecles "
-"modifications :ref:`vcs-git` sont poussées directement sur le dépôt, alors "
-"que :ref:`vcs-pagure` crée une demande de fusion."
+"Il n'est pas utile d'utiliser ceci pour accéder aux dépôts Git, d'ordinaire "
+":ref:`vcs-git` fonctionne de la même façon, mais la seule différence réside "
+"dans la manière de pousser sur un dépôt. Avecles modifications :ref:`vcs-"
+"git` sont poussées directement sur le dépôt, alors que :ref:`vcs-pagure` "
+"crée une demande de fusion."
 
 #: vcs.rst:548
 msgid ""
@@ -58751,8 +58718,8 @@ msgid ""
 msgstr ""
 "Pour que cela fonctionne, vous devez configure les paramètres de connexion à "
 "l'API ( :setting:`PAGURE_CREDENTIALS`) dans les paramètres Weblate. Une fois "
-"configuré, vous verrez l'option :guilabel:`Pagure` si vous "
-"séletionnez :ref:`component-vcs`."
+"configuré, vous verrez l'option :guilabel:`Pagure` si vous séletionnez "
+":ref:`component-vcs`."
 
 #: vcs.rst:562
 msgid "Gerrit"
@@ -58842,10 +58809,10 @@ msgid ""
 "Perl script that lets subversion be used by a Git client, enabling users to "
 "maintain a full clone of the internal repository and commit locally."
 msgstr ""
-"Weblate utilise `git-svn`_ pour interagir avec les répertoires "
-"`subversion`_ . C'est un script Perl qui permet aux subversions d'être "
-"utilisés par un client Git, autorisant les utilisateurs à maintenir un clone "
-"complet du dépôt interne et à valider localement."
+"Weblate utilise `git-svn`_ pour interagir avec les répertoires `subversion`_ "
+". C'est un script Perl qui permet aux subversions d'être utilisés par un "
+"client Git, autorisant les utilisateurs à maintenir un clone complet du "
+"dépôt interne et à valider localement."
 
 #: vcs.rst:626
 msgid ""
@@ -58878,10 +58845,9 @@ msgid ""
 "once with the `$HOME` environment variable set to the :setting:`DATA_DIR`:"
 msgstr ""
 "Weblate suppose que vous avez accepté le certificat du serveur (et vos "
-"données de connexion si nécessaire). Il va les insérer dans le "
-" répertoire :setting:`DATA_DIR`. Acceptez le certificat en utilisant `svn` "
-"une fois avec la variable d'environnement `HOME` initialisée "
-"avec :setting:`DATA_DIR`:"
+"données de connexion si nécessaire). Il va les insérer dans le  répertoire "
+":setting:`DATA_DIR`. Acceptez le certificat en utilisant `svn` une fois avec "
+"la variable d'environnement `HOME` initialisée avec :setting:`DATA_DIR`:"
 
 #: vcs.rst:658
 msgid "Local files"
@@ -58939,8 +58905,8 @@ msgstr ""
 #| msgid "You can also designate what project :program:`wlc` should work on:"
 msgid "You can also execute it directly using :program:`uvx`:"
 msgstr ""
-"Vous pouvez aussi déclarer le projet sur lequel :program:`wlc` va "
-"travailler :"
+"Vous pouvez aussi déclarer le projet sur lequel :program:`wlc` va travailler "
+":"
 
 #: wlc.rst:30
 msgid ""
@@ -59106,8 +59072,8 @@ msgstr ""
 #: wlc.rst:170
 msgid "Overrides configuration file section in use, see :ref:`wlc-config`."
 msgstr ""
-"Surcharge la section du fichier d'utilisation en cours d'utilisation, "
-"voir :ref:`wlc-config`."
+"Surcharge la section du fichier d'utilisation en cours d'utilisation, voir "
+":ref:`wlc-config`."
 
 #: wlc.rst:173
 msgid "Commands"
@@ -59268,8 +59234,7 @@ msgstr "Nom de l'auteur, pour surcharger l'utilisateur actuellement connecté"
 
 #: wlc.rst:288
 msgid "Author e-mail, to override currently authenticated user"
-msgstr ""
-"Auteur du courriel, pour surcharger l'utilisateur actuellement connecté"
+msgstr "Auteur du courriel, pour surcharger l'utilisateur actuellement connecté"
 
 #: wlc.rst:293
 msgid ""
@@ -59313,8 +59278,7 @@ msgstr ":file:`C:\\\\Users\\\\NAME\\\\AppData\\\\Local\\\\weblate.ini`"
 #, fuzzy
 #| msgid "User configuration file on Windows in the local profile."
 msgid "Global configuration file on Windows in the local profile."
-msgstr ""
-"Fichier de configuration utilisateur sous Windows dans le profil local."
+msgstr "Fichier de configuration utilisateur sous Windows dans le profil local."
 
 #: wlc.rst:310
 msgid ":file:`~/.config/weblate`"
@@ -59480,8 +59444,8 @@ msgstr "Téléverser un fichier de traduction :"
 #: wlc.rst:433
 msgid "You can also designate what project :program:`wlc` should work on:"
 msgstr ""
-"Vous pouvez aussi déclarer le projet sur lequel :program:`wlc` va "
-"travailler :"
+"Vous pouvez aussi déclarer le projet sur lequel :program:`wlc` va travailler "
+":"
 
 #: wlc.rst:461
 msgid ""
@@ -59695,8 +59659,8 @@ msgid ""
 "checks>`, being a non-editable source string, or marked such in the "
 "translation file."
 msgstr ""
-"La chaîne est en mode lecture seule car elle comporte ``read-"
-"only`` :ref:`flag <custom-checks>`, qu'il s'agisse d'une chaîne source non "
+"La chaîne est en mode lecture seule car elle comporte ``read-only`` "
+":ref:`flag <custom-checks>`, qu'il s'agisse d'une chaîne source non "
 "éditable, ou marquée comme telle dans le fichier de traduction."
 
 #: workflows.rst:89
@@ -59932,8 +59896,8 @@ msgstr ""
 "éditeurs bien que les développeurs en soient propriétaires (souvent en "
 "utilisant des langues arbitraires comme ``en_devel``). Après cette étape, "
 "les chaînes sont disponibles pour être traduites dans les langues cibles, en "
-"partant maintenant d'une langue source remise en forme rangée dans "
-"le :ref:`component-template`."
+"partant maintenant d'une langue source remise en forme rangée dans le "
+":ref:`component-template`."
 
 #: workflows.rst:278
 msgid "String consolidation using secondary language"
