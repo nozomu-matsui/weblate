@@ -22,16 +22,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-21 02:17+0200\n"
-"PO-Revision-Date: 2026-04-14 16:33+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/"
-"documentation/ja/>\n"
+"PO-Revision-Date: 2026-04-22 05:41+0000\n"
+"Last-Translator: Nozomu Matsui <nozomu.matsui@gree.net>\n"
+"Language-Team: Japanese <http://127.0.0.1:8000/projects/weblate/docs/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.16.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: admin/access.rst:4 admin/projects.rst:218
@@ -400,6 +399,11 @@ msgid ""
 "whole instance, including assigning site-wide teams and granting superuser "
 "status to the managed account, even the caller's own account."
 msgstr ""
+"サイト横断のユーザ管理はグローバル ``user.edit`` 権限にて制御されます。これは"
+"プロジェクトアクセス管理とは異なり、すべてのインスタンスをおける"
+"ユーザアカウントの編集を可能にする、信用された管理者権限であり、サイト横断の"
+"チームアサインや管理アカウントへのスーパーユーザー付与、自身のアカウントすら"
+"操作可能です。"
 
 #: admin/access.rst:194
 msgid ""
@@ -2101,6 +2105,10 @@ msgid ""
 "compatibility with the underlying Python Social Auth backends and existing "
 "deployments."
 msgstr ""
+"Azure Active Directory (Azure AD) は現在、Microsoft Entra ID になっています。"
+"Weblate ではバックエンド名 ``azuread-oauth2`` および ``azuread-tenant-"
+"oauth2`` を Python social Auth バックエンド や既存のデプロイメントの互換性の"
+"ために残しています。"
 
 #: admin/auth.rst:337
 msgid ""
@@ -3330,6 +3338,8 @@ msgid ""
 "Generated SSH wrapper scripts are stored in :setting:`CACHE_DIR` and do not "
 "need to be backed up."
 msgstr ""
+"生成された SSH ラッパースクリプトは :setting:`CACHE_DIR` に保管され、"
+"バックアップが不要です。"
 
 #: admin/backup.rst:353
 msgid "User uploaded files"
@@ -4312,6 +4322,9 @@ msgid ""
 "so :setting:`CACHE_DIR` needs to be on an executable filesystem "
 "if :setting:`DATA_DIR` is mounted with ``noexec``."
 msgstr ""
+"Weblate は 生成された SSH ラッパースクリプトもここに保管するため"
+"、:setting:`DATA_DIR` ``noexec`` でマウントされている場合においては、 "
+":setting:`CACHE_DIR` は実行可能なファイルシステム上に存在する必要があります。"
 
 #: admin/config.rst:368 admin/config.rst:530
 msgid ""
@@ -4327,7 +4340,7 @@ msgstr "通常存在する、サブディレクトリ一覧:"
 
 #: admin/config.rst:373
 msgid "Generated SSH wrapper scripts used for VCS access."
-msgstr ""
+msgstr "生成された SSH ラッパースクリプトは VCS アクセスに使われます。"
 
 #: admin/config.rst:375
 msgid ":program:`font-config` cache for :ref:`fonts`."
