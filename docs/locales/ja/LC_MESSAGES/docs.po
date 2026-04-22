@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-21 02:17+0200\n"
-"PO-Revision-Date: 2026-04-22 05:41+0000\n"
+"PO-Revision-Date: 2026-04-22 08:12+0000\n"
 "Last-Translator: Nozomu Matsui <nozomu.matsui@gree.net>\n"
 "Language-Team: Japanese <http://127.0.0.1:8000/projects/weblate/docs/ja/>\n"
 "Language: ja\n"
@@ -228,7 +228,7 @@ msgstr ":ref:`査読処理 <reviews>` が有効化されている場合のみ使
 
 #: admin/access.rst:110
 msgid "For `Protected` and `Private` projects only:"
-msgstr "`保護` および `プライベート` プロジェクト専用のチーム"
+msgstr "`プロテクト済み` および `プライベート` プロジェクト専用:"
 
 #: admin/access.rst:112 snippets/roles.rst:156
 msgid "`Translate`"
@@ -763,8 +763,8 @@ msgid ""
 "Groups connect roles and users with authentication objects (projects, "
 "languages, components, and component lists)."
 msgstr ""
-"グループはロール、ユーザー、認証オブジェクト（プロジェクト、言語、コンポーネ"
-"ント、コンポーネント リスト）を紐づけます。"
+"グループはロールとユーザーを認証オブジェクト（プロジェクト、言語、"
+"コンポーネント、コンポーネント リスト）で紐づけます。"
 
 #: admin/access.rst:380
 msgid ""
@@ -1234,10 +1234,8 @@ msgid ""
 msgstr ""
 
 #: admin/addons.rst:28
-#, fuzzy
-#| msgid "Delete add-on."
 msgid "Obsolete add-ons"
-msgstr "アドオンを削除します。"
+msgstr "廃止されたアドオン"
 
 #: admin/addons.rst:33
 msgid "Customize XML output"
@@ -2093,10 +2091,8 @@ msgstr ""
 "照してください。"
 
 #: admin/auth.rst:330 admin/install/docker.rst:1527
-#, fuzzy
-#| msgid "Microsoft Translator"
 msgid "Microsoft Entra ID"
-msgstr "Microsoft Translator"
+msgstr "Microsoft Entra ID"
 
 #: admin/auth.rst:332
 msgid ""
@@ -4991,10 +4987,8 @@ msgstr ""
 
 #: admin/config.rst:1127 admin/install/docker.rst:779
 #: admin/install/docker.rst:873
-#, fuzzy
-#| msgid "Supported features"
 msgid "Supported values are:"
-msgstr "対応機能"
+msgstr "サポートされる値:"
 
 #: admin/config.rst:1130
 msgid ""
@@ -5038,10 +5032,8 @@ msgstr ""
 "バージョンを特定することを阻止できません。"
 
 #: admin/config.rst:1148
-#, fuzzy
-#| msgid "The default value is 10."
 msgid "The default is ``show``."
-msgstr "デフォルト値は 10 です。"
+msgstr "デフォルト値は ``show``。"
 
 #: admin/config.rst:1158
 msgid ""
@@ -6715,12 +6707,10 @@ msgid "Prevents or allows translators to make further changes in Weblate."
 msgstr ""
 
 #: admin/continuous.rst:227
-#, fuzzy
-#| msgid "Test pulling changes from your repository into Weblate"
 msgid ""
 "Freeze translation changes while doing repository maintenance outside "
 "Weblate."
-msgstr "リポジトリから Weblate へ変更をプルできることをテストします"
+msgstr "翻訳の凍結は Weblate外のリポジトリメンテナンス中に変更します。"
 
 #: admin/continuous.rst:229
 #, fuzzy
@@ -6796,10 +6786,8 @@ msgid ":guilabel:`Rescan`"
 msgstr ":guilabel:`コメントの解決`"
 
 #: admin/continuous.rst:246
-#, fuzzy
-#| msgid "Test pulling changes from your repository into Weblate"
 msgid "Re-reads translation files from the local repository into Weblate."
-msgstr "リポジトリから Weblate へ変更をプルできることをテストします"
+msgstr "ローカルリポジトリからweblateに翻訳ファイルを再読み込みします。"
 
 #: admin/continuous.rst:247
 msgid "Import file changes after manual repository work or file creation."
@@ -19135,11 +19123,10 @@ msgid ""
 "weblate.gettext.meson`, :ref:`addon-weblate.gettext.django`, and :ref:`addon-"
 "weblate.gettext.sphinx` to update POT files with configurable update cadence."
 msgstr ""
-"POT ファイルを更新するための更新頻度（cadence）を設定可能にするた"
-"め、:ref:`addon-weblate.gettext.xgettext`、:ref:`addon-"
-"weblate.gettext.meson`、\n"
-":ref:`addon-weblate.gettext.django`、および :ref:`addon-"
-"weblate.gettext.sphinx` を追加しました。"
+"POT ファイルを更新するための更新頻度（cadence）を設定可能にするため"
+"、:ref:`addon-weblate.gettext.xgettext`、:ref:`addon-"
+"weblate.gettext.meson`、:ref:`addon-weblate.gettext.django`、および "
+":ref:`addon-weblate.gettext.sphinx` を追加しました。"
 
 #: changes.rst:67
 msgid ""
@@ -19153,10 +19140,8 @@ msgid "Added :ref:`bulk user invitations <invite-user>`."
 msgstr ":ref:`bulk user invitations <invite-user>` の追加。"
 
 #: changes.rst:69
-#, fuzzy
-#| msgid ":ref:`check-formats`,"
 msgid "Added :ref:`check-objc-format`."
-msgstr ":ref:`check-formats`、"
+msgstr ":ref:`check-objc-format` が追加された。"
 
 #: changes.rst:70
 msgid "Added Forgejo notification webhook, see :ref:`forgejo-setup`."
@@ -19451,12 +19436,12 @@ msgid ""
 msgstr ""
 
 #: changes.rst:119
-#, fuzzy
-#| msgid ":ref:`addon-weblate.autotranslate.autotranslate` add-on"
 msgid ""
 "Fixed background failures in :ref:`addon-"
 "weblate.autotranslate.autotranslate`."
-msgstr ":ref:`addon-weblate.autotranslate.autotranslate` アドオン"
+msgstr ""
+":ref:`addon-weblate.autotranslate.autotranslate` バックグラウンドでの失敗が修"
+"正された。"
 
 #: changes.rst:120
 msgid ""
@@ -32527,16 +32512,10 @@ msgid "Django 3.1 is now required."
 msgstr "Django 3.1 が必須となりました。"
 
 #: changes/v4.rst:941
-#, fuzzy
-#| msgid ""
-#| "In case you are using MySQL or MariaDB, the minimal required versions "
-#| "have increased, see :ref:`mysql`."
 msgid ""
 "In case you are using MySQL or MariaDB, the minimal required versions have "
 "increased."
-msgstr ""
-"MySQL または MariaDB を使用している場合、最低限必要なバージョンを上げました。"
-"参照: :ref:`mysql`。"
+msgstr "MySQL または MariaDB を使用している場合、最低限必要なバージョンが上がります。"
 
 #: changes/v4.rst:945
 msgid ""
@@ -34506,12 +34485,6 @@ msgid "Building the documentation locally"
 msgstr "ローカルでドキュメントをビルドする"
 
 #: contributing/documentation.rst:28
-#, fuzzy
-#| msgid ""
-#| "Documentation can be also edited and built locally, the Python "
-#| "requirements are in the ``docs`` dependency group "
-#| "in :file:`pyproject.toml`. The build can be performed using :program:`ci/"
-#| "run-docs`."
 msgid ""
 "Documentation can be also edited and built locally, the Python requirements "
 "are in the ``docs`` dependency group in :file:`pyproject.toml`. If you "
@@ -34519,9 +34492,10 @@ msgid ""
 "is enough. For documentation work only, ``uv sync --group docs`` is "
 "sufficient."
 msgstr ""
-"ドキュメントはローカルで編集およびビルドすることもできます。Python の依存関係"
-"は、:file:`pyproject.toml` の ``docs`` 依存グループに定義されています。ビルド"
-"は :program:`ci/run-docs` を使用して実行できます。"
+"ドキュメンテーションはローカルにて編集およびビルドできます。Python 依存関係"
+"は :file:`pyproject.toml` の ``docs`` 依存関係グループに定義されています。も"
+"しすでに完全な回春環境をお使いならば、``uv sync --all-extras --dev`` で十分で"
+"す。ドキュメンテーション作業のみならば、``uv sync --group docs`` が有効です。"
 
 #: contributing/documentation.rst:33
 #, fuzzy
@@ -35835,10 +35809,8 @@ msgid "Clone the Weblate source code:"
 msgstr "Weblate ソースコードのクローン:"
 
 #: contributing/start.rst:30
-#, fuzzy
-#| msgid "Creating a Python module"
 msgid "Create a Python environment:"
-msgstr "Python モジュールの作成"
+msgstr "Python 環境を生成:"
 
 #: contributing/start.rst:37
 msgid ""
@@ -43541,12 +43513,10 @@ msgid ""
 "instances are available for organizations needing isolated or customized "
 "environments."
 msgstr ""
-"顧客は自らのデータを完全にコントロールできます。\n"
-"- プロジェクト、翻訳、ユーザーアカウントは、いつでもエクスポートまたは削除で"
-"きます。\n"
-"- 外部サービスとの連携は任意であり、完全に設定可能です。\n"
-"- 分離された環境やカスタマイズされた環境を必要とする組織向けに、専用の "
-"Weblate インスタンスも利用できます。"
+"顧客は自らのデータを完全にコントロールできます。- プロジェクト、翻訳、"
+"ユーザーアカウントは、いつでもエクスポートまたは削除できます。- 外部サービス"
+"との連携は任意であり、完全に設定可能です。- 分離された環境やカスタマイズされ"
+"た環境を必要とする組織向けに、専用の Weblate インスタンスも利用できます。"
 
 #: security/dependencies.rst:2
 msgid "Dependencies"
@@ -47819,10 +47789,8 @@ msgid "Component name:"
 msgstr "コンポーネント名:"
 
 #: snippets/addons-autogenerated.rst:266
-#, fuzzy
-#| msgid "Screenshot file mask"
 msgid "Discovered file masks:"
-msgstr "スクリーンショット ファイルのマスク"
+msgstr "発見されたファイルマスク:"
 
 #: snippets/addons-autogenerated.rst:270
 msgid ""
@@ -53695,10 +53663,8 @@ msgstr "参照: :ref:`format-location`"
 #: snippets/format-features/xliff2-features.rst:21
 #: snippets/format-features/xlsx-features.rst:21
 #: snippets/format-features/yaml-features.rst:21
-#, fuzzy
-#| msgid "See :ref:`format-flags`."
 msgid "Supports flags :ref:`ⓘ <format-flags>`"
-msgstr "参照: :ref:`format-flags`。"
+msgstr "サポートされたフラグ :ref:`ⓘ <format-flags>`"
 
 #: snippets/format-features/appstore-features.rst:23
 #: snippets/format-features/arb-features.rst:23
@@ -60438,22 +60404,14 @@ msgid ""
 msgstr "翻訳は空です、保存するかしないかはファイル形式によります。"
 
 #: workflows.rst:67
-#, fuzzy
-#| msgid ""
-#| "Translation needs editing, this is usually the result of a source string "
-#| "change, fuzzy matching or translator action. The translation is stored in "
-#| "the file if the :ref:`project-commit_policy` allows it. Depending on the "
-#| "file format it might be marked as needing edit (for example as it gets a "
-#| "``fuzzy`` flag in the gettext file)."
 msgid ""
 "Translation needs editing, this is usually the result of fuzzy matching or "
 "translator action. Depending on the file format it might be marked as "
 "needing edit (for example as it gets a ``fuzzy`` flag in the gettext file)."
 msgstr ""
-"編集が必要な翻訳です。通常、原文の変更、あいまい一致、または翻訳者の操作が"
-"あった場合に設定されます。:ref:`project-commit_policy` が許可されている場合"
-"は、ファイルに保存されます。ファイル形式によっては、編集が必要と設定されます"
-"（例: gettext ファイルでは ``fuzzy`` （あいまい）フラグがつく）。"
+"編集が必要な翻訳は、一般的にはファジーマッチか翻訳者のアクションによって生成"
+"されます。ファイル形式によっては、再編集が必要であるとマークされます（例: "
+"gettextファイル中に ``fuzzy`` フラグが付与されます）。"
 
 #: workflows.rst:69
 msgid "Needs rewriting"
