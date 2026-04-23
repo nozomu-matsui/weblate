@@ -20,16 +20,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-21 02:17+0200\n"
-"PO-Revision-Date: 2026-04-21 03:39+0000\n"
+"PO-Revision-Date: 2026-04-23 00:11+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/weblate/"
-"documentation/it/>\n"
+"Language-Team: Italian <http://127.0.0.1:8000/projects/weblate/docs/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 5.16.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: admin/access.rst:4 admin/projects.rst:218
@@ -58,9 +57,9 @@ msgid ""
 "always :guilabel:`Public`. You can switch to the paid plan if you want to "
 "restrict access to your project."
 msgstr ""
-"I progetti che usano il piano gratuito Libre su Hosted Weblate sono "
-"sempre :guilabel:`Pubblici`. Se vuoi restringere l'accesso al tuo progetto "
-"puoi passare al piano a pagamento."
+"I progetti che usano il piano gratuito Libre su Hosted Weblate sono sempre "
+":guilabel:`Pubblici`. Se vuoi restringere l'accesso al tuo progetto puoi "
+"passare al piano a pagamento."
 
 #: admin/access.rst:22
 msgid ""
@@ -155,16 +154,16 @@ msgid ""
 "the configuration (:guilabel:`Operations` ↓ :guilabel:`Settings`) of each "
 "respective project."
 msgstr ""
-":guilabel:`Controllo accesso` può essere modificato nella "
-"scheda :guilabel:`Accesso` della configurazione (:guilabel:`Operazioni` "
-"↓ :guilabel:`Impostazioni`) di ogni rispettivo progetto."
+":guilabel:`Controllo accesso` può essere modificato nella scheda "
+":guilabel:`Accesso` della configurazione (:guilabel:`Operazioni` ↓ "
+":guilabel:`Impostazioni`) di ogni rispettivo progetto."
 
 #: admin/access.rst:68
 msgid ""
 "The default can also be changed by setting :setting:`DEFAULT_ACCESS_CONTROL`."
 msgstr ""
-"Il valore predefinito può essere modificato "
-"impostando :setting:`DEFAULT_ACCESS_CONTROL`."
+"Il valore predefinito può essere modificato impostando "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/access.rst:72
 msgid ""
@@ -199,8 +198,8 @@ msgid ""
 "allows them to assign other users in `Public`, `Protected` and `Private` "
 "(but not `Custom`) projects via adding them to teams."
 msgstr ""
-"Concedere agli utenti :guilabel:`Manage project access` "
-"(vedi :ref:`privileges`) permette loro di assegnare altri utenti in progetti "
+"Concedere agli utenti :guilabel:`Manage project access` (vedi "
+":ref:`privileges`) permette loro di assegnare altri utenti in progetti "
 "`Public`, `Protected` e `Private` (ma non `Custom`) aggiungendoli ai team."
 
 #: admin/access.rst:99
@@ -269,8 +268,7 @@ msgstr "`Glossario`"
 
 #: admin/access.rst:123
 msgid "Manage glossary (add, remove, and upload entries)."
-msgstr ""
-"Può gestire il glossario (aggiungere o rimuovere voci, anche caricare)."
+msgstr "Può gestire il glossario (aggiungere o rimuovere voci, anche caricare)."
 
 #: admin/access.rst:125
 msgid "`Memory`"
@@ -313,8 +311,8 @@ msgstr "`Fatturazione`"
 #: admin/access.rst:139
 msgid "Access billing info and settings (see :ref:`billing`)."
 msgstr ""
-"Può accedere alle informazioni e alle impostazioni di fatturazione "
-"(vedi :ref:`billing`)."
+"Può accedere alle informazioni e alle impostazioni di fatturazione (vedi "
+":ref:`billing`)."
 
 #: admin/access.rst:143
 msgid ""
@@ -440,9 +438,9 @@ msgid ""
 "You can set your projects to :guilabel:`Protected` or :guilabel:`Private` "
 "(see :ref:`acl`), and :ref:`manage users access <manage-acl>` per-project."
 msgstr ""
-"Puoi impostare i tuoi progetti come :guilabel:`Protected` "
-"o :guilabel:`Private` (vedi :ref:`acl`) e :ref:`manage users<manage-acl>` "
-"per singolo progetto."
+"Puoi impostare i tuoi progetti come :guilabel:`Protected` o "
+":guilabel:`Private` (vedi :ref:`acl`) e :ref:`manage users<manage-acl>` per "
+"singolo progetto."
 
 #: admin/access.rst:220
 msgid ""
@@ -491,10 +489,10 @@ msgid ""
 "The API tokens can have expiry date set, and their permissions can be "
 "customized by team memberships same as with users."
 msgstr ""
-"Puoi definire token di accesso nell'ambito del progetto nella "
-"scheda :guilabel:`API access`. I token API possono avere una data di "
-"scadenza impostata e le relative autorizzazioni possono essere "
-"personalizzate in base all'appartenenza al team come per gli utenti."
+"Puoi definire token di accesso nell'ambito del progetto nella scheda "
+":guilabel:`API access`. I token API possono avere una data di scadenza "
+"impostata e le relative autorizzazioni possono essere personalizzate in base "
+"all'appartenenza al team come per gli utenti."
 
 #: admin/access.rst:256
 msgid "Site-wide access control"
@@ -581,8 +579,8 @@ msgid ""
 "otherwise the site-wide permissions provided by membership in the `Users` "
 "and `Reviewers` teams won’t have any effect."
 msgstr ""
-"Dovresti mantenere tutti i progetti configurati come `Pubblico` "
-"(vedi :ref:`acl`), altrimenti i permessi a livello di sito forniti "
+"Dovresti mantenere tutti i progetti configurati come `Pubblico` (vedi "
+":ref:`acl`), altrimenti i permessi a livello di sito forniti "
 "dall'appartenenza ai team `Utenti` e `Revisori` non avranno alcun effetto."
 
 #: admin/access.rst:292
@@ -601,9 +599,8 @@ msgid ""
 msgstr ""
 "È possibile definire anche nuovi team personalizzati. Se si desidera "
 "continuare a gestire i permessi a livello di sito per questi team, scegliere "
-"un valore appropriato per :guilabel:`Selezione progetto` (ad "
-"esempio :guilabel:`Tutti i progetti` o :guilabel:`Tutti i progetti "
-"pubblici`)."
+"un valore appropriato per :guilabel:`Selezione progetto` (ad esempio "
+":guilabel:`Tutti i progetti` o :guilabel:`Tutti i progetti pubblici`)."
 
 #: admin/access.rst:302
 msgid "Custom permissions for languages, components or projects"
@@ -5289,8 +5286,8 @@ msgstr ""
 msgid ""
 "Optionally the translation files are updated, see :ref:`translations-update`."
 msgstr ""
-"Opzionalmente i file di traduzione vengono aggiornati, "
-"vedi :ref:`translations-update`."
+"Opzionalmente i file di traduzione vengono aggiornati, vedi "
+":ref:`translations-update`."
 
 #: admin/continuous.rst:19
 msgid ""
@@ -11423,8 +11420,8 @@ msgid ""
 "The services translate from the source language as configured "
 "at :ref:`component`, see :ref:`component-source_language`."
 msgstr ""
-"I servizi traducono dalla lingua sorgente come configurato "
-"in :ref:`component` vedere :ref:`component-source_language`."
+"I servizi traducono dalla lingua sorgente come configurato in "
+":ref:`component` vedere :ref:`component-source_language`."
 
 #: admin/machine.rst:25
 msgid ""
@@ -11433,8 +11430,7 @@ msgstr ""
 
 #: admin/machine.rst:34
 msgid "Priority of machine translation and translation memory services"
-msgstr ""
-"Priorità ai servizi di traduzione automatica e di memorie di traduzione"
+msgstr "Priorità ai servizi di traduzione automatica e di memorie di traduzione"
 
 #: admin/machine.rst:36
 msgid ""
@@ -13048,8 +13044,8 @@ msgstr ""
 #: admin/projects.rst:222
 msgid "The default value can be changed by :setting:`DEFAULT_ACCESS_CONTROL`."
 msgstr ""
-"Il valore predefinito può essere modificato "
-"da :setting:`DEFAULT_ACCESS_CONTROL`."
+"Il valore predefinito può essere modificato da "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/projects.rst:227
 msgid "Enforced two-factor authentication"
@@ -13659,8 +13655,8 @@ msgid ""
 "The default value can be changed "
 "by :setting:`DEFAULT_TRANSLATION_PROPAGATION`."
 msgstr ""
-"Il valore predefinito può essere modificato "
-"da :setting:`DEFAULT_TRANSLATION_PROPAGATION`."
+"Il valore predefinito può essere modificato da "
+":setting:`DEFAULT_TRANSLATION_PROPAGATION`."
 
 #: admin/projects.rst:692 workflows.rst:123 workflows.rst:155 workflows.rst:188
 msgid "Enable suggestions"
@@ -14018,8 +14014,8 @@ msgstr ""
 #: admin/projects.rst:905
 msgid "The default value can be changed by :setting:`DEFAULT_MERGE_STYLE`."
 msgstr ""
-"Il valore predefinito può essere modificato "
-"da :setting:`DEFAULT_MERGE_STYLE`."
+"Il valore predefinito può essere modificato da "
+":setting:`DEFAULT_MERGE_STYLE`."
 
 #: admin/projects.rst:915
 msgid "Commit, add, delete, merge, add-on, and merge request messages"
@@ -14062,8 +14058,8 @@ msgstr ""
 #: admin/projects.rst:949
 msgid "The default value can be changed by :setting:`COMMIT_PENDING_HOURS`."
 msgstr ""
-"Il valore predefinito può essere modificato "
-"da :setting:`COMMIT_PENDING_HOURS`."
+"Il valore predefinito può essere modificato da "
+":setting:`COMMIT_PENDING_HOURS`."
 
 #: admin/projects.rst:953
 msgid ""
@@ -14220,8 +14216,7 @@ msgstr "Priorità"
 
 #: admin/projects.rst:1089
 msgid "Components with higher priority are offered first to translators."
-msgstr ""
-"Ai traduttori vengono offerti prima i componenti con priorità più alta."
+msgstr "Ai traduttori vengono offerti prima i componenti con priorità più alta."
 
 #: admin/projects.rst:1093
 msgid "This now also affects ordering of matched glossary terms."
@@ -16568,8 +16563,8 @@ msgid ""
 "Added support for anonymous commit names "
 "via :setting:`PRIVATE_COMMIT_NAME_TEMPLATE`."
 msgstr ""
-"Aggiunto il supporto per nomi di commit anonimi "
-"tramite :setting:`PRIVATE_COMMIT_NAME_TEMPLATE`."
+"Aggiunto il supporto per nomi di commit anonimi tramite "
+":setting:`PRIVATE_COMMIT_NAME_TEMPLATE`."
 
 #: changes.rst:260
 msgid ""
@@ -16823,8 +16818,7 @@ msgstr ""
 
 #: changes.rst:362
 msgid "Locking error that prevented updating linked components."
-msgstr ""
-"Errore di blocco che impediva l'aggiornamento dei componenti collegati."
+msgstr "Errore di blocco che impediva l'aggiornamento dei componenti collegati."
 
 #: changes.rst:363
 msgid "Fixed e-mail SSL configuration in Docker container."
@@ -17110,8 +17104,7 @@ msgstr "Prestazioni durante l'aggiunta di stringhe."
 
 #: changes.rst:474
 msgid "Adding terms to glossary was not working in some situations."
-msgstr ""
-"L'aggiunta di termini al glossario non funzionava in alcune situazioni."
+msgstr "L'aggiunta di termini al glossario non funzionava in alcune situazioni."
 
 #: changes.rst:484
 msgid ""
@@ -18104,8 +18097,8 @@ msgid ""
 ":ref:`secondary-languages` can now be specified in :ref:`project` "
 "and :ref:`component`."
 msgstr ""
-":ref:`secondary-languages` ora può essere specificato in :ref:`project` "
-"e :ref:`component`."
+":ref:`secondary-languages` ora può essere specificato in :ref:`project` e "
+":ref:`component`."
 
 #: changes.rst:963
 msgid ":ref:`mt-sources` can now be customized."
@@ -18140,8 +18133,7 @@ msgstr ""
 
 #: changes.rst:972
 msgid "Changes in string flags are now tracked in history."
-msgstr ""
-"Le modifiche ai flag di stringa vengono ora tracciate nella cronologia."
+msgstr "Le modifiche ai flag di stringa vengono ora tracciate nella cronologia."
 
 #: changes.rst:973
 msgid ":doc:`/admin/machine` documentation extended."
@@ -18502,8 +18494,7 @@ msgstr ""
 
 #: changes.rst:1141
 msgid "Improved language compatibility in :ref:`mt-microsoft-translator`."
-msgstr ""
-"Compatibilità linguistica migliorata in :ref:`mt-microsoft-translator`."
+msgstr "Compatibilità linguistica migliorata in :ref:`mt-microsoft-translator`."
 
 #: changes.rst:1142
 msgid ""
@@ -18730,8 +18721,8 @@ msgstr ""
 msgid ""
 ":ref:`mt-google-translate-api-v3` now supports :ref:`glossary-mt` (optional)."
 msgstr ""
-":ref:`mt-google-translate-api-v3` ora supporta :ref:`glossary-mt` "
-"(opzionale)."
+":ref:`mt-google-translate-api-v3` ora supporta :ref:`glossary-mt` (opzionale)"
+"."
 
 #: changes.rst:1247
 msgid ""
@@ -19087,8 +19078,7 @@ msgstr "Migliorata la leggibilità dei registri delle eccezioni."
 
 #: changes.rst:1433
 msgid "Updating of translations from the repository in linked components."
-msgstr ""
-"Aggiornamento delle traduzioni dal repository nei componenti collegati."
+msgstr "Aggiornamento delle traduzioni dal repository nei componenti collegati."
 
 #: changes.rst:1434
 msgid "Improved rendering of digest notification e-mails."
@@ -20689,8 +20679,7 @@ msgstr ""
 #: changes.rst:2157
 msgid ""
 "Rendering strings with plurals, placeholders or alternative translations."
-msgstr ""
-"Rendering di stringhe con plurali, segnaposto o traduzioni alternative."
+msgstr "Rendering di stringhe con plurali, segnaposto o traduzioni alternative."
 
 #: changes.rst:2158
 msgid "User API now includes last sign in date."
@@ -21601,8 +21590,8 @@ msgstr ""
 "Johan Jacobsson, Peter Vančo, Sveinn í Felli, Oliver, Yvan Zo, meshari "
 "alnaim, தமிழ்நேரம், searinminecraft, Jwtiyar Nariman, gitelo4516, Vision, "
 "Chang-Chia Tseng, Kyotaro Iijima, Ricky Tigg, ei9, Martin Srebotnjak, "
-"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан "
-"Симић(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
+"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан Симић"
+"(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
 "Winston Sung, ChinskiKaczynski, Rafael Fontenelle"
 
 #: changes/contributors/5.9.rst:14
@@ -24162,8 +24151,7 @@ msgstr ""
 
 #: changes/v3.rst:19
 msgid "Fixed documentation links for add-ons."
-msgstr ""
-"Risolti i collegamenti alla documentazione per i componenti aggiuntivi."
+msgstr "Risolti i collegamenti alla documentazione per i componenti aggiuntivi."
 
 #: changes/v3.rst:20
 msgid "Reduced false negatives for unchanged translation check."
@@ -25916,8 +25904,7 @@ msgstr "Prestazioni migliorate dei profili utente pubblici."
 
 #: changes/v4.rst:73
 msgid "Improved Sentry performance monitoring integration."
-msgstr ""
-"Migliorata l'integrazione del monitoraggio delle prestazioni di Sentry."
+msgstr "Migliorata l'integrazione del monitoraggio delle prestazioni di Sentry."
 
 #: changes/v4.rst:74
 msgid "Added support for Ed25519 SSH key."
@@ -26700,8 +26687,7 @@ msgstr "Aggiunto supporto per rimuovere un utente da un gruppo tramite API."
 
 #: changes/v4.rst:343
 msgid "Fixed audit log for user invitation e-mails."
-msgstr ""
-"Corretto il registro di controllo per le e-mail di invito degli utenti."
+msgstr "Corretto il registro di controllo per le e-mail di invito degli utenti."
 
 #: changes/v4.rst:344
 msgid "Fixed flag names for Java formatting strings."
@@ -26785,8 +26771,7 @@ msgstr ""
 
 #: changes/v4.rst:366
 msgid "Machine translation services are now configurable per project."
-msgstr ""
-"I servizi di traduzione automatica sono ora configurabili per progetto."
+msgstr "I servizi di traduzione automatica sono ora configurabili per progetto."
 
 #: changes/v4.rst:367
 msgid ""
@@ -27430,8 +27415,8 @@ msgstr ""
 msgid ""
 "Added support for customizing SSH invocation via :setting:`SSH_EXTRA_ARGS`."
 msgstr ""
-"Aggiunto il supporto per personalizzare l'invocazione SSH "
-"tramite :setting:`SSH_EXTRA_ARGS`."
+"Aggiunto il supporto per personalizzare l'invocazione SSH tramite "
+":setting:`SSH_EXTRA_ARGS`."
 
 #: changes/v4.rst:583
 msgid "Added checks for ICU MessageFormat."
@@ -27455,8 +27440,8 @@ msgstr ""
 msgid ""
 "Added support for customizing Borg invocation via :setting:`BORG_EXTRA_ARGS`."
 msgstr ""
-"Aggiunto il supporto per personalizzare l'invocazione di Borg "
-"tramite :setting:`BORG_EXTRA_ARGS`."
+"Aggiunto il supporto per personalizzare l'invocazione di Borg tramite "
+":setting:`BORG_EXTRA_ARGS`."
 
 #: changes/v4.rst:588
 msgid "Fixed generating of MO files for monolingual translations."
@@ -27634,8 +27619,7 @@ msgstr "Supporta più alias linguistici da configurare su un progetto."
 
 #: changes/v4.rst:654
 msgid "Fixed search string validation in API."
-msgstr ""
-"Risolto il problema con la convalida della stringa di ricerca nell'API."
+msgstr "Risolto il problema con la convalida della stringa di ricerca nell'API."
 
 #: changes/v4.rst:655
 msgid "Fixed Git exporter URLs after a domain change."
@@ -28195,8 +28179,7 @@ msgstr "Aggiunto il supporto per il ``lua-format`` utilizzato nel gettext PO."
 
 #: changes/v4.rst:832
 msgid "Added support for sharing a component between projects."
-msgstr ""
-"Aggiunto il supporto per la condivisione di un componente tra progetti."
+msgstr "Aggiunto il supporto per la condivisione di un componente tra progetti."
 
 #: changes/v4.rst:833
 msgid ""
@@ -28273,8 +28256,7 @@ msgstr ""
 
 #: changes/v4.rst:849
 msgid "Added support for non-translatable or forbidden terms in the glossary."
-msgstr ""
-"Aggiunto supporto per termini non traducibili o proibiti nel glossario."
+msgstr "Aggiunto supporto per termini non traducibili o proibiti nel glossario."
 
 #: changes/v4.rst:850
 msgid "Added support for defining terminology in a glossary."
@@ -28653,8 +28635,7 @@ msgstr ""
 
 #: changes/v4.rst:976
 msgid "Improved performance of translation memory updates."
-msgstr ""
-"Prestazioni migliorate degli aggiornamenti della memoria di traduzione."
+msgstr "Prestazioni migliorate degli aggiornamenti della memoria di traduzione."
 
 #: changes/v4.rst:978
 msgid "Improved performance of Matrix view."
@@ -30989,8 +30970,7 @@ msgstr "Estensione delle definizioni del linguaggio integrato"
 
 #: contributing/modules.rst:22
 msgid "The language definitions are in the `language-data`_ repository."
-msgstr ""
-"Le definizioni della lingua si trovano nel repository `language-data`_."
+msgstr "Le definizioni della lingua si trovano nel repository `language-data`_."
 
 #: contributing/modules.rst:24
 msgid ""
@@ -33058,8 +33038,7 @@ msgstr ""
 
 #: devel/migration.rst:75
 msgid ":ref:`continuous-translation` for optimal repository structure"
-msgstr ""
-":ref:`continuous-translation` per una struttura ottimale del repository"
+msgstr ":ref:`continuous-translation` per una struttura ottimale del repository"
 
 #: devel/migration.rst:76
 msgid ":doc:`/vcs` for supported version control systems"
@@ -33362,8 +33341,7 @@ msgstr "Imposta :ref:`notifications` per gli eventi di traduzione"
 
 #: devel/migration.rst:217
 msgid "Configure repository :ref:`hooks` for your Git hosting service"
-msgstr ""
-"Configura il repository :ref:`hooks` per il tuo servizio di hosting Git"
+msgstr "Configura il repository :ref:`hooks` per il tuo servizio di hosting Git"
 
 #: devel/migration.rst:221
 msgid ":doc:`/admin/memory` for translation memory management"
@@ -34998,8 +34976,7 @@ msgstr ""
 
 #: faq.rst:362
 msgid "You can import existing translation memory files into Weblate."
-msgstr ""
-"Conferma l'eliminazione di tutti gli elementi dalla memoria traduzione."
+msgstr "Conferma l'eliminazione di tutti gli elementi dalla memoria traduzione."
 
 #: faq.rst:363
 msgid ""
@@ -35192,10 +35169,10 @@ msgid ""
 "want to use `English (Developer)` as a source language, or "
 "utilize :ref:`source-quality-gateway`."
 msgstr ""
-"Nel caso in cui si desideri la traduzione nella lingua sorgente, modifica "
-"la :ref:`component-source_language` nelle impostazioni del componente. "
-"Potresti voler usare `Inglese (sviluppatore)` come lingua sorgente, o "
-"usare :ref:`source-quality-gateway`."
+"Nel caso in cui si desideri la traduzione nella lingua sorgente, modifica la "
+":ref:`component-source_language` nelle impostazioni del componente. Potresti "
+"voler usare `Inglese (sviluppatore)` come lingua sorgente, o usare "
+":ref:`source-quality-gateway`."
 
 #: faq.rst:523
 msgid ""
@@ -37405,8 +37382,8 @@ msgid ""
 "If you would like to contribute to a project as a translator, read "
 "about :doc:`user/translating`."
 msgstr ""
-"Se desideri contribuire a un progetto come traduttore, leggi di "
-"più :doc:`user/translating`."
+"Se desideri contribuire a un progetto come traduttore, leggi di più "
+":doc:`user/translating`."
 
 #: index.rst:40
 msgid "Starting a translation project"
@@ -38698,8 +38675,8 @@ msgstr ""
 #: security/localization-threat.rst:88
 msgid "Configure automated translation quality checks; see :ref:`checks`."
 msgstr ""
-"Configurare controlli di qualità automatizzati della traduzione; "
-"vedere :ref:`checks`."
+"Configurare controlli di qualità automatizzati della traduzione; vedere "
+":ref:`checks`."
 
 #: security/localization-threat.rst:91
 msgid "6. Elevation of Privilege"
@@ -41121,8 +41098,8 @@ msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-component-"
 "update`, :ref:`addon-event-daily`, :ref:`addon-event-event-change`"
 msgstr ""
-":ref:`addon-event-add-on-installation`, :ref:`addon-event-component-"
-"update`, :ref:`addon-event-daily`, :ref:`addon-event-event-change`"
+":ref:`addon-event-add-on-installation`, :ref:`addon-event-component-update`, "
+":ref:`addon-event-daily`, :ref:`addon-event-event-change`"
 
 #: snippets/addons-autogenerated.rst:49
 msgid ""
@@ -41166,9 +41143,9 @@ msgid ""
 "daily`, :ref:`addon-event-repository-post-commit`, :ref:`addon-event-"
 "repository-post-update`"
 msgstr ""
-":ref:`addon-event-add-on-installation`, :ref:`addon-event-"
-"daily`, :ref:`addon-event-repository-post-commit`, :ref:`addon-event-"
-"repository-post-update`"
+":ref:`addon-event-add-on-installation`, :ref:`addon-event-daily`, "
+":ref:`addon-event-repository-post-commit`, :ref:`addon-event-repository-post-"
+"update`"
 
 #: snippets/addons-autogenerated.rst:84
 msgid ""
@@ -41278,8 +41255,8 @@ msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-"
 "daily`, :ref:`addon-event-repository-post-add`"
 msgstr ""
-":ref:`addon-event-add-on-installation`, :ref:`addon-event-"
-"daily`, :ref:`addon-event-repository-post-add`"
+":ref:`addon-event-add-on-installation`, :ref:`addon-event-daily`, "
+":ref:`addon-event-repository-post-add`"
 
 #: snippets/addons-autogenerated.rst:177
 msgid ""
@@ -41724,8 +41701,7 @@ msgstr "Nuovo valore della modifica (es. nuova traduzione della stringa)"
 
 #: snippets/addons-autogenerated.rst:454
 msgid "Old value of the change (eg. previous translation of the string)"
-msgstr ""
-"Vecchio valore della modifica (es. traduzione precedente della stringa)"
+msgstr "Vecchio valore della modifica (es. traduzione precedente della stringa)"
 
 #: snippets/addons-autogenerated.rst:456
 msgid "Source string."
@@ -41951,8 +41927,8 @@ msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-component-"
 "update`, :ref:`addon-event-daily`"
 msgstr ""
-":ref:`addon-event-add-on-installation`, :ref:`addon-event-component-"
-"update`, :ref:`addon-event-daily`"
+":ref:`addon-event-add-on-installation`, :ref:`addon-event-component-update`, "
+":ref:`addon-event-daily`"
 
 #: snippets/addons-autogenerated.rst:780
 msgid "Fills in translation of read-only strings with source string."
@@ -41988,8 +41964,8 @@ msgid ""
 "You can use a Django template in both filename and content, "
 "see :ref:`markup` for a detailed markup description."
 msgstr ""
-"Puoi usare un modello Django sia nel nome del file che nel contenuto, "
-"vedi :ref:`markup` per una descrizione dettagliata del markup."
+"Puoi usare un modello Django sia nel nome del file che nel contenuto, vedi "
+":ref:`markup` per una descrizione dettagliata del markup."
 
 #: snippets/addons-autogenerated.rst:808
 msgid "For example generating a summary file for each translation:"
@@ -42160,9 +42136,9 @@ msgid ""
 "daily`, :ref:`addon-event-repository-post-add`, :ref:`addon-event-repository-"
 "post-remove`"
 msgstr ""
-":ref:`addon-event-add-on-installation`, :ref:`addon-event-"
-"daily`, :ref:`addon-event-repository-post-commit`, :ref:`addon-event-"
-"repository-post-update`"
+":ref:`addon-event-add-on-installation`, :ref:`addon-event-daily`, "
+":ref:`addon-event-repository-post-commit`, :ref:`addon-event-repository-post-"
+"update`"
 
 #: snippets/addons-autogenerated.rst:963
 #, fuzzy
@@ -42251,8 +42227,8 @@ msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-manual-"
 "trigger`, :ref:`addon-event-repository-post-update`"
 msgstr ""
-":ref:`addon-event-add-on-installation`, :ref:`addon-event-"
-"daily`, :ref:`addon-event-repository-post-add`"
+":ref:`addon-event-add-on-installation`, :ref:`addon-event-daily`, "
+":ref:`addon-event-repository-post-add`"
 
 #: snippets/addons-autogenerated.rst:1007
 msgid ""
@@ -42546,8 +42522,7 @@ msgstr "linguaggio xgettext"
 
 #: snippets/addons-autogenerated.rst:1275
 msgid "Programming language passed to xgettext, for example Python or C."
-msgstr ""
-"Linguaggio di programmazione passato a xgettext, ad esempio Python o C."
+msgstr "Linguaggio di programmazione passato a xgettext, ad esempio Python o C."
 
 #: snippets/addons-autogenerated.rst:1277
 msgid ""
@@ -42665,9 +42640,9 @@ msgid ""
 "customized to include it."
 msgstr ""
 "I messaggi di modifica originali saranno mantenuti ma l'informazione "
-"sull'autore non verrà conservata a meno che non sia "
-"selezionato :guilabel:`Per autore` o si personalizzi il messaggio di "
-"modifica per includerlo."
+"sull'autore non verrà conservata a meno che non sia selezionato "
+":guilabel:`Per autore` o si personalizzi il messaggio di modifica per "
+"includerlo."
 
 #: snippets/addons-autogenerated.rst:1337
 msgid ""
@@ -43055,8 +43030,8 @@ msgid ""
 "Set a required prefix for XML tags for the :ref:`check-icu-message-format` "
 "quality check."
 msgstr ""
-"Imposta un prefisso richiesto per i tag XML per il controllo di "
-"qualità :ref:`check-icu-message-format`."
+"Imposta un prefisso richiesto per i tag XML per il controllo di qualità "
+":ref:`check-icu-message-format`."
 
 #: snippets/check-flags-autogenerated.rst:28
 msgid ""
@@ -43080,8 +43055,8 @@ msgstr ""
 #: snippets/check-flags-autogenerated.rst:37
 msgid "Regular expression to match translation, see :ref:`check-regex`."
 msgstr ""
-"Espressione regolare usata per corrispondenza con i file traduzione, "
-"vedi :ref:`check-regex`."
+"Espressione regolare usata per corrispondenza con i file traduzione, vedi "
+":ref:`check-regex`."
 
 #: snippets/check-flags-autogenerated.rst:39
 msgid "Discards flag defined on a higher level."
@@ -44345,8 +44320,7 @@ msgstr ""
 
 #: snippets/checks-autogenerated.rst:622
 msgid "Skip checking that placeholder types match the source."
-msgstr ""
-"Evita di verificare che i tipi di segnaposto corrispondano all'origine."
+msgstr "Evita di verificare che i tipi di segnaposto corrispondano all'origine."
 
 #: snippets/checks-autogenerated.rst:624
 msgid ""
@@ -45630,8 +45604,8 @@ msgid ""
 "The string uses three dots ``(...)`` instead of an ellipsis character "
 "``(…)``."
 msgstr ""
-"La stringa utilizza tre punti ``(...)`` anziché i puntini di sospensione "
-"``(...)``."
+"La stringa utilizza tre punti ``(...)`` anziché i puntini di sospensione ``"
+"(...)``."
 
 #: snippets/checks-autogenerated.rst:2226
 #: snippets/checks-autogenerated.rst:2254
@@ -48771,8 +48745,7 @@ msgstr ":guilabel:`Edit strings`"
 
 #: snippets/roles.rst:48 snippets/roles.rst:133 snippets/roles.rst:151
 msgid ":guilabel:`Edit string when suggestions are enforced`"
-msgstr ""
-":guilabel:`Modifica la stringa quando vengono applicati i suggerimenti`"
+msgstr ":guilabel:`Modifica la stringa quando vengono applicati i suggerimenti`"
 
 #: snippets/roles.rst:50 snippets/roles.rst:71 snippets/roles.rst:105
 #: snippets/roles.rst:135
@@ -49083,8 +49056,7 @@ msgstr ""
 
 #: user/files.rst:41
 msgid "iOS strings (only available for monolingual translations) (``strings``)"
-msgstr ""
-"Stringhe iOS (disponibili solo per traduzioni monolingue) (``strings``)"
+msgstr "Stringhe iOS (disponibili solo per traduzioni monolingue) (``strings``)"
 
 #: user/files.rst:45
 msgid ""
@@ -51080,8 +51052,8 @@ msgid ""
 "The automatically translated strings are labelled :guilabel:`Automatically "
 "translated`."
 msgstr ""
-"Le stringhe tradotte automaticamente vengono "
-"etichettate :guilabel:`Automatically translated`."
+"Le stringhe tradotte automaticamente vengono etichettate "
+":guilabel:`Automatically translated`."
 
 #: user/translating.rst:420
 msgid ""
@@ -51231,8 +51203,8 @@ msgid ""
 msgstr ""
 "Per Hosted Weblate, esiste un utente push dedicato registrato su GitHub, "
 "Bitbucket, Codeberg e GitLab (col nome utente :guilabel:`weblate`, e-mail "
-"``hosted@weblate.org`` e un nome o una descrizione del "
-"profilo :guilabel:`Weblate push user`)."
+"``hosted@weblate.org`` e un nome o una descrizione del profilo "
+":guilabel:`Weblate push user`)."
 
 #: vcs.rst:39
 msgid ""
@@ -52694,8 +52666,8 @@ msgstr ""
 #: workflows.rst:130 workflows.rst:162 workflows.rst:195
 msgid "Or `Translate` with :ref:`per-project access control <manage-acl>`."
 msgstr ""
-"Oppure `Translate` con :ref:`controllo dell'accesso per progetto <manage-"
-"acl>`."
+"Oppure `Translate` con :ref:`controllo dell'accesso per progetto <manage-acl>"
+"`."
 
 #: workflows.rst:134 workflows.rst:166 workflows.rst:199
 msgid "Reviewers group"

@@ -29,17 +29,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-21 02:17+0200\n"
-"PO-Revision-Date: 2026-04-21 03:40+0000\n"
+"PO-Revision-Date: 2026-04-23 00:53+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/weblate/"
-"documentation/pl/>\n"
+"Language-Team: Polish <http://127.0.0.1:8000/projects/weblate/docs/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.16.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: admin/access.rst:4 admin/projects.rst:218
@@ -68,9 +67,9 @@ msgid ""
 "always :guilabel:`Public`. You can switch to the paid plan if you want to "
 "restrict access to your project."
 msgstr ""
-"Projekty działające w darmowym planie Libre na Hosted Weblate są "
-"zawsze :guilabel:`Public`. Możesz przejść na plan płatny, jeśli chcesz "
-"ograniczyć dostęp do swojego projektu."
+"Projekty działające w darmowym planie Libre na Hosted Weblate są zawsze "
+":guilabel:`Public`. Możesz przejść na plan płatny, jeśli chcesz ograniczyć "
+"dostęp do swojego projektu."
 
 #: admin/access.rst:22
 msgid ""
@@ -174,8 +173,8 @@ msgstr ""
 msgid ""
 "The default can also be changed by setting :setting:`DEFAULT_ACCESS_CONTROL`."
 msgstr ""
-"Domyślna wartość może być również zmieniona poprzez "
-"opcję :setting:`DEFAULT_ACCESS_CONTROL`."
+"Domyślna wartość może być również zmieniona poprzez opcję "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/access.rst:72
 msgid ""
@@ -210,10 +209,10 @@ msgid ""
 "allows them to assign other users in `Public`, `Protected` and `Private` "
 "(but not `Custom`) projects via adding them to teams."
 msgstr ""
-"Przyznawanie użytkownikom :guilabel:`Zarządzaj dostępem do projektu` "
-"(zobacz :ref:`privileges`) umożliwia im przypisywanie innych użytkowników w "
-"projektach `Publicznych`, `Chronionych` i `Prywatnych` (ale nie "
-"„Niestandardowych”) poprzez dodanie ich do zespołów."
+"Przyznawanie użytkownikom :guilabel:`Zarządzaj dostępem do projektu` (zobacz "
+":ref:`privileges`) umożliwia im przypisywanie innych użytkowników w "
+"projektach `Publicznych`, `Chronionych` i `Prywatnych` (ale nie „"
+"Niestandardowych”) poprzez dodanie ich do zespołów."
 
 #: admin/access.rst:99
 msgid ""
@@ -323,16 +322,16 @@ msgstr "`Rozliczenia`"
 #: admin/access.rst:139
 msgid "Access billing info and settings (see :ref:`billing`)."
 msgstr ""
-"Uzyskaj dostęp do informacji rozliczeniowych i ustawień "
-"(zobacz :ref:`billing`)."
+"Uzyskaj dostęp do informacji rozliczeniowych i ustawień (zobacz "
+":ref:`billing`)."
 
 #: admin/access.rst:143
 msgid ""
 "These features are available on the :guilabel:`Access control` page in the "
 "project’s menu :guilabel:`Operations` ↓ :guilabel:`Users`."
 msgstr ""
-"Funkcje te są dostępne na stronie :guilabel:`Access control` w menu "
-"projektu :guilabel:`Operations` ↓ :guilabel:`Users`."
+"Funkcje te są dostępne na stronie :guilabel:`Access control` w menu projektu "
+":guilabel:`Operations` ↓ :guilabel:`Users`."
 
 #: admin/access.rst:148
 msgid ""
@@ -463,9 +462,9 @@ msgid ""
 "You can set your projects to :guilabel:`Protected` or :guilabel:`Private` "
 "(see :ref:`acl`), and :ref:`manage users access <manage-acl>` per-project."
 msgstr ""
-"Możesz ustawić swoje projekty jako :guilabel:`Protected` "
-"lub :guilabel:`Private` (zobacz :ref:`acl`) i :ref:`manage users access "
-"<manage-acl>` do każdego projektu."
+"Możesz ustawić swoje projekty jako :guilabel:`Protected` lub "
+":guilabel:`Private` (zobacz :ref:`acl`) i :ref:`manage users access <manage-"
+"acl>` do każdego projektu."
 
 #: admin/access.rst:220
 msgid ""
@@ -515,10 +514,10 @@ msgid ""
 "The API tokens can have expiry date set, and their permissions can be "
 "customized by team memberships same as with users."
 msgstr ""
-"Możesz zdefiniować tokeny dostępu o zasięgu projektu w "
-"zakładce :guilabel:`Dostęp do API`. Tokeny API mogą mieć ustawioną datę "
-"ważności, a ich uprawnienia można dostosowywać poprzez członkostwo w "
-"zespole, tak samo jak w przypadku użytkowników."
+"Możesz zdefiniować tokeny dostępu o zasięgu projektu w zakładce "
+":guilabel:`Dostęp do API`. Tokeny API mogą mieć ustawioną datę ważności, a "
+"ich uprawnienia można dostosowywać poprzez członkostwo w zespole, tak samo "
+"jak w przypadku użytkowników."
 
 #: admin/access.rst:256
 msgid "Site-wide access control"
@@ -544,8 +543,8 @@ msgid ""
 msgstr ""
 "Najpotężniejsze funkcje systemu kontroli dostępu Weblate można skonfigurować "
 "w :ref:`management-interface`. Można go użyć do zarządzania uprawnieniami "
-"dowolnego projektu. Nie musisz koniecznie przełączać go "
-"na :guilabel:`Custom` :ref:`access control <acl>`, aby z niego korzystać. "
+"dowolnego projektu. Nie musisz koniecznie przełączać go na "
+":guilabel:`Custom` :ref:`access control <acl>`, aby z niego korzystać. "
 "Musisz jednak mieć uprawnienia superużytkownika, aby z niego korzystać."
 
 #: admin/access.rst:270
@@ -604,10 +603,10 @@ msgid ""
 "otherwise the site-wide permissions provided by membership in the `Users` "
 "and `Reviewers` teams won’t have any effect."
 msgstr ""
-"Wszystkie projekty powinny być skonfigurowane jako `Publiczny` "
-"(patrz :ref:`acl`), w przeciwnym razie uprawnienia dla całej strony "
-"zapewnione przez członkostwo w zespołach `Użytkownicy` i `Recenzenci` nie "
-"przyniosą żadnego efektu."
+"Wszystkie projekty powinny być skonfigurowane jako `Publiczny` (patrz "
+":ref:`acl`), w przeciwnym razie uprawnienia dla całej strony zapewnione "
+"przez członkostwo w zespołach `Użytkownicy` i `Recenzenci` nie przyniosą "
+"żadnego efektu."
 
 #: admin/access.rst:292
 msgid ""
@@ -628,8 +627,8 @@ msgid ""
 msgstr ""
 "Możesz również zdefiniować kilka nowych zespołów niestandardowych. Jeśli "
 "chcesz nadal zarządzać swoimi uprawnieniami w całej witrynie dla tych "
-"zespołów, wybierz odpowiednią wartość dla :guilabel:`Project Selection` "
-"(np. :guilabel:`All projects` lub :guilabel:`All public projects`)."
+"zespołów, wybierz odpowiednią wartość dla :guilabel:`Project Selection` (np. "
+":guilabel:`All projects` lub :guilabel:`All public projects`)."
 
 #: admin/access.rst:302
 msgid "Custom permissions for languages, components or projects"
@@ -679,8 +678,8 @@ msgid ""
 "<default-teams>`."
 msgstr ""
 "Usuń uprawnienia do tłumaczenia języka „czeski” wszystkim użytkownikom. W "
-"domyślnej konfiguracji można to zrobić zmieniając "
-"`Użytkownicy` :ref:`default team <default-teams>`."
+"domyślnej konfiguracji można to zrobić zmieniając `Użytkownicy` "
+":ref:`default team <default-teams>`."
 
 #: admin/access.rst:318
 msgid "Group `Users`"
@@ -834,8 +833,8 @@ msgstr ""
 "Użytkownik musi być członkiem zespołu powiązanego z projektem lub dowolnym "
 "komponentem wewnątrz tego projektu. Posiadanie członkostwa jest "
 "wystarczające, do przeglądania projektu, nie są potrzebne żadne specjalne "
-"uprawnienia (jest to używane w domyślnym zespole `Viewers`, "
-"zobacz :ref:`default-teams`)."
+"uprawnienia (jest to używane w domyślnym zespole `Viewers`, zobacz "
+":ref:`default-teams`)."
 
 #: admin/access.rst:392
 #, fuzzy
@@ -875,8 +874,8 @@ msgstr ""
 "uprawnienia nadane członkom tego zespołu zostaną przyznane wszystkim "
 "komponentom na listach komponentów dołączonych do zespołu i zostanie nadany "
 "dostęp, bez żadnych dodatkowych uprawnień, dla wszystkich projektów w "
-"których znajdują się te komponenty. :guilabel:`Components` "
-"i :guilabel:`projects` są ignorowane."
+"których znajdują się te komponenty. :guilabel:`Components` i "
+":guilabel:`projects` są ignorowane."
 
 #: admin/access.rst:413
 msgid ""
@@ -1012,11 +1011,10 @@ msgid ""
 "on their e-mail addresses. This assignment only happens upon account "
 "creation."
 msgstr ""
-"Edytując zakładkę :guilabel:`Zespół`, możesz "
-"określić :guilabel:`Automatyczne przypisania`, czyli listę wyrażeń "
-"regularnych używanych do automatycznego przypisywania nowo utworzonych "
-"użytkowników do zespołu na podstawie ich adresów e-mail. To przypisanie "
-"następuje dopiero po utworzeniu konta."
+"Edytując zakładkę :guilabel:`Zespół`, możesz określić :guilabel:`Automatyczne"
+" przypisania`, czyli listę wyrażeń regularnych używanych do automatycznego "
+"przypisywania nowo utworzonych użytkowników do zespołu na podstawie ich "
+"adresów e-mail. To przypisanie następuje dopiero po utworzeniu konta."
 
 #: admin/access.rst:472
 msgid ""
@@ -1109,10 +1107,9 @@ msgid ""
 "executing :wladmin:`setupgroups`) and you are free to modify them. The "
 "migration will, however, re-create them if you delete or rename them."
 msgstr ""
-"Następujące zespoły tworzone są po instalacji (lub po "
-"wykonaniu :wladmin:`setupgroups`) i możesz je dowolnie modyfikować. Migracja "
-"spowoduje jednak ich ponowne utworzenie, jeśli je usuniesz lub zmienisz ich "
-"nazwę."
+"Następujące zespoły tworzone są po instalacji (lub po wykonaniu "
+":wladmin:`setupgroups`) i możesz je dowolnie modyfikować. Migracja spowoduje "
+"jednak ich ponowne utworzenie, jeśli je usuniesz lub zmienisz ich nazwę."
 
 #: admin/access.rst:523
 msgid "`Guests`"
@@ -1126,8 +1123,8 @@ msgstr "Definiuje uprawnienia dla nieuwierzytelnionych użytkowników."
 msgid ""
 "This team only contains anonymous users (see :setting:`ANONYMOUS_USER_NAME`)."
 msgstr ""
-"Ten zespół zawiera tylko anonimowych użytkowników "
-"(patrz :setting:`ANONYMOUS_USER_NAME`)."
+"Ten zespół zawiera tylko anonimowych użytkowników (patrz "
+":setting:`ANONYMOUS_USER_NAME`)."
 
 #: admin/access.rst:528
 #, fuzzy
@@ -1270,8 +1267,8 @@ msgstr ""
 "nowym użytkownikom na dołączenie tylko po otrzymaniu zaproszenia, możesz to "
 "zrobić konfigurując Weblate w taki sposób, że tylko znani użytkownicy mają "
 "do niego dostęp. Aby to zrobić możesz zmienić :setting:`REGISTRATION_OPEN` "
-"na ``False``, aby zapobiec rejestracji nowych użytkowników i "
-"ustawić :setting:`REQUIRE_LOGIN` na ``/.*``, aby wymagać zalogowania się, by "
+"na ``False``, aby zapobiec rejestracji nowych użytkowników i ustawić "
+":setting:`REQUIRE_LOGIN` na ``/.*``, aby wymagać zalogowania się, by "
 "otrzymać dostęp do wszystkich stron. W zasadzie jest to sposób na "
 "zablokowanie twojej instalacji Weblate."
 
@@ -1326,8 +1323,8 @@ msgid ""
 "You can also configure add-ons using :ref:`API <addons-"
 "api>`, :setting:`DEFAULT_ADDONS`, or :wladmin:`install_addon`."
 msgstr ""
-"Możesz także skonfigurować dodatki używając :ref:`API <addons-"
-"api>`, :setting:`DEFAULT_ADDONS` lub :wladmin:`install_addon`."
+"Możesz także skonfigurować dodatki używając :ref:`API <addons-api>`, "
+":setting:`DEFAULT_ADDONS` lub :wladmin:`install_addon`."
 
 #: admin/addons.rst:18
 msgid ""
@@ -1379,10 +1376,10 @@ msgid ""
 "of :class:`weblate.addons.base.BaseAddon` to define the add-on metadata, and "
 "then implement a callback to do the processing."
 msgstr ""
-"Możesz także napisać własne dodatki, utworzyć "
-"podklasę :class:`weblate.addons.base.BaseAddon` w celu zdefiniowania "
-"metadanych dodatku, a następnie zaimplementować wywołanie zwrotne w celu "
-"wykonania przetwarzania."
+"Możesz także napisać własne dodatki, utworzyć podklasę "
+":class:`weblate.addons.base.BaseAddon` w celu zdefiniowania metadanych "
+"dodatku, a następnie zaimplementować wywołanie zwrotne w celu wykonania "
+"przetwarzania."
 
 #: admin/addons.rst:72
 msgid "Executing scripts from add-on"
@@ -2661,8 +2658,8 @@ msgstr "Dostosowywanie kopii zapasowej"
 #: admin/backup.rst:92
 msgid "The database backup can be configured via :setting:`DATABASE_BACKUP`."
 msgstr ""
-"Kopia zapasowa bazy danych może być skonfigurowana za "
-"pomocą :setting:`DATABASE_BACKUP`."
+"Kopia zapasowa bazy danych może być skonfigurowana za pomocą "
+":setting:`DATABASE_BACKUP`."
 
 #: admin/backup.rst:93
 msgid "The backup creation can be customized using :setting:`BORG_EXTRA_ARGS`."
@@ -2888,8 +2885,8 @@ msgid ""
 "When using Docker container place the data into the data volume, "
 "see :ref:`docker-volume`."
 msgstr ""
-"Korzystając z kontenerów Dockera, umieść dane w wolumenie danych, "
-"zobacz :ref:`docker-volume`."
+"Korzystając z kontenerów Dockera, umieść dane w wolumenie danych, zobacz "
+":ref:`docker-volume`."
 
 #: admin/backup.rst:211
 msgid ""
@@ -5645,8 +5642,8 @@ msgstr ""
 msgid ""
 "Changes are pushed back to the upstream repository (see :ref:`push-changes`)."
 msgstr ""
-"Wypycha zmiany do repozytorium nadrzędnego, jeśli jest skonfigurowane "
-"przez :ref:`component-push`."
+"Wypycha zmiany do repozytorium nadrzędnego, jeśli jest skonfigurowane przez "
+":ref:`component-push`."
 
 #: admin/continuous.rst:73
 msgid ""
@@ -7659,8 +7656,8 @@ msgid ""
 "`Proxy Environment Variables <https://everything.curl.dev/usingcurl/proxies/"
 "env.html>`_"
 msgstr ""
-"`Zmienne środowiska proxy <https://everything.curl.dev/usingcurl/proxies/"
-"env>`_"
+"`Zmienne środowiska proxy <https://everything.curl.dev/usingcurl/proxies/env>"
+"`_"
 
 #: admin/install.rst:699
 msgid "Adjusting configuration"
@@ -8829,8 +8826,8 @@ msgid ""
 "Create a :file:`docker-compose.override.yml` file with your settings. "
 "See :ref:`docker-environment` for full list of environment variables."
 msgstr ""
-"Utwórz plik :file:`docker-compose.override.yml` z ustawieniami. "
-"Zobacz :ref:`docker-environment` aby zapoznać się z pełną listą zmiennych "
+"Utwórz plik :file:`docker-compose.override.yml` z ustawieniami. Zobacz "
+":ref:`docker-environment` aby zapoznać się z pełną listą zmiennych "
 "środowiskowych."
 
 #: admin/install/docker.rst:41
@@ -9717,8 +9714,7 @@ msgstr "Konfiguruje :setting:`DEFAULT_AUTO_WATCH`."
 msgid ""
 "Configures the default value for :ref:`component-commit_pending_age` for new "
 "components, see :setting:`COMMIT_PENDING_HOURS`."
-msgstr ""
-"Domyślna wartość może być zmieniona przez :setting:`DEFAULT_SHARED_TM`."
+msgstr "Domyślna wartość może być zmieniona przez :setting:`DEFAULT_SHARED_TM`."
 
 #: admin/install/docker.rst:969
 msgid "Configures GPG signing of commits, see :setting:`WEBLATE_GPG_IDENTITY`."
@@ -10003,16 +9999,15 @@ msgstr ""
 
 #: admin/install/docker.rst:1329
 msgid "Configures :ref:`vcs-pagure` by changing :setting:`PAGURE_CREDENTIALS`."
-msgstr ""
-"Konfiguruje :ref:`vcs-pagure` zmieniając :setting:`PAGURE_CREDENTIALS`."
+msgstr "Konfiguruje :ref:`vcs-pagure` zmieniając :setting:`PAGURE_CREDENTIALS`."
 
 #: admin/install/docker.rst:1340
 msgid ""
 "Configures :ref:`vcs-bitbucket-data-center` by "
 "changing :setting:`BITBUCKETSERVER_CREDENTIALS`."
 msgstr ""
-"Konfiguruje :ref:`vcs-bitbucket-data-center` "
-"zmieniając :setting:`BITBUCKETSERVER_CREDENTIALS`."
+"Konfiguruje :ref:`vcs-bitbucket-data-center` zmieniając "
+":setting:`BITBUCKETSERVER_CREDENTIALS`."
 
 #: admin/install/docker.rst:1348
 #, fuzzy
@@ -10023,16 +10018,16 @@ msgid ""
 "Configures :ref:`vcs-bitbucket-cloud` by "
 "changing :setting:`BITBUCKETCLOUD_CREDENTIALS`."
 msgstr ""
-"Konfiguruje :ref:`vcs-bitbucket-data-center` "
-"zmieniając :setting:`BITBUCKETSERVER_CREDENTIALS`."
+"Konfiguruje :ref:`vcs-bitbucket-data-center` zmieniając "
+":setting:`BITBUCKETSERVER_CREDENTIALS`."
 
 #: admin/install/docker.rst:1360
 msgid ""
 "Configures :ref:`vcs-azure-devops` by "
 "changing :setting:`AZURE_DEVOPS_CREDENTIALS`."
 msgstr ""
-"Konfiguruje :ref:`vcs-azure-devops` poprzez "
-"zmianę :setting:`AZURE_DEVOPS_CREDENTIALS`."
+"Konfiguruje :ref:`vcs-azure-devops` poprzez zmianę "
+":setting:`AZURE_DEVOPS_CREDENTIALS`."
 
 #: admin/install/docker.rst:1369
 msgid "Automatic suggestion settings"
@@ -12122,8 +12117,8 @@ msgid ""
 "The services translate from the source language as configured "
 "at :ref:`component`, see :ref:`component-source_language`."
 msgstr ""
-"Usługi tłumaczą z języka źródłowego zgodnie z konfiguracją "
-"w :ref:`component`, patrz :ref:`component-source_language`."
+"Usługi tłumaczą z języka źródłowego zgodnie z konfiguracją w "
+":ref:`component`, patrz :ref:`component-source_language`."
 
 #: admin/machine.rst:25
 msgid ""
@@ -12411,8 +12406,8 @@ msgstr ""
 #: admin/management.rst:350
 msgid "Dumps userdata to a file for later use by :wladmin:`importuserdata`."
 msgstr ""
-"Zrzuca dane użytkownika do pliku do późniejszego wykorzystania "
-"przez :wladmin:`importuserdata`."
+"Zrzuca dane użytkownika do pliku do późniejszego wykorzystania przez "
+":wladmin:`importuserdata`."
 
 #: admin/management.rst:354
 msgid "This comes in handy when migrating or merging Weblate instances."
@@ -13001,8 +12996,8 @@ msgid ""
 "In the Docker container this can be configured "
 "using :envvar:`WEBLATE_DEFAULT_AUTOCLEAN_TM`."
 msgstr ""
-"Co miesiąc dla każdego komponentu, może to zostać ustawione "
-"używając :setting:`BACKGROUND_TASKS`."
+"Co miesiąc dla każdego komponentu, może to zostać ustawione używając "
+":setting:`BACKGROUND_TASKS`."
 
 #: admin/memory.rst:111
 msgid ""
@@ -13064,8 +13059,7 @@ msgstr "Interfejs administracyjny Django"
 
 #: admin/memory.rst:155
 msgid "There is a platform-wide interface to manage the translation memory."
-msgstr ""
-"Istnieje ogólnoplatformowy interfejs do zarządzania pamięcią tłumaczeń."
+msgstr "Istnieje ogólnoplatformowy interfejs do zarządzania pamięcią tłumaczeń."
 
 #: admin/memory.rst:159
 msgid ""
@@ -13758,8 +13752,7 @@ msgstr ""
 
 #: admin/projects.rst:179 admin/projects.rst:190
 msgid "The default value can be changed by :setting:`DEFAULT_SHARED_TM`."
-msgstr ""
-"Domyślna wartość może być zmieniona przez :setting:`DEFAULT_SHARED_TM`."
+msgstr "Domyślna wartość może być zmieniona przez :setting:`DEFAULT_SHARED_TM`."
 
 #: admin/projects.rst:184
 msgid "Contribute to shared translation memory"
@@ -14419,8 +14412,7 @@ msgstr ""
 msgid ""
 "The default value can be changed "
 "by :setting:`DEFAULT_TRANSLATION_PROPAGATION`."
-msgstr ""
-"Domyślna wartość może być zmieniona przez :setting:`DEFAULT_SHARED_TM`."
+msgstr "Domyślna wartość może być zmieniona przez :setting:`DEFAULT_SHARED_TM`."
 
 #: admin/projects.rst:692 workflows.rst:123 workflows.rst:155 workflows.rst:188
 msgid "Enable suggestions"
@@ -14779,8 +14771,7 @@ msgstr ""
 #, fuzzy
 #| msgid "The default value can be changed by :setting:`DEFAULT_SHARED_TM`."
 msgid "The default value can be changed by :setting:`DEFAULT_MERGE_STYLE`."
-msgstr ""
-"Domyślna wartość może być zmieniona przez :setting:`DEFAULT_SHARED_TM`."
+msgstr "Domyślna wartość może być zmieniona przez :setting:`DEFAULT_SHARED_TM`."
 
 #: admin/projects.rst:915
 msgid "Commit, add, delete, merge, add-on, and merge request messages"
@@ -14800,8 +14791,10 @@ msgid ""
 "The default value can be changed "
 "by :setting:`DEFAULT_ADD_MESSAGE`, :setting:`DEFAULT_ADDON_MESSAGE`, :setting:`DEFAULT_COMMIT_MESSAGE`, :setting:`DEFAULT_DELETE_MESSAGE`, :setting:`DEFAULT_MERGE_MESSAGE`, :setting:`DEFAULT_PULL_MESSAGE`."
 msgstr ""
-"Wartość domyślna może być zmieniona "
-"przez :setting:`DEFAULT_ADD_MESSAGE`, :setting:`DEFAULT_ADDON_MESSAGE`, :setting:`DEFAULT_COMMIT_MESSAGE`, :setting:`DEFAULT_DELETE_MESSAGE`, :setting:`DEFAULT_MERGE_MESSAGE`, :setting:`DEFAULT_PULL_MESSAGE`."
+"Wartość domyślna może być zmieniona przez :setting:`DEFAULT_ADD_MESSAGE`, "
+":setting:`DEFAULT_ADDON_MESSAGE`, :setting:`DEFAULT_COMMIT_MESSAGE`, "
+":setting:`DEFAULT_DELETE_MESSAGE`, :setting:`DEFAULT_MERGE_MESSAGE`, "
+":setting:`DEFAULT_PULL_MESSAGE`."
 
 #: admin/projects.rst:927
 msgid "Push on commit"
@@ -14831,8 +14824,7 @@ msgstr ""
 #, fuzzy
 #| msgid "The default value can be changed by :setting:`DEFAULT_SHARED_TM`."
 msgid "The default value can be changed by :setting:`COMMIT_PENDING_HOURS`."
-msgstr ""
-"Domyślna wartość może być zmieniona przez :setting:`DEFAULT_SHARED_TM`."
+msgstr "Domyślna wartość może być zmieniona przez :setting:`DEFAULT_SHARED_TM`."
 
 #: admin/projects.rst:953
 msgid ""
@@ -15245,8 +15237,8 @@ msgid ""
 "In some places additional variables can be available, see :ref:`addon-"
 "weblate.discovery.discovery`."
 msgstr ""
-"W niektórych miejscach mogą być dostępne dodatkowe zmienne, "
-"zobacz :ref:`addon-weblate.discovery.discovery`."
+"W niektórych miejscach mogą być dostępne dodatkowe zmienne, zobacz "
+":ref:`addon-weblate.discovery.discovery`."
 
 #: admin/projects.rst:1253
 msgid "You can combine them with filters:"
@@ -17042,8 +17034,7 @@ msgstr ""
 #| msgid ""
 #| ":ref:`addon-weblate.discovery.discovery` now reports skipped entries."
 msgid ":ref:`addon-weblate.git.squash` better handle commits applied upstream."
-msgstr ""
-":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
+msgstr ":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
 
 #: changes.rst:129
 msgid ""
@@ -17354,8 +17345,7 @@ msgstr ""
 #| msgid ""
 #| ":ref:`addon-weblate.discovery.discovery` now reports skipped entries."
 msgid ":ref:`addon-weblate.webhook.slack` properly delivers all events."
-msgstr ""
-":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
+msgstr ":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
 
 #: changes.rst:223
 #, fuzzy
@@ -17898,8 +17888,8 @@ msgstr ""
 msgid ""
 ":ref:`addon-weblate.discovery.discovery` preserves :ref:`file_format_params`."
 msgstr ""
-":ref:`addon-weblate.discovery.discovery` zachowuje "
-"teraz :ref:`componentlists`."
+":ref:`addon-weblate.discovery.discovery` zachowuje teraz "
+":ref:`componentlists`."
 
 #: changes.rst:399
 #, fuzzy
@@ -18503,8 +18493,8 @@ msgid ""
 ":ref:`addon-weblate.consistency.languages` no longer includes shared "
 "component languages."
 msgstr ""
-":ref:`addon-weblate.discovery.discovery` zachowuje "
-"teraz :ref:`componentlists`."
+":ref:`addon-weblate.discovery.discovery` zachowuje teraz "
+":ref:`componentlists`."
 
 #: changes.rst:600
 #, fuzzy
@@ -19068,8 +19058,7 @@ msgstr "Dodano :http:get:`/api/categories/(int:id)/statistics/`."
 #| msgid ""
 #| ":ref:`addon-weblate.discovery.discovery` now reports skipped entries."
 msgid ":ref:`addon-weblate.webhook.webhook` documentation improved."
-msgstr ""
-":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
+msgstr ":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
 
 #: changes.rst:825
 #, fuzzy
@@ -19084,8 +19073,7 @@ msgstr "Dodano wsparcie dla :ref:`txt`."
 msgid ""
 ":ref:`addon-weblate.webhook.webhook` now includes a category field when "
 "available."
-msgstr ""
-":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
+msgstr ":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
 
 #: changes.rst:827
 msgid ""
@@ -19112,8 +19100,7 @@ msgstr ""
 #| msgid ""
 #| ":ref:`addon-weblate.discovery.discovery` now reports skipped entries."
 msgid ":ref:`addon-weblate.webhook.webhook` delivery of project-wide events."
-msgstr ""
-":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
+msgstr ":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
 
 #: changes.rst:835
 msgid ""
@@ -19419,8 +19406,7 @@ msgstr ":doc:`/admin/machine`"
 #| ":ref:`addon-weblate.discovery.discovery` now reports skipped entries."
 msgid ""
 ":ref:`addon-weblate.discovery.discovery` better handles hundreds of matches."
-msgstr ""
-":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
+msgstr ":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
 
 #: changes.rst:975
 msgid "Dismissing :ref:`checks` automatically updates propagated strings."
@@ -19931,8 +19917,7 @@ msgstr "Pomiń kontrolę jakości :ref:`check-punctuation-spacing`."
 #| msgid ""
 #| ":ref:`addon-weblate.discovery.discovery` now reports skipped entries."
 msgid "Fixed :ref:`addon-weblate.git.squash` on linked repositories."
-msgstr ""
-":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
+msgstr ":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
 
 #: changes.rst:1160
 #, fuzzy
@@ -20696,8 +20681,7 @@ msgstr ":ref:`mt-alibaba` usługa automatycznych sugestii."
 #| msgid ""
 #| ":ref:`addon-weblate.discovery.discovery` now reports skipped entries."
 msgid ":ref:`addon-weblate.properties.sort` can now do case-sensitive sorting."
-msgstr ""
-":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
+msgstr ":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
 
 #: changes.rst:1492
 msgid ""
@@ -21618,8 +21602,7 @@ msgstr "Lepsze logowanie :wladmin:`createadmin`."
 
 #: changes.rst:1846
 msgid ":ref:`addon-weblate.discovery.discovery` now reports skipped entries."
-msgstr ""
-":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
+msgstr ":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
 
 #: changes.rst:1847
 msgid "Adding string in a repository triggers :ref:`notifications`."
@@ -21651,8 +21634,8 @@ msgstr ""
 msgid ""
 ":ref:`addon-weblate.discovery.discovery` now preserves :ref:`componentlists`."
 msgstr ""
-":ref:`addon-weblate.discovery.discovery` zachowuje "
-"teraz :ref:`componentlists`."
+":ref:`addon-weblate.discovery.discovery` zachowuje teraz "
+":ref:`componentlists`."
 
 #: changes.rst:1854
 msgid "Nicer formatting of :ref:`glossary` tooltips."
@@ -23408,8 +23391,8 @@ msgstr ""
 "Johan Jacobsson, Peter Vančo, Sveinn í Felli, Oliver, Yvan Zo, meshari "
 "alnaim, தமிழ்நேரம், searinminecraft, Jwtiyar Nariman, gitelo4516, Vision, "
 "Chang-Chia Tseng, Kyotaro Iijima, Ricky Tigg, ei9, Martin Srebotnjak, "
-"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан "
-"Симић(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
+"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан Симић"
+"(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
 "Winston Sung, ChinskiKaczynski, Rafael Fontenelle"
 
 #: changes/contributors/5.9.rst:14
@@ -25506,8 +25489,7 @@ msgstr ""
 
 #: changes/v2.rst:349
 msgid "Fixed site wide search for failing checks."
-msgstr ""
-"Poprawiono wyszukiwanie na całej stronie pod kątem nieudanych kontroli."
+msgstr "Poprawiono wyszukiwanie na całej stronie pod kątem nieudanych kontroli."
 
 #: changes/v2.rst:350
 msgid "Added option to specify source language."
@@ -29512,8 +29494,7 @@ msgstr "Naprawiono tłumaczenie nowo dodanych ciągów."
 
 #: changes/v4.rst:536
 msgid "Label automatically translated strings to ease their filtering."
-msgstr ""
-"Oznacz automatycznie przetłumaczone ciągi, aby ułatwić ich filtrowanie."
+msgstr "Oznacz automatycznie przetłumaczone ciągi, aby ułatwić ich filtrowanie."
 
 #: changes/v4.rst:538
 msgid ""
@@ -29660,8 +29641,8 @@ msgstr ""
 msgid ""
 "Added support for customizing Borg invocation via :setting:`BORG_EXTRA_ARGS`."
 msgstr ""
-"Dodano obsługę dostosowywania wywołania Borg "
-"przez :setting:`BORG_EXTRA_ARGS`."
+"Dodano obsługę dostosowywania wywołania Borg przez "
+":setting:`BORG_EXTRA_ARGS`."
 
 #: changes/v4.rst:588
 msgid "Fixed generating of MO files for monolingual translations."
@@ -29914,8 +29895,8 @@ msgid ""
 "Added support for ``object-pascal-format`` used in gettext PO, "
 "see :ref:`check-object-pascal-format`."
 msgstr ""
-"Dodano wsparcie dla ``object-pascal-format`` używanego w gettext PO, "
-"zobacz :ref:`check-object-pascal-format`."
+"Dodano wsparcie dla ``object-pascal-format`` używanego w gettext PO, zobacz "
+":ref:`check-object-pascal-format`."
 
 #: changes/v4.rst:680
 msgid ""
@@ -30220,8 +30201,8 @@ msgid ""
 "API for creating components now automatically uses :ref:`internal-urls`, "
 "see :http:post:`/api/projects/(string:project)/components/`."
 msgstr ""
-"Interfejs API do tworzenia komponentów teraz automatycznie "
-"używa :ref:`internal-urls`, patrz :http:post:`/api/projects/(string:project)/"
+"Interfejs API do tworzenia komponentów teraz automatycznie używa "
+":ref:`internal-urls`, patrz :http:post:`/api/projects/(string:project)/"
 "components/`."
 
 #: changes/v4.rst:775
@@ -35681,8 +35662,7 @@ msgstr ""
 msgid ""
 ":ref:`addon-weblate.git.squash`: Squash commits before pushing to your "
 "repository"
-msgstr ""
-":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
+msgstr ":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
 
 #: devel/migration.rst:192
 #, fuzzy
@@ -35691,8 +35671,7 @@ msgstr ""
 msgid ""
 ":ref:`addon-weblate.discovery.discovery`: Automatically discover new "
 "translation files"
-msgstr ""
-":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
+msgstr ":ref:`addon-weblate.discovery.discovery` zgłasza teraz pominięte wpisy."
 
 #: devel/migration.rst:196
 msgid ":doc:`/admin/addons` for all available add-ons"
@@ -37041,8 +37020,7 @@ msgstr ""
 #| "This password is too long. It must contain at most %(max_length)d "
 #| "characters."
 msgid "The variant source string has to be at most 768 characters long."
-msgstr ""
-"To hasło jest za długie. Musi zawierać maksymalnie %(max_length)d znak."
+msgstr "To hasło jest za długie. Musi zawierać maksymalnie %(max_length)d znak."
 
 #: devel/translations.rst:161
 msgid "Variants while translating"
@@ -41687,8 +41665,7 @@ msgstr "Zalecana konfiguracja Weblate sprawdza:"
 msgid ""
 "The password has to be at least 10 characters long, and at most 72 "
 "characters long."
-msgstr ""
-"To hasło jest za długie. Musi zawierać maksymalnie %(max_length)d znak."
+msgstr "To hasło jest za długie. Musi zawierać maksymalnie %(max_length)d znak."
 
 #: security/passwords.rst:23
 msgid "Password similar to username and other attributes is rejected."
@@ -44095,8 +44072,7 @@ msgstr "Wyzwalacze"
 msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-component-"
 "update`, :ref:`addon-event-daily`, :ref:`addon-event-event-change`"
-msgstr ""
-":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
+msgstr ":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
 
 #: snippets/addons-autogenerated.rst:49
 msgid ""
@@ -44142,8 +44118,7 @@ msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-"
 "daily`, :ref:`addon-event-repository-post-commit`, :ref:`addon-event-"
 "repository-post-update`"
-msgstr ""
-":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
+msgstr ":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
 
 #: snippets/addons-autogenerated.rst:84
 msgid ""
@@ -44178,12 +44153,12 @@ msgid ""
 "they will be served (URL). Serving of the files is not done by Weblate and "
 "has to be set up externally (typically using a CDN service)."
 msgstr ""
-"Ten dodatek wymaga dodatkowej konfiguracji na serwerze "
-"Weblate. :setting:`LOCALIZE_CDN_PATH` konfiguruje miejsce zapisywania "
-"wygenerowanych plików (w systemie plików), a :setting:`LOCALIZE_CDN_URL` "
-"określa miejsce, w którym będą one udostępniane (URL). Udostępnianie plików "
-"nie jest realizowane przez Weblate i musi zostać skonfigurowane zewnętrznie "
-"(zwykle przy użyciu usługi CDN)."
+"Ten dodatek wymaga dodatkowej konfiguracji na serwerze Weblate. "
+":setting:`LOCALIZE_CDN_PATH` konfiguruje miejsce zapisywania wygenerowanych "
+"plików (w systemie plików), a :setting:`LOCALIZE_CDN_URL` określa miejsce, w "
+"którym będą one udostępniane (URL). Udostępnianie plików nie jest "
+"realizowane przez Weblate i musi zostać skonfigurowane zewnętrznie (zwykle "
+"przy użyciu usługi CDN)."
 
 #: snippets/addons-autogenerated.rst:103
 msgid ""
@@ -44216,8 +44191,7 @@ msgstr "`Ten dodatek nie ma konfiguracji.`"
 msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-repository-post-"
 "commit`, :ref:`addon-event-repository-post-update`"
-msgstr ""
-":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
+msgstr ":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
 
 #: snippets/addons-autogenerated.rst:127
 msgid "Removes strings without a translation from translation files."
@@ -44244,8 +44218,7 @@ msgstr "Wyczyść pliki tłumaczenia"
 msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-repository-post-"
 "update`, :ref:`addon-event-repository-pre-commit`"
-msgstr ""
-":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
+msgstr ":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
 
 #: snippets/addons-autogenerated.rst:151
 msgid ""
@@ -44276,8 +44249,7 @@ msgstr "Dodaj brakujące języki"
 msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-"
 "daily`, :ref:`addon-event-repository-post-add`"
-msgstr ""
-":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
+msgstr ":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
 
 #: snippets/addons-autogenerated.rst:177
 msgid ""
@@ -44640,10 +44612,10 @@ msgstr ""
 "Dodatek odkrywanie komponentów używa :ref:`internal-urls`. Jest to wygodny "
 "sposób na udostępnienie ustawienia VCS pomiędzy wieloma komponentami. "
 "Połączone komponenty używają lokalnego repozytorium głównego komponentu "
-"utworzonego poprzez wypełnienie ``weblate://project/main-component`` w "
-"polu :ref:`component-repo` (w :guilabel:`Manage`↓ :guilabel:`Settings` "
-"↓ :guilabel:`Version control system`) dla każdego odpowiedniego komponentu. "
-"To zaoszczędza czas konfiguracii i zasoby systemu."
+"utworzonego poprzez wypełnienie ``weblate://project/main-component`` w polu "
+":ref:`component-repo` (w :guilabel:`Manage`↓ :guilabel:`Settings` ↓ "
+":guilabel:`Version control system`) dla każdego odpowiedniego komponentu. To "
+"zaoszczędza czas konfiguracii i zasoby systemu."
 
 #: snippets/addons-autogenerated.rst:387
 msgid ""
@@ -44977,8 +44949,8 @@ msgstr ""
 #: snippets/addons-autogenerated.rst:750
 msgid "Flag updated translations from repository as \"Needs rewriting\""
 msgstr ""
-"Oznacz zaktualizowane tłumaczenia z repozytorium jako „Wymaga "
-"przeredagowania”"
+"Oznacz zaktualizowane tłumaczenia z repozytorium jako „Wymaga przeredagowania"
+"”"
 
 #: snippets/addons-autogenerated.rst:756
 msgid ""
@@ -45003,8 +44975,7 @@ msgstr "Wypełnij ciągi tylko do odczytu źródłem"
 msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-component-"
 "update`, :ref:`addon-event-daily`"
-msgstr ""
-":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
+msgstr ":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
 
 #: snippets/addons-autogenerated.rst:780
 msgid "Fills in translation of read-only strings with source string."
@@ -45039,8 +45010,8 @@ msgid ""
 "You can use a Django template in both filename and content, "
 "see :ref:`markup` for a detailed markup description."
 msgstr ""
-"Możesz używać szablonów Django zarówno w nazwie pliku, jak i treści, "
-"sprawdź :ref:`markup` żeby poznać szczegóły szablonów."
+"Możesz używać szablonów Django zarówno w nazwie pliku, jak i treści, sprawdź "
+":ref:`markup` żeby poznać szczegóły szablonów."
 
 #: snippets/addons-autogenerated.rst:808
 msgid "For example generating a summary file for each translation:"
@@ -45192,9 +45163,9 @@ msgid ""
 "text` :guilabel:`Source string` :guilabel:`Appended variable "
 "text` :guilabel:`Appended static text`"
 msgstr ""
-":guilabel:`Stały przedrostek ciągu` :guilabel:`Zmienny przedrostek "
-"ciągu` :guilabel:`Ciąg źródłowy` :guilabel:`Zmienny przyrostek "
-"ciągu` :guilabel:`Stały przyrostek ciągu`"
+":guilabel:`Stały przedrostek ciągu` :guilabel:`Zmienny przedrostek ciągu` "
+":guilabel:`Ciąg źródłowy` :guilabel:`Zmienny przyrostek ciągu` "
+":guilabel:`Stały przyrostek ciągu`"
 
 #: snippets/addons-autogenerated.rst:910
 msgid ""
@@ -45254,16 +45225,15 @@ msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-"
 "daily`, :ref:`addon-event-repository-post-add`, :ref:`addon-event-repository-"
 "post-remove`"
-msgstr ""
-":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
+msgstr ":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
 
 #: snippets/addons-autogenerated.rst:963
 msgid ""
 "Updates the ALL_LINGUAS variable in \"configure\", \"configure.in\" or "
 "\"configure.ac\" files, when a translation is added or removed."
 msgstr ""
-"Aktualizuje zmienną ALL_LINGUAS w plikach „configure”, „configure.in” lub "
-"„configure.ac” po dodaniu lub usunięciu tłumaczenia."
+"Aktualizuje zmienną ALL_LINGUAS w plikach „configure”, „configure.in” lub „"
+"configure.ac” po dodaniu lub usunięciu tłumaczenia."
 
 #: snippets/addons-autogenerated.rst:968
 #, fuzzy
@@ -45275,9 +45245,9 @@ msgid ""
 "Updates the ALL_LINGUAS variable in :file:`configure`, :file:`configure.in` "
 "or any :file:`configure.ac` files, when a translation is added or removed."
 msgstr ""
-"Aktualizuje zmienną ALL_LINGUAS w "
-"plikach :file:`configure`, :file:`configure.in` lub dowolnych "
-"plikach :file:`configure.ac`, gdy dodawane jest nowe tłumaczenie."
+"Aktualizuje zmienną ALL_LINGUAS w plikach :file:`configure`, "
+":file:`configure.in` lub dowolnych plikach :file:`configure.ac`, gdy "
+"dodawane jest nowe tłumaczenie."
 
 #: snippets/addons-autogenerated.rst:974
 msgid "Customize gettext output"
@@ -45339,8 +45309,7 @@ msgstr "Aktualizuje nagłówki gettext i zastępuje zastępcze komentarze POT."
 msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-manual-"
 "trigger`, :ref:`addon-event-repository-post-update`"
-msgstr ""
-":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
+msgstr ":ref:`component-intermediate`, :ref:`component-template`, :ref:`bimono`"
 
 #: snippets/addons-autogenerated.rst:1007
 msgid ""
@@ -45504,8 +45473,8 @@ msgid ""
 "The location of the generated MO file can be customized and the field for it "
 "uses :ref:`markup`."
 msgstr ""
-"Lokalizację wygenerowanego pliku MO można dostosować, a jego pole "
-"używa :ref:`markup`."
+"Lokalizację wygenerowanego pliku MO można dostosować, a jego pole używa "
+":ref:`markup`."
 
 #: snippets/addons-autogenerated.rst:1120
 msgid ""
@@ -45533,8 +45502,8 @@ msgid ""
 "(as configured by \"Template for new translations\") using msgmerge."
 msgstr ""
 "Aktualizuje wszystkie pliki PO (skonfigurowane przez „File mask”), aby "
-"pasowały do pliku POT (zgodnie z konfiguracją „Szablon dla nowych "
-"tłumaczeń”) przy użyciu msgmerge."
+"pasowały do pliku POT (zgodnie z konfiguracją „Szablon dla nowych tłumaczeń"
+"”) przy użyciu msgmerge."
 
 #: snippets/addons-autogenerated.rst:1146
 msgid ""
@@ -45637,8 +45606,7 @@ msgstr "Język xgettext"
 
 #: snippets/addons-autogenerated.rst:1275
 msgid "Programming language passed to xgettext, for example Python or C."
-msgstr ""
-"Język programowania przekazywany do xgettext, na przykład Python lub C."
+msgstr "Język programowania przekazywany do xgettext, na przykład Python lub C."
 
 #: snippets/addons-autogenerated.rst:1277
 msgid ""
@@ -46027,10 +45995,10 @@ msgid ""
 msgstr ""
 "W Weblate tłumaczenia są podzielone na projekty i komponenty. Każdy projekt "
 "może zawierać wiele komponentów, które zawierają tłumaczenia na poszczególne "
-"języki. Komponent odpowiada jednemu przetłumaczonemu plikowi (na "
-"przykład :ref:`gettext` lub :ref:`aresource`). Projekty służą do "
-"organizowania komponentów w logiczne zestawy (na przykład do grupowania "
-"wszystkich tłumaczeń używanych w jednej aplikacji)."
+"języki. Komponent odpowiada jednemu przetłumaczonemu plikowi (na przykład "
+":ref:`gettext` lub :ref:`aresource`). Projekty służą do organizowania "
+"komponentów w logiczne zestawy (na przykład do grupowania wszystkich "
+"tłumaczeń używanych w jednej aplikacji)."
 
 #: snippets/basics.rst:14
 msgid ""
@@ -46050,9 +46018,9 @@ msgstr ""
 "Wewnętrznie, każdy projekt ma tłumaczenia wspólnych ciągów propagowane "
 "domyślnie w innych komponentach w jego obrębie. Zmniejsza to obciążenie "
 "związane z wielokrotnym tłumaczeniem wielu wersji. Propagacja tłumaczeń może "
-"być wyłączona dla każdego :ref:`komponentu <component>` za "
-"pomocą :ref:`component-allow_translation_propagation` w przypadku, gdy "
-"tłumaczenia powinny się różnić."
+"być wyłączona dla każdego :ref:`komponentu <component>` za pomocą "
+":ref:`component-allow_translation_propagation` w przypadku, gdy tłumaczenia "
+"powinny się różnić."
 
 #: snippets/basics.rst:24
 #, fuzzy
@@ -46202,8 +46170,7 @@ msgstr ""
 
 #: snippets/check-flags-autogenerated.rst:37
 msgid "Regular expression to match translation, see :ref:`check-regex`."
-msgstr ""
-"Wyrażenie regularne pasujące do tłumaczenia, zobacz :ref:`check-regex`."
+msgstr "Wyrażenie regularne pasujące do tłumaczenia, zobacz :ref:`check-regex`."
 
 #: snippets/check-flags-autogenerated.rst:39
 msgid "Discards flag defined on a higher level."
@@ -50635,8 +50602,8 @@ msgid ""
 "Describe the persona of translator to improve the accuracy of the "
 "translation. For example: “You are a squirrel breeder.”"
 msgstr ""
-"Opisz personę tłumacza, aby poprawić dokładność tłumaczenia. Na przykład: "
-"„Jesteś hodowcą wiewiórek”."
+"Opisz personę tłumacza, aby poprawić dokładność tłumaczenia. Na przykład: „"
+"Jesteś hodowcą wiewiórek”."
 
 #: snippets/machines-autogenerated.rst:75
 #: snippets/machines-autogenerated.rst:213
@@ -50848,8 +50815,8 @@ msgstr "Formalność"
 #: snippets/machines-autogenerated.rst:326
 msgid "Uses the specified formality if language is not specified as (in)formal"
 msgstr ""
-"Używa określonej formalności, jeśli język nie jest określony jako "
-"(nie)formalny"
+"Używa określonej formalności, jeśli język nie jest określony jako (nie)"
+"formalny"
 
 #: snippets/machines-autogenerated.rst:328 user/translating.rst:302
 msgid "Translation context"
@@ -52977,8 +52944,7 @@ msgstr "Dodaj jako tłumaczenie (``przetłumacz``)"
 #: user/files.rst:165
 msgid ""
 "Replace existing translations with uploaded ones, but keep approved ones."
-msgstr ""
-"Zastąp istniejące tłumaczenia przesłanymi , oprócz tych zatwierdzonych."
+msgstr "Zastąp istniejące tłumaczenia przesłanymi , oprócz tych zatwierdzonych."
 
 #: user/files.rst:166
 #, fuzzy
@@ -54826,8 +54792,8 @@ msgid ""
 "The automatically translated strings are labelled :guilabel:`Automatically "
 "translated`."
 msgstr ""
-"Automatycznie przetłumaczone ciągi są oznaczone "
-"jako :guilabel:`Przetłumaczono automatycznie`."
+"Automatycznie przetłumaczone ciągi są oznaczone jako "
+":guilabel:`Przetłumaczono automatycznie`."
 
 #: user/translating.rst:420
 msgid ""

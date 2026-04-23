@@ -17,17 +17,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-21 02:17+0200\n"
-"PO-Revision-Date: 2026-04-14 16:32+0000\n"
-"Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
-"Language-Team: Romanian <https://hosted.weblate.org/projects/weblate/"
-"documentation/ro/>\n"
+"PO-Revision-Date: 2026-04-23 00:33+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Romanian <http://127.0.0.1:8000/projects/weblate/docs/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.16.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: admin/access.rst:4 admin/projects.rst:218
@@ -137,8 +136,7 @@ msgstr "Nu este disponibil pe Hosted Weblate."
 
 #: admin/access.rst:58
 msgid "You will have to set up all the permissions using :ref:`custom-acl`."
-msgstr ""
-"Va trebui să configurați toate permisiunile folosind :ref:`custom-acl`."
+msgstr "Va trebui să configurați toate permisiunile folosind :ref:`custom-acl`."
 
 #: admin/access.rst:60
 msgid ""
@@ -162,8 +160,8 @@ msgstr ""
 msgid ""
 "The default can also be changed by setting :setting:`DEFAULT_ACCESS_CONTROL`."
 msgstr ""
-"Valoarea implicită poate fi modificată prin "
-"setarea :setting:`DEFAULT_ACCESS_CONTROL`."
+"Valoarea implicită poate fi modificată prin setarea "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/access.rst:72
 msgid ""
@@ -184,8 +182,8 @@ msgid ""
 msgstr ""
 "Setul real de permisiuni disponibile în mod implicit pentru utilizatori în "
 "proiectele `Public`, `Protected` și `Private` poate fi redefinit de "
-"administratorul instanței Weblate folosind :ref:`custom settings <custom-"
-"acl>`."
+"administratorul instanței Weblate folosind :ref:`custom settings <custom-acl>"
+"`."
 
 #: admin/access.rst:88
 msgid "Managing per-project access control"
@@ -280,8 +278,7 @@ msgstr "Limbi"
 #, fuzzy
 #| msgid "Can manage translated languages (add or remove translations)."
 msgid "Manage translated languages (add or remove translations)."
-msgstr ""
-"Poate gestiona limbile traduse (adăugarea sau eliminarea traducerilor)."
+msgstr "Poate gestiona limbile traduse (adăugarea sau eliminarea traducerilor)."
 
 #: admin/access.rst:122
 #, fuzzy
@@ -369,8 +366,8 @@ msgid ""
 "project’s menu :guilabel:`Operations` ↓ :guilabel:`Users`."
 msgstr ""
 "Aceste caracteristici sunt disponibile pe pagina :guilabel:`Access control`, "
-"care poate fi accesată din meniul proiectului :guilabel:`Manage` "
-"↓ :guilabel:`Users`."
+"care poate fi accesată din meniul proiectului :guilabel:`Manage` ↓ "
+":guilabel:`Users`."
 
 #: admin/access.rst:148
 msgid ""
@@ -411,10 +408,10 @@ msgid ""
 "users using e-mail. Invited users have to complete the registration process "
 "to get access to the project."
 msgstr ""
-"Adăugarea de utilizatori existenți le va trimite invitația de confirmare. "
-"Cu :setting:`REGISTRATION_OPEN`, administratorul poate invita noi "
-"utilizatori folosind e-mail. Utilizatorii invitați trebuie să finalizeze "
-"procesul de înregistrare pentru a avea acces la proiect."
+"Adăugarea de utilizatori existenți le va trimite invitația de confirmare. Cu "
+":setting:`REGISTRATION_OPEN`, administratorul poate invita noi utilizatori "
+"folosind e-mail. Utilizatorii invitați trebuie să finalizeze procesul de "
+"înregistrare pentru a avea acces la proiect."
 
 #: admin/access.rst:172
 msgid ""
@@ -619,8 +616,8 @@ msgid ""
 "appropriate :ref:`default teams <default-teams>`:"
 msgstr ""
 "Pentru a gestiona deodată permisiunile pentru o întreagă instanță, adăugați "
-"utilizatorii la echipele corespunzătoare :ref:`default teams <default-"
-"teams>`:"
+"utilizatorii la echipele corespunzătoare :ref:`default teams <default-teams>"
+"`:"
 
 #: admin/access.rst:281
 #, fuzzy
@@ -628,8 +625,8 @@ msgid ""
 "`Users` (this is done by default by the :ref:`automatic team assignment "
 "<autoteam>`)."
 msgstr ""
-"`Utilizatori` (acest lucru este făcut în mod implicit de "
-"către :ref:`asignarea automată a echipei <autoteam>`)."
+"`Utilizatori` (acest lucru este făcut în mod implicit de către "
+":ref:`asignarea automată a echipei <autoteam>`)."
 
 #: admin/access.rst:283
 msgid ""
@@ -653,9 +650,9 @@ msgid ""
 "otherwise the site-wide permissions provided by membership in the `Users` "
 "and `Reviewers` teams won’t have any effect."
 msgstr ""
-"Ar trebui să păstrați toate proiectele configurate ca `Public` (a se "
-"vedea :ref:`acl`), altfel permisiunile la nivel de site oferite de "
-"apartenența la echipele `Users` și `Reviewers` nu vor avea niciun efect."
+"Ar trebui să păstrați toate proiectele configurate ca `Public` (a se vedea "
+":ref:`acl`), altfel permisiunile la nivel de site oferite de apartenența la "
+"echipele `Users` și `Reviewers` nu vor avea niciun efect."
 
 #: admin/access.rst:292
 msgid ""
@@ -740,8 +737,8 @@ msgid ""
 "<default-teams>`."
 msgstr ""
 "Eliminați permisiunea de a traduce `Czech` de la toți utilizatorii. În "
-"configurația implicită, acest lucru se poate face modificând "
-"`Users` :ref:`default team <default-teams>`."
+"configurația implicită, acest lucru se poate face modificând `Users` "
+":ref:`default team <default-teams>`."
 
 #: admin/access.rst:318
 msgid "Group `Users`"
@@ -902,8 +899,8 @@ msgstr ""
 "Un utilizator trebuie să fie membru al unei echipe legate de proiect sau de "
 "orice componentă din cadrul proiectului. A avea calitatea de membru este "
 "suficient, nu sunt necesare permisiuni specifice pentru a parcurge proiectul "
-"(aceasta este folosită în echipa implicită `Vizualizatori`, "
-"vezi :ref:`default-teams`)."
+"(aceasta este folosită în echipa implicită `Vizualizatori`, vezi "
+":ref:`default-teams`)."
 
 #: admin/access.rst:392
 #, fuzzy
@@ -942,8 +939,8 @@ msgstr ""
 "Dacă echipa specifică orice :guilabel:`Component list`, toate permisiunile "
 "acordate membrilor acelei echipe sunt acordate pentru toate componentele din "
 "listele de componente atașate echipei și se acordă un acces fără permisiuni "
-"suplimentare pentru toate proiectele în care se află aceste "
-"componente. :guilabel:`Componente` și :guilabel:`Proiecte` sunt ignorate."
+"suplimentare pentru toate proiectele în care se află aceste componente. "
+":guilabel:`Componente` și :guilabel:`Proiecte` sunt ignorate."
 
 #: admin/access.rst:413
 msgid ""
@@ -980,8 +977,8 @@ msgstr ""
 "enumerarea directă a acestora, fie prin faptul că :guilabel:`Selecția "
 "proiectelor` este setată la o valoare precum :guilabel:`Toate proiectele "
 "publice`, toate aceste permisiuni sunt aplicate tuturor proiectelor, ceea ce "
-"acordă efectiv aceleași permisiuni de acces la toate "
-"proiectele :ref:`componente fără restricții <component-restricted>`."
+"acordă efectiv aceleași permisiuni de acces la toate proiectele "
+":ref:`componente fără restricții <component-restricted>`."
 
 #: admin/access.rst:427
 msgid ""
@@ -1092,11 +1089,11 @@ msgid ""
 "creation."
 msgstr ""
 "În partea de jos a paginii de editare :guilabel:`Group` din :ref:`Interfața "
-"de administrare Django <admin-interface>`, puteți "
-"specifica :guilabel:`Asemnări automate de grup`, care este o listă de "
-"expresii regulate utilizate pentru a atribui automat utilizatorii nou creați "
-"o echipă pe baza adreselor de e-mail ale acestora. Această atribuire are loc "
-"numai la crearea contului."
+"de administrare Django <admin-interface>`, puteți specifica "
+":guilabel:`Asemnări automate de grup`, care este o listă de expresii "
+"regulate utilizate pentru a atribui automat utilizatorii nou creați o echipă "
+"pe baza adreselor de e-mail ale acestora. Această atribuire are loc numai la "
+"crearea contului."
 
 #: admin/access.rst:472
 msgid ""
@@ -1163,8 +1160,8 @@ msgid ""
 "After installation, a default set of teams is created (see :ref:`default-"
 "teams`)."
 msgstr ""
-"După instalare, este creat un set implicit de grupuri (a se "
-"vedea :ref:`default-groups`)."
+"După instalare, este creat un set implicit de grupuri (a se vedea "
+":ref:`default-groups`)."
 
 #: admin/access.rst:497
 #, fuzzy
@@ -1210,9 +1207,9 @@ msgid ""
 "executing :wladmin:`setupgroups`) and you are free to modify them. The "
 "migration will, however, re-create them if you delete or rename them."
 msgstr ""
-"Următoarele echipe sunt create la instalare (sau după "
-"executarea :wladmin:`setupgroups`) și puteți să le modificați. Cu toate "
-"acestea, migrația le va recreea dacă le ștergeți sau le redenumiți."
+"Următoarele echipe sunt create la instalare (sau după executarea "
+":wladmin:`setupgroups`) și puteți să le modificați. Cu toate acestea, "
+"migrația le va recreea dacă le ștergeți sau le redenumiți."
 
 #: admin/access.rst:523
 msgid "`Guests`"
@@ -1230,8 +1227,8 @@ msgstr "Definește permisiunile pentru utilizatorii neautentificați."
 msgid ""
 "This team only contains anonymous users (see :setting:`ANONYMOUS_USER_NAME`)."
 msgstr ""
-"Acest grup conține numai utilizatori anonimi "
-"(see :setting:`ANONYMOUS_USER_NAME`)."
+"Acest grup conține numai utilizatori anonimi (see "
+":setting:`ANONYMOUS_USER_NAME`)."
 
 #: admin/access.rst:528
 #, fuzzy
@@ -1379,11 +1376,11 @@ msgstr ""
 "Dacă doriți să folosiți instalația Weblate într-un mod mai puțin public, "
 "adică să permiteți noilor utilizatori doar pe bază de invitație, acest lucru "
 "se poate face prin configurarea Weblate astfel încât doar utilizatorii "
-"cunoscuți să aibă acces la el. Pentru a face acest lucru, puteți "
-"seta :setting:`REGISTRATION_OPEN` la ``False`` pentru a împiedica "
-"înregistrarea oricăror utilizatori noi și setați :setting:`REQUIRE_LOGIN` la "
-"``/.*`` pentru a solicita conectarea pentru a accesa toate paginile site-"
-"ului. Aceasta este practic modalitatea de a bloca instalarea Weblate."
+"cunoscuți să aibă acces la el. Pentru a face acest lucru, puteți seta "
+":setting:`REGISTRATION_OPEN` la ``False`` pentru a împiedica înregistrarea "
+"oricăror utilizatori noi și setați :setting:`REQUIRE_LOGIN` la ``/.*`` "
+"pentru a solicita conectarea pentru a accesa toate paginile site-ului. "
+"Aceasta este practic modalitatea de a bloca instalarea Weblate."
 
 #: admin/access.rst:583
 msgid ""
@@ -1441,8 +1438,8 @@ msgid ""
 "You can also configure add-ons using :ref:`API <addons-"
 "api>`, :setting:`DEFAULT_ADDONS`, or :wladmin:`install_addon`."
 msgstr ""
-"De asemenea, puteți configura suplimentele folosind :ref:`API <addons-"
-"api>`, :setting:`DEFAULT_ADDONS`, sau :djadmin:`install_addon`."
+"De asemenea, puteți configura suplimentele folosind :ref:`API <addons-api>`, "
+":setting:`DEFAULT_ADDONS`, sau :djadmin:`install_addon`."
 
 #: admin/addons.rst:18
 msgid ""
@@ -1495,9 +1492,9 @@ msgid ""
 "of :class:`weblate.addons.base.BaseAddon` to define the add-on metadata, and "
 "then implement a callback to do the processing."
 msgstr ""
-"Puteți să vă scrieți propriile add-on-uri, să creați o subclasă "
-"de :class:`weblate.addons.base.BaseAddon` pentru a defini metadatele addon-"
-"ului și apoi să implementați un callback pentru a face procesarea."
+"Puteți să vă scrieți propriile add-on-uri, să creați o subclasă de "
+":class:`weblate.addons.base.BaseAddon` pentru a defini metadatele addon-ului "
+"și apoi să implementați un callback pentru a face procesarea."
 
 #: admin/addons.rst:72
 msgid "Executing scripts from add-on"
@@ -1672,10 +1669,10 @@ msgid ""
 "manage/` URL. It is available for users signed in with admin privileges, "
 "accessible by using the wrench icon top right:"
 msgstr ""
-"Interfața de gestionare oferă setări de administrare în cadrul URL-"
-"ului :file:`/manage/`. Aceasta este disponibilă pentru utilizatorii "
-"conectați cu privilegii de administrator, accesibilă cu ajutorul pictogramei "
-"cu cheie franceză din dreapta sus:"
+"Interfața de gestionare oferă setări de administrare în cadrul URL-ului "
+":file:`/manage/`. Aceasta este disponibilă pentru utilizatorii conectați cu "
+"privilegii de administrator, accesibilă cu ajutorul pictogramei cu cheie "
+"franceză din dreapta sus:"
 
 #: admin/admin.rst:12
 msgid "It includes basic overview of your Weblate:"
@@ -1728,8 +1725,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Adjust translation flags (see :ref:`custom-checks`)"
 msgid "Users and teams, see :ref:`custom-acl`."
-msgstr ""
-"Ajustarea indicatoarelor de traducere (a se vedea :ref:`custom-checks`)"
+msgstr "Ajustarea indicatoarelor de traducere (a se vedea :ref:`custom-checks`)"
 
 #: admin/admin.rst:21
 #, fuzzy
@@ -1971,8 +1967,7 @@ msgstr ""
 
 #: admin/announcements.rst:24
 msgid "It can be also added using the admin interface:"
-msgstr ""
-"Acesta poate fi adăugat și prin intermediul interfeței de administrare:"
+msgstr "Acesta poate fi adăugat și prin intermediul interfeței de administrare:"
 
 #: admin/announcements.rst:28
 msgid "The announcements are then shown based on their specified context:"
@@ -2053,8 +2048,8 @@ msgid ""
 "You can also turn off registration of new users "
 "using :setting:`REGISTRATION_OPEN`."
 msgstr ""
-"De asemenea, puteți dezactiva înregistrarea noilor utilizatori "
-"folosind :setting:`REGISTRATION_OPEN`."
+"De asemenea, puteți dezactiva înregistrarea noilor utilizatori folosind "
+":setting:`REGISTRATION_OPEN`."
 
 #: admin/auth.rst:14
 msgid "The authentication attempts are subject to :ref:`rate-limit`."
@@ -2137,8 +2132,8 @@ msgid ""
 "contributions users make."
 msgstr ""
 "Activarea backend-urilor individuale este destul de ușoară, este doar o "
-"chestiune de adăugare a unei intrări "
-"la :setting:`django:AUTHENTICATION_BACKENDS` și, eventual, adăugarea cheilor "
+"chestiune de adăugare a unei intrări la "
+":setting:`django:AUTHENTICATION_BACKENDS` și, eventual, adăugarea cheilor "
 "necesare pentru o anumită metodă de autentificare. Vă rugăm să rețineți că "
 "unele backend-uri nu furnizează în mod implicit e-mailul utilizatorului, "
 "trebuie să îl solicitați în mod explicit, altfel Weblate nu va putea să "
@@ -2473,9 +2468,8 @@ msgid ""
 "For example overriding naming for Auth0 would look like:"
 msgstr ""
 "Puteți suprascrie numele de afișare și pictograma metodei de autentificare "
-"utilizând setările ``SOCIAL_AUTH_<NAME>_IMAGE`` și "
-"``SOCIAL_AUTH_<NAME>_TITLE``. De exemplu, suprapunerea denumirii pentru "
-"Auth0 ar arăta astfel:"
+"utilizând setările ``SOCIAL_AUTH_<NAME>_IMAGE`` și ``SOCIAL_AUTH_<NAME>"
+"_TITLE``. De exemplu, suprapunerea denumirii pentru Auth0 ar arăta astfel:"
 
 #: admin/auth.rst:435
 msgid "Turning off password authentication"
@@ -2490,8 +2484,8 @@ msgid ""
 "Weblate functionality."
 msgstr ""
 "Autentificarea prin e-mail și parolă poate fi dezactivată prin eliminarea "
-"``social_core.backends.email.EmailAuth`` "
-"din :setting:`django:AUTHENTICATION_BACKENDS`. Păstrați întotdeauna "
+"``social_core.backends.email.EmailAuth`` din "
+":setting:`django:AUTHENTICATION_BACKENDS`. Păstrați întotdeauna "
 "``weblate.accounts.auth.WeblateUserBackend`` acolo, este necesar pentru "
 "funcționalitatea de bază a Weblate."
 
@@ -2536,8 +2530,8 @@ msgid ""
 "passwords are not allowed. You can customize this setting to match your "
 "password policy."
 msgstr ""
-"Fișierul implicit :file:`settings.py` vine cu un set rezonabil "
-"de :setting:`django:AUTH_PASSWORD_VALIDATORS`:"
+"Fișierul implicit :file:`settings.py` vine cu un set rezonabil de "
+":setting:`django:AUTH_PASSWORD_VALIDATORS`:"
 
 #: admin/auth.rst:471
 #, fuzzy
@@ -3002,8 +2996,8 @@ msgid ""
 "↓ :guilabel:`Backups`. The backup can be restored when creating a project "
 "(see :ref:`adding-projects`)."
 msgstr ""
-"Puteți efectua o copie de rezervă a proiectului în :guilabel:`Manage` "
-"↓ :guilabel:`Backups`. Copia de rezervă poate fi restaurată la crearea unui "
+"Puteți efectua o copie de rezervă a proiectului în :guilabel:`Manage` ↓ "
+":guilabel:`Backups`. Copia de rezervă poate fi restaurată la crearea unui "
 "proiect (a se vedea :ref:`adding-projects`)."
 
 #: admin/backup.rst:25
@@ -3032,9 +3026,9 @@ msgid ""
 "backups for 30 days)."
 msgstr ""
 "Copiile de rezervă generate sunt păstrate pe server după cum este configurat "
-"prin :setting:`PROJECT_BACKUP_KEEP_DAYS` "
-"și :setting:`PROJECT_BACKUP_KEEP_COUNT` (în mod implicit se păstrează cel "
-"mult 3 copii de rezervă pentru 30 de zile)."
+"prin :setting:`PROJECT_BACKUP_KEEP_DAYS` și "
+":setting:`PROJECT_BACKUP_KEEP_COUNT` (în mod implicit se păstrează cel mult "
+"3 copii de rezervă pentru 30 de zile)."
 
 #: admin/backup.rst:35
 msgid ""
@@ -3141,8 +3135,8 @@ msgstr ""
 #: admin/backup.rst:93
 msgid "The backup creation can be customized using :setting:`BORG_EXTRA_ARGS`."
 msgstr ""
-"Crearea copiilor de rezervă poate fi personalizată "
-"folosind :setting:`BORG_EXTRA_ARGS`."
+"Crearea copiilor de rezervă poate fi personalizată folosind "
+":setting:`BORG_EXTRA_ARGS`."
 
 #: admin/backup.rst:98
 msgid "Weblate provisioned backup storage"
@@ -3168,8 +3162,8 @@ msgid ""
 "Enter the obtained key in the management interface, see :ref:`activate-"
 "support`."
 msgstr ""
-"Introduceți cheia obținută în interfața de management, a se "
-"vedea :ref:`activate-support`."
+"Introduceți cheia obținută în interfața de management, a se vedea "
+":ref:`activate-support`."
 
 #: admin/backup.rst:106
 msgid ""
@@ -3408,16 +3402,16 @@ msgid ""
 msgstr ""
 "Atunci când utilizați containerul Docker, fișierul de setări este deja "
 "inclus în container și trebuie să restaurați variabilele de mediu originale. "
-"Fișierul :file:`environment.yml` vă poate ajuta în acest sens (a se "
-"vedea :ref:`backup-dumps`)."
+"Fișierul :file:`environment.yml` vă poate ajuta în acest sens (a se vedea "
+":ref:`backup-dumps`)."
 
 #: admin/backup.rst:205
 msgid ""
 "Copy the whole restored data dir to the location configured "
 "by :setting:`DATA_DIR`."
 msgstr ""
-"Copiați întregul director de date restaurat în locația configurată "
-"prin :setting:`DATA_DIR`."
+"Copiați întregul director de date restaurat în locația configurată prin "
+":setting:`DATA_DIR`."
 
 #: admin/backup.rst:208
 msgid ""
@@ -3460,8 +3454,8 @@ msgid ""
 msgstr ""
 "Dacă efectuați copii de rezervă manuale, este posibil să doriți să reduceți "
 "la tăcere avertismentul Weblate privind lipsa de copii de rezervă adăugând "
-"``weblate.I028`` la :setting:`django:SILENCED_SYSTEM_CHECKS` "
-"în :file:`settings.py` sau :envvar:`WEBLATE_SILENCED_SYSTEM_CHECKS` pentru "
+"``weblate.I028`` la :setting:`django:SILENCED_SYSTEM_CHECKS` în "
+":file:`settings.py` sau :envvar:`WEBLATE_SILENCED_SYSTEM_CHECKS` pentru "
 "Docker."
 
 #: admin/backup.rst:249 admin/install.rst:142
@@ -3498,9 +3492,9 @@ msgid ""
 "Django backup, and it restores complete tables with all their data."
 msgstr ""
 "Abordarea recomandată este să salvați o copie a bazei de date utilizând "
-"instrumente native pentru baze de date, cum ar fi :program:`pg_dump` "
-"sau :program:`mysqldump`. De obicei, se comportă mai bine decât backup-ul "
-"Django și restaurează tabelele complete cu toate datele lor."
+"instrumente native pentru baze de date, cum ar fi :program:`pg_dump` sau "
+":program:`mysqldump`. De obicei, se comportă mai bine decât backup-ul Django "
+"și restaurează tabelele complete cu toate datele lor."
 
 #: admin/backup.rst:265
 #, fuzzy
@@ -3516,8 +3510,8 @@ msgid ""
 "versions."
 msgstr ""
 "Puteți restaura această copie de rezervă într-o versiune Weblate mai nouă, "
-"aceasta va efectua toate migrările necesare atunci când este rulată "
-"în :djadmin:`django:migrate`. Vă rugăm să consultați :doc:`upgrade` pentru "
+"aceasta va efectua toate migrările necesare atunci când este rulată în "
+":djadmin:`django:migrate`. Vă rugăm să consultați :doc:`upgrade` pentru "
 "informații mai detaliate despre cum să faceți upgrade între versiuni."
 
 #: admin/backup.rst:270
@@ -3554,8 +3548,8 @@ msgstr ""
 "versiune Weblate pe care a fost efectuată copia de rezervă. Acest lucru este "
 "necesar deoarece structura bazei de date se schimbă între versiuni și ați "
 "putea ajunge să corupeți datele într-un fel sau altul. După instalarea "
-"aceleiași versiuni, rulați toate migrările bazei de date "
-"folosind :djadmin:`django:migrate`."
+"aceleiași versiuni, rulați toate migrările bazei de date folosind "
+":djadmin:`django:migrate`."
 
 #: admin/backup.rst:282
 msgid ""
@@ -3566,8 +3560,8 @@ msgid ""
 msgstr ""
 "Ulterior, unele intrări vor fi deja create în baza de date și le veți avea "
 "și în copia de rezervă a bazei de date. Abordarea recomandată este de a "
-"șterge manual astfel de intrări folosind shell-ul de management (a se "
-"vedea :ref:`invoke-manage`):"
+"șterge manual astfel de intrări folosind shell-ul de management (a se vedea "
+":ref:`invoke-manage`):"
 
 #: admin/backup.rst:293
 msgid "Files"
@@ -3634,8 +3628,8 @@ msgid ""
 "be compressed or entirely skipped using :setting:`DATABASE_BACKUP`."
 msgstr ""
 "În mod implicit, copiile de rezervă ale bazei de date sunt salvate ca text "
-"simplu, dar pot fi comprimate sau pot fi omise în întregime "
-"folosind :setting:`DATABASE_BACKUP`."
+"simplu, dar pot fi comprimate sau pot fi omise în întregime folosind "
+":setting:`DATABASE_BACKUP`."
 
 #: admin/backup.rst:323
 #, fuzzy
@@ -3834,8 +3828,8 @@ msgid ""
 "in the :setting:`AUTOFIX_LIST`, see :ref:`custom-check-modules`."
 msgstr ""
 "Pentru a instala verificări personalizate, furnizați o cale complet "
-"calificată către clasa Python în :setting:`AUTOFIX_LIST`, a se "
-"vedea :ref:`custom-check-modules`."
+"calificată către clasa Python în :setting:`AUTOFIX_LIST`, a se vedea "
+":ref:`custom-check-modules`."
 
 #: admin/checks.rst:27
 msgid "Customizing behavior using flags"
@@ -4046,9 +4040,9 @@ msgid ""
 "Fonts uploaded into Weblate are used purely for purposes of the :ref:`check-"
 "max-size` check, they do not have an effect in Weblate user interface."
 msgstr ""
-"Fonturile încărcate în Weblate sunt folosite doar în scopul "
-"verificării :ref:`check-max-size`, ele nu au niciun efect în interfața cu "
-"utilizatorul Weblate."
+"Fonturile încărcate în Weblate sunt folosite doar în scopul verificării "
+":ref:`check-max-size`, ele nu au niciun efect în interfața cu utilizatorul "
+"Weblate."
 
 #: admin/checks.rst:143
 msgid ""
@@ -4147,10 +4141,10 @@ msgid ""
 "checks can be adjusted using :setting:`CHECK_LIST`, and you can also add "
 "custom checks."
 msgstr ""
-"Există o gamă largă de verificări ale calității încorporate (a se "
-"vedea :ref:`checks`), deși s-ar putea să nu acopere tot ceea ce doriți să "
-"verificați. Lista de verificări efectuate poate fi ajustată "
-"folosind :setting:`CHECK_LIST` și puteți adăuga și verificări personalizate."
+"Există o gamă largă de verificări ale calității încorporate (a se vedea "
+":ref:`checks`), deși s-ar putea să nu acopere tot ceea ce doriți să "
+"verificați. Lista de verificări efectuate poate fi ajustată folosind "
+":setting:`CHECK_LIST` și puteți adăuga și verificări personalizate."
 
 #: admin/checks.rst:190
 msgid "Subclass the `weblate.checks.Check`"
@@ -4179,8 +4173,8 @@ msgid ""
 "in the :setting:`CHECK_LIST`, see :ref:`custom-check-modules`."
 msgstr ""
 "Pentru a instala verificări personalizate, furnizați o cale complet "
-"calificată către clasa Python în :setting:`CHECK_LIST`, a se "
-"vedea :ref:`custom-check-modules`."
+"calificată către clasa Python în :setting:`CHECK_LIST`, a se vedea "
+":ref:`custom-check-modules`."
 
 #: admin/checks.rst:201
 msgid "Checking translation text does not contain \"foo\""
@@ -4573,8 +4567,8 @@ msgid ""
 "Prefix for constructing avatar URLs as: ``${AVATAR_URL_PREFIX}/avatar/$"
 "{MAIL_HASH}?${PARAMS}``. The following services are known to work:"
 msgstr ""
-"Prefix pentru construirea URL-urilor avatarurilor ca: ``$"
-"{{AVATAR_URL_PREFIX}/avatar/${MAIL_HASH}?${{PARAMS}}``. Se știe că "
+"Prefix pentru construirea URL-urilor avatarurilor ca: ``${"
+"{AVATAR_URL_PREFIX}/avatar/${MAIL_HASH}?${{PARAMS}}``. Se știe că "
 "funcționează următoarele servicii:"
 
 #: admin/config.rst:212
@@ -4753,8 +4747,8 @@ msgid ""
 "The Docker container uses a separate volume for this, see :ref:`docker-"
 "volume`."
 msgstr ""
-"Containerul Docker utilizează un volum separat pentru acest lucru, "
-"vezi :ref:`docker-volume`."
+"Containerul Docker utilizează un volum separat pentru acest lucru, vezi "
+":ref:`docker-volume`."
 
 #: admin/config.rst:370 admin/config.rst:513
 msgid "The following subdirectories usually exist:"
@@ -4779,8 +4773,8 @@ msgid ""
 "Default location for static Django files, specified "
 "by :setting:`django:STATIC_ROOT`. See :ref:`static-files`."
 msgstr ""
-"Locația implicită pentru fișierele Django statice, specificată "
-"de :setting:`django:STATIC_ROOT`. Vezi :ref:`static-files`."
+"Locația implicită pentru fișierele Django statice, specificată de "
+":setting:`django:STATIC_ROOT`. Vezi :ref:`static-files`."
 
 #: admin/config.rst:381
 msgid "OCR trained data for :ref:`screenshots`."
@@ -4888,8 +4882,8 @@ msgid ""
 msgstr ""
 "Modificarea acestei setări afectează doar traducerile nou modificate, "
 "verificările existente vor fi stocate în continuare în baza de date. Pentru "
-"a aplica, de asemenea, modificările la traducerile stocate, "
-"rulați :djadmin:`updatechecks`."
+"a aplica, de asemenea, modificările la traducerile stocate, rulați "
+":djadmin:`updatechecks`."
 
 #: admin/config.rst:462
 msgid ""
@@ -4964,9 +4958,9 @@ msgid ""
 "by :setting:`django:MEDIA_ROOT`. Contains uploaded screenshots, "
 "see :ref:`screenshots`."
 msgstr ""
-"Locația implicită pentru fișierele media Django, specificată "
-"de :setting:`django:MEDIA_ROOT`. Conține capturi de ecran încărcate, "
-"vezi :ref:`screenshots`."
+"Locația implicită pentru fișierele media Django, specificată de "
+":setting:`django:MEDIA_ROOT`. Conține capturi de ecran încărcate, vezi "
+":ref:`screenshots`."
 
 #: admin/config.rst:522
 #, fuzzy
@@ -5075,8 +5069,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Default add-ons to install on every created component."
 msgid "Default add-ons to install for every created component."
-msgstr ""
-"Suplimentele implicite care se instalează pe fiecare componentă creată."
+msgstr "Suplimentele implicite care se instalează pe fiecare componentă creată."
 
 #: admin/config.rst:647
 msgid "This setting affects only newly created components."
@@ -5139,8 +5132,8 @@ msgid ""
 "Configures the default value of :ref:`project-use_shared_tm` "
 "and :ref:`project-contribute_shared_tm`."
 msgstr ""
-"Configurează valoarea implicită a :ref:`project-use_shared_tm` "
-"și :ref:`project-contribute_shared_tm`."
+"Configurează valoarea implicită a :ref:`project-use_shared_tm` și "
+":ref:`project-contribute_shared_tm`."
 
 #: admin/config.rst:741 admin/install/docker.rst:931
 #, fuzzy
@@ -5151,8 +5144,8 @@ msgid ""
 "Configures the default value for :ref:`project-translation_review`, turned "
 "off by default."
 msgstr ""
-"Configurează valoarea implicită a :ref:`project-use_shared_tm` "
-"și :ref:`project-contribute_shared_tm`."
+"Configurează valoarea implicită a :ref:`project-use_shared_tm` și "
+":ref:`project-contribute_shared_tm`."
 
 #: admin/config.rst:750 admin/install/docker.rst:937
 #, fuzzy
@@ -5163,8 +5156,8 @@ msgid ""
 "Configures the default value for :ref:`project-source_review`, turned off by "
 "default."
 msgstr ""
-"Configurează valoarea implicită a :ref:`project-use_shared_tm` "
-"și :ref:`project-contribute_shared_tm`."
+"Configurează valoarea implicită a :ref:`project-use_shared_tm` și "
+":ref:`project-contribute_shared_tm`."
 
 #: admin/config.rst:759
 #, fuzzy
@@ -5173,8 +5166,8 @@ msgstr ""
 #| "and :ref:`project-contribute_shared_tm`."
 msgid "Configures the default value of :ref:`project-autoclean_tm`."
 msgstr ""
-"Configurează valoarea implicită a :ref:`project-use_shared_tm` "
-"și :ref:`project-contribute_shared_tm`."
+"Configurează valoarea implicită a :ref:`project-use_shared_tm` și "
+":ref:`project-contribute_shared_tm`."
 
 #: admin/config.rst:766
 msgid "Default setting for translation propagation, defaults to ``True``."
@@ -5614,8 +5607,8 @@ msgid ""
 "Indicates which header Weblate should obtain the IP address from "
 "when :setting:`IP_BEHIND_REVERSE_PROXY` is turned on."
 msgstr ""
-"Indică antetul din care Weblate ar trebui să obțină adresa IP atunci "
-"când :setting:`IP_BEHIND_REVERSE_PROXY` este activat."
+"Indică antetul din care Weblate ar trebui să obțină adresa IP atunci când "
+":setting:`IP_BEHIND_REVERSE_PROXY` este activat."
 
 #: admin/config.rst:1195
 msgid "Defaults to ``HTTP_X_FORWARDED_FOR``."
@@ -5784,11 +5777,11 @@ msgid ""
 "should store generated files which will be served at "
 "the :setting:`LOCALIZE_CDN_URL`."
 msgstr ""
-"Aceste setări configurează add-on-ul :ref:`addon-"
-"weblate.cdn.cdnjs`. :setting:`LOCALIZE_CDN_URL` definește URL-ul rădăcină "
-"unde este disponibil CDN-ul de localizare și :setting:`LOCALIZE_CDN_PATH` "
-"definește calea unde Weblate ar trebui să stocheze fișierele generate care "
-"vor fi servite la :setting:`LOCALIZE_CDN_URL`."
+"Aceste setări configurează add-on-ul :ref:`addon-weblate.cdn.cdnjs`. "
+":setting:`LOCALIZE_CDN_URL` definește URL-ul rădăcină unde este disponibil "
+"CDN-ul de localizare și :setting:`LOCALIZE_CDN_PATH` definește calea unde "
+"Weblate ar trebui să stocheze fișierele generate care vor fi servite la "
+":setting:`LOCALIZE_CDN_URL`."
 
 #: admin/config.rst:1375
 msgid "On Hosted Weblate, this uses ``https://weblate-cdn.com/``."
@@ -5833,8 +5826,8 @@ msgid ""
 "This is just a default value, users can adjust this in :ref:`user-profile`."
 msgstr ""
 "Câte șiruri de caractere trebuie afișate în jurul șirului tradus în prezent. "
-"Aceasta este doar o valoare implicită, utilizatorii o pot ajusta "
-"în :ref:`user-profile`."
+"Aceasta este doar o valoare implicită, utilizatorii o pot ajusta în "
+":ref:`user-profile`."
 
 #: admin/config.rst:1437
 msgid "Default number of elements to display when pagination is active."
@@ -6131,8 +6124,7 @@ msgstr "Un număr de secunde, în mod implicit 300 (5 minute)."
 
 #: admin/config.rst:1925
 msgid "How long authentication is locked after rate limiting applies."
-msgstr ""
-"Cât timp este blocată autentificarea după ce se aplică limitarea ratei."
+msgstr "Cât timp este blocată autentificarea după ce se aplică limitarea ratei."
 
 #: admin/config.rst:1927
 msgid "An amount of seconds defaulting to 600 (10 minutes)."
@@ -6493,17 +6485,17 @@ msgid ""
 "changing the URL, use :setting:`URL_PREFIX`."
 msgstr ""
 "Această setare trebuie să conțină doar numele domeniului. Pentru "
-"configurarea protocolului (activarea și impunerea HTTPS), "
-"utilizați :setting:`ENABLE_HTTPS`, iar pentru modificarea URL-ului, "
-"utilizați :setting:`URL_PREFIX`."
+"configurarea protocolului (activarea și impunerea HTTPS), utilizați "
+":setting:`ENABLE_HTTPS`, iar pentru modificarea URL-ului, utilizați "
+":setting:`URL_PREFIX`."
 
 #: admin/config.rst:2225
 msgid ""
 "On a Docker container, the site domain is configured "
 "through :envvar:`WEBLATE_ALLOWED_HOSTS`."
 msgstr ""
-"Pe un container Docker, domeniul site-ului este configurat "
-"prin :envvar:`WEBLATE_ALLOWED_HOSTS`."
+"Pe un container Docker, domeniul site-ului este configurat prin "
+":envvar:`WEBLATE_ALLOWED_HOSTS`."
 
 #: admin/config.rst:2241
 msgid "Site title to be used for the website and sent e-mails."
@@ -6936,8 +6928,8 @@ msgid ""
 "In the Docker container, the credentials can be configured using environment "
 "variables, see :ref:`docker-vcs-config`."
 msgstr ""
-"Containerul Docker utilizează un volum separat pentru acest lucru, "
-"vezi :ref:`docker-volume`."
+"Containerul Docker utilizează un volum separat pentru acest lucru, vezi "
+":ref:`docker-volume`."
 
 #: admin/continuous.rst:4
 msgid "Continuous localization"
@@ -6988,8 +6980,7 @@ msgstr ""
 msgid ""
 "Weblate pulls changes from the VCS repository, parses translation files and "
 "updates its database, see :ref:`update-vcs`."
-msgstr ""
-"Weblate extrage modificările din depozitul VCS, vezi :ref:`update-vcs`."
+msgstr "Weblate extrage modificările din depozitul VCS, vezi :ref:`update-vcs`."
 
 #: admin/continuous.rst:20
 msgid ""
@@ -7021,8 +7012,8 @@ msgstr ""
 msgid ""
 "Changes are pushed back to the upstream repository (see :ref:`push-changes`)."
 msgstr ""
-"Împinge modificările în depozitul din upstream, dacă este configurat "
-"de :ref:`component-push`."
+"Împinge modificările în depozitul din upstream, dacă este configurat de "
+":ref:`component-push`."
 
 #: admin/continuous.rst:73
 msgid ""
@@ -7145,12 +7136,11 @@ msgstr ""
 "fișierelor. În cazul fișierelor bilingve, există de obicei un fel de proces "
 "de extragere a mesajelor pentru a genera fișiere traductibile din codul "
 "sursă. În unele cazuri, acesta poate fi împărțit în două părți - una pentru "
-"extracție generează șablonul (de exemplu, gettext POT este generat "
-"folosind :program:`xgettext`) și apoi un proces ulterior îl îmbină în "
-"traduceri reale (fișierele gettext PO sunt actualizate "
-"folosind :program:`msgmerge`). Puteți efectua al doilea pas în cadrul "
-"Weblate și acesta se va asigura că toate modificările în așteptare sunt "
-"incluse înainte de această operațiune."
+"extracție generează șablonul (de exemplu, gettext POT este generat folosind "
+":program:`xgettext`) și apoi un proces ulterior îl îmbină în traduceri reale "
+"(fișierele gettext PO sunt actualizate folosind :program:`msgmerge`). Puteți "
+"efectua al doilea pas în cadrul Weblate și acesta se va asigura că toate "
+"modificările în așteptare sunt incluse înainte de această operațiune."
 
 #: admin/continuous.rst:127
 msgid ""
@@ -7221,8 +7211,8 @@ msgid ""
 msgstr ""
 "Exemplul utilizează :ref:`wlc`, care are nevoie de configurare (chei API) "
 "pentru a putea controla Weblate de la distanță. De asemenea, puteți realiza "
-"acest lucru folosind orice client HTTP în loc de wlc, de exemplu curl, "
-"vezi :ref:`api`."
+"acest lucru folosind orice client HTTP în loc de wlc, de exemplu curl, vezi "
+":ref:`api`."
 
 #: admin/continuous.rst:181
 msgid "Repository maintenance"
@@ -7678,8 +7668,8 @@ msgid ""
 msgstr ""
 "Weblate are suport pentru cârligele Pagure, adăugați un webhook cu "
 "destinația ``/hooks/pagure/``` URL pe instalarea Weblate (de exemplu "
-"``https://hosted.weblate.org/hooks/pagure/``). Acest lucru poate fi făcut "
-"în :guilabel:`Activate Web-hooks` sub :guilabel:`Project options`:"
+"``https://hosted.weblate.org/hooks/pagure/``). Acest lucru poate fi făcut în "
+":guilabel:`Activate Web-hooks` sub :guilabel:`Project options`:"
 
 #: admin/continuous.rst:381
 #, fuzzy
@@ -7709,8 +7699,8 @@ msgstr ""
 "Weblate are suport pentru cârligele web Azure Repos, adăugați un webhook "
 "pentru evenimentul :guilabel:`Code pushed` cu destinația la ``/hooks/azure/"
 "``` URL pe instalarea Weblate (de exemplu ``https://hosted.weblate.org/hooks/"
-"azure/``). Acest lucru se poate face în :guilabel:`Service hooks` "
-"din :guilabel:`Project settings`."
+"azure/``). Acest lucru se poate face în :guilabel:`Service hooks` din "
+":guilabel:`Project settings`."
 
 #: admin/continuous.rst:398
 #, fuzzy
@@ -7723,8 +7713,8 @@ msgid ""
 "devops/service-hooks/services/webhooks?view=azure-devops>`_"
 msgstr ""
 "`Hook-uri web în manualul Azure DevOps <https://learn.microsoft.com/en-us/"
-"azure/devops/service-hooks/services/webhooks?view=azure-"
-"devops>`_, :http:post:`/hooks/azure/`, :ref:`hosted-push`"
+"azure/devops/service-hooks/services/webhooks?view=azure-devops>`_, "
+":http:post:`/hooks/azure/`, :ref:`hosted-push`"
 
 #: admin/continuous.rst:399
 #, fuzzy
@@ -7744,11 +7734,11 @@ msgid ""
 "gitea/``). This can be done in :guilabel:`Webhooks` under "
 "repository :guilabel:`Settings`."
 msgstr ""
-"Weblate are suport pentru Gitea webhooks, adăugați un "
-"eveniment :guilabel:`Gitea Webhook` pentru evenimentul :guilabel:`Push "
-"events` cu destinația la ``/hooks/gitea/``` URL-ul din instalarea Weblate "
-"(de exemplu ``https://hosted.weblate.org/hooks/gitea/``). Acest lucru se "
-"poate face în :guilabel:`Webhooks` din depozitul :guilabel:`Settings`."
+"Weblate are suport pentru Gitea webhooks, adăugați un eveniment "
+":guilabel:`Gitea Webhook` pentru evenimentul :guilabel:`Push events` cu "
+"destinația la ``/hooks/gitea/``` URL-ul din instalarea Weblate (de exemplu "
+"``https://hosted.weblate.org/hooks/gitea/``). Acest lucru se poate face în "
+":guilabel:`Webhooks` din depozitul :guilabel:`Settings`."
 
 #: admin/continuous.rst:414
 #, fuzzy
@@ -7757,8 +7747,8 @@ msgstr ""
 #| ">`_, :http:post:`/hooks/gitea/`, :ref:`hosted-push`"
 msgid "`Webhooks in Gitea manual <https://docs.gitea.io/en-us/webhooks/>`_"
 msgstr ""
-"`Webhooks în manualul Gitea <https://docs.gitea.io/en-us/webhooks/"
-">`_, :http:post:`/hooks/gitea/`, :ref:`hosted-push`"
+"`Webhooks în manualul Gitea <https://docs.gitea.io/en-us/webhooks/>`_, "
+":http:post:`/hooks/gitea/`, :ref:`hosted-push`"
 
 #: admin/continuous.rst:415
 #, fuzzy
@@ -7787,11 +7777,11 @@ msgid ""
 "hooks/forgejo/``). This can be done in :guilabel:`Webhooks` under "
 "repository :guilabel:`Settings`."
 msgstr ""
-"Weblate are suport pentru Gitea webhooks, adăugați un "
-"eveniment :guilabel:`Gitea Webhook` pentru evenimentul :guilabel:`Push "
-"events` cu destinația la ``/hooks/gitea/``` URL-ul din instalarea Weblate "
-"(de exemplu ``https://hosted.weblate.org/hooks/gitea/``). Acest lucru se "
-"poate face în :guilabel:`Webhooks` din depozitul :guilabel:`Settings`."
+"Weblate are suport pentru Gitea webhooks, adăugați un eveniment "
+":guilabel:`Gitea Webhook` pentru evenimentul :guilabel:`Push events` cu "
+"destinația la ``/hooks/gitea/``` URL-ul din instalarea Weblate (de exemplu "
+"``https://hosted.weblate.org/hooks/gitea/``). Acest lucru se poate face în "
+":guilabel:`Webhooks` din depozitul :guilabel:`Settings`."
 
 #: admin/continuous.rst:430
 #, fuzzy
@@ -7802,8 +7792,8 @@ msgid ""
 "`Webhooks in Forgejo documentation <https://forgejo.org/docs/latest/user/"
 "webhooks/>`_"
 msgstr ""
-"`Webhooks în manualul Gitea <https://docs.gitea.io/en-us/webhooks/"
-">`_, :http:post:`/hooks/gitea/`, :ref:`hosted-push`"
+"`Webhooks în manualul Gitea <https://docs.gitea.io/en-us/webhooks/>`_, "
+":http:post:`/hooks/gitea/`, :ref:`hosted-push`"
 
 #: admin/continuous.rst:431
 #, fuzzy
@@ -7836,8 +7826,8 @@ msgstr ""
 #| "40>`_, :http:post:`/hooks/gitee/`, :ref:`hosted-push`"
 msgid "`Webhooks in Gitee manual <https://gitee.com/help/categories/40>`_"
 msgstr ""
-"`Webhooks în manualul Gitee <https://gitee.com/help/categories/"
-"40>`_, :http:post:`/hooks/gitee/`, :ref:`hosted-push`"
+"`Webhooks în manualul Gitee <https://gitee.com/help/categories/40>`_, "
+":http:post:`/hooks/gitee/`, :ref:`hosted-push`"
 
 #: admin/continuous.rst:447
 #, fuzzy
@@ -7857,8 +7847,8 @@ msgid ""
 msgstr ""
 "Weblate preia în mod automat depozitele la distanță în fiecare noapte pentru "
 "a îmbunătăți performanța la fuzionarea ulterioară a modificărilor. Opțional, "
-"puteți transforma acest lucru și în fuziuni nocturne, "
-"activând :setting:`AUTO_UPDATE`."
+"puteți transforma acest lucru și în fuziuni nocturne, activând "
+":setting:`AUTO_UPDATE`."
 
 #: admin/continuous.rst:460
 msgid "Pushing changes from Weblate"
@@ -7911,8 +7901,9 @@ msgstr ""
 "În cazul în care nu doriți push-uri directe prin Weblate, există suport "
 "pentru :ref:`vcs-github`, :ref:`vcs-gitlab`, :ref:`vcs-gitea`, :ref:`vcs-"
 "pagure` pull requests sau :ref: `vcs-gerrit` review-uri, le puteți activa "
-"alegând :guilabel:`GitHub`, :guilabel:`GitLab`, :guilabel:`Gitea`, :guilabel:`Gerrit` "
-"sau :guilabel:`Pagure` ca :ref:`component-vcs` în :ref:`component`."
+"alegând :guilabel:`GitHub`, :guilabel:`GitLab`, :guilabel:`Gitea`, "
+":guilabel:`Gerrit` sau :guilabel:`Pagure` ca :ref:`component-vcs` în "
+":ref:`component`."
 
 #: admin/continuous.rst:477
 #, fuzzy
@@ -8038,8 +8029,7 @@ msgstr "Cerere tragere server Bitbucket"
 
 #: admin/continuous.rst:588
 msgid "Can be empty in case :ref:`component-repo` supports pushing."
-msgstr ""
-"Poate fi gol în cazul în care :ref:`component-repo` suportă împingerea."
+msgstr "Poate fi gol în cazul în care :ref:`component-repo` suportă împingerea."
 
 #: admin/continuous.rst:593
 msgid ""
@@ -8350,9 +8340,9 @@ msgid ""
 "added to the interpreter search path."
 msgstr ""
 "Pentru a scrie un cod Python personalizat (numit modul), este nevoie de un "
-"loc de stocare a acestuia, fie în calea sistemului (de obicei, ceva de "
-"genul :file:`/usr/lib/python3.9/site-packages/`), fie în directorul Weblate, "
-"care este, de asemenea, adăugat la calea de căutare a interpretorului."
+"loc de stocare a acestuia, fie în calea sistemului (de obicei, ceva de genul "
+":file:`/usr/lib/python3.9/site-packages/`), fie în directorul Weblate, care "
+"este, de asemenea, adăugat la calea de căutare a interpretorului."
 
 #: admin/customize.rst:40
 #, fuzzy
@@ -8499,8 +8489,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Custom quality checks, add-ons and auto-fixes"
 msgid "Custom quality checks, add-ons, automatic suggestions and auto-fixes"
-msgstr ""
-"Verificări personalizate ale calității, add-on-uri și corecții automate"
+msgstr "Verificări personalizate ale calității, add-on-uri și corecții automate"
 
 #: admin/customize.rst:131
 #, fuzzy
@@ -8816,8 +8805,8 @@ msgid ""
 msgstr ""
 "Weblate este scris în `Python <https://www.python.org/>`_ și suportă Python "
 "3.6 sau o versiune mai nouă. Puteți instala dependențele folosind pip sau "
-"din pachetele de distribuție, lista completă este disponibilă "
-"în :file:`requirements.txt`."
+"din pachetele de distribuție, lista completă este disponibilă în "
+":file:`requirements.txt`."
 
 #: admin/install.rst:188
 msgid "Most notable dependencies:"
@@ -9068,8 +9057,8 @@ msgid ""
 "- you need both Cairo and Pango, which in turn need GLib. All those should "
 "be installed with development files and GObject introspection data."
 msgstr ""
-"Weblate folosește Pango și Cairo pentru redarea widget-urilor bitmap "
-"(vezi :ref:`promotion`) și pentru redarea verificărilor (vezi :ref:`fonts`). "
+"Weblate folosește Pango și Cairo pentru redarea widget-urilor bitmap (vezi "
+":ref:`promotion`) și pentru redarea verificărilor (vezi :ref:`fonts`). "
 "Pentru a instala corect legăturile Python pentru acestea, trebuie să "
 "instalați mai întâi bibliotecile de sistem - aveți nevoie atât de Cairo, cât "
 "și de Pango, care la rândul lor au nevoie de GLib. Toate acestea ar trebui "
@@ -9108,8 +9097,8 @@ msgstr ""
 "Procesul Weblate trebuie să fie capabil să citească și să scrie în "
 "directorul în care păstrează datele - :setting:`DATA_DIR`. Toate fișierele "
 "din acest director trebuie să fie deținute și scriere de către utilizatorul "
-"care rulează toate procesele Weblate (de obicei WSGI și Celery, a se "
-"vedea :ref:`server` și :ref:`celery`)."
+"care rulează toate procesele Weblate (de obicei WSGI și Celery, a se vedea "
+":ref:`server` și :ref:`celery`)."
 
 #: admin/install.rst:401
 msgid ""
@@ -9118,8 +9107,8 @@ msgid ""
 "as: :file:`/var/lib/weblate`."
 msgstr ""
 "Configurația implicită le plasează în același arbore ca și sursele Weblate, "
-"însă ați putea prefera să le mutați într-o locație mai bună, cum ar "
-"fi: :file:`/var/lib/weblate`."
+"însă ați putea prefera să le mutați într-o locație mai bună, cum ar fi: "
+":file:`/var/lib/weblate`."
 
 #: admin/install.rst:405
 msgid ""
@@ -9331,9 +9320,10 @@ msgid ""
 "but you can find more info in the Django documentation."
 msgstr ""
 "Configurarea serverului de poștă electronică este configurată cu ajutorul "
-"acestor "
-"setări: :setting:`django:EMAIL_HOST`, :setting:`django:EMAIL_HOST_PASSWORD`, :setting:`django:EMAIL_USE_TLS`, :setting:`django:EMAIL_USE_SSL`, :setting:`django:EMAIL_HOST_USER` "
-"și :setting:`django:EMAIL_PORT`. Numele lor sunt destul de explicite, dar "
+"acestor setări: :setting:`django:EMAIL_HOST`, "
+":setting:`django:EMAIL_HOST_PASSWORD`, :setting:`django:EMAIL_USE_TLS`, "
+":setting:`django:EMAIL_USE_SSL`, :setting:`django:EMAIL_HOST_USER` și "
+":setting:`django:EMAIL_PORT`. Numele lor sunt destul de explicite, dar "
 "puteți găsi mai multe informații în documentația Django."
 
 #: admin/install.rst:577
@@ -9353,8 +9343,8 @@ msgstr ""
 "În cazul în care primiți o eroare de autentificare neacceptată (de exemplu "
 "``SMTP AUTH extension not supported by server``), cel mai probabil aceasta "
 "este cauzată de utilizarea unei conexiuni nesigure și serverul refuză să se "
-"autentifice în acest mod. Încercați să "
-"activați :setting:`django:EMAIL_USE_TLS` în acest caz."
+"autentifice în acest mod. Încercați să activați "
+":setting:`django:EMAIL_USE_TLS` în acest caz."
 
 #: admin/install.rst:585
 #, fuzzy
@@ -9445,8 +9435,8 @@ msgid ""
 "reverse proxy (for example use ``ProxyPreserveHost On`` for Apache or "
 "``proxy_set_header Host $host;`` with nginx)."
 msgstr ""
-"Un alt lucru de care trebuie să aveți grijă este "
-"antetul :http:header:`Host`. Acesta ar trebui să corespundă cu ceea ce este "
+"Un alt lucru de care trebuie să aveți grijă este antetul "
+":http:header:`Host`. Acesta ar trebui să corespundă cu ceea ce este "
 "configurat ca :setting:`SITE_DOMAIN`. Ar putea fi necesară o configurare "
 "suplimentară în proxy-ul invers (de exemplu, utilizați ``ProxyPreserveHost "
 "On`` pentru Apache sau ``proxy_set_header Host $host;`` cu nginx)."
@@ -9517,8 +9507,8 @@ msgid ""
 "in :file:`settings.py`:"
 msgstr ""
 "Weblate execută comenzi VCS și acceptă configurația proxy din mediul "
-"înconjurător. Abordarea recomandată este de a defini setările proxy "
-"în :file:`settings.py`:"
+"înconjurător. Abordarea recomandată este de a defini setările proxy în "
+":file:`settings.py`:"
 
 #: admin/install.rst:694
 #, fuzzy
@@ -9529,8 +9519,8 @@ msgid ""
 "`Proxy Environment Variables <https://everything.curl.dev/usingcurl/proxies/"
 "env.html>`_"
 msgstr ""
-"`Variabile de mediu proxy <https://everything.curl.dev/usingcurl/proxies/"
-"env>`_"
+"`Variabile de mediu proxy <https://everything.curl.dev/usingcurl/proxies/env>"
+"`_"
 
 #: admin/install.rst:699
 msgid "Adjusting configuration"
@@ -9580,9 +9570,9 @@ msgid ""
 "clearsessions` to remove stale session data from the database."
 msgstr ""
 "Configurați modul în care vor fi stocate sesiunile dvs. În cazul în care "
-"păstrați motorul implicit al bazei de date backend, ar trebui să "
-"programați: :command:`weblate clearsessions` pentru a elimina din baza de "
-"date datele vechi ale sesiunilor."
+"păstrați motorul implicit al bazei de date backend, ar trebui să programați: "
+":command:`weblate clearsessions` pentru a elimina din baza de date datele "
+"vechi ale sesiunilor."
 
 #: admin/install.rst:757
 #, fuzzy
@@ -9635,8 +9625,8 @@ msgid ""
 "Key used by Django to sign some info in cookies, see :ref:`production-"
 "secret` for more info."
 msgstr ""
-"Cheia folosită de Django pentru a semna unele informații în cookie-uri, "
-"vezi :ref:`production-secret` pentru mai multe informații."
+"Cheia folosită de Django pentru a semna unele informații în cookie-uri, vezi "
+":ref:`production-secret` pentru mai multe informații."
 
 #: admin/install.rst:823
 msgid ""
@@ -9671,10 +9661,10 @@ msgid ""
 "in the admin interface, which will give you hints of potential non optimal "
 "configuration on your site."
 msgstr ""
-"După ce ați terminat, ar trebui, de asemenea, să "
-"verificați :guilabel:`Raportul de performanță` din interfața de "
-"administrare, care vă va oferi indicii cu privire la o potențială "
-"configurație neoptimă a site-ului dumneavoastră."
+"După ce ați terminat, ar trebui, de asemenea, să verificați "
+":guilabel:`Raportul de performanță` din interfața de administrare, care vă "
+"va oferi indicii cu privire la o potențială configurație neoptimă a site-"
+"ului dumneavoastră."
 
 #: admin/install.rst:851
 msgid "Production setup"
@@ -9785,9 +9775,8 @@ msgid ""
 "You might want to set up HSTS as well, see :ref:`django:security-"
 "recommendation-ssl` for more details."
 msgstr ""
-"Este posibil să doriți să configurați și HSTS, "
-"consultați :ref:`django:security-recommendation-ssl` pentru mai multe "
-"detalii."
+"Este posibil să doriți să configurați și HSTS, consultați "
+":ref:`django:security-recommendation-ssl` pentru mai multe detalii."
 
 #: admin/install.rst:953
 msgid "Set properly SECURE_HSTS_SECONDS"
@@ -9812,8 +9801,8 @@ msgid ""
 "the :ref:`django:http-strict-transport-security` header on all responses "
 "that do not already have it."
 msgstr ""
-"Dacă este setat la o valoare întreagă diferită de "
-"zero, :class:`django:django.middleware.security.SecurityMiddleware` setează "
+"Dacă este setat la o valoare întreagă diferită de zero, "
+":class:`django:django.middleware.security.SecurityMiddleware` setează "
 "antetul :ref:`django:http-strict-transport-security` pe toate răspunsurile "
 "care nu îl au deja."
 
@@ -9835,8 +9824,8 @@ msgid ""
 "Please use PostgreSQL for a production environment, see :ref:`database-"
 "setup` for more info."
 msgstr ""
-"Vă rugăm să folosiți PostgreSQL pentru un mediu de producție, "
-"consultați :ref:`database-setup` pentru mai multe informații."
+"Vă rugăm să folosiți PostgreSQL pentru un mediu de producție, consultați "
+":ref:`database-setup` pentru mai multe informații."
 
 #: admin/install.rst:979
 msgid ""
@@ -9884,8 +9873,8 @@ msgid ""
 "Celery as well, see :ref:`celery`."
 msgstr ""
 "În cazul în care modificați setările Redis pentru memoria cache, este "
-"posibil să trebuiască să le ajustați și pentru Celery, "
-"consultați :ref:`celery`."
+"posibil să trebuiască să le ajustați și pentru Celery, consultați "
+":ref:`celery`."
 
 #: admin/install.rst:1028
 msgid "Avatar caching"
@@ -9921,8 +9910,8 @@ msgid ""
 "To disable sending e-mails by Weblate set :setting:`django:EMAIL_BACKEND` to "
 "``django.core.mail.backends.dummy.EmailBackend``."
 msgstr ""
-"Pentru a dezactiva trimiterea de e-mailuri prin Weblate, "
-"setați :setting:`django:EMAIL_BACKEND` la "
+"Pentru a dezactiva trimiterea de e-mailuri prin Weblate, setați "
+":setting:`django:EMAIL_BACKEND` la "
 "``django.core.mail.backends.dummy.EmailBackend``."
 
 #: admin/install.rst:1083
@@ -9978,8 +9967,8 @@ msgstr ""
 msgid ""
 "On Docker container, this is available as :envvar:`WEBLATE_ALLOWED_HOSTS`."
 msgstr ""
-"Pe containerul Docker, acest lucru este disponibil "
-"ca :envvar:`WEBLATE_ALLOWED_HOSTS`."
+"Pe containerul Docker, acest lucru este disponibil ca "
+":envvar:`WEBLATE_ALLOWED_HOSTS`."
 
 #: admin/install.rst:1120
 msgid "Django secret key"
@@ -10053,8 +10042,8 @@ msgstr ""
 #| "Translation memory backup to JSON (daily), see :djadmin:`dump_memory`."
 msgid "Translation memory backup to JSON (daily), see :wladmin:`dump_memory`."
 msgstr ""
-"Copie de rezervă a memoriei de traducere în JSON (zilnic), a se "
-"vedea :djadmin:`dump_memory`."
+"Copie de rezervă a memoriei de traducere în JSON (zilnic), a se vedea "
+":djadmin:`dump_memory`."
 
 #: admin/install.rst:1145
 #, fuzzy
@@ -10138,8 +10127,8 @@ msgstr ""
 "Abordarea preferată este de a face acest lucru la nivel de sistem, vă rugăm "
 "să verificați documentația distribuției dumneavoastră pentru mai multe "
 "detalii (de exemplu, pe debian, acest lucru se poate face prin plasarea "
-"certificatului CA în :file:`/usr/local/share/ca-certificates/` și "
-"rularea :command:`update-ca-certificates`)."
+"certificatului CA în :file:`/usr/local/share/ca-certificates/` și rularea "
+":command:`update-ca-certificates`)."
 
 #: admin/install.rst:1193
 msgid ""
@@ -10193,10 +10182,11 @@ msgid ""
 "configuring :attr:`compressor:django.conf.settings.COMPRESS_OFFLINE_CONTEXT` "
 "(the latter is already included in the example configuration):"
 msgstr ""
-"Comutarea configurației este simplă prin "
-"activarea :attr:`compressor:django.conf.settings.COMPRESS_OFFLINE` și prin "
-"configurarea :attr:`compressor:django.conf.settings.COMPRESS_OFFLINE_CONTEXT` "
-"(aceasta din urmă este deja inclusă în configurația de exemplu):"
+"Comutarea configurației este simplă prin activarea "
+":attr:`compressor:django.conf.settings.COMPRESS_OFFLINE` și prin "
+"configurarea "
+":attr:`compressor:django.conf.settings.COMPRESS_OFFLINE_CONTEXT` (aceasta "
+"din urmă este deja inclusă în configurația de exemplu):"
 
 #: admin/install.rst:1235
 msgid "On each deploy you need to compress the files to match current version:"
@@ -10241,8 +10231,8 @@ msgid ""
 "Frontend web server for static files and SSL termination (see :ref:`static-"
 "files`)"
 msgstr ""
-"Server web frontend pentru fișiere statice și terminarea SSL "
-"(vezi :ref:`static-files`)"
+"Server web frontend pentru fișiere statice și terminarea SSL (vezi "
+":ref:`static-files`)"
 
 #: admin/install.rst:1264
 msgid "WSGI server for dynamic content (see :ref:`uwsgi`)"
@@ -10334,9 +10324,8 @@ msgid ""
 msgstr ""
 "Serverul încorporat Django servește fișiere statice doar cu :setting:`DEBUG` "
 "activat, deoarece este destinat doar pentru dezvoltare. Pentru utilizarea în "
-"producție, vă rugăm să consultați configurările wsgi "
-"în :ref:`uwsgi`, :ref:`apache`, :ref:`apache-gunicorn` și :ref:`static-"
-"files`."
+"producție, vă rugăm să consultați configurările wsgi în :ref:`uwsgi`, "
+":ref:`apache`, :ref:`apache-gunicorn` și :ref:`static-files`."
 
 #: admin/install.rst:1320
 msgid "Serving static files"
@@ -10363,9 +10352,9 @@ msgid ""
 msgstr ""
 "Django trebuie să adune fișierele statice într-un singur director. Pentru a "
 "face acest lucru, executați :samp:`weblate collectstatic --noinput`. Aceasta "
-"va copia fișierele statice într-un director specificat de "
-"setarea :setting:`django:STATIC_ROOT` (acesta este implicit un director "
-"``static`` în interiorul :setting:`DATA_DIR`)."
+"va copia fișierele statice într-un director specificat de setarea "
+":setting:`django:STATIC_ROOT` (acesta este implicit un director ``static`` "
+"în interiorul :setting:`DATA_DIR`)."
 
 #: admin/install.rst:1330
 msgid ""
@@ -10482,8 +10471,8 @@ msgid ""
 "``virtualenv = /home/user/weblate-env`` in uWSGI)."
 msgstr ""
 "Pentru a rula serverul web de producție, utilizați învelișul wsgi instalat "
-"împreună cu Weblate (în cazul mediului virtual, acesta este instalat "
-"ca :file:`~/weblate-env/lib/python3.9/site-packages/weblate/wsgi.py`).  Nu "
+"împreună cu Weblate (în cazul mediului virtual, acesta este instalat ca "
+":file:`~/weblate-env/lib/python3.9/site-packages/weblate/wsgi.py`).  Nu "
 "uitați să setați și calea de căutare Python în mediul virtual (de exemplu, "
 "folosind ``virtualenv = /home/user/weblate-env`` în uWSGI)."
 
@@ -10633,8 +10622,8 @@ msgid ""
 "or updates (see :ref:`backup`, :setting:`BACKGROUND_TASKS`, :ref:`addons`)."
 msgstr ""
 "Executarea sarcinilor de întreținere regulate, cum ar fi copii de rezervă, "
-"curățări, adăugări zilnice sau actualizări (a se "
-"vedea :ref:`backup`, :setting:`BACKGROUND_TASKS`, :ref:`addons`)."
+"curățări, adăugări zilnice sau actualizări (a se vedea :ref:`backup`, "
+":setting:`BACKGROUND_TASKS`, :ref:`addons`)."
 
 #: admin/install.rst:1555
 msgid "Running :ref:`auto-translation`."
@@ -10756,9 +10745,8 @@ msgid ""
 "Additional configuration to rotate Celery logs using :command:`logrotate` to "
 "be placed as :file:`/etc/logrotate.d/celery`:"
 msgstr ""
-"Configurație suplimentară pentru a roti jurnalele Celery "
-"folosind :command:`logrotate` pentru a fi plasată ca :file:`/etc/logrotate.d/"
-"celery`:"
+"Configurație suplimentară pentru a roti jurnalele Celery folosind "
+":command:`logrotate` pentru a fi plasată ca :file:`/etc/logrotate.d/celery`:"
 
 #: admin/install.rst:1632
 msgid "Periodic tasks using Celery beat"
@@ -10822,8 +10810,8 @@ msgid ""
 msgstr ""
 "În mod implicit, erorile Celery sunt înregistrate doar în jurnalul Celery și "
 "nu sunt vizibile pentru utilizator. În cazul în care doriți să aveți o "
-"imagine de ansamblu asupra acestor eșecuri, se recomandă să "
-"configurați :ref:`collecting-errors`."
+"imagine de ansamblu asupra acestor eșecuri, se recomandă să configurați "
+":ref:`collecting-errors`."
 
 #: admin/install.rst:1672
 msgid "Single-process Celery setup"
@@ -10865,8 +10853,8 @@ msgid ""
 "For monitoring metrics of Weblate you can use :http:get:`/api/metrics/` API "
 "endpoint."
 msgstr ""
-"Pentru monitorizarea metricilor Weblate puteți utiliza punctul final "
-"API :http:get:`/api/metrics/`."
+"Pentru monitorizarea metricilor Weblate puteți utiliza punctul final API "
+":http:get:`/api/metrics/`."
 
 #: admin/install.rst:1701
 #, fuzzy
@@ -10925,8 +10913,8 @@ msgid ""
 "it's enough to set :setting:`SENTRY_DSN` in the :file:`settings.py`:"
 msgstr ""
 "Weblate are suport încorporat pentru `Sentry <https://sentry.io/>`_. Pentru "
-"a-l utiliza, este suficient să setați :setting:`SENTRY_DSN` "
-"în :file:`settings.py`:"
+"a-l utiliza, este suficient să setați :setting:`SENTRY_DSN` în "
+":file:`settings.py`:"
 
 #: admin/install.rst:1737
 msgid ""
@@ -11466,9 +11454,8 @@ msgid ""
 "the PostgreSQL server."
 msgstr ""
 "De asemenea, este posibil să doriți să actualizați depozitul ``docker-"
-"compose``, deși nu este necesar în majoritatea cazurilor. "
-"Consultați :ref:`docker-postgres-upgrade` pentru actualizarea serverului "
-"PostgreSQL."
+"compose``, deși nu este necesar în majoritatea cazurilor. Consultați "
+":ref:`docker-postgres-upgrade` pentru actualizarea serverului PostgreSQL."
 
 #: admin/install/docker.rst:263
 msgid "Upgrading PostgreSQL container"
@@ -11584,8 +11571,8 @@ msgid ""
 "To reset `admin` password, restart the container "
 "with :envvar:`WEBLATE_ADMIN_PASSWORD` set to new password."
 msgstr ""
-"Pentru a reseta parola `admin`, reporniți containerul "
-"cu :envvar:`WEBLATE_ADMIN_PASSWORD` setat la noua parolă."
+"Pentru a reseta parola `admin`, reporniți containerul cu "
+":envvar:`WEBLATE_ADMIN_PASSWORD` setat la noua parolă."
 
 #: admin/install/docker.rst:373
 msgid "Number of processes and memory consumption"
@@ -11657,10 +11644,10 @@ msgid ""
 "the services should be running just once in the cluster, and the order of "
 "the services matters as well."
 msgstr ""
-"Fiecare container Weblate are un rol definit folosind variabila de "
-"mediu :envvar:`WEBLATE_SERVICE`. Vă rugăm să urmăriți cu atenție "
-"documentația, deoarece unele dintre servicii trebuie să ruleze o singură "
-"dată în cluster, iar ordinea serviciilor este importantă."
+"Fiecare container Weblate are un rol definit folosind variabila de mediu "
+":envvar:`WEBLATE_SERVICE`. Vă rugăm să urmăriți cu atenție documentația, "
+"deoarece unele dintre servicii trebuie să ruleze o singură dată în cluster, "
+"iar ordinea serviciilor este importantă."
 
 #: admin/install/docker.rst:433
 msgid ""
@@ -11808,9 +11795,8 @@ msgid ""
 "and :envvar:`WEBLATE_ADMIN_EMAIL`."
 msgstr ""
 "Dacă este setat, utilizatorul `admin` este ajustat la fiecare pornire a "
-"containerului pentru a se potrivi "
-"cu :envvar:`WEBLATE_ADMIN_PASSWORD`, :envvar:`WEBLATE_ADMIN_NAME` "
-"și :envvar:`WEBLATE_ADMIN_EMAIL`."
+"containerului pentru a se potrivi cu :envvar:`WEBLATE_ADMIN_PASSWORD`, "
+":envvar:`WEBLATE_ADMIN_NAME` și :envvar:`WEBLATE_ADMIN_EMAIL`."
 
 #: admin/install/docker.rst:581
 msgid ""
@@ -11851,8 +11837,8 @@ msgstr "Configurează :setting:`STATUS_URL`."
 #: admin/install/docker.rst:630
 msgid "Configures contact form behavior, see :setting:`CONTACT_FORM`."
 msgstr ""
-"Configurează comportamentul formularului de contact, a se "
-"vedea :setting:`CONTACT_FORM`."
+"Configurează comportamentul formularului de contact, a se vedea "
+":setting:`CONTACT_FORM`."
 
 #: admin/install/docker.rst:634
 msgid "Configures allowed HTTP hostnames using :setting:`ALLOWED_HOSTS`."
@@ -11868,8 +11854,8 @@ msgid ""
 "Configures whether registrations are open by "
 "toggling :std:setting:`REGISTRATION_OPEN`."
 msgstr ""
-"Configurează dacă înregistrările sunt deschise prin "
-"activarea :std:setting:`REGISTRATION_OPEN`."
+"Configurează dacă înregistrările sunt deschise prin activarea "
+":std:setting:`REGISTRATION_OPEN`."
 
 #: admin/install/docker.rst:666
 #, fuzzy
@@ -11880,8 +11866,8 @@ msgid ""
 "Configures whether captcha is used for registration and other "
 "unauthenticated actions, see :std:setting:`REGISTRATION_CAPTCHA`."
 msgstr ""
-"Configurează dacă înregistrările sunt deschise prin "
-"activarea :std:setting:`REGISTRATION_OPEN`."
+"Configurează dacă înregistrările sunt deschise prin activarea "
+":std:setting:`REGISTRATION_OPEN`."
 
 #: admin/install/docker.rst:677
 msgid ""
@@ -11932,8 +11918,8 @@ msgid ""
 "Configures the used time zone in Weblate, "
 "see :std:setting:`django:TIME_ZONE`."
 msgstr ""
-"Configurează fusul orar utilizat în Weblate, "
-"vezi :std:setting:`django:TIME_ZONE`."
+"Configurează fusul orar utilizat în Weblate, vezi "
+":std:setting:`django:TIME_ZONE`."
 
 #: admin/install/docker.rst:736
 msgid ""
@@ -11999,8 +11985,8 @@ msgid ""
 "Enables :setting:`IP_BEHIND_REVERSE_PROXY` and "
 "sets :setting:`IP_PROXY_HEADER`."
 msgstr ""
-"Activează :setting:`IP_BEHIND_REVERSE_PROXY` și "
-"setează :setting:`IP_PROXY_HEADER`."
+"Activează :setting:`IP_BEHIND_REVERSE_PROXY` și setează "
+":setting:`IP_PROXY_HEADER`."
 
 #: admin/install/docker.rst:802
 msgid ""
@@ -12106,8 +12092,8 @@ msgid ""
 "Configures ID for Google Analytics by "
 "changing :setting:`GOOGLE_ANALYTICS_ID`."
 msgstr ""
-"Configurează ID-ul pentru Google Analytics prin "
-"modificarea :setting:`GOOGLE_ANALYTICS_ID`."
+"Configurează ID-ul pentru Google Analytics prin modificarea "
+":setting:`GOOGLE_ANALYTICS_ID`."
 
 #: admin/install/docker.rst:908
 #, fuzzy
@@ -12126,8 +12112,8 @@ msgid ""
 "Configures the language simplification policy, "
 "see :setting:`SIMPLIFY_LANGUAGES`."
 msgstr ""
-"Configurează politica de simplificare a limbilor, a se "
-"vedea :setting:`SIMPLIFY_LANGUAGES`."
+"Configurează politica de simplificare a limbilor, a se vedea "
+":setting:`SIMPLIFY_LANGUAGES`."
 
 #: admin/install/docker.rst:921
 msgid ""
@@ -12158,8 +12144,8 @@ msgid ""
 "see :setting:`DEFAULT_TRANSLATION_PROPAGATION`."
 msgstr ""
 "Configurează valoarea implicită pentru :ref:`component-"
-"allow_translation_propagation` pentru componentele noi, a se "
-"vedea :setting:`DEFAULT_TRANSLATION_PROPAGATION`."
+"allow_translation_propagation` pentru componentele noi, a se vedea "
+":setting:`DEFAULT_TRANSLATION_PROPAGATION`."
 
 #: admin/install/docker.rst:949
 msgid "Configures :setting:`DEFAULT_COMMITER_EMAIL`."
@@ -12194,15 +12180,15 @@ msgstr ""
 #: admin/install/docker.rst:969
 msgid "Configures GPG signing of commits, see :setting:`WEBLATE_GPG_IDENTITY`."
 msgstr ""
-"Configurează semnarea GPG a modificărilor, a se "
-"vedea :setting:`WEBLATE_GPG_IDENTITY`."
+"Configurează semnarea GPG a modificărilor, a se vedea "
+":setting:`WEBLATE_GPG_IDENTITY`."
 
 #: admin/install/docker.rst:977
 msgid ""
 "Configures URL prefix where Weblate is running, see :setting:`URL_PREFIX`."
 msgstr ""
-"Configurează prefixul URL în care rulează Weblate, "
-"vezi :setting:`URL_PREFIX`."
+"Configurează prefixul URL în care rulează Weblate, vezi "
+":setting:`URL_PREFIX`."
 
 #: admin/install/docker.rst:981
 #, fuzzy
@@ -12211,16 +12197,16 @@ msgstr ""
 msgid ""
 "Configures URL prefix for static files served from :setting:`CACHE_DIR`."
 msgstr ""
-"Configurează prefixul URL în care rulează Weblate, "
-"vezi :setting:`URL_PREFIX`."
+"Configurează prefixul URL în care rulează Weblate, vezi "
+":setting:`URL_PREFIX`."
 
 #: admin/install/docker.rst:985
 msgid ""
 "Configures checks which you do not want to be displayed, "
 "see :setting:`django:SILENCED_SYSTEM_CHECKS`."
 msgstr ""
-"Configurează verificările care nu doriți să fie afișate, a se "
-"vedea :setting:`django:SILENCED_SYSTEM_CHECKS`."
+"Configurează verificările care nu doriți să fie afișate, a se vedea "
+":setting:`django:SILENCED_SYSTEM_CHECKS`."
 
 #: admin/install/docker.rst:995
 #, fuzzy
@@ -12939,8 +12925,8 @@ msgid ""
 "Configures the daily database dump using :setting:`DATABASE_BACKUP`. "
 "Defaults to ``plain``."
 msgstr ""
-"Configurează descărcarea zilnică a bazei de date "
-"folosind :setting:`DATABASE_BACKUP`. Valoarea implicită este ``plain``."
+"Configurează descărcarea zilnică a bazei de date folosind "
+":setting:`DATABASE_BACKUP`. Valoarea implicită este ``plain``."
 
 #: admin/install/docker.rst:1790
 #, fuzzy
@@ -13054,16 +13040,16 @@ msgstr ""
 "Dacă se utilizează o conexiune TLS (securizată) implicită atunci când se "
 "vorbește cu serverul SMTP. În cea mai mare parte a documentației despre e-"
 "mail, acest tip de conexiune TLS este denumit SSL. În general, este utilizat "
-"pe portul 465. Dacă întâmpinați probleme, consultați setarea TLS "
-"explicită :envvar:`WEBLATE_EMAIL_USE_TLS`."
+"pe portul 465. Dacă întâmpinați probleme, consultați setarea TLS explicită "
+":envvar:`WEBLATE_EMAIL_USE_TLS`."
 
 #: admin/install/docker.rst:1911 admin/install/docker.rst:1929
 msgid ""
 "The SSL/TLS support is automatically enabled based on "
 "the :envvar:`WEBLATE_EMAIL_PORT`."
 msgstr ""
-"Suportul SSL/TLS este activat automat pe baza "
-"parametrului :envvar:`WEBLATE_EMAIL_PORT`."
+"Suportul SSL/TLS este activat automat pe baza parametrului "
+":envvar:`WEBLATE_EMAIL_PORT`."
 
 #: admin/install/docker.rst:1922
 msgid ""
@@ -13123,8 +13109,8 @@ msgid ""
 "It is recommended to collect errors from the installation systematically, "
 "see :ref:`collecting-errors`."
 msgstr ""
-"Se recomandă colectarea sistematică a erorilor de la instalare, a se "
-"vedea :ref:`collecting-errors`."
+"Se recomandă colectarea sistematică a erorilor de la instalare, a se vedea "
+":ref:`collecting-errors`."
 
 #: admin/install/docker.rst:1987
 msgid "To enable support for Rollbar, set the following:"
@@ -13243,10 +13229,11 @@ msgid ""
 "determine :envvar:`CELERY_MAIN_OPTIONS`, :envvar:`CELERY_NOTIFY_OPTIONS`, :envvar:`CELERY_MEMORY_OPTIONS`, :envvar:`CELERY_TRANSLATE_OPTIONS`, :envvar:`CELERY_BACKUP_OPTIONS`, :envvar:`CELERY_BEAT_OPTIONS`, "
 "and :envvar:`WEB_WORKERS`. You can use these settings to fine-tune."
 msgstr ""
-"Este folosit pentru a "
-"determina :envvar:`CELERY_MAIN_OPTIONS`, :envvar:`CELERY_NOTIFY_OPTIONS`, :envvar:`CELERY_MEMORY_OPTIONS`, :envvar:`CELERY_TRANSLATE_OPTIONS`, :envvar:`CELERY_BACKUP_OPTIONS`, :envvar:`CELERY_BEAT_OPTIONS` "
-"și :envvar:`WEB_WORKERS`. Puteți utiliza aceste setări pentru a regla cu "
-"precizie."
+"Este folosit pentru a determina :envvar:`CELERY_MAIN_OPTIONS`, "
+":envvar:`CELERY_NOTIFY_OPTIONS`, :envvar:`CELERY_MEMORY_OPTIONS`, "
+":envvar:`CELERY_TRANSLATE_OPTIONS`, :envvar:`CELERY_BACKUP_OPTIONS`, "
+":envvar:`CELERY_BEAT_OPTIONS` și :envvar:`WEB_WORKERS`. Puteți utiliza "
+"aceste setări pentru a regla cu precizie."
 
 #: admin/install/docker.rst:2132
 msgid ""
@@ -13263,8 +13250,8 @@ msgid ""
 "By default, the number of concurrent workers is based "
 "on :envvar:`WEBLATE_WORKERS`."
 msgstr ""
-"În mod implicit, numărul de lucrători simultani se bazează "
-"pe :envvar:`WEBLATE_WORKERS`."
+"În mod implicit, numărul de lucrători simultani se bazează pe "
+":envvar:`WEBLATE_WORKERS`."
 
 #: admin/install/docker.rst:2147
 #, fuzzy
@@ -13273,8 +13260,8 @@ msgstr ""
 #| "celery.bin.worker>`, :ref:`celery`"
 msgid ":doc:`Celery worker options <celery:reference/celery.bin.worker>`"
 msgstr ""
-":doc:`Opțiuni pentru lucrător <celery:reference/"
-"celery.bin.worker>`, :ref:`celery`"
+":doc:`Opțiuni pentru lucrător <celery:reference/celery.bin.worker>`, "
+":ref:`celery`"
 
 #: admin/install/docker.rst:2154
 msgid ""
@@ -13620,10 +13607,10 @@ msgid ""
 "For example creating :file:`/app/data/python/customize/static/favicon.ico` "
 "will replace the favicon."
 msgstr ""
-"Fișierele statice care vin cu Weblate pot fi înlocuite prin plasarea "
-"în :file:`/app/data/python/customize/static` (a se vedea :ref:`docker-"
-"volume`). De exemplu, crearea :file:`/app/data/python/customize/static/"
-"favicon.ico` va înlocui faviconul."
+"Fișierele statice care vin cu Weblate pot fi înlocuite prin plasarea în "
+":file:`/app/data/python/customize/static` (a se vedea :ref:`docker-volume`). "
+"De exemplu, crearea :file:`/app/data/python/customize/static/favicon.ico` va "
+"înlocui faviconul."
 
 #: admin/install/docker.rst:2402
 msgid ""
@@ -13649,8 +13636,8 @@ msgid ""
 "Alternatively you can also include own module (see :doc:`../customize`) and "
 "add it as separate volume to the Docker container, for example:"
 msgstr ""
-"Alternativ, puteți, de asemenea, să includeți propriul modul (a se "
-"vedea :doc:`../customize`) și să îl adăugați ca volum separat la containerul "
+"Alternativ, puteți, de asemenea, să includeți propriul modul (a se vedea "
+":doc:`../customize`) și să îl adăugați ca volum separat la containerul "
 "Docker, de exemplu:"
 
 #: admin/install/docker.rst:2424
@@ -14141,9 +14128,8 @@ msgstr ""
 "Prin procesarea șablonului se va crea o ``ConfigMap`` care poate fi "
 "utilizată pentru a personaliza imaginea Weblate. ``ConfigMap`` este montat "
 "direct ca variabile de mediu și declanșează o nouă implementare de fiecare "
-"dată când este modificat. Pentru alte opțiuni de configurare, "
-"consultați :ref:`docker-environment` pentru lista completă a variabilelor de "
-"mediu."
+"dată când este modificat. Pentru alte opțiuni de configurare, consultați "
+":ref:`docker-environment` pentru lista completă a variabilelor de mediu."
 
 #: admin/install/source.rst:2
 msgid "Installing from sources"
@@ -14397,8 +14383,8 @@ msgid ""
 "using :command:`weblate check --deploy`, see :ref:`production`."
 msgstr ""
 "Examinați problemele potențiale ale instalării dvs. fie pe URL-ul ``/manage/"
-"performance/`` (consultați :ref:`management-interface`), fie "
-"folosind :command:`weblate check --deploy`, consultați :ref:`production`."
+"performance/`` (consultați :ref:`management-interface`), fie folosind "
+":command:`weblate check --deploy`, consultați :ref:`production`."
 
 #: admin/install/steps/install-after.rst:14
 msgid "Adding translation"
@@ -14411,8 +14397,8 @@ msgid ""
 "details."
 msgstr ""
 "Deschideți interfața de administrare (``http://localhost:8000/create/project/"
-"``) și creați proiectul pe care doriți să-l traduceți. "
-"Consultați :ref:`project` pentru mai multe detalii."
+"``) și creați proiectul pe care doriți să-l traduceți. Consultați "
+":ref:`project` pentru mai multe detalii."
 
 #: admin/install/steps/install-after.rst:19
 msgid "All you need to specify here is the project name and its website."
@@ -14440,9 +14426,9 @@ msgid ""
 msgstr ""
 "Câmpurile importante aici sunt: :ref:`component-name`, :ref:`component-repo` "
 "și :ref:`component-filemask` pentru găsirea fișierelor traductibile. Weblate "
-"acceptă o gamă largă de formate, "
-"inclusiv :ref:`gettext`, :ref:`aresource`, :ref:`apple`, :ref:`javaprop`, :ref:`stringsdict` "
-"sau :ref:`fluent`, consultați :ref:`formats` pentru mai multe detalii."
+"acceptă o gamă largă de formate, inclusiv :ref:`gettext`, :ref:`aresource`, "
+":ref:`apple`, :ref:`javaprop`, :ref:`stringsdict` sau :ref:`fluent`, "
+"consultați :ref:`formats` pentru mai multe detalii."
 
 #: admin/install/steps/install-after.rst:31
 msgid ""
@@ -14451,8 +14437,8 @@ msgid ""
 "translating."
 msgstr ""
 "După ce ați finalizat cele de mai sus (poate fi un proces de lungă durată, "
-"în funcție de dimensiunea depozitului VCS și de numărul de mesaje de "
-"tradus), puteți începe traducerea."
+"în funcție de dimensiunea depozitului VCS și de numărul de mesaje de tradus)"
+", puteți începe traducerea."
 
 #: admin/install/steps/install-configure.rst:2
 msgid "Configuring Weblate"
@@ -14516,16 +14502,16 @@ msgid ""
 "Collect the static files for your web server (see :ref:`server` "
 "and :ref:`static-files`):"
 msgstr ""
-"Colectează fișierele statice pentru serverul tău web (a se "
-"vedea :ref:`server` și :ref:`static-files`):"
+"Colectează fișierele statice pentru serverul tău web (a se vedea "
+":ref:`server` și :ref:`static-files`):"
 
 #: admin/install/steps/install-configure.rst:52
 msgid ""
 "Compress the JavaScript and CSS files (optional, see :ref:`production-"
 "compress`):"
 msgstr ""
-"Comprimarea fișierelor JavaScript și CSS (opțional, "
-"consultați :ref:`production-compress`):"
+"Comprimarea fișierelor JavaScript și CSS (opțional, consultați "
+":ref:`production-compress`):"
 
 #: admin/install/steps/install-configure.rst:58
 msgid ""
@@ -14699,8 +14685,8 @@ msgid ""
 msgstr ""
 "În Weblate sunt incluse definiții pentru aproximativ 600 de limbi, iar lista "
 "este extinsă în fiecare versiune. Ori de câte ori Weblate este actualizat "
-"(mai precis ori de câte ori se execută :program:`weblate migrate`, "
-"vezi :ref:`generic-upgrade-instructions`), baza de date a limbilor este "
+"(mai precis ori de câte ori se execută :program:`weblate migrate`, vezi "
+":ref:`generic-upgrade-instructions`), baza de date a limbilor este "
 "actualizată pentru a include toate definițiile limbilor livrate în Weblate."
 
 #: admin/languages.rst:20
@@ -14714,10 +14700,10 @@ msgid ""
 "enforce updating the database to match Weblate built-in data "
 "using :wladmin:`setuplang`."
 msgstr ""
-"Această caracteristică poate fi dezactivată "
-"folosind :setting:`UPDATE_LANGUAGES`. De asemenea, puteți impune "
-"actualizarea bazei de date pentru a se potrivi cu datele încorporate în "
-"Weblate folosind :djadmin:`setuplang`."
+"Această caracteristică poate fi dezactivată folosind "
+":setting:`UPDATE_LANGUAGES`. De asemenea, puteți impune actualizarea bazei "
+"de date pentru a se potrivi cu datele încorporate în Weblate folosind "
+":djadmin:`setuplang`."
 
 #: admin/languages.rst:27
 #, fuzzy
@@ -14750,8 +14736,8 @@ msgid ""
 "You can further adjust this mapping at project level by :ref:`project-"
 "language_aliases`."
 msgstr ""
-"Puteți ajusta în continuare această cartografiere la nivel de proiect "
-"prin :ref:`project-language_aliases`."
+"Puteți ajusta în continuare această cartografiere la nivel de proiect prin "
+":ref:`project-language_aliases`."
 
 #: admin/languages.rst:40
 msgid ""
@@ -14797,12 +14783,12 @@ msgid ""
 msgstr ""
 "În cazul în care nici aceasta nu reușește, va fi creată o nouă definiție a "
 "limbii folosind valorile implicite (direcția textului de la stânga la "
-"dreapta, un plural). Limba creată automat cu codul ``xx_XX`` se va "
-"numi :guilabel:`xx_XX (generat)`. S-ar putea să doriți să schimbați acest "
-"lucru în interfața de administrare mai târziu, (vezi :ref:`changing-"
-"languages`) și să raportați acest lucru la trackerul de probleme "
-"(vezi :ref:`contributing`), astfel încât definiția corectă să poată fi "
-"adăugată la viitoarea versiune Weblate."
+"dreapta, un plural). Limba creată automat cu codul ``xx_XX`` se va numi "
+":guilabel:`xx_XX (generat)`. S-ar putea să doriți să schimbați acest lucru "
+"în interfața de administrare mai târziu, (vezi :ref:`changing-languages`) și "
+"să raportați acest lucru la trackerul de probleme (vezi :ref:`contributing`)"
+", astfel încât definiția corectă să poată fi adăugată la viitoarea versiune "
+"Weblate."
 
 #: admin/languages.rst:59
 msgid ""
@@ -14885,11 +14871,11 @@ msgid ""
 "letter code. It can also support extended codes as defined by `BCP 47`_."
 msgstr ""
 "Codul de identificare a limbii. Weblate preferă codurile din două litere, "
-"așa cum sunt definite de `ISO 639-1 <https://en.wikipedia.org/wiki/"
-"ISO_639-1>`_, dar folosește codurile `ISO 639-2 <https://en.wikipedia.org/"
-"wiki/ISO_639-2>`_ sau `ISO 639-3 <https://en.wikipedia.org/wiki/ISO_639-3>`_ "
-"pentru limbile care nu au coduri din două litere. De asemenea, poate suporta "
-"coduri extinse, așa cum sunt definite de `BCP 47`_."
+"așa cum sunt definite de `ISO 639-1 <https://en.wikipedia.org/wiki/ISO_639-1>"
+"`_, dar folosește codurile `ISO 639-2 <https://en.wikipedia.org/wiki/ISO_639-"
+"2>`_ sau `ISO 639-3 <https://en.wikipedia.org/wiki/ISO_639-3>`_ pentru "
+"limbile care nu au coduri din două litere. De asemenea, poate suporta coduri "
+"extinse, așa cum sunt definite de `BCP 47`_."
 
 #: admin/languages.rst:128 admin/projects.rst:1206
 msgid "Language name"
@@ -15011,9 +14997,9 @@ msgid ""
 "Upon specifying license info (license name and URL), this info is shown in "
 "the translation info section of the respective :ref:`component`."
 msgstr ""
-"La specificarea informațiilor despre licență (numele licenței și adresa "
-"URL), aceste informații sunt afișate în secțiunea de informații despre "
-"traducere a componentei respective :ref:`component`."
+"La specificarea informațiilor despre licență (numele licenței și adresa URL)"
+", aceste informații sunt afișate în secțiunea de informații despre traducere "
+"a componentei respective :ref:`component`."
 
 #: admin/licensing.rst:16
 msgid ""
@@ -15067,8 +15053,8 @@ msgstr "Sugestii automate"
 msgid ""
 "Prior to Weblate 4.13, the services were configured in the :ref:`config`."
 msgstr ""
-"Înainte de Weblate 4.13, serviciile erau configurate în "
-"fișierul :ref:`config`."
+"Înainte de Weblate 4.13, serviciile erau configurate în fișierul "
+":ref:`config`."
 
 #: admin/machine.rst:10
 #, fuzzy
@@ -15232,8 +15218,8 @@ msgid ""
 "called :command:`weblate` installable atop Weblate)."
 msgstr ""
 "Veți găsi comenzi de gestionare de bază (disponibile ca :file:`./manage.py` "
-"în sursele Django, sau ca un set extins într-un script "
-"numit :command:`weblate` instalabil deasupra Weblate)."
+"în sursele Django, sau ca un set extins într-un script numit "
+":command:`weblate` instalabil deasupra Weblate)."
 
 #: admin/management.rst:18
 msgid "Invoking management commands"
@@ -15265,9 +15251,9 @@ msgid ""
 "checkout), the management script is :file:`./manage.py` available in the "
 "Weblate sources. To run it:"
 msgstr ""
-"Dacă folosiți codul sursă direct (fie dintr-un tarball, fie din Git "
-"checkout), scriptul de management este :file:`./manage.py` disponibil în "
-"sursele Weblate. Pentru a-l rula:"
+"Dacă folosiți codul sursă direct (fie dintr-un tarball, fie din Git checkout)"
+", scriptul de management este :file:`./manage.py` disponibil în sursele "
+"Weblate. Pentru a-l rula:"
 
 #: admin/management.rst:42
 #, fuzzy
@@ -15282,10 +15268,10 @@ msgid ""
 "path (or Python environment path), from where you can use it to control "
 "Weblate:"
 msgstr ""
-"Dacă ați instalat Weblate utilizând programul de instalare pip sau "
-"scriptul :file:`./setup.py`, comanda :command:`weblate` este instalată în "
-"calea dumneavoastră (sau în calea virtualenv), de unde o puteți utiliza "
-"pentru a controla Weblate:"
+"Dacă ați instalat Weblate utilizând programul de instalare pip sau scriptul "
+":file:`./setup.py`, comanda :command:`weblate` este instalată în calea "
+"dumneavoastră (sau în calea virtualenv), de unde o puteți utiliza pentru a "
+"controla Weblate:"
 
 #: admin/management.rst:50
 msgid ""
@@ -15669,8 +15655,8 @@ msgstr ""
 #| msgid "Imports user data from a file created by :djadmin:`dumpuserdata`"
 msgid "Imports user data from a file created by :wladmin:`dumpuserdata`."
 msgstr ""
-"Importă datele utilizatorului dintr-un fișier creat "
-"de :djadmin:`dumpuserdata`"
+"Importă datele utilizatorului dintr-un fișier creat de "
+":djadmin:`dumpuserdata`"
 
 #: admin/management.rst:628
 msgid "Imports users from JSON dump of the Django auth_users database."
@@ -15977,8 +15963,8 @@ msgid ""
 "by :wladmin:`updategit`."
 msgstr ""
 "De obicei, este mai bine să configurați cârligele din depozit pentru a "
-"declanșa :ref:`hooks`, în loc de interogarea obișnuită de "
-"către :djadmin:`updategit`."
+"declanșa :ref:`hooks`, în loc de interogarea obișnuită de către "
+":djadmin:`updategit`."
 
 #: admin/memory.rst:5
 msgid "Translation Memory"
@@ -16091,9 +16077,9 @@ msgid ""
 "the :wladmin:`import_memory` command makes memory content available to all "
 "users and projects."
 msgstr ""
-"Importul de date arbitrare din memoria de traducere utilizând "
-"comanda :djadmin:`import_memory` face ca conținutul memoriei să fie "
-"disponibil tuturor utilizatorilor și proiectelor."
+"Importul de date arbitrare din memoria de traducere utilizând comanda "
+":djadmin:`import_memory` face ca conținutul memoriei să fie disponibil "
+"tuturor utilizatorilor și proiectelor."
 
 #: admin/memory.rst:38
 #, fuzzy
@@ -16229,9 +16215,8 @@ msgid ""
 "In the Docker container this can be configured "
 "using :envvar:`WEBLATE_DEFAULT_AUTOCLEAN_TM`."
 msgstr ""
-"În containerul Docker, acest lucru poate fi configurat "
-"folosind :envvar:`WEBLATE_API_RATELIMIT_ANON` "
-"și :envvar:`WEBLATE_API_RATELIMIT_USER`."
+"În containerul Docker, acest lucru poate fi configurat folosind "
+":envvar:`WEBLATE_API_RATELIMIT_ANON` și :envvar:`WEBLATE_API_RATELIMIT_USER`."
 
 #: admin/memory.rst:111
 msgid ""
@@ -16384,14 +16369,14 @@ msgstr "Exportator Git"
 msgid ""
 "Provides you read-only access to the underlying Git repository using HTTP(S)."
 msgstr ""
-"Vă oferă acces numai pentru citire la depozitul Git subiacent folosind "
-"HTTP(S)."
+"Vă oferă acces numai pentru citire la depozitul Git subiacent folosind HTTP"
+"(S)."
 
 #: admin/optionals.rst:16
 msgid "Add ``weblate.gitexport`` to installed apps in :file:`settings.py`:"
 msgstr ""
-"Adăugați ``weblate.gitexport`` la aplicațiile instalate "
-"în :file:`settings.py`:"
+"Adăugați ``weblate.gitexport`` la aplicațiile instalate în "
+":file:`settings.py`:"
 
 #: admin/optionals.rst:22
 msgid ""
@@ -16435,10 +16420,10 @@ msgid ""
 "enabled) requires an API token which can be obtained in your :ref:`user "
 "profile <user-profile>`:"
 msgstr ""
-"Accesul pentru a parcurge depozitele cu acces restricționat (cu "
-"`Private` :ref:`access control <acl>` sau când :setting:`REQUIRE_LOGIN` este "
-"activat) necesită un token API care poate fi obținut în :ref:`user profile "
-"<user-profile>`:"
+"Accesul pentru a parcurge depozitele cu acces restricționat (cu `Private` "
+":ref:`access control <acl>` sau când :setting:`REQUIRE_LOGIN` este activat) "
+"necesită un token API care poate fi obținut în :ref:`user profile <user-"
+"profile>`:"
 
 #: admin/optionals.rst:63
 msgid ""
@@ -16447,8 +16432,8 @@ msgid ""
 "and :guilabel:`Power user` roles."
 msgstr ""
 "În mod implicit, membrii grupului :guilabel:`Users` și utilizatorii anonimi "
-"au acces la depozitele pentru proiectele publice prin intermediul "
-"rolurilor :guilabel:`Access repository` și :guilabel:`Power user`."
+"au acces la depozitele pentru proiectele publice prin intermediul rolurilor "
+":guilabel:`Access repository` și :guilabel:`Power user`."
 
 #: admin/optionals.rst:71
 msgid "Billing"
@@ -16466,8 +16451,8 @@ msgstr ""
 #: admin/optionals.rst:79
 msgid "1. Add ``weblate.billing`` to installed apps in :file:`settings.py`:"
 msgstr ""
-"1. Adăugați ``weblate.billing`` la aplicațiile instalate "
-"în :file:`settings.py`:"
+"1. Adăugați ``weblate.billing`` la aplicațiile instalate în "
+":file:`settings.py`:"
 
 #: admin/optionals.rst:86 admin/optionals.rst:174
 msgid ""
@@ -16524,8 +16509,8 @@ msgid ""
 "is possible when following conditions are met:"
 msgstr ""
 "Modulul de facturare permite în plus administratorilor de proiecte să creeze "
-"noi proiecte și componente fără a fi superutilizatori (a se "
-"vedea :ref:`adding-projects`). Acest lucru este posibil atunci când sunt "
+"noi proiecte și componente fără a fi superutilizatori (a se vedea "
+":ref:`adding-projects`). Acest lucru este posibil atunci când sunt "
 "îndeplinite următoarele condiții:"
 
 #: admin/optionals.rst:114
@@ -16627,8 +16612,8 @@ msgstr ""
 #: admin/optionals.rst:157
 msgid "1. Add ``weblate.legal`` to installed apps in :file:`settings.py`:"
 msgstr ""
-"1. Adăugați ``weblate.legal`` la aplicațiile instalate "
-"în :file:`settings.py`:"
+"1. Adăugați ``weblate.legal`` la aplicațiile instalate în "
+":file:`settings.py`:"
 
 #: admin/optionals.rst:180
 msgid ""
@@ -16672,8 +16657,8 @@ msgstr ""
 "Avatarurile sunt descărcate și stocate în memoria cache pe server pentru a "
 "reduce scurgerile de informații către site-urile care le oferă în mod "
 "implicit. Suportul încorporat pentru preluarea avatarurilor de la adresele "
-"de e-mail configurate în acest scop poate fi dezactivat "
-"cu :setting:`ENABLE_AVATARS`."
+"de e-mail configurate în acest scop poate fi dezactivat cu "
+":setting:`ENABLE_AVATARS`."
 
 #: admin/optionals.rst:208
 msgid "Weblate currently supports:"
@@ -16767,8 +16752,8 @@ msgid ""
 "``RATELIMIT_TRANSLATE_ATTEMPTS``. The table below is a full list of "
 "available scopes."
 msgstr ""
-"Mai multe operații din Weblate sunt limitate de tarif. Sunt permise cel "
-"mult :setting:`RATELIMIT_ATTEMPTS` încercări în :setting:`RATELIMIT_WINDOW` "
+"Mai multe operații din Weblate sunt limitate de tarif. Sunt permise cel mult "
+":setting:`RATELIMIT_ATTEMPTS` încercări în :setting:`RATELIMIT_WINDOW` "
 "secunde. Utilizatorul este apoi blocat pentru :setting:`RATELIMIT_LOCKOUT`. "
 "Există, de asemenea, setări specifice domeniilor, de exemplu "
 "``RATELIMIT_CONTACT_ATTEMPTS`` sau ``RATELIMIT_TRANSLATE_ATTEMPTS``. Tabelul "
@@ -16863,9 +16848,8 @@ msgid ""
 "becomes :envvar:`WEBLATE_RATELIMIT_ATTEMPTS`."
 msgstr ""
 "Setările pot fi, de asemenea, aplicate în containerul Docker prin adăugarea "
-"prefixului ``WEBLATE_`` la numele setării, de "
-"exemplu :setting:`RATELIMIT_ATTEMPTS` "
-"devine :envvar:`WEBLATE_RATELIMIT_ATTEMPTS`."
+"prefixului ``WEBLATE_`` la numele setării, de exemplu "
+":setting:`RATELIMIT_ATTEMPTS` devine :envvar:`WEBLATE_RATELIMIT_ATTEMPTS`."
 
 #: admin/optionals.rst:300
 msgid "The API has separate rate limiting settings, see :ref:`api-rate`."
@@ -16925,9 +16909,8 @@ msgid ""
 "filemask` defined in :ref:`component`) appear in the VCS repository."
 msgstr ""
 "Deasupra :ref:`component` se află traduceri individuale, gestionate automat "
-"de Weblate pe măsură ce fișierele de traducere (care se potrivesc "
-"cu :ref:`component-filemask` definit în :ref:`component`) apar în depozitul "
-"VCS."
+"de Weblate pe măsură ce fișierele de traducere (care se potrivesc cu "
+":ref:`component-filemask` definit în :ref:`component`) apar în depozitul VCS."
 
 #: admin/projects.rst:25
 msgid ""
@@ -17152,8 +17135,8 @@ msgid ""
 "This is a required parameter unless turned off "
 "by :setting:`WEBSITE_REQUIRED`."
 msgstr ""
-"Acesta este un parametru obligatoriu, dacă nu este dezactivat "
-"prin :setting:`WEBSITE_REQUIRED`."
+"Acesta este un parametru obligatoriu, dacă nu este dezactivat prin "
+":setting:`WEBSITE_REQUIRED`."
 
 #: admin/projects.rst:159
 msgid "Translation instructions"
@@ -17207,8 +17190,8 @@ msgid ""
 "Whether to contribute to shared translation memory, see :ref:`shared-tm` for "
 "more details."
 msgstr ""
-"Dacă se dorește contribuția la memoria de traducere partajată, a se "
-"vedea :ref:`shared-tm` pentru mai multe detalii."
+"Dacă se dorește contribuția la memoria de traducere partajată, a se vedea "
+":ref:`shared-tm` pentru mai multe detalii."
 
 #: admin/projects.rst:188
 msgid ""
@@ -17240,14 +17223,14 @@ msgstr ""
 #: admin/projects.rst:220
 msgid "Configure per project access control, see :ref:`acl` for more details."
 msgstr ""
-"Configurați controlul accesului pentru fiecare proiect, "
-"consultați :ref:`acl` pentru mai multe detalii."
+"Configurați controlul accesului pentru fiecare proiect, consultați "
+":ref:`acl` pentru mai multe detalii."
 
 #: admin/projects.rst:222
 msgid "The default value can be changed by :setting:`DEFAULT_ACCESS_CONTROL`."
 msgstr ""
-"Valoarea implicită poate fi modificată "
-"prin :setting:`DEFAULT_ACCESS_CONTROL`."
+"Valoarea implicită poate fi modificată prin "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/projects.rst:227
 msgid "Enforced two-factor authentication"
@@ -17274,8 +17257,8 @@ msgstr "Activează revizuiri sursă"
 #: admin/projects.rst:251
 msgid "Enable review workflow for source strings, see :ref:`source-reviews`."
 msgstr ""
-"Activați fluxul de lucru pentru revizuirea șirurilor de surse, a se "
-"vedea :ref:`source-reviews`."
+"Activați fluxul de lucru pentru revizuirea șirurilor de surse, a se vedea "
+":ref:`source-reviews`."
 
 #: admin/projects.rst:262
 #, fuzzy
@@ -17423,8 +17406,8 @@ msgstr ""
 msgid ""
 "You can find some examples of typical configurations in the :ref:`formats`."
 msgstr ""
-"Puteți găsi câteva exemple de configurații tipice în "
-"secțiunea :ref:`formats`."
+"Puteți găsi câteva exemple de configurații tipice în secțiunea "
+":ref:`formats`."
 
 #: admin/projects.rst:364
 msgid ""
@@ -17520,8 +17503,8 @@ msgid ""
 "See :ref:`internal-urls` for more details."
 msgstr ""
 "Acesta poate fi fie un URL VCS real sau ``weblate://project/component`` "
-"indicând că depozitul trebuie partajat cu o altă componentă. A se "
-"vedea :ref:`internal-urls` pentru mai multe detalii."
+"indicând că depozitul trebuie partajat cu o altă componentă. A se vedea "
+":ref:`internal-urls` pentru mai multe detalii."
 
 #: admin/projects.rst:431
 msgid "Repository push URL"
@@ -17618,8 +17601,8 @@ msgstr "Încarcă ramură"
 #: admin/projects.rst:488
 msgid "Branch for pushing changes, leave empty to use :ref:`component-branch`."
 msgstr ""
-"Branșă pentru împingerea modificărilor, lăsați gol pentru a "
-"folosi :ref:`component-branch`."
+"Branșă pentru împingerea modificărilor, lăsați gol pentru a folosi "
+":ref:`component-branch`."
 
 #: admin/projects.rst:494
 msgid ""
@@ -17749,8 +17732,8 @@ msgstr "Fișier de limbă de bază monolingvă"
 #: admin/projects.rst:559
 msgid "Base file containing string definitions for :ref:`monolingual`."
 msgstr ""
-"Fișier de bază care conține definițiile șirurilor de caractere "
-"pentru :ref:`monolingual`."
+"Fișier de bază care conține definițiile șirurilor de caractere pentru "
+":ref:`monolingual`."
 
 #: admin/projects.rst:569
 msgid "Edit base file"
@@ -17984,8 +17967,8 @@ msgid ""
 "The default value can be changed "
 "by :setting:`DEFAULT_TRANSLATION_PROPAGATION`."
 msgstr ""
-"Valoarea implicită poate fi modificată "
-"prin :setting:`DEFAULT_TRANSLATION_PROPAGATION`."
+"Valoarea implicită poate fi modificată prin "
+":setting:`DEFAULT_TRANSLATION_PROPAGATION`."
 
 #: admin/projects.rst:692 workflows.rst:123 workflows.rst:155 workflows.rst:188
 msgid "Enable suggestions"
@@ -18416,9 +18399,9 @@ msgid ""
 "You might need to enable force pushing by choosing :ref:`vcs-git-force-push` "
 "as :ref:`component-vcs`, especially when pushing to a different branch."
 msgstr ""
-"S-ar putea să fie nevoie să activați forțarea împingerii prin "
-"alegerea :ref:`vcs-git-force-push` ca :ref:`component-vcs`, în special "
-"atunci când împingeți pe o ramură diferită."
+"S-ar putea să fie nevoie să activați forțarea împingerii prin alegerea "
+":ref:`vcs-git-force-push` ca :ref:`component-vcs`, în special atunci când "
+"împingeți pe o ramură diferită."
 
 #: admin/projects.rst:895
 msgid "Merge"
@@ -18464,8 +18447,7 @@ msgstr ""
 
 #: admin/projects.rst:917
 msgid "Message used when committing a translation, see :ref:`markup`."
-msgstr ""
-"Mesaj utilizat la confirmarea unei traduceri, a se vedea :ref:`markup`."
+msgstr "Mesaj utilizat la confirmarea unei traduceri, a se vedea :ref:`markup`."
 
 #: admin/projects.rst:919
 #, fuzzy
@@ -18476,8 +18458,10 @@ msgid ""
 "The default value can be changed "
 "by :setting:`DEFAULT_ADD_MESSAGE`, :setting:`DEFAULT_ADDON_MESSAGE`, :setting:`DEFAULT_COMMIT_MESSAGE`, :setting:`DEFAULT_DELETE_MESSAGE`, :setting:`DEFAULT_MERGE_MESSAGE`, :setting:`DEFAULT_PULL_MESSAGE`."
 msgstr ""
-"Valoarea implicită poate fi modificată "
-"prin :setting:`DEFAULT_ADD_MESSAGE`, :setting:`DEFAULT_ADDON_MESSAGE`, :setting:`DEFAULT_COMMIT_MESSAGE`, :setting:`DEFAULT_DELETE_MESSAGE`, :setting:`DEFAULT_DELETE_MESSAGE`, :setting:`DEFAULT_MERGE_MESSAGE`, :setting:`DEFAULT_PULL_MESSAGE`."
+"Valoarea implicită poate fi modificată prin :setting:`DEFAULT_ADD_MESSAGE`, "
+":setting:`DEFAULT_ADDON_MESSAGE`, :setting:`DEFAULT_COMMIT_MESSAGE`, "
+":setting:`DEFAULT_DELETE_MESSAGE`, :setting:`DEFAULT_DELETE_MESSAGE`, "
+":setting:`DEFAULT_MERGE_MESSAGE`, :setting:`DEFAULT_PULL_MESSAGE`."
 
 #: admin/projects.rst:927
 msgid "Push on commit"
@@ -18492,10 +18476,9 @@ msgid ""
 msgstr ""
 "Dacă modificările acceptate ar trebui să fie transmise automat în depozitul "
 "din amonte. Atunci când este activată, împingerea este inițiată odată ce "
-"Weblate confirmă modificările în depozitul său de bază (a se "
-"vedea :ref:`lazy-commit`). Pentru a activa efectiv "
-"împingerea :guilabel:`Repository push URL` trebuie, de asemenea, să fie "
-"configurat."
+"Weblate confirmă modificările în depozitul său de bază (a se vedea "
+":ref:`lazy-commit`). Pentru a activa efectiv împingerea "
+":guilabel:`Repository push URL` trebuie, de asemenea, să fie configurat."
 
 #: admin/projects.rst:940
 msgid "Age of changes to commit"
@@ -18515,10 +18498,10 @@ msgid ""
 "than this period."
 msgstr ""
 "Stabilește cât de vechi (în ore) trebuie să fie modificările înainte de a fi "
-"confirmate de o sarcină de fundal sau de comanda de "
-"gestionare :djadmin:`commit_pending`. Toate modificările dintr-o componentă "
-"sunt confirmate odată ce există cel puțin o modificare mai veche decât "
-"această perioadă."
+"confirmate de o sarcină de fundal sau de comanda de gestionare "
+":djadmin:`commit_pending`. Toate modificările dintr-o componentă sunt "
+"confirmate odată ce există cel puțin o modificare mai veche decât această "
+"perioadă."
 
 #: admin/projects.rst:949
 #, fuzzy
@@ -18580,9 +18563,9 @@ msgid ""
 "translation."
 msgstr ""
 "În cazul în care traduceți fișiere bilingve din limba engleză, dar doriți să "
-"puteți efectua corecturi și în traducerea în limba engleză, "
-"alegeți :guilabel:`English (Developer)` ca limbă sursă pentru a evita "
-"conflictul dintre numele limbii sursă și cel al traducerii existente."
+"puteți efectua corecturi și în traducerea în limba engleză, alegeți "
+":guilabel:`English (Developer)` ca limbă sursă pentru a evita conflictul "
+"dintre numele limbii sursă și cel al traducerii existente."
 
 #: admin/projects.rst:985
 msgid ""
@@ -18757,8 +18740,8 @@ msgstr ""
 msgid ""
 "The default value can be changed in :setting:`DEFAULT_RESTRICTED_COMPONENT`."
 msgstr ""
-"Valoarea implicită poate fi modificată "
-"în :setting:`DEFAULT_RESTRICTED_COMPONENT`."
+"Valoarea implicită poate fi modificată în "
+":setting:`DEFAULT_RESTRICTED_COMPONENT`."
 
 #: admin/projects.rst:1116
 msgid ""
@@ -19067,8 +19050,8 @@ msgstr ""
 #: admin/projects.rst:1304
 msgid "Configure Celery for executing background tasks (see :ref:`celery`)"
 msgstr ""
-"Configurați Celery pentru executarea de sarcini de fundal "
-"(vezi :ref:`celery`)"
+"Configurați Celery pentru executarea de sarcini de fundal (vezi "
+":ref:`celery`)"
 
 #: admin/projects.rst:1310
 msgid "Check resource limits"
@@ -19143,8 +19126,8 @@ msgstr ""
 "În cazul în care proiectul tău are zeci de fișiere de traducere (de exemplu, "
 "pentru diferite domenii gettext sau părți ale aplicațiilor Android), este "
 "posibil să dorești să le imporți automat. Acest lucru poate fi realizat fie "
-"din linia de comandă, utilizând :djadmin:`import_project` "
-"sau :djadmin:`import_json`, fie prin instalarea add-onului :ref:`addon-"
+"din linia de comandă, utilizând :djadmin:`import_project` sau "
+":djadmin:`import_json`, fie prin instalarea add-onului :ref:`addon-"
 "weblate.discovery.discovery`."
 
 #: admin/projects.rst:1337
@@ -19170,8 +19153,8 @@ msgid ""
 "or :wladmin:`import_json`."
 msgstr ""
 "Pentru comenzile de gestionare, trebuie să creați un proiect care va conține "
-"toate componentele și apoi să executați :djadmin:`import_project` "
-"sau :djadmin:`import_json`."
+"toate componentele și apoi să executați :djadmin:`import_project` sau "
+":djadmin:`import_json`."
 
 #: admin/sample.rst:4
 msgid "Sample configuration"
@@ -19338,8 +19321,8 @@ msgid ""
 "The support form is available in the Weblate management interface "
 "after :ref:`activate-support`."
 msgstr ""
-"Introduceți cheia obținută în interfața de management, a se "
-"vedea :ref:`activate-support`."
+"Introduceți cheia obținută în interfața de management, a se vedea "
+":ref:`activate-support`."
 
 #: admin/support.rst:69
 msgid ""
@@ -19589,8 +19572,8 @@ msgid ""
 "icon next to :guilabel:`Screenshot context` or :guilabel:`Flags`."
 msgstr ""
 "Accesați acest lucru direct din interfața de traducere, făcând clic pe "
-"pictograma \"Editare\" de lângă :guilabel:`Context captură de ecran` "
-"sau :guilabel:`Flags`."
+"pictograma \"Editare\" de lângă :guilabel:`Context captură de ecran` sau "
+":guilabel:`Flags`."
 
 #: admin/translating.rst:68
 msgid "Strings prioritization"
@@ -19616,9 +19599,9 @@ msgid ""
 "at :ref:`component` and flags from the translation file (see :doc:`/"
 "formats`)."
 msgstr ""
-"Stegulețele pentru șiruri de caractere sunt, de asemenea, moștenite de "
-"la :ref:`component-check_flags` de la :ref:`component` și de la stegulețele "
-"din fișierul de traducere (a se vedea :doc:`/formats`)."
+"Stegulețele pentru șiruri de caractere sunt, de asemenea, moștenite de la "
+":ref:`component-check_flags` de la :ref:`component` și de la stegulețele din "
+"fișierul de traducere (a se vedea :doc:`/formats`)."
 
 #: admin/translating.rst:101 formats.rst:84 user/translating.rst:308
 msgid "Explanation"
@@ -19774,12 +19757,12 @@ msgid ""
 "matches the changes in the configuration "
 "(consult :file:`settings_example.py` for correct values)."
 msgstr ""
-"Înainte de actualizare, vă rugăm să verificați cerințele "
-"actuale :ref:`requirements`, deoarece acestea s-ar putea să se fi schimbat. "
-"După ce toate cerințele sunt instalate sau actualizate, vă rugăm să ajustați "
+"Înainte de actualizare, vă rugăm să verificați cerințele actuale "
+":ref:`requirements`, deoarece acestea s-ar putea să se fi schimbat. După ce "
+"toate cerințele sunt instalate sau actualizate, vă rugăm să ajustați "
 "fișierul :file:`settings.py` pentru a corespunde modificărilor din "
-"configurație (consultați :file:`settings_example.py` pentru valorile "
-"corecte)."
+"configurație (consultați :file:`settings_example.py` pentru valorile corecte)"
+"."
 
 #: admin/upgrade.rst:25
 #, fuzzy
@@ -19851,8 +19834,7 @@ msgstr "Sau, dacă doriți doar să obțineți cea mai recentă versiune lansat�
 
 #: admin/upgrade.rst:59
 msgid "If you don't want to install all of the optional dependencies do:"
-msgstr ""
-"Dacă nu doriți să instalați toate dependențele opționale, instalați-le:"
+msgstr "Dacă nu doriți să instalați toate dependențele opționale, instalați-le:"
 
 #: admin/upgrade.rst:65
 #, fuzzy
@@ -19900,15 +19882,15 @@ msgstr "Efectuați o copie de rezervă a bazei de date:"
 msgid ""
 "Collect updated static files (see :ref:`server` and :ref:`static-files`):"
 msgstr ""
-"Colectează fișierele statice actualizate (a se vedea :ref:`server` "
-"și :ref:`static-files`):"
+"Colectează fișierele statice actualizate (a se vedea :ref:`server` și "
+":ref:`static-files`):"
 
 #: admin/upgrade.rst:96
 msgid ""
 "Compress JavaScript and CSS files (optional, see :ref:`production-compress`):"
 msgstr ""
-"Comprimarea fișierelor JavaScript și CSS (opțional, "
-"consultați :ref:`production-compress`):"
+"Comprimarea fișierelor JavaScript și CSS (opțional, consultați "
+":ref:`production-compress`):"
 
 #: admin/upgrade.rst:102
 #, fuzzy
@@ -19926,8 +19908,8 @@ msgstr ""
 #: admin/upgrade.rst:109
 msgid "Verify that your setup is sane (see also :ref:`production`):"
 msgstr ""
-"Verificați dacă configurația dumneavoastră este sănătoasă (consultați "
-"și :ref:`production`):"
+"Verificați dacă configurația dumneavoastră este sănătoasă (consultați și "
+":ref:`production`):"
 
 #: admin/upgrade.rst:115
 #, fuzzy
@@ -20329,9 +20311,8 @@ msgid ""
 "using :envvar:`WEBLATE_API_RATELIMIT_ANON` "
 "and :envvar:`WEBLATE_API_RATELIMIT_USER`."
 msgstr ""
-"În containerul Docker, acest lucru poate fi configurat "
-"folosind :envvar:`WEBLATE_API_RATELIMIT_ANON` "
-"și :envvar:`WEBLATE_API_RATELIMIT_USER`."
+"În containerul Docker, acest lucru poate fi configurat folosind "
+":envvar:`WEBLATE_API_RATELIMIT_ANON` și :envvar:`WEBLATE_API_RATELIMIT_USER`."
 
 #: api.rst:211
 msgid "The status of rate limiting is reported in following headers:"
@@ -20498,9 +20479,8 @@ msgid ""
 "(string:project)/repository/` for documentation."
 msgstr ""
 "Puteți utiliza punctele finale ale depozitelor pentru proiecte, componente "
-"și traduceri pentru a actualiza depozitele individuale; "
-"consultați :http:post:`/api/projects/(string:project)/repository/` pentru "
-"documentație."
+"și traduceri pentru a actualiza depozitele individuale; consultați "
+":http:post:`/api/projects/(string:project)/repository/` pentru documentație."
 
 #: api.rst:3247
 msgid "RSS feeds"
@@ -21748,8 +21728,8 @@ msgid ""
 "The default values for :ref:`project-translation_review` and :ref:`project-"
 "source_review` can be configured in settings."
 msgstr ""
-"Configurează valoarea implicită a :ref:`project-use_shared_tm` "
-"și :ref:`project-contribute_shared_tm`."
+"Configurează valoarea implicită a :ref:`project-use_shared_tm` și "
+":ref:`project-contribute_shared_tm`."
 
 #: changes.rst:271
 msgid ""
@@ -21789,8 +21769,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Adjust translation flags (see :ref:`custom-checks`)"
 msgid "Gracefully handle invalid check flags in :ref:`custom-checks`."
-msgstr ""
-"Ajustarea indicatoarelor de traducere (a se vedea :ref:`custom-checks`)"
+msgstr "Ajustarea indicatoarelor de traducere (a se vedea :ref:`custom-checks`)"
 
 #: changes.rst:281
 msgid ":doc:`/formats/appstore` no longer rewrites unchanged files."
@@ -25567,8 +25546,8 @@ msgstr "Îmbunătățirea performanțelor de schimbare a etichetelor."
 msgid ""
 "Component management: added links to manage project/site-wide :ref:`addons`."
 msgstr ""
-"Componente suplimentare pentru a modifica comportamentul Weblate, "
-"vezi :ref:`addons`."
+"Componente suplimentare pentru a modifica comportamentul Weblate, vezi "
+":ref:`addons`."
 
 #: changes.rst:1658
 msgid "Fixed crashes with librsvg older than 2.46."
@@ -26384,8 +26363,7 @@ msgstr ""
 msgid ""
 "``labels`` in units API now expose full label info, see :http:get:`/api/"
 "units/(int:id)/`."
-msgstr ""
-"Legătura cu unitatea sursă; a se vedea :http:get:`/api/units/(int:id)/`"
+msgstr "Legătura cu unitatea sursă; a se vedea :http:get:`/api/units/(int:id)/`"
 
 #: changes.rst:1928
 #, fuzzy
@@ -26526,8 +26504,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Specify the overall, project or component translation license."
 msgid "One-click removal of project or component :ref:`notifications`."
-msgstr ""
-"Specificați licența de traducere globală, de proiect sau de componentă."
+msgstr "Specificați licența de traducere globală, de proiect sau de componentă."
 
 #: changes.rst:1974
 msgid ""
@@ -26750,8 +26727,7 @@ msgstr ":ref:`machine-translation`"
 #, fuzzy
 #| msgid "Added support for component and project removal."
 msgid "Faster comment and component removal."
-msgstr ""
-"A fost adăugat suport pentru eliminarea componentelor și a proiectelor."
+msgstr "A fost adăugat suport pentru eliminarea componentelor și a proiectelor."
 
 #: changes.rst:2043
 #, fuzzy
@@ -26817,8 +26793,7 @@ msgstr ""
 msgid ""
 "Upgrades from older version than 5.0.2 are not supported, please upgrade to "
 "5.0.2 first and then continue in upgrading."
-msgstr ""
-"Actualizările de la o versiune mai veche decât 3.0.1 nu sunt acceptate."
+msgstr "Actualizările de la o versiune mai veche decât 3.0.1 nu sunt acceptate."
 
 #: changes.rst:2064
 #, fuzzy
@@ -27082,8 +27057,8 @@ msgstr ""
 msgid ""
 "Docker container supports file backed secrets, see :ref:`docker-secrets`."
 msgstr ""
-"Containerul Docker utilizează un volum separat pentru acest lucru, "
-"vezi :ref:`docker-volume`."
+"Containerul Docker utilizează un volum separat pentru acest lucru, vezi "
+":ref:`docker-volume`."
 
 #: changes.rst:2150
 #, fuzzy
@@ -28101,8 +28076,8 @@ msgstr ""
 "Johan Jacobsson, Peter Vančo, Sveinn í Felli, Oliver, Yvan Zo, meshari "
 "alnaim, தமிழ்நேரம், searinminecraft, Jwtiyar Nariman, gitelo4516, Vision, "
 "Chang-Chia Tseng, Kyotaro Iijima, Ricky Tigg, ei9, Martin Srebotnjak, "
-"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан "
-"Симић(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
+"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан Симић"
+"(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
 "Winston Sung, ChinskiKaczynski, Rafael Fontenelle"
 
 #: changes/contributors/5.9.rst:14
@@ -28253,8 +28228,7 @@ msgstr ""
 
 #: changes/v0.rst:36
 msgid "Machine translation services no longer block page loading."
-msgstr ""
-"Serviciile de traducere automată nu mai blochează încărcarea paginilor."
+msgstr "Serviciile de traducere automată nu mai blochează încărcarea paginilor."
 
 #: changes/v0.rst:37
 msgid "Management interface now contains also useful actions to update data."
@@ -28890,8 +28864,7 @@ msgstr "Afișați fragmente de cod pentru widget-uri în mai multe variante."
 
 #: changes/v1.rst:117
 msgid "Indicate failing checks or fuzzy strings in progress bars."
-msgstr ""
-"Indicați verificările eșuate sau șirurile neclare în barele de progres."
+msgstr "Indicați verificările eșuate sau șirurile neclare în barele de progres."
 
 #: changes/v1.rst:118
 msgid "More options for formatting commit message."
@@ -29695,8 +29668,7 @@ msgstr "Deconectarea utilizează acum POST pentru a evita CSRF."
 
 #: changes/v2.rst:151
 msgid "The API key token reset now uses POST to avoid CSRF."
-msgstr ""
-"Resetarea token-ului cheie API folosește acum POST pentru a evita CSRF."
+msgstr "Resetarea token-ului cheie API folosește acum POST pentru a evita CSRF."
 
 #: changes/v2.rst:152
 msgid "Weblate sets Content-Security-Policy by default."
@@ -30018,8 +29990,8 @@ msgstr "Lansat pe 20 ianuarie 2017."
 msgid ""
 "Do not leak account existence on password reset form (:cve:`2017-5537`)."
 msgstr ""
-"Nu scurgeți existența contului pe formularul de resetare a parolei "
-"(CVE-2017-5537)."
+"Nu scurgeți existența contului pe formularul de resetare a parolei (CVE-2017-"
+"5537)."
 
 #: changes/v2.rst:242
 msgid "Weblate 2.10"
@@ -30807,8 +30779,7 @@ msgstr "Înlocuirea fontului Glyphicon cu Awesome."
 
 #: changes/v2.rst:458
 msgid "Added icons for social authentication services."
-msgstr ""
-"Au fost adăugate pictograme pentru serviciile de autentificare socială."
+msgstr "Au fost adăugate pictograme pentru serviciile de autentificare socială."
 
 #: changes/v2.rst:459
 msgid "Better consistency of button colors and icons."
@@ -31474,8 +31445,7 @@ msgstr ""
 
 #: changes/v3.rst:161
 msgid "Avoid sending notifications to invited and deleted users."
-msgstr ""
-"Evitați trimiterea de notificări către utilizatorii invitați și șterși."
+msgstr "Evitați trimiterea de notificări către utilizatorii invitați și șterși."
 
 #: changes/v3.rst:162
 msgid "Fix SSL connection to redis in Celery in Docker container."
@@ -31738,8 +31708,7 @@ msgstr ""
 
 #: changes/v3.rst:227
 msgid "Fixed false positives with Has been translated check."
-msgstr ""
-"S-a rezolvat problema falsurilor pozitive cu verificarea A fost tradus."
+msgstr "S-a rezolvat problema falsurilor pozitive cu verificarea A fost tradus."
 
 #: changes/v3.rst:228
 msgid "New management interface for admins."
@@ -31970,8 +31939,7 @@ msgstr "A fost reparată alerta de eroare a scriptului add-on."
 
 #: changes/v3.rst:292 changes/v3.rst:314
 msgid "Fixed generating MO file for monolingual PO files."
-msgstr ""
-"A fost reparată generarea fișierului MO pentru fișierele PO monolingve."
+msgstr "A fost reparată generarea fișierului MO pentru fișierele PO monolingve."
 
 #: changes/v3.rst:293
 msgid "Fixed display of uninstalled checks."
@@ -32125,8 +32093,7 @@ msgstr "Actualizarea instrucțiunilor de instalare pentru a prefera Python 3."
 
 #: changes/v3.rst:333
 msgid "Performance and consistency improvements for loading translations."
-msgstr ""
-"Îmbunătățiri de performanță și coerență pentru încărcarea traducerilor."
+msgstr "Îmbunătățiri de performanță și coerență pentru încărcarea traducerilor."
 
 #: changes/v3.rst:334
 msgid ""
@@ -32308,8 +32275,7 @@ msgstr "Lansat pe 30 noiembrie 2018."
 
 #: changes/v3.rst:384
 msgid "Added support for component and project removal."
-msgstr ""
-"A fost adăugat suport pentru eliminarea componentelor și a proiectelor."
+msgstr "A fost adăugat suport pentru eliminarea componentelor și a proiectelor."
 
 #: changes/v3.rst:385
 msgid "Improved performance for some monolingual translations."
@@ -32575,8 +32541,7 @@ msgstr "Weblate 3.1"
 
 #: changes/v3.rst:463
 msgid "Upgrades from older version than 3.0.1 are not supported."
-msgstr ""
-"Actualizările de la o versiune mai veche decât 3.0.1 nu sunt acceptate."
+msgstr "Actualizările de la o versiune mai veche decât 3.0.1 nu sunt acceptate."
 
 #: changes/v3.rst:464
 msgid "Allow to override default commit messages from settings."
@@ -33390,8 +33355,8 @@ msgid ""
 "of :setting:`django:STATIC_ROOT`. You might need to adjust :ref:`static-"
 "files` accordingly."
 msgstr ""
-"Locația implicită pentru fișierele Django statice, specificată "
-"de :setting:`django:STATIC_ROOT`. Vezi :ref:`static-files`."
+"Locația implicită pentru fișierele Django statice, specificată de "
+":setting:`django:STATIC_ROOT`. Vezi :ref:`static-files`."
 
 #: changes/v4.rst:181
 #, fuzzy
@@ -33619,8 +33584,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Improved alerts behavior on glossary components."
 msgid "Order glossary terms based on the glossary component priority."
-msgstr ""
-"A fost îmbunătățit comportamentul alertelor pe componentele glosarului."
+msgstr "A fost îmbunătățit comportamentul alertelor pe componentele glosarului."
 
 #: changes/v4.rst:230
 msgid "Added team administrators who can add or remove members of the team."
@@ -33656,8 +33620,8 @@ msgid ""
 "postgres` for manual setup."
 msgstr ""
 "Weblate necesită acum extensia ``btree_gin`` în PostgreSQL. Procesul de "
-"migrare o va instala dacă are suficiente privilegii. "
-"Consultați :ref:`dbsetup-postgres` pentru instalarea manuală."
+"migrare o va instala dacă are suficiente privilegii. Consultați "
+":ref:`dbsetup-postgres` pentru instalarea manuală."
 
 #: changes/v4.rst:242
 msgid ""
@@ -34098,8 +34062,7 @@ msgstr "Îmbunătățirea culorilor barei de progres pentru daltoniști."
 #, fuzzy
 #| msgid "Fixed variants cleanup on string removal."
 msgid "Fixed variants cleanup when removing strings."
-msgstr ""
-"S-a reparat curățarea variantelor la eliminarea șirurilor de caractere."
+msgstr "S-a reparat curățarea variantelor la eliminarea șirurilor de caractere."
 
 #: changes/v4.rst:362
 msgid "Compatibility with Django 4.1."
@@ -34117,8 +34080,7 @@ msgstr "A fost îmbunătățită formatarea erorilor de verificare a locurilor."
 
 #: changes/v4.rst:365
 msgid "Redirect /.well-known/change-password to /accounts/password/."
-msgstr ""
-"Redirecționează /.well-known/change-password către /accounts/password/."
+msgstr "Redirecționează /.well-known/change-password către /accounts/password/."
 
 #: changes/v4.rst:366
 msgid "Machine translation services are now configurable per project."
@@ -34159,8 +34121,8 @@ msgid ""
 "The :ref:`languages` are now automatically updated on upgrade, "
 "use :setting:`UPDATE_LANGUAGES` to disable that."
 msgstr ""
-":ref:`languages` sunt acum actualizate automat la actualizare, "
-"utilizați :setting:`UPDATE_LANGUAGES` pentru a dezactiva acest lucru."
+":ref:`languages` sunt acum actualizate automat la actualizare, utilizați "
+":setting:`UPDATE_LANGUAGES` pentru a dezactiva acest lucru."
 
 #: changes/v4.rst:379
 msgid ""
@@ -34488,8 +34450,8 @@ msgid ""
 "Automatically initialize user languages based on the :http:header:`Accept-"
 "Language` header."
 msgstr ""
-"Inițializează automat limbile utilizatorilor pe baza "
-"antetului :http:header:`Accept-Language`."
+"Inițializează automat limbile utilizatorilor pe baza antetului "
+":http:header:`Accept-Language`."
 
 #: changes/v4.rst:473
 msgid "Improved error handling on string removal."
@@ -34772,10 +34734,10 @@ msgid ""
 "incompatible-4.0`. Weblate still supports Django 3.2 for now, in case any of "
 "these are problematic. Most notable changes which might affect Weblate:"
 msgstr ""
-"Django 4.0 a făcut unele modificări incompatibile, "
-"vezi :ref:`django:backwards-incompatible-4.0`. Weblate încă mai suportă "
-"Django 3.2 deocamdată, în cazul în care vreuna dintre acestea este "
-"problematică. Cele mai notabile modificări care ar putea afecta Weblate:"
+"Django 4.0 a făcut unele modificări incompatibile, vezi "
+":ref:`django:backwards-incompatible-4.0`. Weblate încă mai suportă Django "
+"3.2 deocamdată, în cazul în care vreuna dintre acestea este problematică. "
+"Cele mai notabile modificări care ar putea afecta Weblate:"
 
 #: changes/v4.rst:551
 msgid ""
@@ -34891,8 +34853,8 @@ msgstr ""
 msgid ""
 "Added support for customizing SSH invocation via :setting:`SSH_EXTRA_ARGS`."
 msgstr ""
-"A fost adăugat suport pentru personalizarea invocării SSH "
-"prin :setting:`SSH_EXTRA_ARGS`."
+"A fost adăugat suport pentru personalizarea invocării SSH prin "
+":setting:`SSH_EXTRA_ARGS`."
 
 #: changes/v4.rst:583
 msgid "Added checks for ICU MessageFormat."
@@ -34919,8 +34881,8 @@ msgstr ""
 msgid ""
 "Added support for customizing Borg invocation via :setting:`BORG_EXTRA_ARGS`."
 msgstr ""
-"A fost adăugat suport pentru personalizarea invocării Borg "
-"prin :setting:`BORG_EXTRA_ARGS`."
+"A fost adăugat suport pentru personalizarea invocării Borg prin "
+":setting:`BORG_EXTRA_ARGS`."
 
 #: changes/v4.rst:588
 msgid "Fixed generating of MO files for monolingual translations."
@@ -35099,8 +35061,7 @@ msgstr ""
 
 #: changes/v4.rst:646
 msgid "There are no additional upgrade steps needed in this release."
-msgstr ""
-"Nu sunt necesare etape suplimentare de actualizare în această versiune."
+msgstr "Nu sunt necesare etape suplimentare de actualizare în această versiune."
 
 #: changes/v4.rst:649
 msgid "Weblate 4.7.2"
@@ -35478,8 +35439,8 @@ msgstr "Limitarea ratei poate fi acum personalizată în containerul Docker."
 msgid ""
 "API for creating components now automatically uses :ref:`internal-urls`."
 msgstr ""
-"API pentru crearea de componente utilizează acum în mod "
-"automat :ref:`internal-urls`."
+"API pentru crearea de componente utilizează acum în mod automat "
+":ref:`internal-urls`."
 
 #: changes/v4.rst:757
 msgid "Simplified state indication while listing strings."
@@ -35561,8 +35522,7 @@ msgstr "A fost fixată colectarea metricilor."
 
 #: changes/v4.rst:783
 msgid "Fixed possible crash when adding strings."
-msgstr ""
-"A fost reparat un posibil accident la adăugarea de șiruri de caractere."
+msgstr "A fost reparat un posibil accident la adăugarea de șiruri de caractere."
 
 #: changes/v4.rst:784
 msgid "Improved search query examples."
@@ -35670,8 +35630,7 @@ msgstr "O mai bună gestionare a încărcărilor de OP monolingve utilizând API
 
 #: changes/v4.rst:815
 msgid "Improved alerts behavior on glossary components."
-msgstr ""
-"A fost îmbunătățit comportamentul alertelor pe componentele glosarului."
+msgstr "A fost îmbunătățit comportamentul alertelor pe componentele glosarului."
 
 #: changes/v4.rst:816
 msgid "Improved Markdown link checks."
@@ -35732,8 +35691,7 @@ msgstr "A fost adăugat suport pentru ``lua-format`` utilizat în gettext PO."
 
 #: changes/v4.rst:832
 msgid "Added support for sharing a component between projects."
-msgstr ""
-"A fost adăugat suport pentru partajarea unei componente între proiecte."
+msgstr "A fost adăugat suport pentru partajarea unei componente între proiecte."
 
 #: changes/v4.rst:833
 msgid ""
@@ -35770,8 +35728,7 @@ msgstr "Îmbunătățirea performanței verificărilor de coerență."
 
 #: changes/v4.rst:839
 msgid "Improved performance of translation memory for long strings."
-msgstr ""
-"Îmbunătățirea performanței memoriei de traducere pentru șirurile lungi."
+msgstr "Îmbunătățirea performanței memoriei de traducere pentru șirurile lungi."
 
 #: changes/v4.rst:840
 msgid "Added support for searching in explanations."
@@ -36204,8 +36161,7 @@ msgstr ""
 
 #: changes/v4.rst:959
 msgid "Newly created internal repositories now use main as the default branch."
-msgstr ""
-"Depozitele interne nou create utilizează acum main ca ramură implicită."
+msgstr "Depozitele interne nou create utilizează acum main ca ramură implicită."
 
 #: changes/v4.rst:960
 msgid ""
@@ -36435,8 +36391,8 @@ msgid ""
 "case you modified the :setting:`CHECK_LIST`."
 msgstr ""
 "Există unele modificări în ceea ce privește verificările de calitate, este "
-"posibil să doriți să le includeți în cazul în care ați "
-"modificat :setting:`CHECK_LIST`."
+"posibil să doriți să le includeți în cazul în care ați modificat "
+":setting:`CHECK_LIST`."
 
 #: changes/v4.rst:1026
 msgid ""
@@ -36686,8 +36642,8 @@ msgid ""
 "New add-on to help with HTML or JavaScript localization, see :ref:`addon-"
 "weblate.cdn.cdnjs`."
 msgstr ""
-"Un nou add-on pentru a ajuta la localizarea HTML sau JavaScript, "
-"vezi :ref:`addon-weblate.cdn.cdnjs`."
+"Un nou add-on pentru a ajuta la localizarea HTML sau JavaScript, vezi "
+":ref:`addon-weblate.cdn.cdnjs`."
 
 #: changes/v4.rst:1091
 msgid ""
@@ -36913,14 +36869,13 @@ msgid ""
 "php`, :ref:`html`, :ref:`odf`, :ref:`idml`, :ref:`winrc`, :ref:`ini`, :ref:`islu`, :ref:`gwt`, :ref:`go-"
 "i18n-json`, :ref:`arb`."
 msgstr ""
-"A fost adăugat suport pentru noi formate de fișiere: :ref:`laravel-"
-"php`, :ref:`html`, :ref:`odf`, :ref:`idml`, :ref:`winrc`, :ref:`ini`, :ref:`islu`, :ref:`gwt`, :ref:`go-"
-"i18n-json`, :ref:`arb`."
+"A fost adăugat suport pentru noi formate de fișiere: :ref:`laravel-php`, "
+":ref:`html`, :ref:`odf`, :ref:`idml`, :ref:`winrc`, :ref:`ini`, :ref:`islu`, "
+":ref:`gwt`, :ref:`go-i18n-json`, :ref:`arb`."
 
 #: changes/v4.rst:1147
 msgid "Consistently use dismissed as state of dismissed checks."
-msgstr ""
-"Utilizați în mod consecvent dismissed ca stare de verificări dismissed."
+msgstr "Utilizați în mod consecvent dismissed ca stare de verificări dismissed."
 
 #: changes/v4.rst:1148
 msgid "Add support for configuring default add-ons to enable."
@@ -36963,8 +36918,8 @@ msgid ""
 "Added new quality checks: :ref:`check-unnamed-format`, :ref:`check-long-"
 "untranslated`, :ref:`check-duplicate`."
 msgstr ""
-"Au fost adăugate noi controale de calitate: :ref:`check-unnamed-"
-"format`, :ref:`check-long-untranslated`, :ref:`check-duplicate`."
+"Au fost adăugate noi controale de calitate: :ref:`check-unnamed-format`, "
+":ref:`check-long-untranslated`, :ref:`check-duplicate`."
 
 #: changes/v4.rst:1156
 msgid "Reintroduced support for wiping translation memory."
@@ -37075,8 +37030,7 @@ msgstr "A fost reparată crearea de componente utilizând API în unele cazuri."
 
 #: changes/v4.rst:1189
 msgid "Fixed JavaScript errors breaking mobile navigation."
-msgstr ""
-"Au fost corectate erorile JavaScript care afectează navigarea pe mobil."
+msgstr "Au fost corectate erorile JavaScript care afectează navigarea pe mobil."
 
 #: changes/v4.rst:1190
 msgid "Fixed crash on displaying some checks."
@@ -37311,8 +37265,7 @@ msgstr "A redenumit mesajele de tablă albă în anunțuri."
 
 #: changes/v4.rst:1257
 msgid "Fixed occasional problems with registration mails."
-msgstr ""
-"Au fost rezolvate problemele ocazionale cu e-mailurile de înregistrare."
+msgstr "Au fost rezolvate problemele ocazionale cu e-mailurile de înregistrare."
 
 #: changes/v4.rst:1258
 msgid "Improved LINGUAS update add-on to handle more syntax variants."
@@ -37377,8 +37330,7 @@ msgstr ""
 
 #: contributing/about.rst:13
 msgid "\"Weblate\" is a portmanteau of the words \"web\" and \"translate\"."
-msgstr ""
-"\"Weblate\" este un portmanteau al cuvintelor \"web\" și \"translate\"."
+msgstr "\"Weblate\" este un portmanteau al cuvintelor \"web\" și \"translate\"."
 
 #: contributing/about.rst:18
 msgid ""
@@ -38001,10 +37953,9 @@ msgid ""
 "by using :ref:`management-interface` under the :guilabel:`Tools` tab."
 msgstr ""
 "Puteți verifica dacă poșta electronică de ieșire funcționează corect "
-"utilizând comanda de gestionare :djadmin:`django:sendtestemail` "
-"(consultați :ref:`invoke-manage` pentru instrucțiuni despre cum să o apelați "
-"în diferite medii) sau utilizând :ref:`management-interface` din "
-"fila :guilabel:`Tools`."
+"utilizând comanda de gestionare :djadmin:`django:sendtestemail` (consultați "
+":ref:`invoke-manage` pentru instrucțiuni despre cum să o apelați în diferite "
+"medii) sau utilizând :ref:`management-interface` din fila :guilabel:`Tools`."
 
 #: contributing/debugging.rst:70
 msgid ""
@@ -38033,8 +37984,8 @@ msgstr ""
 "În cazul în care aplicația se blochează, este util să se colecteze cât mai "
 "multe informații cu privire la blocaj. Acest lucru poate fi realizat prin "
 "utilizarea unor servicii terțe care pot colecta astfel de informații în mod "
-"automat. Puteți găsi informații despre cum să configurați acest lucru "
-"în :ref:`collecting-errors`."
+"automat. Puteți găsi informații despre cum să configurați acest lucru în "
+":ref:`collecting-errors`."
 
 #: contributing/debugging.rst:84
 msgid "Silent failures"
@@ -38663,8 +38614,8 @@ msgid ""
 "Source code of Weblate as a `Django <https://www.djangoproject.com/>`_ "
 "application, see :ref:`internals`."
 msgstr ""
-"Codul sursă al Weblate ca aplicație `Django <https://www.djangoproject.com/"
-">`_, vezi :ref:`internals`."
+"Codul sursă al Weblate ca aplicație `Django <https://www.djangoproject.com/>"
+"`_, vezi :ref:`internals`."
 
 #: contributing/internals.rst:24
 msgid "Client files (CSS, Javascript and images), see :doc:`frontend`."
@@ -38679,8 +38630,8 @@ msgid ""
 "Weblate consists of several Django applications (some optional, see :doc:`/"
 "admin/optionals`):"
 msgstr ""
-"Weblate este format din mai multe aplicații Django (unele opționale, "
-"vezi :doc:`/admin/optionals`):"
+"Weblate este format din mai multe aplicații Django (unele opționale, vezi "
+":doc:`/admin/optionals`):"
 
 #: contributing/internals.rst:34
 msgid "User account, profiles and notifications."
@@ -38689,8 +38640,8 @@ msgstr "Cont de utilizator, profiluri și notificări."
 #: contributing/internals.rst:38
 msgid "Add-ons to tweak Weblate behavior, see :ref:`addons`."
 msgstr ""
-"Componente suplimentare pentru a modifica comportamentul Weblate, "
-"vezi :ref:`addons`."
+"Componente suplimentare pentru a modifica comportamentul Weblate, vezi "
+":ref:`addons`."
 
 #: contributing/internals.rst:42
 msgid "API based on `Django REST framework`_."
@@ -38735,8 +38686,7 @@ msgstr "Integrarea serviciilor de traducere automată."
 
 #: contributing/internals.rst:82
 msgid "Built-in translation memory, see :ref:`translation-memory`."
-msgstr ""
-"Memorie de traducere încorporată, a se vedea :ref:`translation-memory`."
+msgstr "Memorie de traducere încorporată, a se vedea :ref:`translation-memory`."
 
 #: contributing/internals.rst:86
 msgid "Screenshots management and OCR module."
@@ -39010,8 +38960,8 @@ msgid ""
 "`wlc <https://github.com/WeblateOrg/wlc/>`_, Python client library, "
 "see :ref:`wlc`"
 msgstr ""
-"`wlc <https://github.com/WeblateOrg/wlc/>`_, bibliotecă client Python, "
-"vezi :ref:`wlc`"
+"`wlc <https://github.com/WeblateOrg/wlc/>`_, bibliotecă client Python, vezi "
+":ref:`wlc`"
 
 #: contributing/modules.rst:10
 msgid ""
@@ -39062,8 +39012,8 @@ msgid ""
 "to :file:`languages.csv`, other files are generated from that file. The "
 "columns in the CSV file correspond to :ref:`language-definitions`."
 msgstr ""
-"Sunteți bineveniți să adăugați definițiile de limbă lipsă "
-"la :file:`languages.csv`, alte fișiere sunt generate din acest fișier."
+"Sunteți bineveniți să adăugați definițiile de limbă lipsă la "
+":file:`languages.csv`, alte fișiere sunt generate din acest fișier."
 
 #: contributing/release.rst:2
 msgid "Releasing Weblate"
@@ -39197,8 +39147,7 @@ msgstr ""
 #: contributing/release.rst:51
 msgid ""
 "Increase version in the repository by :command:`./scripts/set-version.py`."
-msgstr ""
-"Creșteți versiunea în depozit prin :command:`./scripts/set-version.py`."
+msgstr "Creșteți versiunea în depozit prin :command:`./scripts/set-version.py`."
 
 #: contributing/release.rst:52
 msgid ""
@@ -39453,8 +39402,8 @@ msgid ""
 "Understand the Weblate source code by going "
 "through :doc:`code`, :doc:`frontend` and :doc:`internals`."
 msgstr ""
-"Înțelegeți codul sursă Weblate, parcurgând :doc:`code`, :doc:`frontend` "
-"și :doc:`internals`."
+"Înțelegeți codul sursă Weblate, parcurgând :doc:`code`, :doc:`frontend` și "
+":doc:`internals`."
 
 #: contributing/start.rst:8
 msgid "Starting with the codebase"
@@ -39592,9 +39541,9 @@ msgid ""
 "for example running only tests in the ``weblate.machine`` module:"
 msgstr ""
 "Scriptul acceptă și câțiva parametri, pentru a executa teste, rulați-l cu "
-"parametrul ``test`` și apoi specificați orice "
-"parametru :djadmin:`django:test`, de exemplu rularea doar a testelor din "
-"modulul ``weblate.machine``:"
+"parametrul ``test`` și apoi specificați orice parametru "
+":djadmin:`django:test`, de exemplu rularea doar a testelor din modulul "
+"``weblate.machine``:"
 
 #: contributing/start.rst:101
 msgid ""
@@ -39906,12 +39855,11 @@ msgid ""
 "The example definition of that is in :file:`scripts/test-database.sh`:"
 msgstr ""
 "Configurația pentru CI se află în directorul :file:`.github/workflows`. "
-"Acesta utilizează în mare măsură scripturile de ajutor stocate în "
-"directorul :file:`ci`. Scripturile pot fi, de asemenea, executate manual, "
-"dar necesită mai multe variabile de mediu, care definesc în principal "
-"fișierul de setări Django care urmează să fie utilizat și conexiunea la baza "
-"de date. Exemplul de definire a acestora se află în :file:`scripts/test-"
-"database`:"
+"Acesta utilizează în mare măsură scripturile de ajutor stocate în directorul "
+":file:`ci`. Scripturile pot fi, de asemenea, executate manual, dar necesită "
+"mai multe variabile de mediu, care definesc în principal fișierul de setări "
+"Django care urmează să fie utilizat și conexiunea la baza de date. Exemplul "
+"de definire a acestora se află în :file:`scripts/test-database`:"
 
 #: contributing/tests.rst:42
 msgid "The simple execution can look like:"
@@ -40409,8 +40357,8 @@ msgid ""
 "The alerts are updated daily, or on related change (for example "
 "when :ref:`component` is changed or when repository is updated)."
 msgstr ""
-"Alertele sunt actualizate zilnic sau la fiecare modificare (de exemplu, "
-"când :ref:`component` se modifică sau când se actualizează depozitul)."
+"Alertele sunt actualizate zilnic sau la fiecare modificare (de exemplu, când "
+":ref:`component` se modifică sau când se actualizează depozitul)."
 
 #: devel/alerts.rst:32
 msgid ""
@@ -40425,8 +40373,8 @@ msgid ""
 "If it is missing, the component clears all current checks. Alerts can not be "
 "ignored, but will disappear once the underlying problem has been fixed."
 msgstr ""
-"Alertele sunt listate pe fiecare pagină a componentei respective "
-"ca :guilabel:`Alerte`. Dacă lipsește, componenta anulează toate verificările "
+"Alertele sunt listate pe fiecare pagină a componentei respective ca "
+":guilabel:`Alerte`. Dacă lipsește, componenta anulează toate verificările "
 "curente. Alertele nu pot fi ignorate, dar vor dispărea odată ce problema de "
 "bază a fost rezolvată."
 
@@ -40742,8 +40690,7 @@ msgstr "Prezentare generală a fluxului de lucru"
 
 #: devel/gettext.rst:31
 msgid "The GNU gettext uses several files to manage the localization:"
-msgstr ""
-"GNU gettext utilizează mai multe fișiere pentru a gestiona localizarea:"
+msgstr "GNU gettext utilizează mai multe fișiere pentru a gestiona localizarea:"
 
 #: devel/gettext.rst:33
 msgid ""
@@ -40915,8 +40862,8 @@ msgid ""
 "description of the fields):"
 msgstr ""
 "Pentru a importa o astfel de traducere în Weblate, tot ce trebuie să "
-"definiți sunt următoarele câmpuri atunci când creați componenta (a se "
-"vedea :ref:`component` pentru o descriere detaliată a câmpurilor):"
+"definiți sunt următoarele câmpuri atunci când creați componenta (a se vedea "
+":ref:`component` pentru o descriere detaliată a câmpurilor):"
 
 #: devel/gettext.rst:229
 msgid "Field"
@@ -40974,8 +40921,8 @@ msgid ""
 "and :setting:`LOCALIZE_CDN_PATH`."
 msgstr ""
 "Această funcție este configurată pe Hosted Weblate. Necesită o configurație "
-"suplimentară pe instalația dvs., consultați :setting:`LOCALIZE_CDN_URL` "
-"și :setting:`LOCALIZE_CDN_PATH`."
+"suplimentară pe instalația dvs., consultați :setting:`LOCALIZE_CDN_URL` și "
+":setting:`LOCALIZE_CDN_PATH`."
 
 #: devel/html.rst:15
 msgid ""
@@ -41011,10 +40958,10 @@ msgid ""
 msgstr ""
 "În cazul în care aveți un depozit existent pentru început (de exemplu, cel "
 "care conține fișiere HTML), creați un fișier JSON gol în depozitul pentru "
-"limba sursă (a se vedea :ref:`component-source_language`), de "
-"exemplu :file:`locales/en.json`. Conținutul trebuie să fie ``{}`` pentru a "
-"indica un obiect gol. Odată ce aveți acest lucru, depozitul poate fi "
-"importat în Weblate și puteți începe cu o configurație de add-on."
+"limba sursă (a se vedea :ref:`component-source_language`), de exemplu "
+":file:`locales/en.json`. Conținutul trebuie să fie ``{}`` pentru a indica un "
+"obiect gol. Odată ce aveți acest lucru, depozitul poate fi importat în "
+"Weblate și puteți începe cu o configurație de add-on."
 
 #: devel/html.rst:34
 msgid ""
@@ -41156,8 +41103,8 @@ msgstr "Localizarea HTML folosind Weblate CDN"
 msgid ""
 "To localize a HTML document, you need to load the :file:`weblate.js` script:"
 msgstr ""
-"Pentru a localiza un document HTML, trebuie să încărcați "
-"scriptul :file:`weblate.js`:"
+"Pentru a localiza un document HTML, trebuie să încărcați scriptul "
+":file:`weblate.js`:"
 
 #: devel/html.rst:110
 msgid ""
@@ -41417,8 +41364,8 @@ msgid ""
 msgstr ""
 "Prin încărcarea fișierului sursă ca :guilabel:`Înlocuiți fișierul de "
 "traducere existent` (acest lucru suprascrie șirurile existente, așa că "
-"asigurați-vă că fișierul include atât șirurile vechi, cât și cele noi) "
-"sau :guilabel:`Adaugați șiruri noi`, consultați :ref:`upload-method`."
+"asigurați-vă că fișierul include atât șirurile vechi, cât și cele noi) sau "
+":guilabel:`Adaugați șiruri noi`, consultați :ref:`upload-method`."
 
 #: devel/integration.rst:89
 #, fuzzy
@@ -41428,8 +41375,8 @@ msgstr ""
 msgid ""
 "The ability to add strings in Weblate requires :ref:`component-manage_units`."
 msgstr ""
-"Disponibilitatea de a adăuga șiruri de caractere în Weblate depinde "
-"de :ref:`component-manage_units`."
+"Disponibilitatea de a adăuga șiruri de caractere în Weblate depinde de "
+":ref:`component-manage_units`."
 
 #: devel/integration.rst:94
 #, fuzzy
@@ -41476,9 +41423,9 @@ msgid ""
 msgstr ""
 "De asemenea, Weblate nu va încerca în niciun fel să actualizeze fișierele "
 "bilingve, astfel încât, dacă aveți nevoie ca fișierele :file:`po` să fie "
-"actualizate din :file:`pot`, trebuie să o faceți dumneavoastră "
-"folosind :guilabel:`Update source strings` :ref:`upload-method` sau folosind "
-"add-onul :ref:`addon-weblate.gettext.msgmerge`."
+"actualizate din :file:`pot`, trebuie să o faceți dumneavoastră folosind "
+":guilabel:`Update source strings` :ref:`upload-method` sau folosind add-onul "
+":ref:`addon-weblate.gettext.msgmerge`."
 
 #: devel/integration.rst:106
 msgid ""
@@ -42810,8 +42757,8 @@ msgid ""
 "More reports are accessible on the :guilabel:`Insights` tab, "
 "selecting :guilabel:`Translation reports`."
 msgstr ""
-"Mai multe rapoarte sunt accesibile în fila :guilabel:`Insights`, "
-"selectând :guilabel:`Translation reports`."
+"Mai multe rapoarte sunt accesibile în fila :guilabel:`Insights`, selectând "
+":guilabel:`Translation reports`."
 
 #: devel/review.rst:21
 msgid ""
@@ -42896,12 +42843,12 @@ msgid ""
 "an eye on when problems arise in translation, take care of them, and fix "
 "them quickly."
 msgstr ""
-"Traducătorii pot comenta atât traducerea, cât și șirurile sursă. "
-"Fiecare :ref:`component` poate fi configurat pentru a primi astfel de "
-"comentarii la o adresă de e-mail (a se vedea :ref:`component-"
-"report_source_bugs`), iar utilizarea listei de discuții a dezvoltatorilor "
-"este, de obicei, cea mai bună abordare. În acest fel, puteți urmări când "
-"apar probleme în traducere, să vă ocupați de ele și să le remediați rapid."
+"Traducătorii pot comenta atât traducerea, cât și șirurile sursă. Fiecare "
+":ref:`component` poate fi configurat pentru a primi astfel de comentarii la "
+"o adresă de e-mail (a se vedea :ref:`component-report_source_bugs`), iar "
+"utilizarea listei de discuții a dezvoltatorilor este, de obicei, cea mai "
+"bună abordare. În acest fel, puteți urmări când apar probleme în traducere, "
+"să vă ocupați de ele și să le remediați rapid."
 
 #: devel/share.rst:4
 #, fuzzy
@@ -43123,8 +43070,8 @@ msgstr ""
 "Alegeți ceea ce este standard pe platforma dvs., încercați să evitați "
 "reinventarea roții prin crearea propriului cadru pentru a gestiona "
 "localizările. Weblate acceptă majoritatea cadrelor utilizate pe scară largă, "
-"consultați :ref:`formats` pentru mai multe informații (în "
-"special :ref:`fmt_capabs`)."
+"consultați :ref:`formats` pentru mai multe informații (în special "
+":ref:`fmt_capabs`)."
 
 #: devel/starting.rst:31
 msgid ""
@@ -43502,8 +43449,8 @@ msgstr ""
 "Formatele bazate pe documente (de exemplu :ref:`odf`) încep cu o copie a "
 "documentului sursă și cu toate șirurile marcate ca necesitând editare. În "
 "unele situații, acest lucru nu depinde de format, ci mai degrabă de cadrul "
-"pe care îl utilizați pentru a gestiona traducerea (de exemplu, "
-"cu :ref:`json`)."
+"pe care îl utilizați pentru a gestiona traducerea (de exemplu, cu "
+":ref:`json`)."
 
 #: devel/translations.rst:42
 #, fuzzy
@@ -43630,8 +43577,8 @@ msgid ""
 "editing the string. This has differences between file formats, "
 "see: :ref:`component-manage_units`"
 msgstr ""
-"În interfața Weblate prin intermediul butonului :guilabel:`Tools` "
-"↓ :guilabel:`Remove` în timpul editării șirului. Acest lucru are diferențe "
+"În interfața Weblate prin intermediul butonului :guilabel:`Tools` ↓ "
+":guilabel:`Remove` în timpul editării șirului. Acest lucru are diferențe "
 "între formatele de fișiere, a se vedea: :ref:`component-manage_units`"
 
 #: devel/translations.rst:95
@@ -43741,8 +43688,8 @@ msgid ""
 "is turned on):"
 msgstr ""
 "Varianta suplimentară pentru un șir de caractere poate fi adăugată, de "
-"asemenea, folosind :guilabel:`Tools` în timpul traducerii "
-"(când :ref:`component-manage_units` este activat):"
+"asemenea, folosind :guilabel:`Tools` în timpul traducerii (când "
+":ref:`component-manage_units` este activat):"
 
 #: devel/translations.rst:153
 #, fuzzy
@@ -43862,8 +43809,8 @@ msgstr ""
 "același timp. De obicei, puteți evita acest lucru prin fuzionarea "
 "traducerilor Weblate înainte de a face modificări în fișierele de traducere "
 "(de exemplu, înainte de a rula msgmerge). Spuneți-i doar lui Weblate să "
-"confirme toate traducerile în așteptare (puteți face acest lucru "
-"în :guilabel:`Repository maintenance` din meniul :guilabel:`Manage`) și să "
+"confirme toate traducerile în așteptare (puteți face acest lucru în "
+":guilabel:`Repository maintenance` din meniul :guilabel:`Manage`) și să "
 "fuzioneze depozitul (dacă nu este activat push-ul automat)."
 
 #: faq.rst:47
@@ -43949,10 +43896,10 @@ msgid ""
 "quite a lot, and it is not possible to simply merge translation changes "
 "between them."
 msgstr ""
-"Weblate suportă împingerea modificărilor de traducere în cadrul "
-"unui :ref:`project`. Pentru fiecare :ref:`component` care are activată "
-"această opțiune (comportamentul implicit), modificarea efectuată este "
-"propagată automat către celelalte. În acest fel, traducerile sunt menținute "
+"Weblate suportă împingerea modificărilor de traducere în cadrul unui "
+":ref:`project`. Pentru fiecare :ref:`component` care are activată această "
+"opțiune (comportamentul implicit), modificarea efectuată este propagată "
+"automat către celelalte. În acest fel, traducerile sunt menținute "
 "sincronizate chiar dacă ramurile în sine au avut deja divergențe destul de "
 "mari și nu este posibilă simpla îmbinare a modificărilor de traducere între "
 "ele."
@@ -43975,9 +43922,9 @@ msgid ""
 "Weblate supports a wide range of file formats (see :doc:`formats`) and the "
 "easiest approach is to use the native format for each platform."
 msgstr ""
-"Weblate acceptă o gamă largă de formate de fișiere (a se "
-"vedea :doc:`formats`) și cea mai simplă abordare este de a utiliza formatul "
-"nativ pentru fiecare platformă."
+"Weblate acceptă o gamă largă de formate de fișiere (a se vedea "
+":doc:`formats`) și cea mai simplă abordare este de a utiliza formatul nativ "
+"pentru fiecare platformă."
 
 #: faq.rst:200
 msgid ""
@@ -44125,9 +44072,9 @@ msgid ""
 "admin interface, or open the ``/manage/performance/`` URL directly."
 msgstr ""
 "Weblate include un set de verificări de configurare pe care le puteți vedea "
-"în interfața de administrare, trebuie doar să urmați "
-"linkul :guilabel:`Raport de performanță` din interfața de administrare sau "
-"să deschideți direct URL-ul ``/manage/performance/```."
+"în interfața de administrare, trebuie doar să urmați linkul "
+":guilabel:`Raport de performanță` din interfața de administrare sau să "
+"deschideți direct URL-ul ``/manage/performance/```."
 
 #: faq.rst:282
 msgid "Why are all commits committed by Weblate <noreply@weblate.org>?"
@@ -44221,8 +44168,8 @@ msgid ""
 "Do any needed changes in the repo (for example using :command:`git mv`), "
 "push them to the upstream repository."
 msgstr ""
-"Efectuați orice modificări necesare în repo (de exemplu, "
-"folosind :command:`git mv`) și împingeți-le în depozitul upstream."
+"Efectuați orice modificări necesare în repo (de exemplu, folosind "
+":command:`git mv`) și împingeți-le în depozitul upstream."
 
 #: faq.rst:324
 msgid ""
@@ -44290,9 +44237,9 @@ msgid ""
 "On context tabs below translation, you can use the :guilabel:`Comments` tab "
 "to provide feedback on a source string, or discuss it with other translators."
 msgstr ""
-"Pe filele de context de sub traducere, puteți utiliza "
-"fila :guilabel:`Comments` pentru a oferi feedback cu privire la un șir sursă "
-"sau pentru a discuta cu alți traducători."
+"Pe filele de context de sub traducere, puteți utiliza fila "
+":guilabel:`Comments` pentru a oferi feedback cu privire la un șir sursă sau "
+"pentru a discuta cu alți traducători."
 
 #: faq.rst:359
 msgid "How can I use existing translations while translating?"
@@ -44408,8 +44355,8 @@ msgid ""
 "For Gettext PO files, you have to pass the parameter ``--previous`` "
 "to :command:`msgmerge` when updating PO files, for example:"
 msgstr ""
-"Pentru fișierele Gettext PO, trebuie să treceți parametrul ``--previous`` "
-"la :command:`msgmerge` atunci când actualizați fișierele PO, de exemplu:"
+"Pentru fișierele Gettext PO, trebuie să treceți parametrul ``--previous`` la "
+":command:`msgmerge` atunci când actualizați fișierele PO, de exemplu:"
 
 #: faq.rst:425
 msgid ""
@@ -44623,10 +44570,10 @@ msgid ""
 "gerrit` and :ref:`vcs-git-svn`) and :ref:`vcs-mercurial`, but it is possible "
 "to write backends for other VCSes."
 msgstr ""
-"Weblate nu are în prezent suport nativ pentru nimic altceva în afară "
-"de :ref:`vcs-git` (cu suport extins pentru :ref:`vcs-github`, :ref:`vcs-"
-"gerrit` și :ref:`vcs-git-svn`) și :ref:`vcs-mercurial`, dar este posibil să "
-"se scrie backend-uri pentru alte VCS-uri."
+"Weblate nu are în prezent suport nativ pentru nimic altceva în afară de "
+":ref:`vcs-git` (cu suport extins pentru :ref:`vcs-github`, :ref:`vcs-gerrit` "
+"și :ref:`vcs-git-svn`) și :ref:`vcs-mercurial`, dar este posibil să se scrie "
+"backend-uri pentru alte VCS-uri."
 
 #: faq.rst:550
 msgid "Weblate also supports VCS-less operation, see :ref:`vcs-local`."
@@ -44795,12 +44742,11 @@ msgstr ""
 "Sunt acceptate atât formatul :index:`monolingual <pereche: traducere; "
 "monolingv>`, cât și :index:`bilingual <pereche: traducere; bilingv>`. "
 "Formatele bilingve stochează două limbi într-un singur fișier-sursă și "
-"traducere (exemple tipice sunt :ref:`gettext`, :ref:`xliff` "
-"sau :ref:`apple`). Pe de altă parte, formatele monolingve identifică șirul "
-"de caractere prin ID, iar fiecare fișier de limbă conține doar maparea "
-"acestora într-o anumită limbă (tipic :ref:`aresource`). Unele formate de "
-"fișiere sunt utilizate în ambele variante, a se vedea descrierea detaliată "
-"de mai jos."
+"traducere (exemple tipice sunt :ref:`gettext`, :ref:`xliff` sau :ref:`apple`)"
+". Pe de altă parte, formatele monolingve identifică șirul de caractere prin "
+"ID, iar fiecare fișier de limbă conține doar maparea acestora într-o anumită "
+"limbă (tipic :ref:`aresource`). Unele formate de fișiere sunt utilizate în "
+"ambele variante, a se vedea descrierea detaliată de mai jos."
 
 #: formats.rst:50
 msgid ""
@@ -44811,8 +44757,8 @@ msgid ""
 msgstr ""
 "Pentru utilizarea corectă a fișierelor monolingve, Weblate are nevoie de "
 "acces la un fișier care să conțină lista completă a șirurilor de caractere "
-"care trebuie traduse împreună cu sursa lor - acest fișier se "
-"numește :ref:`component-template` în Weblate, deși denumirea poate varia în "
+"care trebuie traduse împreună cu sursa lor - acest fișier se numește "
+":ref:`component-template` în Weblate, deși denumirea poate varia în "
 "paradigma dumneavoastră."
 
 #: formats.rst:55
@@ -44919,8 +44865,8 @@ msgstr ""
 "Indicatorii sunt extrași din atributul non-standard ``weblate-flags`` pentru "
 "toate formatele bazate pe XML. În plus, ``max-length:N`` este suportat prin "
 "atributul ``maxwidth`` <http://docs.oasis-open.org/xliff/v1.2/os/xliff-"
-"core.html#maxwidth>`_ așa cum este definit în standardul XLIFF, a se "
-"vedea :ref:`xliff-flags`."
+"core.html#maxwidth>`_ așa cum este definit în standardul XLIFF, a se vedea "
+":ref:`xliff-flags`."
 
 #: formats.rst:122
 #, fuzzy
@@ -45061,8 +45007,8 @@ msgid ""
 "strings.xml`."
 msgstr ""
 "Resursele de șiruri de caractere Android sunt monolingve, :ref:`component-"
-"template` este stocat într-o locație diferită de celelalte fișiere "
-"-- :file:`res/values/strings.xml`."
+"template` este stocat într-o locație diferită de celelalte fișiere -- "
+":file:`res/values/strings.xml`."
 
 #: formats/android.rst:20
 msgid "Weblate does following escaping of strings:"
@@ -45207,9 +45153,9 @@ msgid ""
 "translation>` applications, but also standardized by PWG 5100.13 and used on "
 "NeXTSTEP/OpenSTEP."
 msgstr ""
-"Format de fișier utilizat de obicei pentru traducerea aplicațiilor "
-"Apple :index:`iOS <pereche: iOS; traducere>`, dar și standardizat de PWG "
-"5100.13 și utilizat pe NeXTSTEP/OpenSTEP."
+"Format de fișier utilizat de obicei pentru traducerea aplicațiilor Apple "
+":index:`iOS <pereche: iOS; traducere>`, dar și standardizat de PWG 5100.13 "
+"și utilizat pe NeXTSTEP/OpenSTEP."
 
 #: formats/apple.rst:14
 msgid "Apple iOS strings are usually used as monolingual."
@@ -45235,9 +45181,8 @@ msgstr ""
 "developer.apple.com/library/archive/documentation/MacOSX/Conceptual/"
 "BPInternational/MaintaingYourOwnStringsFiles/"
 "MaintaingYourOwnStringsFiles.html>`_, `Message Catalog File Format in PWG "
-"5100.13 <http://ftp.pwg.org/pub/pwg/candidates/cs-"
-"ippjobprinterext3v10-20120727-5100.13.pdf#page=66>`_, :doc:`tt:formats/"
-"strings`"
+"5100.13 <http://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext3v10-"
+"20120727-5100.13.pdf#page=66>`_, :doc:`tt:formats/strings`"
 
 #: formats/apple.rst:20
 msgid ""
@@ -45331,9 +45276,9 @@ msgid ""
 "the :ref:`addon-weblate.flags.bulk`."
 msgstr ""
 "În cazul în care nu doriți să traduceți anumite șiruri de caractere (de "
-"exemplu, changelogs), marcați-le ca fiind doar pentru citire (a se "
-"vedea :ref:`custom-checks`). Acest lucru poate fi automatizat de "
-"către :ref:`addon-weblate.flags.bulk`."
+"exemplu, changelogs), marcați-le ca fiind doar pentru citire (a se vedea "
+":ref:`custom-checks`). Acest lucru poate fi automatizat de către :ref:`addon-"
+"weblate.flags.bulk`."
 
 #: formats/appstore.rst:37
 msgid "`App store metadata files`"
@@ -45505,8 +45450,8 @@ msgid ""
 "Files with two fields—source and translation (in this order). "
 "Choose :guilabel:`Simple CSV file` as a file format."
 msgstr ""
-"Fișiere cu două câmpuri - sursă și traducere (în această ordine). "
-"Alegeți :guilabel:`Simple CSV file` ca format de fișier."
+"Fișiere cu două câmpuri - sursă și traducere (în această ordine). Alegeți "
+":guilabel:`Simple CSV file` ca format de fișier."
 
 #: formats/csv.rst:19
 msgid ""
@@ -45517,8 +45462,8 @@ msgid ""
 msgstr ""
 "Fișiere fără antet cu câmpuri în ordinea definită de `translate-toolkit`_: "
 "``location``, ``source``, ``target``, ``ID``, ``fuzzy``, ``context``, "
-"``translator_comments``, ``developer_comments``. Alegeți ca format de "
-"fișier :guilabel:`CSV file`."
+"``translator_comments``, ``developer_comments``. Alegeți ca format de fișier "
+":guilabel:`CSV file`."
 
 #: formats/csv.rst:22
 msgid ""
@@ -46546,8 +46491,8 @@ msgstr ""
 #| "index.html>`_, :doc:`tt:formats/ts`, :ref:`bimono`"
 msgid "`Qt Linguist manual <https://doc.qt.io/qt-6/qtlinguist-index.html>`_"
 msgstr ""
-"`Qt Linguist manual <https://doc.qt.io/qt-5/qtlinguist-"
-"index.html>`_, :doc:`tt:formats/ts`, :ref:`bimono`"
+"`Qt Linguist manual <https://doc.qt.io/qt-5/qtlinguist-index.html>`_, "
+":doc:`tt:formats/ts`, :ref:`bimono`"
 
 #: formats/qt.rst:31
 msgid "Typical Weblate :ref:`component` when using as bilingual"
@@ -46944,8 +46889,8 @@ msgid ""
 "is one of `many standards <https://xkcd.com/927/>`_, in this area."
 msgstr ""
 "Format bazat pe XML creat pentru a standardiza fișierele de traducere, dar "
-"în cele din urmă este unul dintre `multele standarde <https://xkcd.com/927/"
-">`_, în acest domeniu."
+"în cele din urmă este unul dintre `multele standarde <https://xkcd.com/927/>"
+"`_, în acest domeniu."
 
 #: formats/xliff.rst:16
 msgid ""
@@ -47117,8 +47062,8 @@ msgid ""
 "strings needing edit`."
 msgstr ""
 "În mod similar, atunci când importați astfel de fișiere (în formularul de "
-"încărcare), trebuie să alegeți :guilabel:`Import as translated` "
-"sub :guilabel:`Procesarea șirurilor de caractere care necesită editare`."
+"încărcare), trebuie să alegeți :guilabel:`Import as translated` sub "
+":guilabel:`Procesarea șirurilor de caractere care necesită editare`."
 
 #: formats/xliff.rst:73
 msgid "Whitespace and newlines in XLIFF"
@@ -47144,8 +47089,8 @@ msgid ""
 "using the ``weblate-flags`` attribute. Weblate also understands ``maxwidth`` "
 "and ``font`` attributes from the XLIFF specification:"
 msgstr ""
-"Puteți specifica indicatori de traducere suplimentari (a se "
-"vedea :ref:`custom-checks`) utilizând atributul ``weblate-flags``. Weblate "
+"Puteți specifica indicatori de traducere suplimentari (a se vedea "
+":ref:`custom-checks`) utilizând atributul ``weblate-flags``. Weblate "
 "înțelege, de asemenea, atributele ``maxwidth`` și ``font`` din specificația "
 "XLIFF:"
 
@@ -47176,11 +47121,10 @@ msgid ""
 "`font attribute in XLIFF 1.2 <https://docs.oasis-open.org/xliff/v1.2/os/"
 "xliff-core.html#font>`_"
 msgstr ""
-"`XLIFF pe Wikipedia <https://en.wikipedia.org/wiki/"
-"XLIFF>`_, :doc:`tt:formats/xliff`, `atributul font în XLIFF 1.2 <http://"
-"docs.oasis-open.org/xliff/v1.2/os/xliff-core.html#font>`_, `atributul "
-"maxwidth în XLIFF 1.2 <http://docs.oasis-open.org/xliff/v1.2/os/xliff-"
-"core.html#maxwidth>`_"
+"`XLIFF pe Wikipedia <https://en.wikipedia.org/wiki/XLIFF>`_, "
+":doc:`tt:formats/xliff`, `atributul font în XLIFF 1.2 <http://docs.oasis-"
+"open.org/xliff/v1.2/os/xliff-core.html#font>`_, `atributul maxwidth în XLIFF "
+"1.2 <http://docs.oasis-open.org/xliff/v1.2/os/xliff-core.html#maxwidth>`_"
 
 #: formats/xliff.rst:117
 #, fuzzy
@@ -47194,11 +47138,10 @@ msgid ""
 "`maxwidth attribute in XLIFF 1.2 <https://docs.oasis-open.org/xliff/v1.2/os/"
 "xliff-core.html#maxwidth>`_"
 msgstr ""
-"`XLIFF pe Wikipedia <https://en.wikipedia.org/wiki/"
-"XLIFF>`_, :doc:`tt:formats/xliff`, `atributul font în XLIFF 1.2 <http://"
-"docs.oasis-open.org/xliff/v1.2/os/xliff-core.html#font>`_, `atributul "
-"maxwidth în XLIFF 1.2 <http://docs.oasis-open.org/xliff/v1.2/os/xliff-"
-"core.html#maxwidth>`_"
+"`XLIFF pe Wikipedia <https://en.wikipedia.org/wiki/XLIFF>`_, "
+":doc:`tt:formats/xliff`, `atributul font în XLIFF 1.2 <http://docs.oasis-"
+"open.org/xliff/v1.2/os/xliff-core.html#font>`_, `atributul maxwidth în XLIFF "
+"1.2 <http://docs.oasis-open.org/xliff/v1.2/os/xliff-core.html#maxwidth>`_"
 
 #: formats/xliff.rst:120
 msgid "String keys"
@@ -48634,8 +48577,7 @@ msgstr ":doc:`Django <django:internals/security>`"
 #: security/issues.rst:50
 msgid ""
 "`Django REST framework <https://www.django-rest-framework.org/#security>`_"
-msgstr ""
-"`Django REST cadrul <https://www.django-rest-framework.org/#security>`_"
+msgstr "`Django REST cadrul <https://www.django-rest-framework.org/#security>`_"
 
 #: security/issues.rst:51
 msgid "`Python Social Auth <https://github.com/python-social-auth>`_"
@@ -49069,8 +49011,8 @@ msgid ""
 "The password hashing can be customized "
 "using :setting:`django:PASSWORD_HASHERS`."
 msgstr ""
-"Crearea copiilor de rezervă poate fi personalizată "
-"folosind :setting:`BORG_EXTRA_ARGS`."
+"Crearea copiilor de rezervă poate fi personalizată folosind "
+":setting:`BORG_EXTRA_ARGS`."
 
 #: security/passwords.rst:16
 #, fuzzy
@@ -49122,8 +49064,8 @@ msgid ""
 "The password validation can be customized "
 "using :setting:`django:AUTH_PASSWORD_VALIDATORS`."
 msgstr ""
-"Crearea copiilor de rezervă poate fi personalizată "
-"folosind :setting:`BORG_EXTRA_ARGS`."
+"Crearea copiilor de rezervă poate fi personalizată folosind "
+":setting:`BORG_EXTRA_ARGS`."
 
 #: security/passwords.rst:33
 #, fuzzy
@@ -52177,8 +52119,8 @@ msgstr ""
 "modalitate convenabilă de a partaja configurația VCS între mai multe "
 "componente. Componentele legate utilizează depozitul local al componentei "
 "principale, configurat prin completarea ``weblate://project/main-component`` "
-"în câmpul :ref:`component-repo` (în :guilabel:`Manage` "
-"↓ :guilabel:`Settings` ↓ :guilabel:`Version control system`) al fiecărei "
+"în câmpul :ref:`component-repo` (în :guilabel:`Manage` ↓ "
+":guilabel:`Settings` ↓ :guilabel:`Version control system`) al fiecărei "
 "componente respective. Acest lucru economisește timp cu configurarea și, de "
 "asemenea, resurse de sistem."
 
@@ -52787,9 +52729,9 @@ msgid ""
 "text` :guilabel:`Source string` :guilabel:`Appended variable "
 "text` :guilabel:`Appended static text`"
 msgstr ""
-":guilabel:`Prefix de șir fix` :guilabel:`Prefix de șir "
-"variabil` :guilabel:`Șir sursă` :guilabel:`Sufix de șir "
-"variabil` :guilabel:`Sufix de șir fix` :guilabel:`Sufix de șir fix`"
+":guilabel:`Prefix de șir fix` :guilabel:`Prefix de șir variabil` "
+":guilabel:`Șir sursă` :guilabel:`Sufix de șir variabil` :guilabel:`Sufix de "
+"șir fix` :guilabel:`Sufix de șir fix`"
 
 #: snippets/addons-autogenerated.rst:910
 msgid ""
@@ -52873,9 +52815,9 @@ msgid ""
 "Updates the ALL_LINGUAS variable in :file:`configure`, :file:`configure.in` "
 "or any :file:`configure.ac` files, when a translation is added or removed."
 msgstr ""
-"Actualizează variabila ALL_LINGUAS "
-"din :file:`configure`, :file:`configure.in` sau din orice "
-"fișier :file:`configure.ac`, atunci când se adaugă o nouă traducere."
+"Actualizează variabila ALL_LINGUAS din :file:`configure`, "
+":file:`configure.in` sau din orice fișier :file:`configure.ac`, atunci când "
+"se adaugă o nouă traducere."
 
 #: snippets/addons-autogenerated.rst:974
 msgid "Customize gettext output"
@@ -53738,8 +53680,8 @@ msgid ""
 "The string is read-only and should not be edited in Weblate, see :ref:`read-"
 "only-strings`."
 msgstr ""
-"Șirul este doar pentru citire și nu trebuie editat în Weblate, a se "
-"vedea :ref:`read-only-strings`."
+"Șirul este doar pentru citire și nu trebuie editat în Weblate, a se vedea "
+":ref:`read-only-strings`."
 
 #: snippets/check-flags-autogenerated.rst:6
 msgid ""
@@ -53763,16 +53705,16 @@ msgid ""
 "Limit the maximal length for a string to N characters, see :ref:`check-max-"
 "length`."
 msgstr ""
-"Limitează lungimea maximă a unui șir de caractere la N caractere, a se "
-"vedea :ref:`check-max-length`."
+"Limitează lungimea maximă a unui șir de caractere la N caractere, a se vedea "
+":ref:`check-max-length`."
 
 #: snippets/check-flags-autogenerated.rst:14
 msgid ""
 "Treat text as XML document, affects :ref:`check-xml-invalid` and :ref:`check-"
 "xml-tags`."
 msgstr ""
-"Tratează textul ca document XML, afectează :ref:`check-xml-invalid` "
-"și :ref:`check-xml-tags`."
+"Tratează textul ca document XML, afectează :ref:`check-xml-invalid` și "
+":ref:`check-xml-tags`."
 
 #: snippets/check-flags-autogenerated.rst:16
 msgid "Define font-family for rendering checks, see :ref:`fonts`."
@@ -53787,14 +53729,14 @@ msgstr ""
 #: snippets/check-flags-autogenerated.rst:20
 msgid "Define font-size for rendering checks, see :ref:`fonts`."
 msgstr ""
-"Definiți dimensiunea fontului pentru verificările de redare, a se "
-"vedea :ref:`fonts`."
+"Definiți dimensiunea fontului pentru verificările de redare, a se vedea "
+":ref:`fonts`."
 
 #: snippets/check-flags-autogenerated.rst:22
 msgid "Define letter spacing for rendering checks, see :ref:`fonts`."
 msgstr ""
-"Definiți spațierea literelor pentru verificările de redare, a se "
-"vedea :ref:`fonts`."
+"Definiți spațierea literelor pentru verificările de redare, a se vedea "
+":ref:`fonts`."
 
 #: snippets/check-flags-autogenerated.rst:24
 msgid ""
@@ -53809,15 +53751,15 @@ msgid ""
 "Set a required prefix for XML tags for the :ref:`check-icu-message-format` "
 "quality check."
 msgstr ""
-"Setați un prefix necesar pentru etichetele XML pentru verificarea "
-"calității :ref:`check-icu-message-format`."
+"Setați un prefix necesar pentru etichetele XML pentru verificarea calității "
+":ref:`check-icu-message-format`."
 
 #: snippets/check-flags-autogenerated.rst:28
 msgid ""
 "Placeholder strings expected in translation, see :ref:`check-placeholders`."
 msgstr ""
-"Șiruri de caractere de poziție așteptate în traducere, a se "
-"vedea :ref:`check-placeholders`."
+"Șiruri de caractere de poziție așteptate în traducere, a se vedea "
+":ref:`check-placeholders`."
 
 #: snippets/check-flags-autogenerated.rst:30
 msgid ""
@@ -54241,8 +54183,7 @@ msgstr "Săriți peste verificarea calității :ref:`check-es-format`."
 
 #: snippets/check-flags-autogenerated.rst:184
 msgid "Skip the :ref:`check-i18next-interpolation` quality check."
-msgstr ""
-"Treceți peste verificarea calității :ref:`check-i18next-interpolation`."
+msgstr "Treceți peste verificarea calității :ref:`check-i18next-interpolation`."
 
 #: snippets/check-flags-autogenerated.rst:186
 msgid "Skip the :ref:`check-icu-message-format` quality check."
@@ -55133,11 +55074,10 @@ msgid ""
 "lead to false positives in case the string is not interpreted as a "
 "formatting string, but format string syntax happens to be used."
 msgstr ""
-"Acest lucru se poate face pe unitate (a se vedea :ref:`additional`) sau "
-"în :ref:`component`. Definirea per componentă este mai simplă, dar poate "
-"duce la rezultate fals pozitive în cazul în care șirul nu este interpretat "
-"ca un șir de formatare, ci se întâmplă să fie utilizată sintaxa șirului de "
-"format."
+"Acest lucru se poate face pe unitate (a se vedea :ref:`additional`) sau în "
+":ref:`component`. Definirea per componentă este mai simplă, dar poate duce "
+"la rezultate fals pozitive în cazul în care șirul nu este interpretat ca un "
+"șir de formatare, ci se întâmplă să fie utilizată sintaxa șirului de format."
 
 #: snippets/checks-autogenerated.rst:408
 msgid ""
@@ -56127,8 +56067,8 @@ msgstr "Legăturile Markdown nu se potrivesc cu sursa."
 #| "syntax#link>`_"
 msgid "`Markdown links <https://spec.commonmark.org/0.31.2/#links>`_"
 msgstr ""
-"`Legături Markdown <https://daringfireball.net/projects/markdown/"
-"syntax#link>``_"
+"`Legături Markdown <https://daringfireball.net/projects/markdown/syntax#link>"
+"``_"
 
 #: snippets/checks-autogenerated.rst:1299
 msgid "Markdown references"
@@ -56285,8 +56225,8 @@ msgid ""
 "source."
 msgstr ""
 "De obicei, liniile noi scăpate sunt importante pentru formatarea ieșirii "
-"programului. Verificarea eșuează în cazul în care numărul de literali "
-"``\\n`` din traducere nu corespunde cu cel din sursă."
+"programului. Verificarea eșuează în cazul în care numărul de literali ``\\"
+"n`` din traducere nu corespunde cu cel din sursă."
 
 #: snippets/checks-autogenerated.rst:1455
 msgid "Mismatched colon"
@@ -56395,8 +56335,8 @@ msgid ""
 msgstr ""
 "Verifică dacă punctele de suspensie sunt reproduse atât la sursă, cât și la "
 "traducere. Prezența punctelor de suspensie este verificată pentru diferite "
-"limbi în care acestea nu au ce căuta (chineză, japoneză, devanagari sau "
-"urdu)."
+"limbi în care acestea nu au ce căuta (chineză, japoneză, devanagari sau urdu)"
+"."
 
 #: snippets/checks-autogenerated.rst:1550
 msgid "`Full stop on Wikipedia <https://en.wikipedia.org/wiki/Full_stop>`_"
@@ -56435,8 +56375,8 @@ msgstr ""
 msgid ""
 "`Interrobang mark on Wikipedia <https://en.wikipedia.org/wiki/Interrobang>`_"
 msgstr ""
-"`Semnul întrebării pe Wikipedia <https://en.wikipedia.org/wiki/"
-"Question_mark>`_"
+"`Semnul întrebării pe Wikipedia <https://en.wikipedia.org/wiki/Question_mark>"
+"`_"
 
 #: snippets/checks-autogenerated.rst:1582
 msgid "Mismatched question mark"
@@ -56464,8 +56404,8 @@ msgstr ""
 msgid ""
 "`Question mark on Wikipedia <https://en.wikipedia.org/wiki/Question_mark>`_"
 msgstr ""
-"`Semnul întrebării pe Wikipedia <https://en.wikipedia.org/wiki/"
-"Question_mark>`_"
+"`Semnul întrebării pe Wikipedia <https://en.wikipedia.org/wiki/Question_mark>"
+"`_"
 
 #: snippets/checks-autogenerated.rst:1609
 msgid "Mismatched semicolon"
@@ -56657,8 +56597,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Missing non breakable space before double punctuation sign"
 msgid "Missing non breakable space before double punctuation sign."
-msgstr ""
-"Lipsește spațiul neîntreruptibile înainte de semnul dublu de punctuație"
+msgstr "Lipsește spațiul neîntreruptibile înainte de semnul dublu de punctuație"
 
 #: snippets/checks-autogenerated.rst:1813
 #, fuzzy
@@ -59088,9 +59027,9 @@ msgid ""
 "can use legacy :guilabel:`DeepL Pro (classic)` plan."
 msgstr ""
 "DeepL este un serviciu plătit care oferă un serviciu de traducere automată "
-"de calitate pentru câteva limbi. Trebuie să achiziționați "
-"abonamentul :guilabel:`DeepL API` sau puteți utiliza planul :guilabel:`DeepL "
-"Pro (clasic)`."
+"de calitate pentru câteva limbi. Trebuie să achiziționați abonamentul "
+":guilabel:`DeepL API` sau puteți utiliza planul :guilabel:`DeepL Pro (clasic)"
+"`."
 
 #: snippets/machines-autogenerated.rst:340
 msgid ""
@@ -61203,8 +61142,8 @@ msgid ""
 "features, you can find overview in :ref:`fmt_capabs`."
 msgstr ""
 "Conținutul disponibil în fișierele convertite diferă în funcție de "
-"caracteristicile formatului de fișier, puteți găsi o prezentare generală "
-"în :ref:`fmt_capabs`."
+"caracteristicile formatului de fișier, puteți găsi o prezentare generală în "
+":ref:`fmt_capabs`."
 
 #: user/files.rst:52
 #, fuzzy
@@ -61681,8 +61620,8 @@ msgid ""
 "meaning across all languages."
 msgstr ""
 "Marcarea anumitor termeni din glosar ca ``terminologie`` prin editare în "
-"bloc, prin tastarea indicatorului sau prin utilizarea :guilabel:`Tools` "
-"↓ :guilabel:`Mark as terminology` adaugă intrări pentru aceștia în toate "
+"bloc, prin tastarea indicatorului sau prin utilizarea :guilabel:`Tools` ↓ "
+":guilabel:`Mark as terminology` adaugă intrări pentru aceștia în toate "
 "limbile din glosar. Folosiți această opțiune pentru termenii importanți care "
 "ar trebui să fie bine gândiți și să păstreze un înțeles coerent în toate "
 "limbile."
@@ -61879,10 +61818,10 @@ msgid ""
 "(see :ref:`config`), the dashboard will not be shown, as the user will be "
 "redirected to a single project or component instead."
 msgstr ""
-"Atunci când Weblate este configurat pentru un singur proiect "
-"folosind :setting:`SINGLE_PROJECT` în fișierul :file:`settings.py` "
-"(vezi :ref:`config`), tabloul de bord nu va fi afișat, deoarece utilizatorul "
-"va fi redirecționat către un singur proiect sau o singură componentă."
+"Atunci când Weblate este configurat pentru un singur proiect folosind "
+":setting:`SINGLE_PROJECT` în fișierul :file:`settings.py` (vezi "
+":ref:`config`), tabloul de bord nu va fi afișat, deoarece utilizatorul va fi "
+"redirecționat către un singur proiect sau o singură componentă."
 
 #: user/profile.rst:59
 msgid "User profile"
@@ -61894,8 +61833,8 @@ msgid ""
 "of the top menu, then the :guilabel:`Settings` menu."
 msgstr ""
 "Profilul utilizatorului este accesibil dând clic pe pictograma "
-"utilizatorului tău în partea dreaptă sus a meniului de sus, apoi pe "
-"meniul :guilabel:`Settings`."
+"utilizatorului tău în partea dreaptă sus a meniului de sus, apoi pe meniul "
+":guilabel:`Settings`."
 
 #: user/profile.rst:63
 msgid ""
@@ -61991,10 +61930,9 @@ msgid ""
 "the :guilabel:`Default component list` drop-down."
 msgstr ""
 "În fila :guilabel:`Preferences`, puteți alege care dintre vizualizările de "
-"tablou de bord disponibile să fie prezentate în mod implicit. Dacă "
-"alegeți :guilabel:`Component list`, trebuie să selectați ce listă de "
-"componente va fi afișată din lista derulantă :guilabel:`Default component "
-"list`."
+"tablou de bord disponibile să fie prezentate în mod implicit. Dacă alegeți "
+":guilabel:`Component list`, trebuie să selectați ce listă de componente va "
+"fi afișată din lista derulantă :guilabel:`Default component list`."
 
 #: user/profile.rst:135
 msgid "Editor link"
@@ -62005,8 +61943,8 @@ msgid ""
 "A source code link is shown in the web-browser configured in "
 "the :ref:`component` by default."
 msgstr ""
-"Un link către codul sursă este afișat în browserul web configurat "
-"în :ref:`component` ca mod implicit."
+"Un link către codul sursă este afișat în browserul web configurat în "
+":ref:`component` ca mod implicit."
 
 #: user/profile.rst:142
 msgid ""
@@ -62014,8 +61952,8 @@ msgid ""
 "the VCS source code file of translated strings. You can use :ref:`markup`."
 msgstr ""
 "Prin setarea :guilabel:`Editor link`, utilizați editorul local pentru a "
-"deschide fișierul de cod sursă VCS al șirurilor traduse. Puteți "
-"utiliza :ref:`markup`."
+"deschide fișierul de cod sursă VCS al șirurilor traduse. Puteți utiliza "
+":ref:`markup`."
 
 #: user/profile.rst:145
 msgid ""
@@ -62078,8 +62016,8 @@ msgstr ""
 "Puteți comuta notificările pentru proiectele supravegheate și proiectele "
 "administrate, iar notificările pot fi ajustate (sau pot fi dezactivate) "
 "pentru fiecare proiect și componentă. Vizitați pagina de prezentare generală "
-"a componentelor și selectați alegerea corespunzătoare din "
-"meniul :guilabel:`Watching`."
+"a componentelor și selectați alegerea corespunzătoare din meniul "
+":guilabel:`Watching`."
 
 #: user/profile.rst:177
 msgid ""
@@ -62089,8 +62027,8 @@ msgid ""
 msgstr ""
 "În cazul în care :guilabel:`Automatizarea automată a proiectelor în funcție "
 "de contribuție` este activată, veți începe automat să urmăriți proiectele la "
-"traducerea unui șir de caractere. Valoarea implicită depinde "
-"de :setting:`DEFAULT_AUTO_WATCH`."
+"traducerea unui șir de caractere. Valoarea implicită depinde de "
+":setting:`DEFAULT_AUTO_WATCH`."
 
 #: user/profile.rst:183
 msgid "You will not receive notifications for your own actions."
@@ -62156,9 +62094,9 @@ msgid ""
 "Avatar can be shown for each user (depending on :setting:`ENABLE_AVATARS`). "
 "These images are obtained using https://gravatar.com/."
 msgstr ""
-"Avatarul poate fi afișat pentru fiecare utilizator (în funcție "
-"de :setting:`ENABLE_AVATARS`). Aceste imagini sunt obținute cu ajutorul "
-"https://gravatar.com/."
+"Avatarul poate fi afișat pentru fiecare utilizator (în funcție de "
+":setting:`ENABLE_AVATARS`). Aceste imagini sunt obținute cu ajutorul https://"
+"gravatar.com/."
 
 #: user/profile.rst:230
 msgid "Licenses"
@@ -62462,8 +62400,8 @@ msgid ""
 msgstr ""
 "Filtrează pe acțiunea de modificare, util împreună cu ``change_time``. "
 "Acceptă numele în limba engleză al acțiunii de modificare, fie citat și cu "
-"spații, fie minuscul și spațiile înlocuite cu o cratimă. A se "
-"vedea :ref:`search-changes` pentru exemple."
+"spații, fie minuscul și spațiile înlocuite cu o cratimă. A se vedea "
+":ref:`search-changes` pentru exemple."
 
 #: user/search.rst:97
 #, fuzzy
@@ -62940,8 +62878,8 @@ msgid ""
 msgstr ""
 "După ce ați navigat către o componentă, un set de linkuri conduce la "
 "traducerea efectivă a acesteia. Traducerea este împărțită în continuare în "
-"verificări individuale, cum ar fi :guilabel:`Strings netraduse` "
-"sau :guilabel:`Strings neterminate`. Dacă întregul proiect este tradus, fără "
+"verificări individuale, cum ar fi :guilabel:`Strings netraduse` sau "
+":guilabel:`Strings neterminate`. Dacă întregul proiect este tradus, fără "
 "erori, :guilabel:`All strings` este încă disponibil. Alternativ, puteți "
 "utiliza câmpul de căutare pentru a găsi un anumit șir sau termen."
 
@@ -63320,8 +63258,8 @@ msgid ""
 "Submit current form; this is same as pressing :guilabel:`Save and continue` "
 "while editing translation."
 msgstr ""
-"Trimiteți formularul curent; este același lucru cu "
-"apăsarea :guilabel:`Salvare și continuare` în timpul editării traducerii."
+"Trimiteți formularul curent; este același lucru cu apăsarea "
+":guilabel:`Salvare și continuare` în timpul editării traducerii."
 
 #: user/translating.rst:225
 msgid ":kbd:`Ctrl+Shift+Enter` or"
@@ -63354,8 +63292,8 @@ msgid ""
 "Submit the string as a suggestion; this works the same as "
 "pressing :guilabel:`Suggest` while editing translation."
 msgstr ""
-"Trimite șirul de caractere ca sugestie; este același lucru cu "
-"apăsarea :guilabel:`Suggest` în timpul editării traducerii."
+"Trimite șirul de caractere ca sugestie; este același lucru cu apăsarea "
+":guilabel:`Suggest` în timpul editării traducerii."
 
 #: user/translating.rst:233
 msgid ":kbd:`Ctrl+E` or"
@@ -63643,8 +63581,7 @@ msgstr "Uită-te la șiruri similare traduse în trecut, vezi :ref:`memory`."
 
 #: user/translating.rst:324
 msgid "Displays terms from the project glossary used in the current message."
-msgstr ""
-"Afișează termenii din glosarul proiectului utilizați în mesajul curent."
+msgstr "Afișează termenii din glosarul proiectului utilizați în mesajul curent."
 
 #: user/translating.rst:325
 msgid "History"
@@ -63724,12 +63661,12 @@ msgid ""
 "key for the actual source string. See :ref:`bimono` for more info."
 msgstr ""
 "Limitarea implicită pentru traducere este de zece ori mai lungă decât șirul "
-"sursă. Acest lucru poate fi dezactivat "
-"prin :setting:`LIMIT_TRANSLATION_LENGTH_BY_SOURCE_LENGTH`. În cazul în care "
-"vă loviți de această problemă, aceasta poate fi cauzată și de o traducere "
+"sursă. Acest lucru poate fi dezactivat prin "
+":setting:`LIMIT_TRANSLATION_LENGTH_BY_SOURCE_LENGTH`. În cazul în care vă "
+"loviți de această problemă, aceasta poate fi cauzată și de o traducere "
 "monolingvă configurată în mod eronat ca fiind bilingvă, ceea ce face ca "
-"Weblate să confunde cheia de traducere cu șirul sursă real. "
-"Consultați :ref:`bimono` pentru mai multe informații."
+"Weblate să confunde cheia de traducere cu șirul sursă real. Consultați "
+":ref:`bimono` pentru mai multe informații."
 
 #: user/translating.rst:352
 #, fuzzy
@@ -63752,8 +63689,8 @@ msgid ""
 "Maximal rendered size in pixels as defined by flags; see :ref:`check-max-"
 "size`."
 msgstr ""
-"Dimensiunea maximă redată în pixeli definită de steaguri, a se "
-"vedea :ref:`check-max-size`."
+"Dimensiunea maximă redată în pixeli definită de steaguri, a se vedea "
+":ref:`check-max-size`."
 
 #: user/translating.rst:361
 msgid ""
@@ -63772,8 +63709,7 @@ msgstr ""
 #| msgid "Built-in translation memory, see :ref:`translation-memory`."
 msgid ""
 "You can also perform a concordance search on the :ref:`translation-memory`."
-msgstr ""
-"Memorie de traducere încorporată, a se vedea :ref:`translation-memory`."
+msgstr "Memorie de traducere încorporată, a se vedea :ref:`translation-memory`."
 
 #: user/translating.rst:369
 msgid ""
@@ -63861,8 +63797,8 @@ msgid ""
 "The automatically translated strings are labelled :guilabel:`Automatically "
 "translated`."
 msgstr ""
-"Șirurile de caractere traduse automat sunt "
-"etichetate :guilabel:`Automatically translated`."
+"Șirurile de caractere traduse automat sunt etichetate "
+":guilabel:`Automatically translated`."
 
 #: user/translating.rst:420
 #, fuzzy
@@ -63943,8 +63879,7 @@ msgstr ""
 
 #: user/translating.rst:451
 msgid "Adjust translation flags (see :ref:`custom-checks`)"
-msgstr ""
-"Ajustarea indicatoarelor de traducere (a se vedea :ref:`custom-checks`)"
+msgstr "Ajustarea indicatoarelor de traducere (a se vedea :ref:`custom-checks`)"
 
 #: user/translating.rst:452
 msgid "Adjust string labels (see :ref:`labels`)"
@@ -63959,8 +63894,8 @@ msgid ""
 "This tool is called :guilabel:`Bulk edit`, accessible in "
 "the :guilabel:`Tools` menu of each project, component or translation."
 msgstr ""
-"Acest instrument se numește :guilabel:`Bulk edit`, accesibil în "
-"meniul :guilabel:`Tools` al fiecărui proiect, componentă sau traducere."
+"Acest instrument se numește :guilabel:`Bulk edit`, accesibil în meniul "
+":guilabel:`Tools` al fiecărui proiect, componentă sau traducere."
 
 #: user/translating.rst:463
 msgid ":ref:`Bulk edit add-on <addon-weblate.flags.bulk>`"
@@ -64118,12 +64053,12 @@ msgid ""
 "side."
 msgstr ""
 "Pentru Hosted Weblate există un utilizator push dedicat înregistrat pe "
-"GitHub, Bitbucket, Codeberg și GitLab (cu numele de "
-"utilizator :guilabel:`weblate`, e-mail ``hosted@weblate.org`` și, "
-"numit :guilabel:`Weblate push user`). Trebuie să adăugați acest utilizator "
-"ca și colaborator și să-i acordați permisiunea corespunzătoare pentru "
-"depozitul dumneavoastră (read-only este în regulă pentru clonare, write este "
-"necesar pentru push). În funcție de setările serviciului și ale organizației "
+"GitHub, Bitbucket, Codeberg și GitLab (cu numele de utilizator "
+":guilabel:`weblate`, e-mail ``hosted@weblate.org`` și, numit "
+":guilabel:`Weblate push user`). Trebuie să adăugați acest utilizator ca și "
+"colaborator și să-i acordați permisiunea corespunzătoare pentru depozitul "
+"dumneavoastră (read-only este în regulă pentru clonare, write este necesar "
+"pentru push). În funcție de setările serviciului și ale organizației "
 "dumneavoastră, acest lucru se întâmplă imediat sau necesită confirmare din "
 "partea Weblate."
 
@@ -64156,9 +64091,9 @@ msgid ""
 "configure :ref:`component-repo` and :ref:`component-push` using the SSH "
 "protocol (for example ``git@github.com:WeblateOrg/weblate.git``)."
 msgstr ""
-"Odată ce utilizatorul :guilabel:`weblate` este adăugat, puteți "
-"configura :ref:`component-repo` și :ref:`component-push` folosind protocolul "
-"SSH (de exemplu ``git@github.com:WeblateOrg/weblate.git``)."
+"Odată ce utilizatorul :guilabel:`weblate` este adăugat, puteți configura "
+":ref:`component-repo` și :ref:`component-push` folosind protocolul SSH (de "
+"exemplu ``git@github.com:WeblateOrg/weblate.git``)."
 
 #: vcs.rst:63
 msgid ""
@@ -64193,17 +64128,16 @@ msgid ""
 "access the upstream repository this way."
 msgstr ""
 "Cea mai frecvent utilizată metodă de accesare a depozitelor private se "
-"bazează pe SSH. Autorizați cheia SSH publică Weblate (a se "
-"vedea :ref:`weblate-ssh-key`) pentru a accesa în acest mod depozitul "
-"upstream."
+"bazează pe SSH. Autorizați cheia SSH publică Weblate (a se vedea "
+":ref:`weblate-ssh-key`) pentru a accesa în acest mod depozitul upstream."
 
 #: vcs.rst:88
 msgid ""
 "On GitHub, each key can only be used once, see :ref:`vcs-repos-github` "
 "and :ref:`hosted-push`."
 msgstr ""
-"Pe GitHub, fiecare cheie poate fi folosită doar o singură dată, "
-"vezi :ref:`vcs-repos-github` și :ref:`hosted-push`."
+"Pe GitHub, fiecare cheie poate fi folosită doar o singură dată, vezi "
+":ref:`vcs-repos-github` și :ref:`hosted-push`."
 
 #: vcs.rst:91
 msgid ""
@@ -64567,8 +64501,8 @@ msgid ""
 "There is just single exported repository with Weblate translations "
 "(see :ref:`git-exporter`)."
 msgstr ""
-"Există doar un singur depozit exportat cu traducerile Weblate "
-"(vezi :ref:`git-exporter`)."
+"Există doar un singur depozit exportat cu traducerile Weblate (vezi "
+":ref:`git-exporter`)."
 
 #: vcs.rst:288
 msgid ""
@@ -64620,8 +64554,8 @@ msgid ""
 "%24password%23@bitbucket.org/…``."
 msgstr ""
 "Dacă numele de utilizator sau parola conțin caractere speciale, acestea "
-"trebuie să fie codificate URL, de exemplu ``https://user%40example.com:"
-"%24password%23@bitbucket.org/...``."
+"trebuie să fie codificate URL, de exemplu ``https://"
+"user%40example.com:%24password%23@bitbucket.org/...``."
 
 #: vcs.rst:327
 msgid "Using proxy"
@@ -64728,9 +64662,9 @@ msgid ""
 "(see :setting:`DATA_DIR`), therefore editing the user configuration needs to "
 "be done in ``DATA_DIR/home/.git``."
 msgstr ""
-"Weblate invocă toate comenzile VCS cu ``HOME=$DATA_DIR/home`` (a se "
-"vedea :setting:`DATA_DIR`), prin urmare, editarea configurației "
-"utilizatorului trebuie să se facă în ``DATA_DIR/home/.git``."
+"Weblate invocă toate comenzile VCS cu ``HOME=$DATA_DIR/home`` (a se vedea "
+":setting:`DATA_DIR`), prin urmare, editarea configurației utilizatorului "
+"trebuie să se facă în ``DATA_DIR/home/.git``."
 
 #: vcs.rst:390
 msgid "GitHub pull requests"
@@ -64752,8 +64686,8 @@ msgid ""
 "github` creates pull requests. The latter is not needed for merely accessing "
 "Git repositories."
 msgstr ""
-":ref:`vcs-git` introduce modificările direct într-un depozit, în timp "
-"ce :ref:`vcs-github` creează cereri de extragere. Acesta din urmă nu este "
+":ref:`vcs-git` introduce modificările direct într-un depozit, în timp ce "
+":ref:`vcs-github` creează cereri de extragere. Acesta din urmă nu este "
 "necesar pentru simpla accesare a depozitelor Git."
 
 #: vcs.rst:399
@@ -64764,8 +64698,8 @@ msgid ""
 msgstr ""
 "Trebuie să configurați acreditările API (:setting:`GITHUB_CREDENTIALS`) în "
 "setările Weblate pentru ca acest lucru să funcționeze. Odată configurat, "
-"veți vedea o opțiune :guilabel:`GitHub` atunci când "
-"selectați :ref:`component-vcs`."
+"veți vedea o opțiune :guilabel:`GitHub` atunci când selectați "
+":ref:`component-vcs`."
 
 #: vcs.rst:414
 msgid "GitLab merge requests"
@@ -64788,9 +64722,9 @@ msgid ""
 "handled. With :ref:`vcs-git` changes are pushed directly to the repository, "
 "while :ref:`vcs-gitlab` creates merge request."
 msgstr ""
-"Nu este necesar să folosiți acest lucru pentru a accesa depozitele "
-"Git, :ref:`vcs-git` obișnuit funcționează la fel, singura diferență este "
-"modul în care este gestionat împingerea către un depozit. Cu :ref:`vcs-git`, "
+"Nu este necesar să folosiți acest lucru pentru a accesa depozitele Git, "
+":ref:`vcs-git` obișnuit funcționează la fel, singura diferență este modul în "
+"care este gestionat împingerea către un depozit. Cu :ref:`vcs-git`, "
 "modificările sunt împinse direct în depozit, în timp ce :ref:`vcs-gitlab` "
 "creează cereri de fuziune."
 
@@ -64802,8 +64736,8 @@ msgid ""
 msgstr ""
 "Trebuie să configurați acreditările API (:setting:`GITLAB_CREDENTIALS`) în "
 "setările Weblate pentru ca acest lucru să funcționeze. Odată configurat, "
-"veți vedea o opțiune :guilabel:`GitLab` atunci când "
-"selectați :ref:`component-vcs`."
+"veți vedea o opțiune :guilabel:`GitLab` atunci când selectați "
+":ref:`component-vcs`."
 
 #: vcs.rst:440
 msgid "Gitea pull requests"
@@ -64826,9 +64760,9 @@ msgid ""
 "handled. With :ref:`vcs-git` changes are pushed directly to the repository, "
 "while :ref:`vcs-gitea` creates pull requests."
 msgstr ""
-"Nu este nevoie să folosiți acest lucru pentru a accesa depozitele "
-"Git, :ref:`vcs-git` obișnuit funcționează la fel, singura diferență este "
-"modul în care este gestionat împingerea către un depozit. Cu :ref:`vcs-git`, "
+"Nu este nevoie să folosiți acest lucru pentru a accesa depozitele Git, "
+":ref:`vcs-git` obișnuit funcționează la fel, singura diferență este modul în "
+"care este gestionat împingerea către un depozit. Cu :ref:`vcs-git`, "
 "modificările sunt împinse direct în depozit, în timp ce :ref:`vcs-gitea` "
 "creează cereri de pull."
 
@@ -64882,9 +64816,9 @@ msgid ""
 "handled. With :ref:`vcs-git` changes are pushed directly to the repository, "
 "while :ref:`vcs-bitbucket-data-center` creates pull request."
 msgstr ""
-"Nu este nevoie să folosiți acest lucru pentru a accesa depozitele "
-"Git, :ref:`vcs-git` obișnuit funcționează la fel, singura diferență este "
-"modul în care este gestionat împingerea către un depozit. Cu :ref:`vcs-git`, "
+"Nu este nevoie să folosiți acest lucru pentru a accesa depozitele Git, "
+":ref:`vcs-git` obișnuit funcționează la fel, singura diferență este modul în "
+"care este gestionat împingerea către un depozit. Cu :ref:`vcs-git`, "
 "modificările sunt împinse direct în depozit, în timp ce :ref:`vcs-gitea` "
 "creează cereri de pull."
 
@@ -64946,9 +64880,9 @@ msgid ""
 "handled. With :ref:`vcs-git` changes are pushed directly to the repository, "
 "while :ref:`vcs-bitbucket-cloud` creates pull request."
 msgstr ""
-"Nu este nevoie să folosiți acest lucru pentru a accesa depozitele "
-"Git, :ref:`vcs-git` obișnuit funcționează la fel, singura diferență este "
-"modul în care este gestionat împingerea către un depozit. Cu :ref:`vcs-git`, "
+"Nu este nevoie să folosiți acest lucru pentru a accesa depozitele Git, "
+":ref:`vcs-git` obișnuit funcționează la fel, singura diferență este modul în "
+"care este gestionat împingerea către un depozit. Cu :ref:`vcs-git`, "
 "modificările sunt împinse direct în depozit, în timp ce :ref:`vcs-gitea` "
 "creează cereri de pull."
 
@@ -64990,9 +64924,9 @@ msgid ""
 "handled. With :ref:`vcs-git` changes are pushed directly to the repository, "
 "while :ref:`vcs-pagure` creates merge request."
 msgstr ""
-"Nu este necesar să folosiți acest lucru pentru a accesa depozitele "
-"Git, :ref:`vcs-git` obișnuit funcționează la fel, singura diferență este "
-"modul în care este gestionat împingerea către un depozit. Cu :ref:`vcs-git` "
+"Nu este necesar să folosiți acest lucru pentru a accesa depozitele Git, "
+":ref:`vcs-git` obișnuit funcționează la fel, singura diferență este modul în "
+"care este gestionat împingerea către un depozit. Cu :ref:`vcs-git` "
 "modificările sunt împinse direct în depozit, în timp ce :ref:`vcs-pagure` "
 "creează cereri de fuziune."
 
@@ -65004,8 +64938,8 @@ msgid ""
 msgstr ""
 "Trebuie să configurați acreditările API (:setting:`PAGURE_CREDENTIALS`) în "
 "setările Weblate pentru ca acest lucru să funcționeze. Odată configurat, "
-"veți vedea o opțiune :guilabel:`Pagure` atunci când "
-"selectați :ref:`component-vcs`."
+"veți vedea o opțiune :guilabel:`Pagure` atunci când selectați "
+":ref:`component-vcs`."
 
 #: vcs.rst:562
 msgid "Gerrit"
@@ -65061,8 +64995,8 @@ msgid ""
 "azure-devops` creates pull requests. The latter is not needed for merely "
 "accessing Git repositories."
 msgstr ""
-":ref:`vcs-git` introduce modificările direct într-un depozit, în timp "
-"ce :ref:`vcs-github` creează cereri de extragere. Acesta din urmă nu este "
+":ref:`vcs-git` introduce modificările direct într-un depozit, în timp ce "
+":ref:`vcs-github` creează cereri de extragere. Acesta din urmă nu este "
 "necesar pentru simpla accesare a depozitelor Git."
 
 #: vcs.rst:584
@@ -65078,8 +65012,8 @@ msgid ""
 msgstr ""
 "Trebuie să configurați acreditările API (:setting:`PAGURE_CREDENTIALS`) în "
 "setările Weblate pentru ca acest lucru să funcționeze. Odată configurat, "
-"veți vedea o opțiune :guilabel:`Pagure` atunci când "
-"selectați :ref:`component-vcs`."
+"veți vedea o opțiune :guilabel:`Pagure` atunci când selectați "
+":ref:`component-vcs`."
 
 #: vcs.rst:600
 msgid "Mercurial"
@@ -65171,8 +65105,8 @@ msgstr ""
 "Weblate poate funcționa și fără un VCS la distanță. Traducerile inițiale "
 "sunt importate prin încărcarea lor. Ulterior, puteți înlocui fișiere "
 "individuale prin încărcarea fișierelor sau puteți adăuga șiruri de traduceri "
-"direct din Weblate (în prezent, disponibil numai pentru traduceri "
-"monolingve)."
+"direct din Weblate (în prezent, disponibil numai pentru traduceri monolingve)"
+"."
 
 #: vcs.rst:670
 msgid ""
@@ -65320,8 +65254,8 @@ msgid ""
 msgstr ""
 "Weblate Client este o bibliotecă Python și un utilitar de linie de comandă "
 "pentru a gestiona Weblate de la distanță folosind :ref:`api`. Utilitarul de "
-"linie de comandă poate fi invocat ca :command:`wlc` și este încorporat "
-"în :mod:`wlc`."
+"linie de comandă poate fi invocat ca :command:`wlc` și este încorporat în "
+":mod:`wlc`."
 
 #: wlc.rst:144
 msgid "Arguments"
@@ -65357,9 +65291,8 @@ msgid ""
 "profile on Weblate."
 msgstr ""
 "Specificați cheia de utilizator API care urmează să fie utilizată. "
-"Suprascrie orice valoare găsită în fișierul de configurare, a se "
-"vedea :ref:`wlc-config`. Puteți găsi cheia dvs. în profilul vostru pe "
-"Weblate."
+"Suprascrie orice valoare găsită în fișierul de configurare, a se vedea "
+":ref:`wlc-config`. Puteți găsi cheia dvs. în profilul vostru pe Weblate."
 
 #: wlc.rst:165
 msgid ""
@@ -65891,8 +65824,8 @@ msgid ""
 msgstr ""
 "În capitolele următoare, *orice utilizator* înseamnă un utilizator care are "
 "acces la traducere. Acesta poate fi orice utilizator autentificat dacă "
-"proiectul este public sau un utilizator care are "
-"permisiunea :guilabel:`Translate` pentru proiect."
+"proiectul este public sau un utilizator care are permisiunea "
+":guilabel:`Translate` pentru proiect."
 
 #: workflows.rst:61
 #, fuzzy
@@ -65993,8 +65926,7 @@ msgstr ""
 
 #: workflows.rst:89
 msgid "Suggestions are stored in Weblate only and not in the translation file."
-msgstr ""
-"Sugestiile sunt stocate doar în Weblate și nu în fișierul de traducere."
+msgstr "Sugestiile sunt stocate doar în Weblate și nu în fișierul de traducere."
 
 #: workflows.rst:91
 msgid "The states are represented in the translation files when possible."
@@ -66203,9 +66135,9 @@ msgid ""
 "the :guilabel:`Workflow` subpage of project settings (to be found in "
 "the :guilabel:`Operations` → :guilabel:`Settings` menu):"
 msgstr ""
-"Revizuirile pot fi activate în configurația proiectului, din "
-"subpagina :guilabel:`Workflow` din setările proiectului (care se găsește în "
-"meniul :guilabel:`Manage` → :guilabel:`Settings`):"
+"Revizuirile pot fi activate în configurația proiectului, din subpagina "
+":guilabel:`Workflow` din setările proiectului (care se găsește în meniul "
+":guilabel:`Manage` → :guilabel:`Settings`):"
 
 #: workflows.rst:216
 msgid "Quality gateway for the source strings"
