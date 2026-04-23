@@ -18,16 +18,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-21 02:17+0200\n"
-"PO-Revision-Date: 2026-04-21 03:38+0000\n"
+"PO-Revision-Date: 2026-04-23 01:13+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Danish <https://hosted.weblate.org/projects/weblate/"
-"documentation/da/>\n"
+"Language-Team: Danish <http://127.0.0.1:8000/projects/weblate/docs/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 5.16.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: admin/access.rst:4 admin/projects.rst:218
@@ -56,8 +55,8 @@ msgid ""
 "always :guilabel:`Public`. You can switch to the paid plan if you want to "
 "restrict access to your project."
 msgstr ""
-"Projekter, der kører gratis Libre-plan på Hosted Weblate, er "
-"altid :guilabel:`Offentlig`. Du kan skifte til den betalte plan, hvis du vil "
+"Projekter, der kører gratis Libre-plan på Hosted Weblate, er altid "
+":guilabel:`Offentlig`. Du kan skifte til den betalte plan, hvis du vil "
 "begrænse adgangen til dit projekt."
 
 #: admin/access.rst:22
@@ -65,8 +64,8 @@ msgid ""
 "Limit user access to individual projects by selecting a "
 "different :ref:`project-access_control` setting. The available options are:"
 msgstr ""
-"Begræns brugeradgang til individuelle projekter ved at vælge en "
-"anden :ref:`project-access_control` indstilling. Tilgængelige valg er:"
+"Begræns brugeradgang til individuelle projekter ved at vælge en anden "
+":ref:`project-access_control` indstilling. Tilgængelige valg er:"
 
 #: admin/access.rst:25 admin/config.rst:575
 msgid ":guilabel:`Public`"
@@ -164,8 +163,8 @@ msgstr ""
 msgid ""
 "The default can also be changed by setting :setting:`DEFAULT_ACCESS_CONTROL`."
 msgstr ""
-"Standarden kan også ændres ved at "
-"indstille :setting:`DEFAULT_ACCESS_CONTROL`."
+"Standarden kan også ændres ved at indstille "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/access.rst:72
 msgid ""
@@ -199,8 +198,8 @@ msgid ""
 "allows them to assign other users in `Public`, `Protected` and `Private` "
 "(but not `Custom`) projects via adding them to teams."
 msgstr ""
-"Brugere med rettigheden :guilabel:`Administrer projektadgang` "
-"(se :ref:`privileges`) kan tildele andre brugere i `Offentlig`, `Beskyttet` "
+"Brugere med rettigheden :guilabel:`Administrer projektadgang` (se "
+":ref:`privileges`) kan tildele andre brugere i `Offentlig`, `Beskyttet` "
 "eller `Privat` (men ikke `Tilpasset`) projekter ved at føje dem til teams."
 
 #: admin/access.rst:99
@@ -448,8 +447,8 @@ msgid ""
 "You can set your projects to :guilabel:`Protected` or :guilabel:`Private` "
 "(see :ref:`acl`), and :ref:`manage users access <manage-acl>` per-project."
 msgstr ""
-"Du kan indstille dine projekter til :guilabel:`Beskyttet` "
-"eller :guilabel:`Privat` (se :ref:`acl`) og :ref:`administrere brugeradgang "
+"Du kan indstille dine projekter til :guilabel:`Beskyttet` eller "
+":guilabel:`Privat` (se :ref:`acl`) og :ref:`administrere brugeradgang "
 "<manage-acl>` pr. projekt."
 
 #: admin/access.rst:220
@@ -543,8 +542,8 @@ msgstr ""
 "Hvis du ikke er interesseret i implementeringsdetaljer og blot ønsker at "
 "oprette en simpel nok konfiguration baseret på standardindstillingerne, "
 "eller hvis du ikke har adgang til hele Weblate-installationen (som på "
-"`Hosted Weblate <https://hosted.weblate.org/>`_), så se "
-"afsnittet :ref:`manage-acl`."
+"`Hosted Weblate <https://hosted.weblate.org/>`_), så se afsnittet "
+":ref:`manage-acl`."
 
 #: admin/access.rst:276
 msgid "Site-wide permission management"
@@ -660,8 +659,8 @@ msgid ""
 "<default-teams>`."
 msgstr ""
 "Fjern oversættelsestilladelsen til `tjekkisk` fra alle brugere. I "
-"standardkonfigurationen kan dette gøres ved at ændre "
-"`Brugere` :ref:`standardteam <default-teams>`."
+"standardkonfigurationen kan dette gøres ved at ændre `Brugere` "
+":ref:`standardteam <default-teams>`."
 
 #: admin/access.rst:318
 msgid "Group `Users`"
@@ -986,8 +985,8 @@ msgid ""
 "After installation, a default set of teams is created (see :ref:`default-"
 "teams`)."
 msgstr ""
-"Efter installation oprettes et standardsæt af teams (se :ref:`default-"
-"teams`)."
+"Efter installation oprettes et standardsæt af teams (se :ref:`default-teams`)"
+"."
 
 #: admin/access.rst:497
 msgid ""
@@ -1021,8 +1020,8 @@ msgid ""
 "executing :wladmin:`setupgroups`) and you are free to modify them. The "
 "migration will, however, re-create them if you delete or rename them."
 msgstr ""
-"Følgende teams oprettes ved installationen (eller efter udførelse "
-"af :wladmin:`setupgroups`), og du kan frit ændre dem. Migreringen vil dog "
+"Følgende teams oprettes ved installationen (eller efter udførelse af "
+":wladmin:`setupgroups`), og du kan frit ændre dem. Migreringen vil dog "
 "genskabe dem, hvis du sletter eller omdøber dem."
 
 #: admin/access.rst:523
@@ -1037,8 +1036,8 @@ msgstr "Definerer tilladelser for ikke-godkendte brugere."
 msgid ""
 "This team only contains anonymous users (see :setting:`ANONYMOUS_USER_NAME`)."
 msgstr ""
-"Dette team indeholder kun anonyme brugere "
-"(se :setting:`ANONYMOUS_USER_NAME`)."
+"Dette team indeholder kun anonyme brugere (se :setting:`ANONYMOUS_USER_NAME`)"
+"."
 
 #: admin/access.rst:528
 msgid ""
@@ -1221,8 +1220,8 @@ msgid ""
 "You can also configure add-ons using :ref:`API <addons-"
 "api>`, :setting:`DEFAULT_ADDONS`, or :wladmin:`install_addon`."
 msgstr ""
-"Du kan også konfigurere tilføjelser med :ref:`API <addons-"
-"api>`, :setting:`DEFAULT_ADDONS` eller :wladmin:`install_addon`."
+"Du kan også konfigurere tilføjelser med :ref:`API <addons-api>`, "
+":setting:`DEFAULT_ADDONS` eller :wladmin:`install_addon`."
 
 #: admin/addons.rst:18
 msgid ""
@@ -1790,8 +1789,8 @@ msgid ""
 "Please check their documentation for generic configuration instructions "
 "in :doc:`psa:configuration/django`."
 msgstr ""
-"Se venligst deres dokumentation for generelle konfigurationsinstruktioner "
-"i :doc:`psa:configuration/django`."
+"Se venligst deres dokumentation for generelle konfigurationsinstruktioner i "
+":doc:`psa:configuration/django`."
 
 #: admin/auth.rst:43
 msgid ""
@@ -13241,8 +13240,8 @@ msgstr ""
 "oversættelse. Projektet fungerer som en hylde, hvor de faktiske "
 "oversættelser opbevares. Alle komponenter i samme projekt deler forslag og "
 "ordbog, og oversættelser udbredes automatisk til alle komponenter i "
-"projektet (medmindre det er deaktiveret i komponentens konfiguration); "
-"se :ref:`memory`."
+"projektet (medmindre det er deaktiveret i komponentens konfiguration); se "
+":ref:`memory`."
 
 #: admin/projects.rst:119
 msgid "These basic attributes set up and inform translators of a project:"
@@ -15149,8 +15148,7 @@ msgstr ""
 msgid ""
 "Users suggest and vote for suggestions and a limited group controls what is "
 "accepted."
-msgstr ""
-"Brugere kan kun stemme på forslag, ikke foretage direkte oversættelser."
+msgstr "Brugere kan kun stemme på forslag, ikke foretage direkte oversættelser."
 
 #: admin/translating.rst:29 admin/translating.rst:36
 #, fuzzy
@@ -19224,8 +19222,7 @@ msgstr "*Udgivet den 19. december 2024.*"
 
 #: changes.rst:1188
 msgid "Renamed :ref:`vcs-bitbucket-data-center` to match new product name."
-msgstr ""
-"Omdøbte :ref:`vcs-bitbucket-data-center` for at matche nyt produktnavn."
+msgstr "Omdøbte :ref:`vcs-bitbucket-data-center` for at matche nyt produktnavn."
 
 #: changes.rst:1189
 msgid ":http:get:`/api/users/` supports searching by user ID."
@@ -22136,8 +22133,8 @@ msgstr ""
 "Johan Jacobsson, Peter Vančo, Sveinn í Felli, Oliver, Yvan Zo, meshari "
 "alnaim, தமிழ்நேரம், searinminecraft, Jwtiyar Nariman, gitelo4516, Vision, "
 "Chang-Chia Tseng, Kyotaro Iijima, Ricky Tigg, ei9, Martin Srebotnjak, "
-"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан "
-"Симић(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
+"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан Симић"
+"(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
 "Winston Sung, ChinskiKaczynski, Rafael Fontenelle"
 
 #: changes/contributors/5.9.rst:14
@@ -29167,8 +29164,7 @@ msgstr "Forbedret CodeMirror-integration."
 
 #: changes/v4.rst:912
 msgid "Added add-on to remove blank strings from translation files."
-msgstr ""
-"Tilføjet tilføjelse til at fjerne tomme strenge fra oversættelsesfiler."
+msgstr "Tilføjet tilføjelse til at fjerne tomme strenge fra oversættelsesfiler."
 
 #: changes/v4.rst:913
 msgid "The CodeMirror editor is now used for translations."
@@ -35700,8 +35696,8 @@ msgid ""
 "quite a lot, and it is not possible to simply merge translation changes "
 "between them."
 msgstr ""
-"Weblate understøtter push af oversættelsesændringer inden for "
-"ét :ref:`project`. For hver :ref:`component`, hvor det er aktiveret (som "
+"Weblate understøtter push af oversættelsesændringer inden for ét "
+":ref:`project`. For hver :ref:`component`, hvor det er aktiveret (som "
 "standard), udbredes ændringer automatisk til andre. Dette sikrer "
 "synkroniserede oversættelser, selv hvis branchene er markant divergerede, og "
 "oversættelsesændringer ikke kan flettes direkte."
@@ -37726,8 +37722,7 @@ msgstr ""
 
 #: formats/php.rst:13
 msgid "Weblate currently supports several variants of PHP translations:"
-msgstr ""
-"Weblate understøtter i øjeblikket flere varianter af PHP-oversættelser:"
+msgstr "Weblate understøtter i øjeblikket flere varianter af PHP-oversættelser:"
 
 #: formats/php.rst:15
 msgid "Monolingual PHP strings in various syntax"
@@ -42527,11 +42522,11 @@ msgid ""
 "they will be served (URL). Serving of the files is not done by Weblate and "
 "has to be set up externally (typically using a CDN service)."
 msgstr ""
-"Denne tilføjelse kræver yderligere konfiguration på Weblate-"
-"serveren. :setting:`LOCALIZE_CDN_PATH` angiver, hvor de genererede filer "
-"gemmes (på et filsystem), og :setting:`LOCALIZE_CDN_URL` hvor de skal tilgås "
-"(URL). Filerne leveres ikke af Weblate og skal opsættes eksternt (typisk via "
-"en CDN-tjeneste)."
+"Denne tilføjelse kræver yderligere konfiguration på Weblate-serveren. "
+":setting:`LOCALIZE_CDN_PATH` angiver, hvor de genererede filer gemmes (på et "
+"filsystem), og :setting:`LOCALIZE_CDN_URL` hvor de skal tilgås (URL). "
+"Filerne leveres ikke af Weblate og skal opsættes eksternt (typisk via en CDN-"
+"tjeneste)."
 
 #: snippets/addons-autogenerated.rst:103
 msgid ""
@@ -42566,8 +42561,8 @@ msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-repository-post-"
 "commit`, :ref:`addon-event-repository-post-update`"
 msgstr ""
-":ref:`addon-event-install`, :ref:`addon-event-repository-post-"
-"commit`, :ref:`addon-event-repository-post-update`"
+":ref:`addon-event-install`, :ref:`addon-event-repository-post-commit`, "
+":ref:`addon-event-repository-post-update`"
 
 #: snippets/addons-autogenerated.rst:127
 msgid "Removes strings without a translation from translation files."
@@ -42596,8 +42591,8 @@ msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-repository-post-"
 "update`, :ref:`addon-event-repository-pre-commit`"
 msgstr ""
-":ref:`addon-event-install`, :ref:`addon-event-repository-post-"
-"update`, :ref:`addon-event-repository-pre-commit`"
+":ref:`addon-event-install`, :ref:`addon-event-repository-post-update`, "
+":ref:`addon-event-repository-pre-commit`"
 
 #: snippets/addons-autogenerated.rst:151
 msgid ""
@@ -42615,8 +42610,8 @@ msgid ""
 "as :ref:`html`, :ref:`winrc`, or :ref:`odf`) this also brings the "
 "translation file in sync with the base file."
 msgstr ""
-"For formater med ekstra indhold udover oversættelsesstrenge "
-"(såsom :ref:`html`, :ref:`winrc` eller :ref:`odf`) synkroniserer dette også "
+"For formater med ekstra indhold udover oversættelsesstrenge (såsom "
+":ref:`html`, :ref:`winrc` eller :ref:`odf`) synkroniserer dette også "
 "oversættelsesfilen med basisfilen."
 
 #: snippets/addons-autogenerated.rst:171
@@ -42842,8 +42837,7 @@ msgstr ""
 
 #: snippets/addons-autogenerated.rst:274
 msgid "You can use Django template markup in all filename fields, for example:"
-msgstr ""
-"Du kan bruge Django-skabelonmarkup i alle filnavnefelter, for eksempel:"
+msgstr "Du kan bruge Django-skabelonmarkup i alle filnavnefelter, for eksempel:"
 
 #: snippets/addons-autogenerated.rst:277
 msgid "Component name parsed from the ``component`` match group"
@@ -42999,8 +42993,8 @@ msgstr ""
 "praktisk måde at dele VCS-opsætning mellem flere komponenter. Tilknyttede "
 "komponenter bruger det lokale repository for hovedkomponenten angivet ved at "
 "udfylde ``weblate://project/main-component`` i feltet :ref:`component-repo` "
-"(under :guilabel:`Administrer` ↓ :guilabel:`Indstillinger` "
-"↓ :guilabel:`Versionskontrolsystem`) for hver enkelt komponent. Det sparer "
+"(under :guilabel:`Administrer` ↓ :guilabel:`Indstillinger` ↓ "
+":guilabel:`Versionskontrolsystem`) for hver enkelt komponent. Det sparer "
 "både tid på opsætning og systemressourcer."
 
 #: snippets/addons-autogenerated.rst:387
@@ -43573,9 +43567,9 @@ msgid ""
 "text` :guilabel:`Source string` :guilabel:`Appended variable "
 "text` :guilabel:`Appended static text`"
 msgstr ""
-":guilabel:`Fast strengpræfiks` :guilabel:`Variabel "
-"strengpræfiks` :guilabel:`Kildestreng` :guilabel:`Variabel "
-"strengsuffiks` :guilabel:`Fast strengsuffiks`"
+":guilabel:`Fast strengpræfiks` :guilabel:`Variabel strengpræfiks` "
+":guilabel:`Kildestreng` :guilabel:`Variabel strengsuffiks` :guilabel:`Fast "
+"strengsuffiks`"
 
 #: snippets/addons-autogenerated.rst:910
 msgid ""
@@ -43900,8 +43894,8 @@ msgid ""
 "The location of the generated MO file can be customized and the field for it "
 "uses :ref:`markup`."
 msgstr ""
-"Placeringen af den genererede MO-fil kan tilpasses, og feltet til den "
-"bruger :ref:`markup`."
+"Placeringen af den genererede MO-fil kan tilpasses, og feltet til den bruger "
+":ref:`markup`."
 
 #: snippets/addons-autogenerated.rst:1120
 msgid ""
@@ -44143,9 +44137,9 @@ msgid ""
 "unless :guilabel:`Per author` is selected, or the commit message is "
 "customized to include it."
 msgstr ""
-"Originale commit-beskeder bevares, men forfatterskabet går tabt, "
-"medmindre :guilabel:`Pr. forfatter` er valgt, eller commit-beskeden er "
-"tilpasset til at inkludere det."
+"Originale commit-beskeder bevares, men forfatterskabet går tabt, medmindre "
+":guilabel:`Pr. forfatter` er valgt, eller commit-beskeden er tilpasset til "
+"at inkludere det."
 
 #: snippets/addons-autogenerated.rst:1337
 msgid ""
@@ -44425,9 +44419,9 @@ msgid ""
 msgstr ""
 "Internt har hvert projekt som standard oversættelser af fælles strenge, der "
 "automatisk udbredes til andre komponenter. Dette reducerer behovet for "
-"gentagne og mangfoldige oversættelser. Udbredelsen kan deaktiveres "
-"pr. :ref:`component` med :ref:`component-allow_translation_propagation`, "
-"hvis oversættelserne skal afvige."
+"gentagne og mangfoldige oversættelser. Udbredelsen kan deaktiveres pr. "
+":ref:`component` med :ref:`component-allow_translation_propagation`, hvis "
+"oversættelserne skal afvige."
 
 #: snippets/basics.rst:24
 msgid "Repository integration"
@@ -46972,8 +46966,7 @@ msgstr "reStructuredText-syntaksfejl i oversættelsen."
 
 #: snippets/checks-autogenerated.rst:1885
 msgid "reStructuredText syntax error in the translation. Issues to look for:"
-msgstr ""
-"reStructuredText-syntaksfejl i oversættelsen. Problemer at kigge efter:"
+msgstr "reStructuredText-syntaksfejl i oversættelsen. Problemer at kigge efter:"
 
 #: snippets/checks-autogenerated.rst:1887
 msgid "Mismatched closing/opening tags."
@@ -52514,8 +52507,7 @@ msgstr ""
 
 #: user/translating.rst:249
 msgid "Copy the machine translation of a given number to current translation."
-msgstr ""
-"Kopiér maskinoversættelsen af et givent tal til nuværende oversættelse."
+msgstr "Kopiér maskinoversættelsen af et givent tal til nuværende oversættelse."
 
 #: user/translating.rst:255
 msgid ":kbd:`Ctrl+I` followed by :kbd:`1` to :kbd:`9` or"
