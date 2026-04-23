@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-21 02:17+0200\n"
-"PO-Revision-Date: 2026-04-23 00:32+0000\n"
+"PO-Revision-Date: 2026-04-23 08:09+0000\n"
 "Last-Translator: Nozomu Matsui <nozomu.matsui@gree.net>\n"
 "Language-Team: Japanese <http://127.0.0.1:8000/projects/weblate/docs/ja/>\n"
 "Language: ja\n"
@@ -482,6 +482,11 @@ msgid ""
 "management in the Weblate UI and API and should be assigned only to fully "
 "trusted site administrators."
 msgstr ""
+"このプロジェクトスコープのデリゲーションはサイト横断の ``user.edit`` 権限から"
+"は分離されています。Weblate UI および APIにおいて ``user.edit`` 権限がサイト"
+"横断のユーザ管理を許可するため、プロジェクトの `Administration` "
+"チームメンバーシップは該当プロジェクトのみアクセス管理を許可します。 この権限"
+"は完全に信用されるサイト管理者にのみアサインされるべきです。"
 
 #: admin/access.rst:240
 msgid "Per-project access tokens"
@@ -1228,6 +1233,9 @@ msgid ""
 "or using the :ref:`API <addons-api>`. Results are recorded in the add-on "
 "activity log."
 msgstr ""
+"手動トリガーでオプトインされるアドオンは、アドオン管理もしくは :ref:`API "
+"<addons-api>` を使うことで実行できます。結果はアドオンアクティビティログに記"
+"録されます。"
 
 #: admin/addons.rst:28
 msgid "Obsolete add-ons"
@@ -2618,6 +2626,11 @@ msgid ""
 "the default :guilabel:`Users` team, which is assigned automatically to new "
 "users by :ref:`automatic team assignment <autoteam>`."
 msgstr ""
+"これはプロジェクト( :ref:`project-enforced_2fa` 参照)でユーザもしくは"
+"チームレベルで強制されます。サイト横断デプロイにおいては、:ref:`automatic "
+"team assignment <autoteam>` によって新規ユーザに自動的にアサインされる"
+"、:guilabel:`Users` チームでデフォルト有効にすることで、すべてのユーザに2段階"
+"認証を強制します。"
 
 #: admin/auth.rst:850
 msgid ""
@@ -4944,7 +4957,7 @@ msgstr "デフォルトで有効。"
 
 #: admin/config.rst:1125
 msgid "Controls how prominently Weblate exposes its own version."
-msgstr ""
+msgstr "Weblateが自身のどのようにバージョンを表示するか制御します。"
 
 #: admin/config.rst:1127 admin/install/docker.rst:779
 #: admin/install/docker.rst:873
@@ -4956,27 +4969,26 @@ msgid ""
 "Show the version in shared UI such as the footer and expose it "
 "in :http:get:`/api/metrics/`."
 msgstr ""
+"バージョンをフッターのような共有UIで表示したり、:http:get:`/api/metrics/` に"
+"おいて露出します。"
 
 #: admin/config.rst:1134
 msgid ""
 "Hide the version from prominent shared UI, while keeping it discoverable on "
 "the :guilabel:`About` page and in :http:get:`/api/metrics/`."
 msgstr ""
+":guilabel:`About` ページや :http:get:`/api/metrics/` で見つけることができるた"
+"め、共有UIでバージョンを表示しません。"
 
 #: admin/config.rst:1138
-#, fuzzy
-#| msgid ""
-#| "Hides version info from unauthenticated users. This also makes all "
-#| "documentation links point to the latest version instead of the "
-#| "documentation matching the currently installed version."
 msgid ""
 "Hide the version from shared UI and :http:get:`/api/metrics/`. This also "
 "makes anonymous documentation links point to the latest documentation "
 "instead of the version matching the installed release."
 msgstr ""
-"未認証のユーザーにはバージョン情報は表示されません。また、これにより、すべて"
-"のドキュメント リンクは、現在インストールされているバージョンに一致する"
-"ドキュメントではなく、最新バージョンを参照します。"
+"共有UIと:http:get:`/api/metrics/` からバージョンを非表示にします。これにより"
+"、すべてのドキュメンテーションリンクはインストール済みのリリースに一致した"
+"バージョンに代わって、最新バージョンを参照します。"
 
 #: admin/config.rst:1142
 #, fuzzy
@@ -5001,6 +5013,8 @@ msgid ""
 "Compatibility alias for :setting:`VERSION_DISPLAY`. Set this to ``True`` to "
 "get the same behavior as ``VERSION_DISPLAY = \"hide\"``."
 msgstr ""
+":setting:`VERSION_DISPLAY` の互換性維持のための別名です。``VERSION_DISPLAY = "
+"\"hide\"`` と同様の振る舞いにするためには、この値を ``True`` に設定します。"
 
 #: admin/config.rst:1166
 msgid "Indicates whether Weblate is running behind a reverse proxy."
@@ -5246,12 +5260,16 @@ msgid ""
 "URL for password reset when authentication is handled by an external "
 "identity provider, such as LDAP, SAML, or OAuth."
 msgstr ""
+"認証が外部アイデンティティプロバイダー(LDAP, SAMP, OAuth)によってハンドリング"
+"された際のパスワードリセット用URL。"
 
 #: admin/config.rst:1490
 msgid ""
 "When set, :guilabel:`Forgot your password?` on the sign-in page links to "
 "this URL instead of Weblate's built-in password reset page."
 msgstr ""
+":guilabel:`Forgot your password?` がセットされた場合、 このURLがWeblateの"
+"ビルトインパスワードリセットページの代わってサインインページに表示されます。"
 
 #: admin/config.rst:1500
 msgid "URL where your Weblate instance shows its privacy policy."
@@ -5513,6 +5531,10 @@ msgid ""
 "semantics, so values such as ``hooks.internal.example`` or "
 "``.internal.example`` can be used."
 msgstr ""
+":setting:`WEBHOOK_RESTRICT_PRIVATE` は、外部向けウェブフックてリバリー用の"
+"ホスト名やドメイン名を定義します。エントリーはDjangoホストマッチング文法に従"
+"います。そのため、``hooks.internal.example`` もしくは ``.internal.example`` "
+"が使えます。"
 
 #: admin/config.rst:1844
 msgid ""
@@ -5520,6 +5542,8 @@ msgid ""
 "target host is included in :setting:`WEBHOOK_PRIVATE_ALLOWLIST`. On by "
 "default."
 msgstr ""
+":setting:`WEBHOOK_PRIVATE_ALLOWLIST` に含まれているいない限り、内部もしくは非"
+"パブリックアドレスを指すウェブフックURLを拒否します。デフォルトではオンです。"
 
 #: admin/config.rst:1859
 msgid "Allows public engage page even with :setting:`REQUIRE_LOGIN`."
@@ -6048,6 +6072,8 @@ msgid ""
 "When :setting:`VCS_RESTRICT_PRIVATE` is enabled, matching hosts are also "
 "exempt from the private-target restriction."
 msgstr ""
+":setting:`VCS_RESTRICT_PRIVATE` が有効な場合、マッチするホストは"
+"プライベートターゲット制限を免除されます。"
 
 #: admin/config.rst:2407
 #, fuzzy
@@ -6634,10 +6660,8 @@ msgid "Keep history linear when that matches your workflow."
 msgstr ""
 
 #: admin/continuous.rst:221
-#, fuzzy
-#| msgid "Merge without fast-forward"
 msgid ":guilabel:`Update with merge without fast-forward`"
-msgstr "fast-forward なしでマージする"
+msgstr ":guilabel:`マージ付き更新（fast-forwardなし）`"
 
 #: admin/continuous.rst:222
 msgid ""
@@ -7073,7 +7097,7 @@ msgstr "`Gitea の Webhook マニュアル <https://docs.gitea.io/en-us/webhooks
 #, fuzzy
 #| msgid ":http:post:`/hooks/azure/`"
 msgid ":http:post:`/hooks/forgejo/`"
-msgstr ":http:post:`/hooks/azure/`"
+msgstr ":http:post:`/hooks/forgejo/`"
 
 #: admin/continuous.rst:437
 msgid "Automatically receiving changes from Gitee Repos"
@@ -10820,16 +10844,12 @@ msgid "Defaults to enabled."
 msgstr "デフォルトでは有効です。"
 
 #: admin/install/docker.rst:720
-#, fuzzy
-#| msgid "Configures :setting:`PROJECT_WEB_RESTRICT_PRIVATE`."
 msgid "Configures :setting:`WEBHOOK_RESTRICT_PRIVATE`."
-msgstr ":setting:`PROJECT_WEB_RESTRICT_PRIVATE` を設定します。"
+msgstr ":setting:`WEBHOOK_RESTRICT_PRIVATE` を設定。"
 
 #: admin/install/docker.rst:728
-#, fuzzy
-#| msgid "Configures :setting:`VCS_ALLOW_HOSTS`."
 msgid "Configures :setting:`WEBHOOK_PRIVATE_ALLOWLIST`."
-msgstr ":setting:`VCS_ALLOW_HOSTS` を設定します。"
+msgstr ":setting:`WEBHOOK_PRIVATE_ALLOWLIST` を設定。"
 
 #: admin/install/docker.rst:732
 msgid ""
@@ -11121,10 +11141,8 @@ msgid "Configures :setting:`WEBSITE_REQUIRED`."
 msgstr ":setting:`WEBSITE_REQUIRED` を設定します。"
 
 #: admin/install/docker.rst:1021
-#, fuzzy
-#| msgid "Configures :setting:`VCS_API_DELAY`."
 msgid "Configures :setting:`VERSION_DISPLAY`."
-msgstr ":setting:`VCS_API_DELAY` の設定。"
+msgstr ":setting:`VERSION_DISPLAY` を設定。"
 
 #: admin/install/docker.rst:1025
 msgid "Configures :setting:`HIDE_VERSION`."
@@ -11229,10 +11247,8 @@ msgid "Configures :setting:`VCS_ALLOW_SCHEMES`."
 msgstr ":setting:`VCS_ALLOW_SCHEMES` を設定します。"
 
 #: admin/install/docker.rst:1181
-#, fuzzy
-#| msgid "Configures :setting:`PROJECT_WEB_RESTRICT_PRIVATE`."
 msgid "Configures :setting:`VCS_RESTRICT_PRIVATE`."
-msgstr ":setting:`PROJECT_WEB_RESTRICT_PRIVATE` を設定します。"
+msgstr ":setting:`VCS_RESTRICT_PRIVATE` を設定。"
 
 #: admin/install/docker.rst:1187
 msgid "Configures :setting:`VCS_CLONE_DEPTH`."
@@ -11475,10 +11491,8 @@ msgid "Enables Gitea authentication."
 msgstr "Gitea 認証を有効にします。"
 
 #: admin/install/docker.rst:1532
-#, fuzzy
-#| msgid "Enables Slack authentication, see :ref:`slack-auth`."
 msgid "Enables Microsoft Entra ID authentication, see :ref:`entra-auth`."
-msgstr "Slack 認証を有効にします。参照: :ref:`slack-auth`。"
+msgstr "Microsoft Entra ID 認証を有効化、:ref:`entra-auth` を参照。"
 
 #: admin/install/docker.rst:1535
 #, fuzzy
@@ -11487,16 +11501,12 @@ msgid "Microsoft Entra ID with Tenant support"
 msgstr "Azure Active Directory with Tenant support"
 
 #: admin/install/docker.rst:1541
-#, fuzzy
-#| msgid ""
-#| "Enables Azure Active Directory authentication with Tenant support, "
-#| "see :ref:`azure-auth`."
 msgid ""
 "Enables Microsoft Entra ID authentication with Tenant support, "
 "see :ref:`entra-auth`."
 msgstr ""
-"テナント サポート付きで Azure Active Directory 認証を有効にします。参照: "
-":ref:`azure-auth`。"
+"Microsoft Entra ID 認証をテナントサポート付きで有効化、:ref:`entra-auth` を参"
+"照。"
 
 #: admin/install/docker.rst:1545
 msgid "Keycloak"
@@ -11855,10 +11865,8 @@ msgid "Configures :setting:`PRIVACY_URL`."
 msgstr ":setting:`PRIVACY_URL` の設定。"
 
 #: admin/install/docker.rst:1979
-#, fuzzy
-#| msgid "Configures :setting:`STATUS_URL`."
 msgid "Configures :setting:`PASSWORD_RESET_URL`."
-msgstr ":setting:`STATUS_URL` の設定。"
+msgstr ":setting:`PASSWORD_RESET_URL` を設定。"
 
 #: admin/install/docker.rst:1984
 msgid ""
@@ -19000,14 +19008,12 @@ msgstr ""
 "生成します。"
 
 #: changes.rst:65
-#, fuzzy
-#| msgid "Shared components can now be categorized within the target project."
 msgid ""
 "Shared components can now be categorized within the target project, "
 "including through the :ref:`api` using the ``category_id`` parameter."
 msgstr ""
-"共有コンポーネントを、対象プロジェクト内でカテゴリ分けできるようになりました"
-"。"
+"共有コンポーネントは ``category_id`` パラメーターを使った :ref:`api` を通じて"
+"、ターゲットプロジェクト内でカテゴライズできるようになりました。"
 
 #: changes.rst:66
 msgid ""
@@ -19899,16 +19905,12 @@ msgid "Validation of VCS settings :ref:`push-changes` has been extended."
 msgstr ""
 
 #: changes.rst:270
-#, fuzzy
-#| msgid ""
-#| "Configures the default value of :ref:`project-use_shared_tm` "
-#| "and :ref:`project-contribute_shared_tm`."
 msgid ""
 "The default values for :ref:`project-translation_review` and :ref:`project-"
 "source_review` can be configured in settings."
 msgstr ""
-":ref:`project-use_shared_tm` および :ref:`project-contribute_shared_tm` の"
-"デフォルト値を設定します。"
+":ref:`project-translation_review` および :ref:`project-source_review` の"
+"デフォルト値は設定の中で変更できます。"
 
 #: changes.rst:271
 msgid ""
@@ -19951,12 +19953,8 @@ msgid "Gracefully handle invalid check flags in :ref:`custom-checks`."
 msgstr "翻訳フラグの変更（参照: :ref:`custom-checks`）"
 
 #: changes.rst:281
-#, fuzzy
-#| msgid ":doc:`/formats/apple` exporter now produces UTF-8 encoded files."
 msgid ":doc:`/formats/appstore` no longer rewrites unchanged files."
-msgstr ""
-":doc:`/formats/apple` エクスポーターは、UTF-8 でエンコードされたファイルを生"
-"成するように改良。"
+msgstr ":doc:`/formats/appstore` は変更点のないファイルのリライトは行いません。"
 
 #: changes.rst:285
 msgid ""
@@ -20031,16 +20029,12 @@ msgstr ""
 "。"
 
 #: changes.rst:315
-#, fuzzy
-#| msgid ""
-#| "Arbitrary file read via symbolic links (:cve:`2025-68279` / :ghsa:`g925-"
-#| "f788-4jh7`)."
 msgid ""
 "Information leak via screenshots "
 "(:cve:`2026-21889` / :ghsa:`3g2f-4rjg-9385`)."
 msgstr ""
-"シンボリックリンクを悪用することで任意のファイルを読み取れてしまう問題の修正"
-"（:cve:`2025-68279` / :ghsa:`g925-f788-4jh7`）。"
+"スクリーンショット経由の情報漏洩 (:cve:`2026-21889` / :ghsa:`3g2f-4rjg-9385`)"
+"。"
 
 #: changes.rst:316
 msgid "Explanation sync in :doc:`/formats/tbx`."
@@ -20084,17 +20078,12 @@ msgid ":ref:`mt-cyrtranslit` installation."
 msgstr ":ref:`mt-cyrtranslit` 自動提案サービス。"
 
 #: changes.rst:328
-#, fuzzy
-#| msgid ""
-#| "Screenshot images are no longer served directly by the HTTP server, "
-#| "please adjust your HTTP server by removing serving of ``/media/``."
 msgid ""
 "Screenshot images are no longer served directly by the HTTP server, please "
 "adjust your HTTP server by removing serving of :file:`/media/`."
 msgstr ""
-"スクリーンショット画像は、HTTP サーバーから直接配信されなくなりました。そのた"
-"め、HTTP サーバーの設定から ``/media/`` の配信を削除するよう調整してください"
-"。"
+"スクリーンショット画像は HTTPサーバーから直接配信されなくなりました。:file:`/"
+"media/` 配信を削除するよう HTTPサーバーを設定変更してください。"
 
 #: changes.rst:334
 msgid ""
@@ -22262,11 +22251,8 @@ msgstr ""
 ":ref:`api` から設定できるように改良。"
 
 #: changes.rst:1236
-#, fuzzy
-#| msgid ""
-#| "Added :http:get:`/api/projects/{string:project}/machinery_settings/`."
 msgid "Added :http:get:`/api/projects/(string:project)/machinery_settings/`."
-msgstr ":http:get:`/api/projects/{string:project}/machinery_settings/` の追加。"
+msgstr ":http:get:`/api/projects/(string:project)/machinery_settings/` を追加。"
 
 #: changes.rst:1237
 #, fuzzy
