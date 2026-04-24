@@ -15,16 +15,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-21 02:17+0200\n"
-"PO-Revision-Date: 2026-04-21 03:39+0000\n"
+"PO-Revision-Date: 2026-04-24 08:34+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Finnish <https://hosted.weblate.org/projects/weblate/"
-"documentation/fi/>\n"
+"Language-Team: Finnish <http://127.0.0.1:8000/projects/weblate/docs/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 5.16.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: admin/access.rst:4 admin/projects.rst:218
@@ -53,8 +52,8 @@ msgid ""
 "always :guilabel:`Public`. You can switch to the paid plan if you want to "
 "restrict access to your project."
 msgstr ""
-"Hankkeet, joissa on ilmainen Libre-suunnitelma Hosted Weblatessa, ovat "
-"aina :guilabel:`Julkinen`. Voit vaihtaa maksulliseen sopimukseen, jos haluat "
+"Hankkeet, joissa on ilmainen Libre-suunnitelma Hosted Weblatessa, ovat aina "
+":guilabel:`Julkinen`. Voit vaihtaa maksulliseen sopimukseen, jos haluat "
 "rajoittaa pääsyä hankkeesi."
 
 #: admin/access.rst:22
@@ -62,8 +61,8 @@ msgid ""
 "Limit user access to individual projects by selecting a "
 "different :ref:`project-access_control` setting. The available options are:"
 msgstr ""
-"Rajoita käyttäjien pääsyä yksittäisiin hankkeihin valitsemalla "
-"eri :ref:`project-access_control` -asetus. Tarjolla olevat vaihtoehdot ovat:"
+"Rajoita käyttäjien pääsyä yksittäisiin hankkeihin valitsemalla eri "
+":ref:`project-access_control` -asetus. Tarjolla olevat vaihtoehdot ovat:"
 
 #: admin/access.rst:25 admin/config.rst:575
 msgid ":guilabel:`Public`"
@@ -149,16 +148,16 @@ msgid ""
 "the configuration (:guilabel:`Operations` ↓ :guilabel:`Settings`) of each "
 "respective project."
 msgstr ""
-":guilabel:`Pääsynhallintaa` voidaan muuttaa kunkin hankkeen "
-"kokoonpanon :guilabel:`Pääsy`-välilehdellä (:guilabel:`Toiminnat` "
-"↓ :guilabel:`Asetukset`)."
+":guilabel:`Pääsynhallintaa` voidaan muuttaa kunkin hankkeen kokoonpanon "
+":guilabel:`Pääsy`-välilehdellä (:guilabel:`Toiminnat` ↓ "
+":guilabel:`Asetukset`)."
 
 #: admin/access.rst:68
 msgid ""
 "The default can also be changed by setting :setting:`DEFAULT_ACCESS_CONTROL`."
 msgstr ""
-"Oletusasetusta voidaan muuttaa myös "
-"asettamalla :setting:`DEFAULT_ACCESS_CONTROL`."
+"Oletusasetusta voidaan muuttaa myös asettamalla "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/access.rst:72
 msgid ""
@@ -176,8 +175,8 @@ msgid ""
 "settings <custom-acl>`."
 msgstr ""
 "Ilmentymien järjestelmänvalvojat voivat muokata käyttäjien käytettävissä "
-"olevia oletuskäyttöoikeuksia `Julkinen`, `Suojattu` ja `Yksityinen` "
-"-hankkeissa käyttämällä :ref:`custom settings <custom-acl>`."
+"olevia oletuskäyttöoikeuksia `Julkinen`, `Suojattu` ja `Yksityinen` -"
+"hankkeissa käyttämällä :ref:`custom settings <custom-acl>`."
 
 #: admin/access.rst:88
 msgid "Managing per-project access control"
@@ -312,9 +311,9 @@ msgid ""
 "These features are available on the :guilabel:`Access control` page in the "
 "project’s menu :guilabel:`Operations` ↓ :guilabel:`Users`."
 msgstr ""
-"Nämä ominaisuudet ovat saatavilla projektin "
-"valikon :guilabel:`Pääsyhallinta` -sivulla :guilabel:`Hallinnoi` "
-"↓ :guilabel:`Käyttäjät`."
+"Nämä ominaisuudet ovat saatavilla projektin valikon "
+":guilabel:`Pääsyhallinta` -sivulla :guilabel:`Hallinnoi` ↓ "
+":guilabel:`Käyttäjät`."
 
 #: admin/access.rst:148
 msgid ""
@@ -351,10 +350,10 @@ msgid ""
 "users using e-mail. Invited users have to complete the registration process "
 "to get access to the project."
 msgstr ""
-"Olemassa olevien käyttäjien lisääminen lähettää heille "
-"vahvistuskutsun. :setting:`REGISTRATION_OPEN` avulla järjestelmänvalvoja voi "
-"kutsua uusia käyttäjiä myös sähköpostitse. Kutsuttujen käyttäjien on "
-"suoritettava rekisteröintiprosessi saadakseen pääsyn projektiin."
+"Olemassa olevien käyttäjien lisääminen lähettää heille vahvistuskutsun. "
+":setting:`REGISTRATION_OPEN` avulla järjestelmänvalvoja voi kutsua uusia "
+"käyttäjiä myös sähköpostitse. Kutsuttujen käyttäjien on suoritettava "
+"rekisteröintiprosessi saadakseen pääsyn projektiin."
 
 #: admin/access.rst:172
 msgid ""
@@ -1618,8 +1617,8 @@ msgid ""
 "You can also turn off registration of new users "
 "using :setting:`REGISTRATION_OPEN`."
 msgstr ""
-"Voit myös poistaa uusien käyttäjien rekisteröinnin käytöstä "
-"käyttämällä :setting:`REGISTRATION_OPEN`."
+"Voit myös poistaa uusien käyttäjien rekisteröinnin käytöstä käyttämällä "
+":setting:`REGISTRATION_OPEN`."
 
 #: admin/auth.rst:14
 msgid "The authentication attempts are subject to :ref:`rate-limit`."
@@ -4912,8 +4911,8 @@ msgid ""
 msgstr ""
 "Tämä asetus vaikuttaa sisäänrakennettuun sähköpostiosoitteen tai Python "
 "Social Authin kautta tapahtuvaan todentamiseen (voit lisätä tiettyjä "
-"taustaohjelmia sallittujen luetteloon "
-"käyttämällä :setting:`REGISTRATION_ALLOW_BACKENDS`)."
+"taustaohjelmia sallittujen luetteloon käyttämällä "
+":setting:`REGISTRATION_ALLOW_BACKENDS`)."
 
 #: admin/config.rst:2028
 msgid ""
@@ -7770,8 +7769,8 @@ msgid ""
 "your environment, for example:"
 msgstr ""
 "Weblaten on lähetettävä sähköposteja useaan otteeseen, ja näissä "
-"sähköpostiviesteissä tulee olla oikea lähettäjän osoite. "
-"Määritä :setting:`SERVER_EMAIL` ja :setting:`DEFAULT_FROM_EMAIL` sopimaan "
+"sähköpostiviesteissä tulee olla oikea lähettäjän osoite. Määritä "
+":setting:`SERVER_EMAIL` ja :setting:`DEFAULT_FROM_EMAIL` sopimaan "
 "ympäristöösi, esimerkiksi:"
 
 #: admin/install.rst:1080
@@ -9251,8 +9250,8 @@ msgid ""
 "Configures whether registrations are open by "
 "toggling :std:setting:`REGISTRATION_OPEN`."
 msgstr ""
-"Määrittää, ovatko rekisteröinnit auki "
-"vaihtamalla :std:setting:`REGISTRATION_OPEN`."
+"Määrittää, ovatko rekisteröinnit auki vaihtamalla "
+":std:setting:`REGISTRATION_OPEN`."
 
 #: admin/install/docker.rst:666
 #, fuzzy
@@ -9263,8 +9262,8 @@ msgid ""
 "Configures whether captcha is used for registration and other "
 "unauthenticated actions, see :std:setting:`REGISTRATION_CAPTCHA`."
 msgstr ""
-"Määrittää, ovatko rekisteröinnit auki "
-"vaihtamalla :std:setting:`REGISTRATION_OPEN`."
+"Määrittää, ovatko rekisteröinnit auki vaihtamalla "
+":std:setting:`REGISTRATION_OPEN`."
 
 #: admin/install/docker.rst:677
 msgid ""
@@ -9517,8 +9516,7 @@ msgstr ":setting:`DEFAULT_COMMITER_EMAIL`"
 msgid ""
 "Configures the default value for :ref:`component-commit_pending_age` for new "
 "components, see :setting:`COMMIT_PENDING_HOURS`."
-msgstr ""
-"Oletusarvoa voidaan muuttaa komennolla :setting:`COMMIT_PENDING_HOURS`."
+msgstr "Oletusarvoa voidaan muuttaa komennolla :setting:`COMMIT_PENDING_HOURS`."
 
 #: admin/install/docker.rst:969
 msgid "Configures GPG signing of commits, see :setting:`WEBLATE_GPG_IDENTITY`."
@@ -12910,8 +12908,8 @@ msgid ""
 msgstr ""
 "Pääsy tietovarastojen selaamiseen rajoitetuilla käyttöoikeuksilla "
 "(yksityinen :ref:`pääsyn hallinta <acl>` tai kun :setting:`REQUIRE_LOGIN` on "
-"käytössä) vaatii API-tunnuksen, jonka voit "
-"hankkia :ref:`käyttäjäprofiilistasi. <user-profile>`:"
+"käytössä) vaatii API-tunnuksen, jonka voit hankkia "
+":ref:`käyttäjäprofiilistasi. <user-profile>`:"
 
 #: admin/optionals.rst:63
 msgid ""
@@ -13488,13 +13486,12 @@ msgstr ""
 "on kuin hylly, johon on pinottu oikeat käännökset. Kaikki saman projektin "
 "komponentit jakavat ehdotuksia ja niiden sanakirjaa; käännökset etenevät "
 "myös automaattisesti kaikkien yksittäisen projektin komponenttien kautta "
-"(ellei niitä ole kytketty pois päältä komponenttikokoonpanossa), "
-"katso :ref:`memory`."
+"(ellei niitä ole kytketty pois päältä komponenttikokoonpanossa), katso "
+":ref:`memory`."
 
 #: admin/projects.rst:119
 msgid "These basic attributes set up and inform translators of a project:"
-msgstr ""
-"Nämä perusattribuutit määrittävät ja tiedottavat projektin kääntäjille:"
+msgstr "Nämä perusattribuutit määrittävät ja tiedottavat projektin kääntäjille:"
 
 #: admin/projects.rst:124 admin/projects.rst:1212 contributing/about.rst:11
 msgid "Project name"
@@ -13526,8 +13523,8 @@ msgid ""
 "This is a required parameter unless turned off "
 "by :setting:`WEBSITE_REQUIRED`."
 msgstr ""
-"Tämä on pakollinen parametri, ellei sitä ole poistettu "
-"käytöstä :setting:`WEBSITE_REQUIRED`."
+"Tämä on pakollinen parametri, ellei sitä ole poistettu käytöstä "
+":setting:`WEBSITE_REQUIRED`."
 
 #: admin/projects.rst:159
 msgid "Translation instructions"
@@ -13586,8 +13583,8 @@ msgid ""
 "This also affects whether the project can be used as source "
 "for :ref:`automatic-translation`."
 msgstr ""
-"Tämä vaikuttaa myös siihen, voidaanko projektia käyttää "
-"lähteenä :ref:`automatic-translation`."
+"Tämä vaikuttaa myös siihen, voidaanko projektia käyttää lähteenä "
+":ref:`automatic-translation`."
 
 #: admin/projects.rst:194
 msgid ""
@@ -13614,8 +13611,8 @@ msgstr ""
 #: admin/projects.rst:220
 msgid "Configure per project access control, see :ref:`acl` for more details."
 msgstr ""
-"Määritä projektikohtainen pääsynhallinta, katso lisätietoja "
-"kohdasta :ref:`acl`."
+"Määritä projektikohtainen pääsynhallinta, katso lisätietoja kohdasta "
+":ref:`acl`."
 
 #: admin/projects.rst:222
 msgid "The default value can be changed by :setting:`DEFAULT_ACCESS_CONTROL`."
@@ -13934,9 +13931,9 @@ msgid ""
 "{{filename|parentdir}}#L{{line}}``"
 msgstr ""
 "Jos polkusi ovat suhteessa eri kansioon (polku sisältää ``..``), sinun "
-"kannattaa poistaa johtava hakemisto ``parentdir``-suodattimella "
-"(katso :ref:`markup`): ``https://github.com/WeblateOrg/hello/blob/{{branch}}/"
-"{{tiedostonimi|parentdir}}#L{{line}}``"
+"kannattaa poistaa johtava hakemisto ``parentdir``-suodattimella (katso "
+":ref:`markup`): ``https://github.com/WeblateOrg/hello/blob/{{branch}}/{"
+"{tiedostonimi|parentdir}}#L{{line}}``"
 
 #: admin/projects.rst:467
 msgid "Exported repository URL"
@@ -13949,8 +13946,8 @@ msgid ""
 "manually merge changes. You can use :ref:`git-exporter` to automate this for "
 "Git repositories."
 msgstr ""
-"URL-osoite, johon Weblaten tekemät muutokset viedään. Tämä on tärkeää, "
-"kun :ref:`continuous-translation` ei ole käytössä tai kun muutokset on "
+"URL-osoite, johon Weblaten tekemät muutokset viedään. Tämä on tärkeää, kun "
+":ref:`continuous-translation` ei ole käytössä tai kun muutokset on "
 "yhdistettävä manuaalisesti. Voit käyttää :ref:`git-exporter` "
 "automatisoidaksesi tämän Git-tietovarastoissa."
 
@@ -13970,8 +13967,8 @@ msgstr "Työntöhaara"
 #: admin/projects.rst:488
 msgid "Branch for pushing changes, leave empty to use :ref:`component-branch`."
 msgstr ""
-"Haara muutosten työntämistä varten, jätä tyhjäksi "
-"käyttääksesi :ref:`component-branch`."
+"Haara muutosten työntämistä varten, jätä tyhjäksi käyttääksesi "
+":ref:`component-branch`."
 
 #: admin/projects.rst:494
 msgid ""
@@ -14307,8 +14304,8 @@ msgid ""
 "The default value can be changed "
 "by :setting:`DEFAULT_TRANSLATION_PROPAGATION`."
 msgstr ""
-"Oletusarvoa voidaan muuttaa "
-"komennolla :setting:`DEFAULT_TRANSLATION_PROPAGATION`."
+"Oletusarvoa voidaan muuttaa komennolla "
+":setting:`DEFAULT_TRANSLATION_PROPAGATION`."
 
 #: admin/projects.rst:692 workflows.rst:123 workflows.rst:155 workflows.rst:188
 msgid "Enable suggestions"
@@ -14682,8 +14679,10 @@ msgid ""
 "The default value can be changed "
 "by :setting:`DEFAULT_ADD_MESSAGE`, :setting:`DEFAULT_ADDON_MESSAGE`, :setting:`DEFAULT_COMMIT_MESSAGE`, :setting:`DEFAULT_DELETE_MESSAGE`, :setting:`DEFAULT_MERGE_MESSAGE`, :setting:`DEFAULT_PULL_MESSAGE`."
 msgstr ""
-"Oletusarvoa voidaan muuttaa "
-"komennoilla :setting:`DEFAULT_ADD_MESSAGE`, :setting:`DEFAULT_ADDON_MESSAGE`, :setting:`DEFAULT_COMMIT_MESSAGE`, :setting:`DEFAULT_DELETE_MESSAGE`, :setting:`DEFAULT_MERGE_MESSAGE`, :setting:`DEFAULT_PULL_MESSAGE`."
+"Oletusarvoa voidaan muuttaa komennoilla :setting:`DEFAULT_ADD_MESSAGE`, "
+":setting:`DEFAULT_ADDON_MESSAGE`, :setting:`DEFAULT_COMMIT_MESSAGE`, "
+":setting:`DEFAULT_DELETE_MESSAGE`, :setting:`DEFAULT_MERGE_MESSAGE`, "
+":setting:`DEFAULT_PULL_MESSAGE`."
 
 #: admin/projects.rst:927
 msgid "Push on commit"
@@ -14716,8 +14715,7 @@ msgstr ""
 
 #: admin/projects.rst:949
 msgid "The default value can be changed by :setting:`COMMIT_PENDING_HOURS`."
-msgstr ""
-"Oletusarvoa voidaan muuttaa komennolla :setting:`COMMIT_PENDING_HOURS`."
+msgstr "Oletusarvoa voidaan muuttaa komennolla :setting:`COMMIT_PENDING_HOURS`."
 
 #: admin/projects.rst:953
 msgid ""
@@ -15803,8 +15801,7 @@ msgstr ""
 
 #: admin/upgrade.rst:109
 msgid "Verify that your setup is sane (see also :ref:`production`):"
-msgstr ""
-"Varmista, että asetuksesi ovat järkevät (katso myös :ref:`production`):"
+msgstr "Varmista, että asetuksesi ovat järkevät (katso myös :ref:`production`):"
 
 #: admin/upgrade.rst:115
 msgid "Restart the Celery worker (see :ref:`celery`)."
@@ -17668,8 +17665,7 @@ msgstr ""
 #| "Create a new translation component from a repository already cloned in "
 #| "Weblate."
 msgid "Locking error that prevented updating linked components."
-msgstr ""
-"Luo uusi käännöskomponentti arkistosta, joka on jo kloonattu Weblateen."
+msgstr "Luo uusi käännöskomponentti arkistosta, joka on jo kloonattu Weblateen."
 
 #: changes.rst:363
 #, fuzzy
@@ -20253,8 +20249,7 @@ msgstr "Käännös käyttää yksikielisiä tiedostoja."
 #| "Create a new translation component from a repository already cloned in "
 #| "Weblate."
 msgid "Updating of translations from the repository in linked components."
-msgstr ""
-"Luo uusi käännöskomponentti arkistosta, joka on jo kloonattu Weblateen."
+msgstr "Luo uusi käännöskomponentti arkistosta, joka on jo kloonattu Weblateen."
 
 #: changes.rst:1434
 #, fuzzy
@@ -22969,8 +22964,8 @@ msgstr ""
 "Johan Jacobsson, Peter Vančo, Sveinn í Felli, Oliver, Yvan Zo, meshari "
 "alnaim, தமிழ்நேரம், searinminecraft, Jwtiyar Nariman, gitelo4516, Vision, "
 "Chang-Chia Tseng, Kyotaro Iijima, Ricky Tigg, ei9, Martin Srebotnjak, "
-"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан "
-"Симић(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
+"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан Симић"
+"(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
 "Winston Sung, ChinskiKaczynski, Rafael Fontenelle"
 
 #: changes/contributors/5.9.rst:14
@@ -26319,8 +26314,7 @@ msgstr ""
 
 #: changes/v3.rst:260
 msgid "Use templates for editor link and repository browser URL."
-msgstr ""
-"Käytä malleja muokkauslinkille ja tietovaraston selaimen URL-osoitetta."
+msgstr "Käytä malleja muokkauslinkille ja tietovaraston selaimen URL-osoitetta."
 
 #: changes/v3.rst:261
 msgid ""
@@ -30050,8 +30044,7 @@ msgstr "Parannettu CodeMirror-integraatio."
 
 #: changes/v4.rst:912
 msgid "Added add-on to remove blank strings from translation files."
-msgstr ""
-"Lisätty lisäosa tyhjien merkkijonojen poistamiseen käännöstiedostoista."
+msgstr "Lisätty lisäosa tyhjien merkkijonojen poistamiseen käännöstiedostoista."
 
 #: changes/v4.rst:913
 #, fuzzy
@@ -39604,9 +39597,9 @@ msgid ""
 "to :doc:`admin/projects`. For self-hosting your own Weblate clone, read "
 "our :doc:`admin/install`."
 msgstr ""
-"Aloitaksesi oma projektisi pilvipalvelussamme Hosted Weblate, "
-"katso :doc:`admin/projects`. Jos haluat isännöidä omaa Weblate-kloonisi, "
-"lue :doc:`admin/install`."
+"Aloitaksesi oma projektisi pilvipalvelussamme Hosted Weblate, katso "
+":doc:`admin/projects`. Jos haluat isännöidä omaa Weblate-kloonisi, lue "
+":doc:`admin/install`."
 
 #: index.rst:45
 msgid "FAQ"
@@ -44705,9 +44698,9 @@ msgid ""
 "text` :guilabel:`Source string` :guilabel:`Appended variable "
 "text` :guilabel:`Appended static text`"
 msgstr ""
-":guilabel:`Hallinnointi`, :guilabel:`Muokkaa "
-"lähdettä`, :guilabel:`Tehokäyttäjä`, :guilabel:`Tarkista "
-"merkkijonot`, :guilabel:`Käännä`"
+":guilabel:`Hallinnointi`, :guilabel:`Muokkaa lähdettä`, "
+":guilabel:`Tehokäyttäjä`, :guilabel:`Tarkista merkkijonot`, "
+":guilabel:`Käännä`"
 
 #: snippets/addons-autogenerated.rst:910
 msgid ""
@@ -45216,8 +45209,8 @@ msgid ""
 "end of the otherwise free-form part of a commit message, such as 'Co-"
 "authored-by: …'."
 msgstr ""
-"Trailer-rivit ovat rivejä, jotka näyttävät samanlaisilta kuin RFC 822 "
-"-sähköpostin otsikot, muutoin vapaamuotoisen vahvistusviestin osan lopussa, "
+"Trailer-rivit ovat rivejä, jotka näyttävät samanlaisilta kuin RFC 822 -"
+"sähköpostin otsikot, muutoin vapaamuotoisen vahvistusviestin osan lopussa, "
 "kuten \"Yhteiskirjoittajana: …\"."
 
 #: snippets/addons-autogenerated.rst:1312
@@ -45310,8 +45303,7 @@ msgstr "Muotoile Java-ominaisuustiedoston (Java properties)"
 
 #: snippets/addons-autogenerated.rst:1382
 msgid "Enable case-sensitive key sorting"
-msgstr ""
-"Ota käyttöön isot ja pienet kirjaimet erotteleva avainten järjestäminen"
+msgstr "Ota käyttöön isot ja pienet kirjaimet erotteleva avainten järjestäminen"
 
 #: snippets/addons-autogenerated.rst:1387
 msgid "Formats and sorts the Java properties file."
@@ -45602,8 +45594,8 @@ msgstr ""
 "Tämä ominaisuus tuo myös riskin käyttää väärin versionhallintatoimituksissa "
 "julkaistua sähköpostia. Lisäksi, kun tällainen sitoumus on julkaistu "
 "julkisessa isännöinnissä (kuten GitHubissa), sitä ei käytännössä voi "
-"muokata. Verkkosivusto sallii yksityisen toimitussähköpostin "
-"valitsemisen :ref:`profile-account`:ssa tämän välttämiseksi."
+"muokata. Verkkosivusto sallii yksityisen toimitussähköpostin valitsemisen "
+":ref:`profile-account`:ssa tämän välttämiseksi."
 
 #: snippets/basics.rst:48
 msgid "Therefore, admins should consider this while configuring Weblate:"
@@ -45693,8 +45685,8 @@ msgid ""
 "Set a required prefix for XML tags for the :ref:`check-icu-message-format` "
 "quality check."
 msgstr ""
-"Aseta vaadittu etuliite XML-tunnisteille :ref:`check-icu-message-format` "
-"-laaduntarkistusta varten."
+"Aseta vaadittu etuliite XML-tunnisteille :ref:`check-icu-message-format` -"
+"laaduntarkistusta varten."
 
 #: snippets/check-flags-autogenerated.rst:28
 msgid ""
@@ -47072,8 +47064,8 @@ msgstr "ICU:n viestimuoto"
 msgid ""
 "Syntax errors and/or placeholder mismatches in ICU MessageFormat strings."
 msgstr ""
-"Syntaksivirheitä ja/tai paikanvaraajien täsmäämättömyyttä ICU MessageFormat "
-"-teksteissä."
+"Syntaksivirheitä ja/tai paikanvaraajien täsmäämättömyyttä ICU MessageFormat -"
+"teksteissä."
 
 #: snippets/checks-autogenerated.rst:590 snippets/checks-autogenerated.rst:2430
 #, fuzzy
@@ -47788,7 +47780,9 @@ msgstr ""
 #, fuzzy
 #| msgid "Mismatched \\n"
 msgid "Mismatched \\\\n"
-msgstr "Ristiriitaiset \\n:t"
+msgstr ""
+"Ristiriitaiset \\n"
+":t"
 
 #: snippets/checks-autogenerated.rst:1437
 #, fuzzy
@@ -50282,8 +50276,8 @@ msgstr "Muodollisuus"
 #: snippets/machines-autogenerated.rst:326
 msgid "Uses the specified formality if language is not specified as (in)formal"
 msgstr ""
-"Käyttää määritettyä muodollisuutta, jos kieltä ei ole määritetty "
-"(epä)muodolliseksi"
+"Käyttää määritettyä muodollisuutta, jos kieltä ei ole määritetty (epä)"
+"muodolliseksi"
 
 #: snippets/machines-autogenerated.rst:328 user/translating.rst:302
 msgid "Translation context"
@@ -50436,8 +50430,8 @@ msgid ""
 "Choose a Google Cloud Translation region that is used for the Google Cloud "
 "project or is closest to you."
 msgstr ""
-"Valitse Google Cloud Translation -alue, jota käytetään Google Cloud "
-"-hankkeessa tai joka on lähimpänä sinua."
+"Valitse Google Cloud Translation -alue, jota käytetään Google Cloud -"
+"hankkeessa tai joka on lähimpänä sinua."
 
 #: snippets/machines-autogenerated.rst:466
 msgid "Google Storage Bucket name"
@@ -50448,8 +50442,8 @@ msgid ""
 "Enter the name of the Google Cloud Storage bucket that is used to store the "
 "Glossary files."
 msgstr ""
-"Kirjoita sanastotiedostojen tallentamiseen käytettävän Google Cloud Storage "
-"-säilön nimi."
+"Kirjoita sanastotiedostojen tallentamiseen käytettävän Google Cloud Storage -"
+"säilön nimi."
 
 #: snippets/machines-autogenerated.rst:474
 msgid ""
@@ -53580,11 +53574,11 @@ msgid ""
 "user/search>` feature to find a specific string or term."
 msgstr ""
 "Kun olet navigoinut komponenttiin, joukko linkkejä johtaa sen varsinaiseen "
-"käännökseen. Käännös on edelleen jaettu yksittäisiin tarkastuksiin, "
-"kuten :guilabel:`Untranslated strings` tai :guilabel:`Unfinished strings`. "
-"Jos koko projekti käännetään ilman virheitä, :guilabel:`All strings`on "
-"edelleen saatavilla. Vaihtoehtoisesti voit käyttää hakukenttää tietyn "
-"merkkijonon tai termin etsimiseen."
+"käännökseen. Käännös on edelleen jaettu yksittäisiin tarkastuksiin, kuten "
+":guilabel:`Untranslated strings` tai :guilabel:`Unfinished strings`. Jos "
+"koko projekti käännetään ilman virheitä, :guilabel:`All strings`on edelleen "
+"saatavilla. Vaihtoehtoisesti voit käyttää hakukenttää tietyn merkkijonon tai "
+"termin etsimiseen."
 
 #: user/translating.rst:52
 msgid "Actual permissions might vary depending on your Weblate configuration."
@@ -54256,8 +54250,8 @@ msgid ""
 "The automatically translated strings are labelled :guilabel:`Automatically "
 "translated`."
 msgstr ""
-"Automaattisesti käännetyt merkkijonot on merkitty "
-"nimiöllä :guilabel:`Automatically translated`."
+"Automaattisesti käännetyt merkkijonot on merkitty nimiöllä "
+":guilabel:`Automatically translated`."
 
 #: user/translating.rst:420
 msgid ""
@@ -54815,8 +54809,8 @@ msgid ""
 "%24password%23@bitbucket.org/…``."
 msgstr ""
 "Jos käyttäjänimesi tai salasanasi sisältää erikoismerkkejä, niiden on oltava "
-"URL-koodattuja, esimerkiksi ``https://user%40example.com:"
-"%24password%23@bitbucket.org/…``."
+"URL-koodattuja, esimerkiksi ``https://"
+"user%40example.com:%24password%23@bitbucket.org/…``."
 
 #: vcs.rst:327
 msgid "Using proxy"
@@ -54847,8 +54841,8 @@ msgid ""
 "(see :setting:`DATA_DIR`), otherwise Git executed by Weblate will not use it."
 msgstr ""
 "Välityspalvelimen asetukset on tehtävä Weblatea käyttävässä käyttäjässä "
-"(katso myös :ref:`file-permissions`) ja ``HOME=$DATA_DIR/home`` "
-"(katso :setting:`DATA_DIR`), muuten Weblate suorittaa Gitin. ei käytä sitä."
+"(katso myös :ref:`file-permissions`) ja ``HOME=$DATA_DIR/home`` (katso "
+":setting:`DATA_DIR`), muuten Weblate suorittaa Gitin. ei käytä sitä."
 
 #: vcs.rst:348
 msgid "`The cURL manpage <https://curl.se/docs/manpage.html>`_"
@@ -56026,9 +56020,9 @@ msgid ""
 "the :guilabel:`Workflow` subpage of project settings (to be found in "
 "the :guilabel:`Operations` → :guilabel:`Settings` menu):"
 msgstr ""
-"Tarkastukset voidaan ottaa käyttöön projektin asetuksissa "
-"projektiasetusten :guilabel:`Workflow`-alisivulta (löytyy :guilabel:`Manage` "
-"→ :guilabel:`Settings`-valikosta):"
+"Tarkastukset voidaan ottaa käyttöön projektin asetuksissa projektiasetusten "
+":guilabel:`Workflow`-alisivulta (löytyy :guilabel:`Manage` → "
+":guilabel:`Settings`-valikosta):"
 
 #: workflows.rst:216
 msgid "Quality gateway for the source strings"
