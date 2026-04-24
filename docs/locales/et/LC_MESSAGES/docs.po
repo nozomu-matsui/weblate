@@ -15,16 +15,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-21 02:17+0200\n"
-"PO-Revision-Date: 2026-04-21 03:38+0000\n"
+"PO-Revision-Date: 2026-04-24 06:38+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Estonian <https://hosted.weblate.org/projects/weblate/"
-"documentation/et/>\n"
+"Language-Team: Estonian <http://127.0.0.1:8000/projects/weblate/docs/et/>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 5.16.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: admin/access.rst:4 admin/projects.rst:218
@@ -1018,8 +1017,7 @@ msgstr "Projekti teave"
 #, fuzzy
 #| msgid "This add-on is used for all components sharing this repository."
 msgid "Users who can create new projects."
-msgstr ""
-"Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
+msgstr "Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
 
 #: admin/access.rst:565
 #, fuzzy
@@ -18847,8 +18845,7 @@ msgstr "Jäta vahele kvaliteedi kontroll: \"Sobimatud mõttepunktid\"."
 #| msgid "This add-on is used for all components sharing this repository."
 msgid ""
 "Detailed overview of locked components on project repository management."
-msgstr ""
-"Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
+msgstr "Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
 
 #: changes.rst:1098
 msgid ":ref:`search-strings` supports searching by source string state."
@@ -20849,8 +20846,7 @@ msgstr "Komponentide nimekiri"
 #, fuzzy
 #| msgid "This add-on is used for all components sharing this repository."
 msgid "Fixed moving categories between projects."
-msgstr ""
-"Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
+msgstr "Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
 
 #: changes.rst:1981
 #, fuzzy
@@ -22238,8 +22234,8 @@ msgstr ""
 "Johan Jacobsson, Peter Vančo, Sveinn í Felli, Oliver, Yvan Zo, meshari "
 "alnaim, தமிழ்நேரம், searinminecraft, Jwtiyar Nariman, gitelo4516, Vision, "
 "Chang-Chia Tseng, Kyotaro Iijima, Ricky Tigg, ei9, Martin Srebotnjak, "
-"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан "
-"Симић(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
+"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан Симић"
+"(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
 "Winston Sung, ChinskiKaczynski, Rafael Fontenelle"
 
 #: changes/contributors/5.9.rst:14
@@ -26512,8 +26508,7 @@ msgstr ""
 #, fuzzy
 #| msgid "This add-on is used for all components sharing this repository."
 msgid "Added username autocompletion when adding users to a project."
-msgstr ""
-"Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
+msgstr "Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
 
 #: changes/v4.rst:48
 msgid "Added site-wide search for projects, components, languages and users."
@@ -26903,8 +26898,7 @@ msgstr ""
 #, fuzzy
 #| msgid "This add-on is used for all components sharing this repository."
 msgid "Fixed crash on uploading corrupted files."
-msgstr ""
-"Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
+msgstr "Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
 
 #: changes/v4.rst:187
 msgid "Show stale directories in Git repository status."
@@ -28514,8 +28508,7 @@ msgstr ""
 #, fuzzy
 #| msgid "This add-on is used for all components sharing this repository."
 msgid "Support more language aliases to be configured on a project."
-msgstr ""
-"Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
+msgstr "Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
 
 #: changes/v4.rst:654
 #, fuzzy
@@ -28572,8 +28565,7 @@ msgstr "Tõlgitud"
 #, fuzzy
 #| msgid "This add-on is used for all components sharing this repository."
 msgid "Added rate limiting on creating new projects."
-msgstr ""
-"Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
+msgstr "Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
 
 #: changes/v4.rst:669
 #, fuzzy
@@ -28654,8 +28646,7 @@ msgstr "Lisa keelemääratlusi"
 #, fuzzy
 #| msgid "This add-on is used for all components sharing this repository."
 msgid "Added support for blocking users from contributing to a project."
-msgstr ""
-"Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
+msgstr "Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
 
 #: changes/v4.rst:688
 msgid "Fixed automatic creation of glossary languages."
@@ -28723,8 +28714,7 @@ msgstr ""
 #, fuzzy
 #| msgid "This add-on is used for all components sharing this repository."
 msgid "Fixed crash after moving shared component between projects."
-msgstr ""
-"Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
+msgstr "Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
 
 #: changes/v4.rst:714
 msgid "Fixed adding new strings to empty properties files."
@@ -29144,8 +29134,7 @@ msgstr "Tõlgitud keeled"
 #, fuzzy
 #| msgid "This add-on is used for all components sharing this repository."
 msgid "Added support for sharing a component between projects."
-msgstr ""
-"Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
+msgstr "Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
 
 #: changes/v4.rst:833
 msgid ""
@@ -29562,8 +29551,7 @@ msgstr ""
 #, fuzzy
 #| msgid "This add-on is used for all components sharing this repository."
 msgid "Fixed crash on certain component file masks."
-msgstr ""
-"Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
+msgstr "Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
 
 #: changes/v4.rst:955
 #, fuzzy
@@ -29945,8 +29933,7 @@ msgstr ""
 #, fuzzy
 #| msgid "This add-on is used for all components sharing this repository."
 msgid "Added support for locking components experiencing repository errors."
-msgstr ""
-"Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
+msgstr "Seda laiendust rakendatakse kõigile osistele, mis seda varamut jagavad."
 
 #: changes/v4.rst:1072
 msgid "Simplified main navigation (replaced buttons with icons)."
@@ -44048,8 +44035,8 @@ msgid ""
 "Updates the ALL_LINGUAS variable in \"configure\", \"configure.in\" or "
 "\"configure.ac\" files, when a translation is added or removed."
 msgstr ""
-"Uue tõlke lisandumisel uuenda ALL_LINGUAS muutujat „configure“, "
-"„configure.in“ ja „configure.ac“ failides."
+"Uue tõlke lisandumisel uuenda ALL_LINGUAS muutujat „configure“, „configure.in"
+"“ ja „configure.ac“ failides."
 
 #: snippets/addons-autogenerated.rst:968
 #, fuzzy
@@ -44060,8 +44047,8 @@ msgid ""
 "Updates the ALL_LINGUAS variable in :file:`configure`, :file:`configure.in` "
 "or any :file:`configure.ac` files, when a translation is added or removed."
 msgstr ""
-"Uue tõlke lisandumisel uuenda ALL_LINGUAS muutujat „configure“, "
-"„configure.in“ ja „configure.ac“ failides."
+"Uue tõlke lisandumisel uuenda ALL_LINGUAS muutujat „configure“, „configure.in"
+"“ ja „configure.ac“ failides."
 
 #: snippets/addons-autogenerated.rst:974
 msgid "Customize gettext output"
@@ -48013,8 +48000,7 @@ msgstr "Leidub mitu loogilise kontrolliga tuvastatud viga"
 
 #: snippets/checks-autogenerated.rst:2470
 msgid "The translations in several languages have failing checks."
-msgstr ""
-"Mitme keele tõlgetes leidub mitu loogilise kontrolliga tuvastatud viga."
+msgstr "Mitme keele tõlgetes leidub mitu loogilise kontrolliga tuvastatud viga."
 
 #: snippets/checks-autogenerated.rst:2479
 msgid ""
