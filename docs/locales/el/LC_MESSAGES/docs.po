@@ -17,16 +17,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-21 02:17+0200\n"
-"PO-Revision-Date: 2026-04-21 03:41+0000\n"
+"PO-Revision-Date: 2026-04-24 06:02+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/weblate/"
-"documentation/el/>\n"
+"Language-Team: Greek <http://127.0.0.1:8000/projects/weblate/docs/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 5.16.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: admin/access.rst:4 admin/projects.rst:218
@@ -159,8 +158,8 @@ msgstr ""
 msgid ""
 "The default can also be changed by setting :setting:`DEFAULT_ACCESS_CONTROL`."
 msgstr ""
-"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη "
-"ρύθμιση :setting:`DEFAULT_ACCESS_CONTROL`."
+"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη ρύθμιση "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/access.rst:72
 msgid ""
@@ -2400,8 +2399,8 @@ msgstr "Κατάλογος ελέγχων"
 #| "The default value can be changed by :setting:`DEFAULT_ACCESS_CONTROL`."
 msgid "The database backup can be configured via :setting:`DATABASE_BACKUP`."
 msgstr ""
-"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη "
-"ρύθμιση :setting:`DEFAULT_ACCESS_CONTROL`."
+"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη ρύθμιση "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/backup.rst:93
 msgid "The backup creation can be customized using :setting:`BORG_EXTRA_ARGS`."
@@ -9298,8 +9297,8 @@ msgid ""
 "Configures the default value for :ref:`component-commit_pending_age` for new "
 "components, see :setting:`COMMIT_PENDING_HOURS`."
 msgstr ""
-"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη "
-"ρύθμιση :setting:`DEFAULT_ACCESS_CONTROL`."
+"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη ρύθμιση "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/install/docker.rst:969
 msgid "Configures GPG signing of commits, see :setting:`WEBLATE_GPG_IDENTITY`."
@@ -13253,8 +13252,8 @@ msgstr ""
 #| "The default value can be changed by :setting:`DEFAULT_ACCESS_CONTROL`."
 msgid "The default value can be changed by :setting:`DEFAULT_SHARED_TM`."
 msgstr ""
-"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη "
-"ρύθμιση :setting:`DEFAULT_ACCESS_CONTROL`."
+"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη ρύθμιση "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/projects.rst:184
 msgid "Contribute to shared translation memory"
@@ -13299,8 +13298,8 @@ msgstr ""
 #: admin/projects.rst:222
 msgid "The default value can be changed by :setting:`DEFAULT_ACCESS_CONTROL`."
 msgstr ""
-"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη "
-"ρύθμιση :setting:`DEFAULT_ACCESS_CONTROL`."
+"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη ρύθμιση "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/projects.rst:227
 msgid "Enforced two-factor authentication"
@@ -13927,8 +13926,8 @@ msgid ""
 "The default value can be changed "
 "by :setting:`DEFAULT_TRANSLATION_PROPAGATION`."
 msgstr ""
-"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη "
-"ρύθμιση :setting:`DEFAULT_ACCESS_CONTROL`."
+"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη ρύθμιση "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/projects.rst:692 workflows.rst:123 workflows.rst:155 workflows.rst:188
 msgid "Enable suggestions"
@@ -14175,8 +14174,7 @@ msgstr ""
 
 #: admin/projects.rst:854
 msgid "BCP style using hyphen as a separator, legacy language codes"
-msgstr ""
-"Στυλ BCP με χρήση παύλας ως διαχωριστικό, κωδικοί γλώσσας παλαιού τύπου"
+msgstr "Στυλ BCP με χρήση παύλας ως διαχωριστικό, κωδικοί γλώσσας παλαιού τύπου"
 
 #: admin/projects.rst:855
 msgid "Uses legacy codes for Chinese and BCP style notation."
@@ -14294,8 +14292,8 @@ msgstr ""
 #| "The default value can be changed by :setting:`DEFAULT_ACCESS_CONTROL`."
 msgid "The default value can be changed by :setting:`DEFAULT_MERGE_STYLE`."
 msgstr ""
-"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη "
-"ρύθμιση :setting:`DEFAULT_ACCESS_CONTROL`."
+"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη ρύθμιση "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/projects.rst:915
 #, fuzzy
@@ -14343,8 +14341,8 @@ msgstr ""
 #| "The default value can be changed by :setting:`DEFAULT_ACCESS_CONTROL`."
 msgid "The default value can be changed by :setting:`COMMIT_PENDING_HOURS`."
 msgstr ""
-"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη "
-"ρύθμιση :setting:`DEFAULT_ACCESS_CONTROL`."
+"Η προεπιλεγμένη τιμή μπορεί να τροποποιηθεί με τη ρύθμιση "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/projects.rst:953
 msgid ""
@@ -22319,8 +22317,8 @@ msgstr ""
 "Johan Jacobsson, Peter Vančo, Sveinn í Felli, Oliver, Yvan Zo, meshari "
 "alnaim, தமிழ்நேரம், searinminecraft, Jwtiyar Nariman, gitelo4516, Vision, "
 "Chang-Chia Tseng, Kyotaro Iijima, Ricky Tigg, ei9, Martin Srebotnjak, "
-"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан "
-"Симић(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
+"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан Симић"
+"(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
 "Winston Sung, ChinskiKaczynski, Rafael Fontenelle"
 
 #: changes/contributors/5.9.rst:14
@@ -36170,8 +36168,8 @@ msgid ""
 "quite a lot, and it is not possible to simply merge translation changes "
 "between them."
 msgstr ""
-"Το Weblate υποστηρίζει την προώθηση μεταφραστικών αλλαγών μέσα σε "
-"ένα :ref:`project`. Για κάθε :ref:`component` που το έχει ενεργοποιημένο (η "
+"Το Weblate υποστηρίζει την προώθηση μεταφραστικών αλλαγών μέσα σε ένα "
+":ref:`project`. Για κάθε :ref:`component` που το έχει ενεργοποιημένο (η "
 "προεπιλεγμένη συμπεριφορά), η αλλαγή που γίνεται μεταδίδεται αυτόματα και σε "
 "άλλα. Με αυτόν τον τρόπο οι μεταφράσεις διατηρούνται συγχρονισμένες ακόμα "
 "και αν οι ίδιοι οι κλάδοι έχουν ήδη αποκλίνει αρκετά και δεν είναι δυνατή η "
@@ -42988,8 +42986,8 @@ msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-component-"
 "update`, :ref:`addon-event-daily`, :ref:`addon-event-event-change`"
 msgstr ""
-":ref:`addon-event-add-on-installation`, :ref:`addon-event-component-"
-"update`, :ref:`addon-event-daily`, :ref:`addon-event-event-change`"
+":ref:`addon-event-add-on-installation`, :ref:`addon-event-component-update`, "
+":ref:`addon-event-daily`, :ref:`addon-event-event-change`"
 
 #: snippets/addons-autogenerated.rst:49
 msgid ""
@@ -43033,9 +43031,9 @@ msgid ""
 "daily`, :ref:`addon-event-repository-post-commit`, :ref:`addon-event-"
 "repository-post-update`"
 msgstr ""
-":ref:`addon-event-add-on-installation`, :ref:`addon-event-"
-"daily`, :ref:`addon-event-repository-post-commit`, :ref:`addon-event-"
-"repository-post-update`"
+":ref:`addon-event-add-on-installation`, :ref:`addon-event-daily`, "
+":ref:`addon-event-repository-post-commit`, :ref:`addon-event-repository-post-"
+"update`"
 
 #: snippets/addons-autogenerated.rst:84
 msgid ""
@@ -43147,8 +43145,8 @@ msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-"
 "daily`, :ref:`addon-event-repository-post-add`"
 msgstr ""
-":ref:`addon-event-add-on-installation`, :ref:`addon-event-"
-"daily`, :ref:`addon-event-repository-post-add`"
+":ref:`addon-event-add-on-installation`, :ref:`addon-event-daily`, "
+":ref:`addon-event-repository-post-add`"
 
 #: snippets/addons-autogenerated.rst:177
 msgid ""
@@ -43395,8 +43393,7 @@ msgstr "Διαγραφή στιγμιοτύπου"
 
 #: snippets/addons-autogenerated.rst:297
 msgid "One folder per language containing translation files for components."
-msgstr ""
-"Ένας φάκελος ανά γλώσσα που περιέχει αρχεία μετάφρασης για τα στοιχεία."
+msgstr "Ένας φάκελος ανά γλώσσα που περιέχει αρχεία μετάφρασης για τα στοιχεία."
 
 #: snippets/addons-autogenerated.rst:301 snippets/addons-autogenerated.rst:314
 #: snippets/addons-autogenerated.rst:327 snippets/addons-autogenerated.rst:340
@@ -43865,8 +43862,8 @@ msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-component-"
 "update`, :ref:`addon-event-daily`"
 msgstr ""
-":ref:`addon-event-add-on-installation`, :ref:`addon-event-component-"
-"update`, :ref:`addon-event-daily`"
+":ref:`addon-event-add-on-installation`, :ref:`addon-event-component-update`, "
+":ref:`addon-event-daily`"
 
 #: snippets/addons-autogenerated.rst:780
 msgid "Fills in translation of read-only strings with source string."
@@ -44076,9 +44073,9 @@ msgid ""
 "daily`, :ref:`addon-event-repository-post-add`, :ref:`addon-event-repository-"
 "post-remove`"
 msgstr ""
-":ref:`addon-event-add-on-installation`, :ref:`addon-event-"
-"daily`, :ref:`addon-event-repository-post-commit`, :ref:`addon-event-"
-"repository-post-update`"
+":ref:`addon-event-add-on-installation`, :ref:`addon-event-daily`, "
+":ref:`addon-event-repository-post-commit`, :ref:`addon-event-repository-post-"
+"update`"
 
 #: snippets/addons-autogenerated.rst:963
 #, fuzzy
@@ -44167,8 +44164,8 @@ msgid ""
 ":ref:`addon-event-add-on-installation`, :ref:`addon-event-manual-"
 "trigger`, :ref:`addon-event-repository-post-update`"
 msgstr ""
-":ref:`addon-event-add-on-installation`, :ref:`addon-event-"
-"daily`, :ref:`addon-event-repository-post-add`"
+":ref:`addon-event-add-on-installation`, :ref:`addon-event-daily`, "
+":ref:`addon-event-repository-post-add`"
 
 #: snippets/addons-autogenerated.rst:1007
 msgid ""
@@ -51181,8 +51178,7 @@ msgstr ":guilabel:`Ορισμός συντάκτη της μεταφορτωμέ
 #: snippets/roles.rst:52 snippets/roles.rst:72 snippets/roles.rst:106
 #: snippets/roles.rst:136 snippets/roles.rst:153 snippets/roles.rst:165
 msgid ":guilabel:`Overwrite existing strings with upload`"
-msgstr ""
-":guilabel:`Αντικατάσταση υφιστάμενων συμβολοσειρών κατά τη μεταφόρτωση`"
+msgstr ":guilabel:`Αντικατάσταση υφιστάμενων συμβολοσειρών κατά τη μεταφόρτωση`"
 
 #: snippets/roles.rst:53 snippets/roles.rst:73 snippets/roles.rst:107
 #: snippets/roles.rst:137 snippets/roles.rst:154 snippets/roles.rst:166
@@ -53615,8 +53611,8 @@ msgid ""
 "The automatically translated strings are labelled :guilabel:`Automatically "
 "translated`."
 msgstr ""
-"Οι αυτόματα μεταφρασμένες συμβολοσειρές έχουν την "
-"ετικέτα :guilabel:`Automatically translated`."
+"Οι αυτόματα μεταφρασμένες συμβολοσειρές έχουν την ετικέτα "
+":guilabel:`Automatically translated`."
 
 #: user/translating.rst:420
 msgid ""
