@@ -13,16 +13,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-21 02:17+0200\n"
-"PO-Revision-Date: 2026-04-21 03:38+0000\n"
+"PO-Revision-Date: 2026-04-24 05:53+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/weblate/"
-"documentation/sk/>\n"
+"Language-Team: Slovak <http://127.0.0.1:8000/projects/weblate/docs/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.16.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: admin/access.rst:4 admin/projects.rst:218
@@ -51,9 +50,9 @@ msgid ""
 "always :guilabel:`Public`. You can switch to the paid plan if you want to "
 "restrict access to your project."
 msgstr ""
-"Projekty s bezplatným plánom Libre na Hosted Weblate sú "
-"vždy :guilabel:`Public`. Ak chcete obmedziť prístup k svojmu projektu, "
-"môžete prejsť na platený plán."
+"Projekty s bezplatným plánom Libre na Hosted Weblate sú vždy "
+":guilabel:`Public`. Ak chcete obmedziť prístup k svojmu projektu, môžete "
+"prejsť na platený plán."
 
 #: admin/access.rst:22
 msgid ""
@@ -161,8 +160,8 @@ msgstr ""
 msgid ""
 "The default can also be changed by setting :setting:`DEFAULT_ACCESS_CONTROL`."
 msgstr ""
-"Predvolené nastavenie je možné zmeniť aj "
-"nastavením :setting:`DEFAULT_ACCESS_CONTROL`."
+"Predvolené nastavenie je možné zmeniť aj nastavením "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/access.rst:72
 msgid ""
@@ -180,8 +179,8 @@ msgid ""
 "settings <custom-acl>`."
 msgstr ""
 "Správcovia inštancie môžu upraviť predvolené sady oprávnení dostupné "
-"používateľom v projektoch `Public`, `Protected` a `Private` "
-"pomocou :ref:`custom settings <custom-acl>`."
+"používateľom v projektoch `Public`, `Protected` a `Private` pomocou "
+":ref:`custom settings <custom-acl>`."
 
 #: admin/access.rst:88
 msgid "Managing per-project access control"
@@ -197,10 +196,10 @@ msgid ""
 "allows them to assign other users in `Public`, `Protected` and `Private` "
 "(but not `Custom`) projects via adding them to teams."
 msgstr ""
-"Pridelenie práv používateľom :guilabel:`Manage project access` "
-"(pozri :ref:`privileges`) im umožňuje priradiť iných používateľov do "
-"projektov `Public`, `Protected` a `Private` (ale nie `Custom`) "
-"prostredníctvom ich pridania do tímov."
+"Pridelenie práv používateľom :guilabel:`Manage project access` (pozri "
+":ref:`privileges`) im umožňuje priradiť iných používateľov do projektov "
+"`Public`, `Protected` a `Private` (ale nie `Custom`) prostredníctvom ich "
+"pridania do tímov."
 
 #: admin/access.rst:99
 msgid ""
@@ -9386,8 +9385,8 @@ msgid ""
 "Configures the default value for :ref:`component-commit_pending_age` for new "
 "components, see :setting:`COMMIT_PENDING_HOURS`."
 msgstr ""
-"Predvolené nastavenie je možné zmeniť aj "
-"nastavením :setting:`DEFAULT_ACCESS_CONTROL`."
+"Predvolené nastavenie je možné zmeniť aj nastavením "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/install/docker.rst:969
 msgid "Configures GPG signing of commits, see :setting:`WEBLATE_GPG_IDENTITY`."
@@ -14004,8 +14003,8 @@ msgid ""
 "The default value can be changed "
 "by :setting:`DEFAULT_TRANSLATION_PROPAGATION`."
 msgstr ""
-"Predvolené nastavenie je možné zmeniť aj "
-"nastavením :setting:`DEFAULT_ACCESS_CONTROL`."
+"Predvolené nastavenie je možné zmeniť aj nastavením "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/projects.rst:692 workflows.rst:123 workflows.rst:155 workflows.rst:188
 msgid "Enable suggestions"
@@ -14360,8 +14359,8 @@ msgstr ""
 #| "setting :setting:`DEFAULT_ACCESS_CONTROL`."
 msgid "The default value can be changed by :setting:`DEFAULT_MERGE_STYLE`."
 msgstr ""
-"Predvolené nastavenie je možné zmeniť aj "
-"nastavením :setting:`DEFAULT_ACCESS_CONTROL`."
+"Predvolené nastavenie je možné zmeniť aj nastavením "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/projects.rst:915
 #, fuzzy
@@ -14410,8 +14409,8 @@ msgstr ""
 #| "setting :setting:`DEFAULT_ACCESS_CONTROL`."
 msgid "The default value can be changed by :setting:`COMMIT_PENDING_HOURS`."
 msgstr ""
-"Predvolené nastavenie je možné zmeniť aj "
-"nastavením :setting:`DEFAULT_ACCESS_CONTROL`."
+"Predvolené nastavenie je možné zmeniť aj nastavením "
+":setting:`DEFAULT_ACCESS_CONTROL`."
 
 #: admin/projects.rst:953
 msgid ""
@@ -22395,8 +22394,8 @@ msgstr ""
 "Johan Jacobsson, Peter Vančo, Sveinn í Felli, Oliver, Yvan Zo, meshari "
 "alnaim, தமிழ்நேரம், searinminecraft, Jwtiyar Nariman, gitelo4516, Vision, "
 "Chang-Chia Tseng, Kyotaro Iijima, Ricky Tigg, ei9, Martin Srebotnjak, "
-"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан "
-"Симић(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
+"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан Симић"
+"(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
 "Winston Sung, ChinskiKaczynski, Rafael Fontenelle"
 
 #: changes/contributors/5.9.rst:14
@@ -43103,8 +43102,7 @@ msgstr "Lokalizačné CDN pre JavaScript"
 msgid ""
 "The percentage of translated strings that must be present for translation to "
 "be included."
-msgstr ""
-"Percento reťazcov, ktoré musia byť preložené, aby bol preklad zahrnutý."
+msgstr "Percento reťazcov, ktoré musia byť preložené, aby bol preklad zahrnutý."
 
 #: snippets/addons-autogenerated.rst:75
 msgid "CSS selector to detect localizable elements."
@@ -44189,8 +44187,8 @@ msgid ""
 "Updates the ALL_LINGUAS variable in \"configure\", \"configure.in\" or "
 "\"configure.ac\" files, when a translation is added or removed."
 msgstr ""
-"Pri pridaní nového prekladu aktualizuje premennú ALL_LINGUAS v súboroch "
-"„configure“, „configure.in“ alebo „configure.ac“."
+"Pri pridaní nového prekladu aktualizuje premennú ALL_LINGUAS v súboroch „"
+"configure“, „configure.in“ alebo „configure.ac“."
 
 #: snippets/addons-autogenerated.rst:968
 #, fuzzy
@@ -44201,8 +44199,8 @@ msgid ""
 "Updates the ALL_LINGUAS variable in :file:`configure`, :file:`configure.in` "
 "or any :file:`configure.ac` files, when a translation is added or removed."
 msgstr ""
-"Pri pridaní nového prekladu aktualizuje premennú ALL_LINGUAS v súboroch "
-"„configure“, „configure.in“ alebo „configure.ac“."
+"Pri pridaní nového prekladu aktualizuje premennú ALL_LINGUAS v súboroch „"
+"configure“, „configure.in“ alebo „configure.ac“."
 
 #: snippets/addons-autogenerated.rst:974
 msgid "Customize gettext output"
@@ -48444,8 +48442,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Only wrap lines at newlines (like 'xgettext --no-wrap')"
 msgid "Only wrap lines at newlines (like ``xgettext --no-wrap``)"
-msgstr ""
-"Zalomiť riadky iba na znakoch nových riadkov (ako 'xgettext --no-wrap')"
+msgstr "Zalomiť riadky iba na znakoch nových riadkov (ako 'xgettext --no-wrap')"
 
 #: snippets/file-format-parameters.rst:112
 #: snippets/file-format-parameters.rst:181
@@ -54522,8 +54519,7 @@ msgstr ""
 #, fuzzy
 #| msgid "This will push changes and create a Bitbucket Server pull request."
 msgid "This is different from Bitbucket Data Center API."
-msgstr ""
-"Toto odošle zmeny a vytvorí požiadavku na stiahnutie servera Bitbucket."
+msgstr "Toto odošle zmeny a vytvorí požiadavku na stiahnutie servera Bitbucket."
 
 #: vcs.rst:515
 msgid ""
