@@ -23,7 +23,7 @@ msgstr ""
 "documentation/\n"
 "POT-Creation-Date: 2026-04-21 02:17+0200\n"
 "PO-Revision-Date: 2026-04-24 06:08+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Nozomu Matsui <nozomu.matsui@gree.net>\n"
 "Language-Team: Japanese <http://127.0.0.1:8000/projects/weblate/docs/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -227,7 +227,7 @@ msgstr ":ref:`査読処理 <reviews>` が有効化されている場合のみ使
 
 #: admin/access.rst:110
 msgid "For `Protected` and `Private` projects only:"
-msgstr "`保護` および `プライベート` プロジェクト専用のチーム"
+msgstr "`プロテクト済み` および `プライベート` プロジェクト専用:"
 
 #: admin/access.rst:112 snippets/roles.rst:156
 msgid "`Translate`"
@@ -396,12 +396,11 @@ msgid ""
 "whole instance, including assigning site-wide teams and granting superuser "
 "status to the managed account, even the caller's own account."
 msgstr ""
-"サイト全体のユーザー管理は、グローバルな ``user.edit`` 権限によって制御されま"
-"す。プロジェクト単位のアクセス管理とは異なり、これは信頼された管理用権限であ"
-"り、インスタンス全体にわたってユーザー アカウントを編集できます。これには、"
-"サイト全体チームへの追加や、管理対象アカウントへのスーパーユーザー権限の付与"
-"も含まれ、さらに、呼び出し元自身のアカウントに対しても、これらの操作が可能で"
-"す。"
+"サイト横断のユーザ管理はグローバル ``user.edit`` 権限にて制御されます。これは"
+"プロジェクトアクセス管理とは異なり、すべてのインスタンスをおける"
+"ユーザアカウントの編集を可能にする、信用された管理者権限であり、サイト横断の"
+"チームアサインや管理アカウントへのスーパーユーザー付与、自身のアカウントすら"
+"操作可能です。"
 
 #: admin/access.rst:194
 msgid ""
@@ -483,11 +482,11 @@ msgid ""
 "management in the Weblate UI and API and should be assigned only to fully "
 "trusted site administrators."
 msgstr ""
-"このプロジェクト単位の委譲は、サイト全体に及ぶ ``user.edit`` 権限とは別物です"
-"。プロジェクトの `Administration` チームに所属している場合、そのプロジェクト"
-"に限ってアクセス権限を管理できます。一方で ``user.edit`` は、Weblate の UI お"
-"よび API において、サイト全体のユーザー管理を可能にする強力な権限であり、完全"
-"に信頼できるサイト管理者にのみ付与すべきものです。"
+"このプロジェクトスコープのデリゲーションはサイト横断の ``user.edit`` 権限から"
+"は分離されています。Weblate UI および APIにおいて ``user.edit`` 権限がサイト"
+"横断のユーザ管理を許可するため、プロジェクトの `Administration` "
+"チームメンバーシップは該当プロジェクトのみアクセス管理を許可します。 この権限"
+"は完全に信用されるサイト管理者にのみアサインされるべきです。"
 
 #: admin/access.rst:240
 msgid "Per-project access tokens"
@@ -767,8 +766,8 @@ msgid ""
 "Groups connect roles and users with authentication objects (projects, "
 "languages, components, and component lists)."
 msgstr ""
-"グループはロール、ユーザー、認証オブジェクト（プロジェクト、言語、コンポーネ"
-"ント、コンポーネント リスト）を紐づけます。"
+"グループはロールとユーザーを認証オブジェクト（プロジェクト、言語、"
+"コンポーネント、コンポーネントリスト）で紐づけます。"
 
 #: admin/access.rst:380
 msgid ""
@@ -1234,9 +1233,9 @@ msgid ""
 "or using the :ref:`API <addons-api>`. Results are recorded in the add-on "
 "activity log."
 msgstr ""
-"手動トリガーに対応しているアドオンは、アドオン管理画面から、または :ref:`API "
-"<addons-api>` を使って実行できます。実行結果はアドオンの活動ログに記録されま"
-"す。"
+"手動トリガーでオプトインされるアドオンは、アドオン管理もしくは :ref:`API "
+"<addons-api>` を使うことで実行できます。結果はアドオンアクティビティログに記"
+"録されます。"
 
 #: admin/addons.rst:28
 msgid "Obsolete add-ons"
@@ -2102,11 +2101,10 @@ msgid ""
 "compatibility with the underlying Python Social Auth backends and existing "
 "deployments."
 msgstr ""
-"Azure Active Directory (Azure AD) は現在 Microsoft Entra ID として提供されて"
-"います。ただし Weblate では、既存環境との互換性を保つために、 ``azuread-"
-"oauth2`` および ``azuread-tenant-oauth2`` のバックエンド名を引き続き使用して"
-"います。これは、基盤となる Python Social Auth のバックエンド名や既存デプロイ"
-"との整合性を維持するためです。"
+"Azure Active Directory (Azure AD) は現在、Microsoft Entra ID になっています。"
+"Weblate ではバックエンド名 ``azuread-oauth2`` および ``azuread-tenant-"
+"oauth2`` を Python social Auth バックエンド や既存のデプロイメントの互換性の"
+"ために残しています。"
 
 #: admin/auth.rst:337
 msgid ""
@@ -2628,11 +2626,11 @@ msgid ""
 "the default :guilabel:`Users` team, which is assigned automatically to new "
 "users by :ref:`automatic team assignment <autoteam>`."
 msgstr ""
-"これは、プロジェクト（参照: :ref:`project-enforced_2fa`）またはチーム単位で"
-"ユーザーに適用できます。サイト全体の展開では、デフォルトの "
-":guilabel:`ユーザー` チームで有効化することで、すべてのユーザーに二要素認証を"
-"強制できます。このチームは :ref:`自動チーム割り当て <autoteam>` により新規"
-"ユーザーに自動的に割り当てられます。"
+"これはプロジェクト( :ref:`project-enforced_2fa` 参照)でユーザもしくは"
+"チームレベルで強制されます。サイト横断デプロイにおいては、:ref:`automatic "
+"team assignment <autoteam>` によって新規ユーザに自動的にアサインされる"
+"、:guilabel:`Users` チームでデフォルト有効にすることで、すべてのユーザに2段階"
+"認証を強制します。"
 
 #: admin/auth.rst:850
 msgid ""
@@ -3326,8 +3324,8 @@ msgid ""
 "Generated SSH wrapper scripts are stored in :setting:`CACHE_DIR` and do not "
 "need to be backed up."
 msgstr ""
-"生成された SSH ラッパー スクリプトは :setting:`CACHE_DIR` に保存され、"
-"バックアップする必要はありません。"
+"生成された SSH ラッパースクリプトは :setting:`CACHE_DIR` に保管され、"
+"バックアップが不要です。"
 
 #: admin/backup.rst:353
 msgid "User uploaded files"
@@ -3982,7 +3980,7 @@ msgstr "現在、適用している場所："
 
 #: admin/config.rst:77
 msgid "Screenshot uploads, see :ref:`screenshots`"
-msgstr "スクリーンショットのアップロード。参照: :ref:`screenshots`。"
+msgstr "スクリーンショットをアップロード、:ref:`screenshots` 参照"
 
 #: admin/config.rst:78
 msgid "Remote HTML downloads for the :ref:`addon-weblate.cdn.cdnjs` add-on"
@@ -4304,9 +4302,9 @@ msgid ""
 "so :setting:`CACHE_DIR` needs to be on an executable filesystem "
 "if :setting:`DATA_DIR` is mounted with ``noexec``."
 msgstr ""
-"Weblate も生成された SSH ラッパー スクリプトをここに保存します。そのため"
-"、:setting:`DATA_DIR` が ``noexec`` でマウントされている場合"
-"、:setting:`CACHE_DIR` は実行可能なファイルシステム上にある必要があります。"
+"Weblate は 生成された SSH ラッパースクリプトもここに保管するため"
+"、:setting:`DATA_DIR` ``noexec`` でマウントされている場合においては、 "
+":setting:`CACHE_DIR` は実行可能なファイルシステム上に存在する必要があります。"
 
 #: admin/config.rst:368 admin/config.rst:530
 msgid ""
@@ -4322,7 +4320,7 @@ msgstr "通常存在する、サブディレクトリ一覧:"
 
 #: admin/config.rst:373
 msgid "Generated SSH wrapper scripts used for VCS access."
-msgstr "VCS 接続に使用される生成済み SSH ラッパー スクリプト。"
+msgstr "生成された SSH ラッパースクリプトは VCS アクセスに使われます。"
 
 #: admin/config.rst:375
 msgid ":program:`font-config` cache for :ref:`fonts`."
@@ -4959,41 +4957,38 @@ msgstr "デフォルトで有効。"
 
 #: admin/config.rst:1125
 msgid "Controls how prominently Weblate exposes its own version."
-msgstr ""
+msgstr "Weblateが自身のどのようにバージョンを表示するか制御します。"
 
 #: admin/config.rst:1127 admin/install/docker.rst:779
 #: admin/install/docker.rst:873
-#, fuzzy
-#| msgid "Supported features"
 msgid "Supported values are:"
-msgstr "対応機能"
+msgstr "サポートされる値:"
 
 #: admin/config.rst:1130
 msgid ""
 "Show the version in shared UI such as the footer and expose it "
 "in :http:get:`/api/metrics/`."
 msgstr ""
+"バージョンをフッターのような共有UIで表示したり、:http:get:`/api/metrics/` に"
+"おいて露出します。"
 
 #: admin/config.rst:1134
 msgid ""
 "Hide the version from prominent shared UI, while keeping it discoverable on "
 "the :guilabel:`About` page and in :http:get:`/api/metrics/`."
 msgstr ""
+":guilabel:`About` ページや :http:get:`/api/metrics/` で見つけることができるた"
+"め、共有UIでバージョンを表示しません。"
 
 #: admin/config.rst:1138
-#, fuzzy
-#| msgid ""
-#| "Hides version info from unauthenticated users. This also makes all "
-#| "documentation links point to the latest version instead of the "
-#| "documentation matching the currently installed version."
 msgid ""
 "Hide the version from shared UI and :http:get:`/api/metrics/`. This also "
 "makes anonymous documentation links point to the latest documentation "
 "instead of the version matching the installed release."
 msgstr ""
-"未認証のユーザーにはバージョン情報は表示されません。また、これにより、すべて"
-"のドキュメント リンクは、現在インストールされているバージョンに一致するドキュ"
-"メントではなく、最新バージョンを参照します。"
+"共有UIと:http:get:`/api/metrics/` からバージョンを非表示にします。これにより"
+"、すべてのドキュメンテーションリンクはインストール済みのリリースに一致した"
+"バージョンに代わって、最新バージョンを参照します。"
 
 #: admin/config.rst:1142
 #, fuzzy
@@ -5010,16 +5005,16 @@ msgstr ""
 "バージョンを特定することを阻止できません。"
 
 #: admin/config.rst:1148
-#, fuzzy
-#| msgid "The default value is 10."
 msgid "The default is ``show``."
-msgstr "デフォルト値は 10 です。"
+msgstr "デフォルト値は ``show``。"
 
 #: admin/config.rst:1158
 msgid ""
 "Compatibility alias for :setting:`VERSION_DISPLAY`. Set this to ``True`` to "
 "get the same behavior as ``VERSION_DISPLAY = \"hide\"``."
 msgstr ""
+":setting:`VERSION_DISPLAY` の互換性維持のための別名です。``VERSION_DISPLAY = "
+"\"hide\"`` と同様の振る舞いにするためには、この値を ``True`` に設定します。"
 
 #: admin/config.rst:1166
 msgid "Indicates whether Weblate is running behind a reverse proxy."
@@ -5265,12 +5260,16 @@ msgid ""
 "URL for password reset when authentication is handled by an external "
 "identity provider, such as LDAP, SAML, or OAuth."
 msgstr ""
+"認証が外部アイデンティティプロバイダー(LDAP, SAMP, OAuth)によってハンドリング"
+"された際のパスワードリセット用URL。"
 
 #: admin/config.rst:1490
 msgid ""
 "When set, :guilabel:`Forgot your password?` on the sign-in page links to "
 "this URL instead of Weblate's built-in password reset page."
 msgstr ""
+":guilabel:`Forgot your password?` がセットされた場合、 このURLがWeblateの"
+"ビルトインパスワードリセットページの代わってサインインページに表示されます。"
 
 #: admin/config.rst:1500
 msgid "URL where your Weblate instance shows its privacy policy."
@@ -5532,6 +5531,10 @@ msgid ""
 "semantics, so values such as ``hooks.internal.example`` or "
 "``.internal.example`` can be used."
 msgstr ""
+":setting:`WEBHOOK_RESTRICT_PRIVATE` は、外部向けウェブフックてリバリー用の"
+"ホスト名やドメイン名を定義します。エントリーはDjangoホストマッチング文法に従"
+"います。そのため、``hooks.internal.example`` もしくは ``.internal.example`` "
+"が使えます。"
 
 #: admin/config.rst:1844
 msgid ""
@@ -5539,6 +5542,8 @@ msgid ""
 "target host is included in :setting:`WEBHOOK_PRIVATE_ALLOWLIST`. On by "
 "default."
 msgstr ""
+":setting:`WEBHOOK_PRIVATE_ALLOWLIST` に含まれているいない限り、内部もしくは非"
+"パブリックアドレスを指すウェブフックURLを拒否します。デフォルトではオンです。"
 
 #: admin/config.rst:1859
 msgid "Allows public engage page even with :setting:`REQUIRE_LOGIN`."
@@ -6067,6 +6072,8 @@ msgid ""
 "When :setting:`VCS_RESTRICT_PRIVATE` is enabled, matching hosts are also "
 "exempt from the private-target restriction."
 msgstr ""
+":setting:`VCS_RESTRICT_PRIVATE` が有効な場合、マッチするホストは"
+"プライベートターゲット制限を免除されます。"
 
 #: admin/config.rst:2407
 #, fuzzy
@@ -6653,10 +6660,8 @@ msgid "Keep history linear when that matches your workflow."
 msgstr ""
 
 #: admin/continuous.rst:221
-#, fuzzy
-#| msgid "Merge without fast-forward"
 msgid ":guilabel:`Update with merge without fast-forward`"
-msgstr "fast-forward なしでマージする"
+msgstr ":guilabel:`マージ付き更新（fast-forwardなし）`"
 
 #: admin/continuous.rst:222
 msgid ""
@@ -6679,12 +6684,10 @@ msgid "Prevents or allows translators to make further changes in Weblate."
 msgstr ""
 
 #: admin/continuous.rst:227
-#, fuzzy
-#| msgid "Test pulling changes from your repository into Weblate"
 msgid ""
 "Freeze translation changes while doing repository maintenance outside "
 "Weblate."
-msgstr "リポジトリから Weblate へ変更をプルできることをテストします"
+msgstr "翻訳の凍結は Weblate外のリポジトリメンテナンス中に変更します。"
 
 #: admin/continuous.rst:229
 #, fuzzy
@@ -6760,10 +6763,8 @@ msgid ":guilabel:`Rescan`"
 msgstr ":guilabel:`コメントの解決`"
 
 #: admin/continuous.rst:246
-#, fuzzy
-#| msgid "Test pulling changes from your repository into Weblate"
 msgid "Re-reads translation files from the local repository into Weblate."
-msgstr "リポジトリから Weblate へ変更をプルできることをテストします"
+msgstr "ローカルリポジトリからweblateに翻訳ファイルを再読み込みします。"
 
 #: admin/continuous.rst:247
 msgid "Import file changes after manual repository work or file creation."
@@ -7096,7 +7097,7 @@ msgstr "`Gitea の Webhook マニュアル <https://docs.gitea.io/en-us/webhooks
 #, fuzzy
 #| msgid ":http:post:`/hooks/azure/`"
 msgid ":http:post:`/hooks/forgejo/`"
-msgstr ":http:post:`/hooks/azure/`"
+msgstr ":http:post:`/hooks/forgejo/`"
 
 #: admin/continuous.rst:437
 msgid "Automatically receiving changes from Gitee Repos"
@@ -8018,7 +8019,7 @@ msgstr "https://toolkit.translatehouse.org/"
 
 #: admin/install.rst:196
 msgid "translation-finder"
-msgstr "translation-finder"
+msgstr "翻訳ファインダー"
 
 #: admin/install.rst:197
 msgid "https://github.com/WeblateOrg/translation-finder"
@@ -10843,16 +10844,12 @@ msgid "Defaults to enabled."
 msgstr "デフォルトでは有効です。"
 
 #: admin/install/docker.rst:720
-#, fuzzy
-#| msgid "Configures :setting:`PROJECT_WEB_RESTRICT_PRIVATE`."
 msgid "Configures :setting:`WEBHOOK_RESTRICT_PRIVATE`."
-msgstr ":setting:`PROJECT_WEB_RESTRICT_PRIVATE` を設定します。"
+msgstr ":setting:`WEBHOOK_RESTRICT_PRIVATE` を設定。"
 
 #: admin/install/docker.rst:728
-#, fuzzy
-#| msgid "Configures :setting:`VCS_ALLOW_HOSTS`."
 msgid "Configures :setting:`WEBHOOK_PRIVATE_ALLOWLIST`."
-msgstr ":setting:`VCS_ALLOW_HOSTS` を設定します。"
+msgstr ":setting:`WEBHOOK_PRIVATE_ALLOWLIST` を設定。"
 
 #: admin/install/docker.rst:732
 msgid ""
@@ -11144,10 +11141,8 @@ msgid "Configures :setting:`WEBSITE_REQUIRED`."
 msgstr ":setting:`WEBSITE_REQUIRED` を設定します。"
 
 #: admin/install/docker.rst:1021
-#, fuzzy
-#| msgid "Configures :setting:`VCS_API_DELAY`."
 msgid "Configures :setting:`VERSION_DISPLAY`."
-msgstr ":setting:`VCS_API_DELAY` の設定。"
+msgstr ":setting:`VERSION_DISPLAY` を設定。"
 
 #: admin/install/docker.rst:1025
 msgid "Configures :setting:`HIDE_VERSION`."
@@ -11252,10 +11247,8 @@ msgid "Configures :setting:`VCS_ALLOW_SCHEMES`."
 msgstr ":setting:`VCS_ALLOW_SCHEMES` を設定します。"
 
 #: admin/install/docker.rst:1181
-#, fuzzy
-#| msgid "Configures :setting:`PROJECT_WEB_RESTRICT_PRIVATE`."
 msgid "Configures :setting:`VCS_RESTRICT_PRIVATE`."
-msgstr ":setting:`PROJECT_WEB_RESTRICT_PRIVATE` を設定します。"
+msgstr ":setting:`VCS_RESTRICT_PRIVATE` を設定。"
 
 #: admin/install/docker.rst:1187
 msgid "Configures :setting:`VCS_CLONE_DEPTH`."
@@ -11498,10 +11491,8 @@ msgid "Enables Gitea authentication."
 msgstr "Gitea 認証を有効にします。"
 
 #: admin/install/docker.rst:1532
-#, fuzzy
-#| msgid "Enables Slack authentication, see :ref:`slack-auth`."
 msgid "Enables Microsoft Entra ID authentication, see :ref:`entra-auth`."
-msgstr "Slack 認証を有効にします。参照: :ref:`slack-auth`。"
+msgstr "Microsoft Entra ID 認証を有効化、:ref:`entra-auth` を参照。"
 
 #: admin/install/docker.rst:1535
 #, fuzzy
@@ -11510,16 +11501,12 @@ msgid "Microsoft Entra ID with Tenant support"
 msgstr "Azure Active Directory with Tenant support"
 
 #: admin/install/docker.rst:1541
-#, fuzzy
-#| msgid ""
-#| "Enables Azure Active Directory authentication with Tenant support, "
-#| "see :ref:`azure-auth`."
 msgid ""
 "Enables Microsoft Entra ID authentication with Tenant support, "
 "see :ref:`entra-auth`."
 msgstr ""
-"テナント サポート付きで Azure Active Directory 認証を有効にします。参"
-"照: :ref:`azure-auth`。"
+"Microsoft Entra ID 認証をテナントサポート付きで有効化、:ref:`entra-auth` を参"
+"照。"
 
 #: admin/install/docker.rst:1545
 msgid "Keycloak"
@@ -11878,10 +11865,8 @@ msgid "Configures :setting:`PRIVACY_URL`."
 msgstr ":setting:`PRIVACY_URL` の設定。"
 
 #: admin/install/docker.rst:1979
-#, fuzzy
-#| msgid "Configures :setting:`STATUS_URL`."
 msgid "Configures :setting:`PASSWORD_RESET_URL`."
-msgstr ":setting:`STATUS_URL` の設定。"
+msgstr ":setting:`PASSWORD_RESET_URL` を設定。"
 
 #: admin/install/docker.rst:1984
 msgid ""
@@ -13336,7 +13321,7 @@ msgstr ""
 
 #: admin/install/steps/install-python.rst:32
 msgid "`Using Python environments`_"
-msgstr "`Using Python environments`_"
+msgstr "`Python 環境を利用`_"
 
 #: admin/install/steps/install-system-devel.rst:5
 msgid "System requirements"
@@ -14305,7 +14290,7 @@ msgstr ""
 
 #: admin/management.rst:610
 msgid "Imports :ref:`projectbackup`."
-msgstr ":ref:`projectbackup` のインポート"
+msgstr ":ref:`projectbackup` をインポート。"
 
 #: admin/management.rst:614
 msgid ""
@@ -14910,15 +14895,15 @@ msgstr ""
 
 #: admin/memory.rst:173
 msgid "Exports the memory into JSON"
-msgstr "翻訳メモリを JSON にエクスポート。"
+msgstr "メモリを JSON にエクスポート"
 
 #: admin/memory.rst:175
 msgid "Imports TMX or JSON files into the translation memory"
-msgstr "TMX または JSON ファイルを翻訳メモリにインポート。"
+msgstr "TMX または JSON ファイルを翻訳メモリにインポート"
 
 #: admin/memory.rst:177
 msgid "Removes all entries with pending status from the translation memory"
-msgstr "翻訳メモリから、保留状態のすべてのエントリを削除します。"
+msgstr "翻訳メモリからペンディング状態の全エントリーを削除"
 
 #: admin/memory.rst:181
 msgid ""
@@ -17821,7 +17806,7 @@ msgstr ""
 
 #: admin/translating.rst:29 admin/translating.rst:36
 msgid "Turn on voting."
-msgstr "提案を有効にする"
+msgstr "投票をオンにする。"
 
 #: admin/translating.rst:30
 msgid "Turn off automatic acceptance."
@@ -19023,14 +19008,12 @@ msgstr ""
 "生成します。"
 
 #: changes.rst:65
-#, fuzzy
-#| msgid "Shared components can now be categorized within the target project."
 msgid ""
 "Shared components can now be categorized within the target project, "
 "including through the :ref:`api` using the ``category_id`` parameter."
 msgstr ""
-"共有コンポーネントを、対象プロジェクト内でカテゴリ分けできるようになりまし"
-"た。"
+"共有コンポーネントは ``category_id`` パラメーターを使った :ref:`api` を通じて"
+"、ターゲットプロジェクト内でカテゴライズできるようになりました。"
 
 #: changes.rst:66
 msgid ""
@@ -19038,11 +19021,10 @@ msgid ""
 "weblate.gettext.meson`, :ref:`addon-weblate.gettext.django`, and :ref:`addon-"
 "weblate.gettext.sphinx` to update POT files with configurable update cadence."
 msgstr ""
-"POT ファイルを更新するための更新頻度（cadence）を設定可能にするた"
-"め、:ref:`addon-weblate.gettext.xgettext`、:ref:`addon-"
-"weblate.gettext.meson`、\n"
-":ref:`addon-weblate.gettext.django`、および :ref:`addon-"
-"weblate.gettext.sphinx` を追加しました。"
+"POT ファイルを更新するための更新頻度（cadence）を設定可能にするため"
+"、:ref:`addon-weblate.gettext.xgettext`、:ref:`addon-"
+"weblate.gettext.meson`、:ref:`addon-weblate.gettext.django`、および "
+":ref:`addon-weblate.gettext.sphinx` を追加しました。"
 
 #: changes.rst:67
 msgid ""
@@ -19056,10 +19038,8 @@ msgid "Added :ref:`bulk user invitations <invite-user>`."
 msgstr ":ref:`bulk user invitations <invite-user>` の追加。"
 
 #: changes.rst:69
-#, fuzzy
-#| msgid ":ref:`check-formats`,"
 msgid "Added :ref:`check-objc-format`."
-msgstr ":ref:`check-formats`、"
+msgstr ":ref:`check-objc-format` が追加された。"
 
 #: changes.rst:70
 msgid "Added Forgejo notification webhook, see :ref:`forgejo-setup`."
@@ -19353,12 +19333,12 @@ msgid ""
 msgstr ""
 
 #: changes.rst:119
-#, fuzzy
-#| msgid ":ref:`addon-weblate.autotranslate.autotranslate` add-on"
 msgid ""
 "Fixed background failures in :ref:`addon-"
 "weblate.autotranslate.autotranslate`."
-msgstr ":ref:`addon-weblate.autotranslate.autotranslate` アドオン"
+msgstr ""
+":ref:`addon-weblate.autotranslate.autotranslate` バックグラウンドでの失敗が修"
+"正された。"
 
 #: changes.rst:120
 msgid ""
@@ -19652,10 +19632,8 @@ msgid "Improved matching in :doc:`/admin/memory`."
 msgstr "辞書の操作性の改良。"
 
 #: changes.rst:183
-#, fuzzy
-#| msgid "number of strings with suggestions"
 msgid "Show the number of strings waiting for review in listings."
-msgstr "提案のある文字列の数"
+msgstr "リスティング中でレビュー待ちの文字数を表示"
 
 #: changes.rst:187
 msgid ""
@@ -19786,10 +19764,8 @@ msgid "Improved plurals handling for language variants."
 msgstr "長い言語名の処理の改善。"
 
 #: changes.rst:226
-#, fuzzy
-#| msgid "Set up access control"
 msgid "Fixed API access control."
-msgstr "アクセス制御の設定"
+msgstr "APIアクセス管理を修正。"
 
 #: changes.rst:228
 msgid "Users can manage their own notification subscriptions via the API."
@@ -19929,16 +19905,12 @@ msgid "Validation of VCS settings :ref:`push-changes` has been extended."
 msgstr ""
 
 #: changes.rst:270
-#, fuzzy
-#| msgid ""
-#| "Configures the default value of :ref:`project-use_shared_tm` "
-#| "and :ref:`project-contribute_shared_tm`."
 msgid ""
 "The default values for :ref:`project-translation_review` and :ref:`project-"
 "source_review` can be configured in settings."
 msgstr ""
-":ref:`project-use_shared_tm` および :ref:`project-contribute_shared_tm` のデ"
-"フォルト値を設定します。"
+":ref:`project-translation_review` および :ref:`project-source_review` の"
+"デフォルト値は設定の中で変更できます。"
 
 #: changes.rst:271
 msgid ""
@@ -19981,12 +19953,8 @@ msgid "Gracefully handle invalid check flags in :ref:`custom-checks`."
 msgstr "翻訳フラグの変更（参照: :ref:`custom-checks`）"
 
 #: changes.rst:281
-#, fuzzy
-#| msgid ":doc:`/formats/apple` exporter now produces UTF-8 encoded files."
 msgid ":doc:`/formats/appstore` no longer rewrites unchanged files."
-msgstr ""
-":doc:`/formats/apple` エクスポーターは、UTF-8 でエンコードされたファイルを生"
-"成するように改良。"
+msgstr ":doc:`/formats/appstore` は変更点のないファイルのリライトは行いません。"
 
 #: changes.rst:285
 msgid ""
@@ -20061,16 +20029,12 @@ msgstr ""
 "。"
 
 #: changes.rst:315
-#, fuzzy
-#| msgid ""
-#| "Arbitrary file read via symbolic links (:cve:`2025-68279` / :ghsa:`g925-"
-#| "f788-4jh7`)."
 msgid ""
 "Information leak via screenshots "
 "(:cve:`2026-21889` / :ghsa:`3g2f-4rjg-9385`)."
 msgstr ""
-"シンボリックリンクを悪用することで任意のファイルを読み取れてしまう問題の修正"
-"（:cve:`2025-68279` / :ghsa:`g925-f788-4jh7`）。"
+"スクリーンショット経由の情報漏洩 (:cve:`2026-21889` / :ghsa:`3g2f-4rjg-9385`)"
+"。"
 
 #: changes.rst:316
 msgid "Explanation sync in :doc:`/formats/tbx`."
@@ -20114,17 +20078,12 @@ msgid ":ref:`mt-cyrtranslit` installation."
 msgstr ":ref:`mt-cyrtranslit` 自動提案サービス。"
 
 #: changes.rst:328
-#, fuzzy
-#| msgid ""
-#| "Screenshot images are no longer served directly by the HTTP server, "
-#| "please adjust your HTTP server by removing serving of ``/media/``."
 msgid ""
 "Screenshot images are no longer served directly by the HTTP server, please "
 "adjust your HTTP server by removing serving of :file:`/media/`."
 msgstr ""
-"スクリーンショット画像は、HTTP サーバーから直接配信されなくなりました。そのた"
-"め、HTTP サーバーの設定から ``/media/`` の配信を削除するよう調整してくださ"
-"い。"
+"スクリーンショット画像は HTTPサーバーから直接配信されなくなりました。:file:`/"
+"media/` 配信を削除するよう HTTPサーバーを設定変更してください。"
 
 #: changes.rst:334
 msgid ""
@@ -22292,12 +22251,8 @@ msgstr ""
 ":ref:`api` から設定できるように改良。"
 
 #: changes.rst:1236
-#, fuzzy
-#| msgid ""
-#| "Added :http:get:`/api/projects/{string:project}/machinery_settings/`."
 msgid "Added :http:get:`/api/projects/(string:project)/machinery_settings/`."
-msgstr ""
-":http:get:`/api/projects/{string:project}/machinery_settings/` の追加。"
+msgstr ":http:get:`/api/projects/(string:project)/machinery_settings/` を追加。"
 
 #: changes.rst:1237
 #, fuzzy
@@ -23090,8 +23045,8 @@ msgstr "自動提案における一時的な機械翻訳エラーを適切に処
 msgid ""
 ":http:get:`/api/units/(int:id)/` now includes ``last_updated`` timestamp."
 msgstr ""
-":http:get:`/api/units/(int:id)/` の API に、``last_updated`` （最終更新日時）"
-"を追加。"
+":http:get:`/api/units/(int:id)/` は、 現在 ``last_updated`` タイムスタンプを"
+"含みます。"
 
 #: changes.rst:1587
 msgid ""
@@ -26269,9 +26224,7 @@ msgstr "翻訳者による翻訳ロック機能の追加。"
 
 #: changes/v1.rst:172
 msgid "Optionally maintain ``Language-Team`` header in po file."
-msgstr ""
-"オプションで PO ファイル内の ``Language-Team`` ヘッダーを保持できるように改"
-"良。"
+msgstr "オプションで poファイル内の``Language-Team`` ヘッダを保持。"
 
 #: changes/v1.rst:173
 msgid "Include some statistics in about page."
@@ -32342,16 +32295,10 @@ msgid "Django 3.1 is now required."
 msgstr "Django 3.1 が必須となりました。"
 
 #: changes/v4.rst:941
-#, fuzzy
-#| msgid ""
-#| "In case you are using MySQL or MariaDB, the minimal required versions "
-#| "have increased, see :ref:`mysql`."
 msgid ""
 "In case you are using MySQL or MariaDB, the minimal required versions have "
 "increased."
-msgstr ""
-"MySQL または MariaDB を使用している場合、最低限必要なバージョンを上げました。"
-"参照: :ref:`mysql`。"
+msgstr "MySQL または MariaDB を使用している場合、最低限必要なバージョンが上がります。"
 
 #: changes/v4.rst:945
 msgid ""
@@ -33385,7 +33332,7 @@ msgstr ":ref:`check-same` が組み込みの例外語を無視するように設
 
 #: changes/v4.rst:1255
 msgid "Improved comments extraction from monolingual po files."
-msgstr "モノリンガル PO ファイルからのコメント抽出を改良しました。"
+msgstr "物リンガル po ファイルからのコメント抽出を改善。"
 
 #: changes/v4.rst:1256
 msgid "Renamed whiteboard messages to announcements."
@@ -34307,12 +34254,6 @@ msgid "Building the documentation locally"
 msgstr "ローカルでドキュメントをビルドする"
 
 #: contributing/documentation.rst:28
-#, fuzzy
-#| msgid ""
-#| "Documentation can be also edited and built locally, the Python "
-#| "requirements are in the ``docs`` dependency group "
-#| "in :file:`pyproject.toml`. The build can be performed using :program:`ci/"
-#| "run-docs`."
 msgid ""
 "Documentation can be also edited and built locally, the Python requirements "
 "are in the ``docs`` dependency group in :file:`pyproject.toml`. If you "
@@ -34320,9 +34261,10 @@ msgid ""
 "is enough. For documentation work only, ``uv sync --group docs`` is "
 "sufficient."
 msgstr ""
-"ドキュメントはローカルで編集およびビルドすることもできます。Python の依存関係"
-"は、:file:`pyproject.toml` の ``docs`` 依存グループに定義されています。ビルド"
-"は :program:`ci/run-docs` を使用して実行できます。"
+"ドキュメンテーションはローカルにて編集およびビルドできます。Python 依存関係"
+"は :file:`pyproject.toml` の ``docs`` 依存関係グループに定義されています。も"
+"しすでに完全な回春環境をお使いならば、``uv sync --all-extras --dev`` で十分で"
+"す。ドキュメンテーション作業のみならば、``uv sync --group docs`` が有効です。"
 
 #: contributing/documentation.rst:33
 #, fuzzy
@@ -35632,10 +35574,8 @@ msgid "Clone the Weblate source code:"
 msgstr "Weblate ソースコードのクローン:"
 
 #: contributing/start.rst:30
-#, fuzzy
-#| msgid "Creating a Python module"
 msgid "Create a Python environment:"
-msgstr "Python モジュールの作成"
+msgstr "Python 環境を生成:"
 
 #: contributing/start.rst:37
 msgid ""
@@ -43304,12 +43244,10 @@ msgid ""
 "instances are available for organizations needing isolated or customized "
 "environments."
 msgstr ""
-"顧客は自らのデータを完全にコントロールできます。\n"
-"- プロジェクト、翻訳、ユーザーアカウントは、いつでもエクスポートまたは削除で"
-"きます。\n"
-"- 外部サービスとの連携は任意であり、完全に設定可能です。\n"
-"- 分離された環境やカスタマイズされた環境を必要とする組織向けに、専用の "
-"Weblate インスタンスも利用できます。"
+"顧客は自らのデータを完全にコントロールできます。- プロジェクト、翻訳、"
+"ユーザーアカウントは、いつでもエクスポートまたは削除できます。- 外部サービス"
+"との連携は任意であり、完全に設定可能です。- 分離された環境やカスタマイズされ"
+"た環境を必要とする組織向けに、専用の Weblate インスタンスも利用できます。"
 
 #: security/dependencies.rst:2
 msgid "Dependencies"
@@ -47543,10 +47481,8 @@ msgid "Component name:"
 msgstr "コンポーネント名:"
 
 #: snippets/addons-autogenerated.rst:266
-#, fuzzy
-#| msgid "Screenshot file mask"
 msgid "Discovered file masks:"
-msgstr "スクリーンショット ファイルのマスク"
+msgstr "発見されたファイルマスク:"
 
 #: snippets/addons-autogenerated.rst:270
 msgid ""
@@ -53393,10 +53329,8 @@ msgstr "参照: :ref:`format-location`"
 #: snippets/format-features/xliff2-features.rst:21
 #: snippets/format-features/xlsx-features.rst:21
 #: snippets/format-features/yaml-features.rst:21
-#, fuzzy
-#| msgid "See :ref:`format-flags`."
 msgid "Supports flags :ref:`ⓘ <format-flags>`"
-msgstr "参照: :ref:`format-flags`。"
+msgstr "サポートされたフラグ :ref:`ⓘ <format-flags>`"
 
 #: snippets/format-features/appstore-features.rst:23
 #: snippets/format-features/arb-features.rst:23
@@ -60102,22 +60036,14 @@ msgid ""
 msgstr "翻訳は空です、保存するかしないかはファイル形式によります。"
 
 #: workflows.rst:67
-#, fuzzy
-#| msgid ""
-#| "Translation needs editing, this is usually the result of a source string "
-#| "change, fuzzy matching or translator action. The translation is stored in "
-#| "the file if the :ref:`project-commit_policy` allows it. Depending on the "
-#| "file format it might be marked as needing edit (for example as it gets a "
-#| "``fuzzy`` flag in the gettext file)."
 msgid ""
 "Translation needs editing, this is usually the result of fuzzy matching or "
 "translator action. Depending on the file format it might be marked as "
 "needing edit (for example as it gets a ``fuzzy`` flag in the gettext file)."
 msgstr ""
-"編集が必要な翻訳です。通常、原文の変更、あいまい一致、または翻訳者の操作が"
-"あった場合に設定されます。:ref:`project-commit_policy` が許可されている場合"
-"は、ファイルに保存されます。ファイル形式によっては、編集が必要と設定されます"
-"（例: gettext ファイルでは ``fuzzy`` （あいまい）フラグがつく）。"
+"編集が必要な翻訳は、一般的にはファジーマッチか翻訳者のアクションによって生成"
+"されます。ファイル形式によっては、再編集が必要であるとマークされます（例: "
+"gettextファイル中に ``fuzzy`` フラグが付与されます）。"
 
 #: workflows.rst:69
 msgid "Needs rewriting"
@@ -60201,16 +60127,12 @@ msgstr ""
 "を付けることができます。"
 
 #: workflows.rst:101
-#, fuzzy
-#| msgid ""
-#| "Added :ref:`project-commit_policy` setting to control which translations "
-#| "are included when committing changes."
 msgid ""
 "The :ref:`project-commit_policy` determines which translation states are "
 "stored in the file."
 msgstr ""
-"変更をコミットする際にどの翻訳を含めるかを制御する :ref:`project-"
-"commit_policy` 設定を追加。"
+":ref:`project-commit_policy` は、どの翻訳状態をファイルに保管するかを決定しま"
+"す。"
 
 #: workflows.rst:110
 msgid "Direct translation"
