@@ -16,17 +16,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-21 02:17+0200\n"
-"PO-Revision-Date: 2026-04-21 03:39+0000\n"
+"PO-Revision-Date: 2026-04-24 06:03+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Hebrew <https://hosted.weblate.org/projects/weblate/"
-"documentation/he/>\n"
+"Language-Team: Hebrew <http://127.0.0.1:8000/projects/weblate/docs/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 5.16.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: admin/access.rst:4 admin/projects.rst:218
@@ -54,8 +53,8 @@ msgid ""
 "always :guilabel:`Public`. You can switch to the paid plan if you want to "
 "restrict access to your project."
 msgstr ""
-"פרויקטים המריצים את תוכנית Libre החינמית ב- Hosted Weblate הם "
-"תמיד :guilabel:`Public`. אתה יכול לעבור לתוכנית בתשלום אם אתה רוצה להגביל את "
+"פרויקטים המריצים את תוכנית Libre החינמית ב- Hosted Weblate הם תמיד "
+":guilabel:`Public`. אתה יכול לעבור לתוכנית בתשלום אם אתה רוצה להגביל את "
 "הגישה לפרויקט שלך."
 
 #: admin/access.rst:22
@@ -63,8 +62,8 @@ msgid ""
 "Limit user access to individual projects by selecting a "
 "different :ref:`project-access_control` setting. The available options are:"
 msgstr ""
-"הגבל את גישת המשתמש לפרויקטים בודדים על ידי בחירת הגדרה אחרת "
-"של :ref:`project-access_control`. האפשרויות הזמינות הן:"
+"הגבל את גישת המשתמש לפרויקטים בודדים על ידי בחירת הגדרה אחרת של "
+":ref:`project-access_control`. האפשרויות הזמינות הן:"
 
 #: admin/access.rst:25 admin/config.rst:575
 msgid ":guilabel:`Public`"
@@ -18946,8 +18945,7 @@ msgstr "סקירת ביצועים"
 #| "Weblate user management is turned off, you can change permissions in the "
 #| "Django admin interface."
 msgid "Fixed :ref:`language-parsing-codes` in some corner cases."
-msgstr ""
-"ניהול המשתמשים ב־Weblate כבוי, ניתן לנהל הרשאות במנשק הניהול של Django."
+msgstr "ניהול המשתמשים ב־Weblate כבוי, ניתן לנהל הרשאות במנשק הניהול של Django."
 
 #: changes.rst:1016
 msgid ":ref:`search-strings` now properly finds exact match on the component."
@@ -19631,8 +19629,7 @@ msgstr ""
 #| "Weblate user management is turned off, you can change permissions in the "
 #| "Django admin interface."
 msgid "Fixed occasional crash in :ref:`rss`."
-msgstr ""
-"ניהול המשתמשים ב־Weblate כבוי, ניתן לנהל הרשאות במנשק הניהול של Django."
+msgstr "ניהול המשתמשים ב־Weblate כבוי, ניתן לנהל הרשאות במנשק הניהול של Django."
 
 #: changes.rst:1293
 #, fuzzy
@@ -22671,8 +22668,8 @@ msgstr ""
 "Johan Jacobsson, Peter Vančo, Sveinn í Felli, Oliver, Yvan Zo, meshari "
 "alnaim, தமிழ்நேரம், searinminecraft, Jwtiyar Nariman, gitelo4516, Vision, "
 "Chang-Chia Tseng, Kyotaro Iijima, Ricky Tigg, ei9, Martin Srebotnjak, "
-"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан "
-"Симић(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
+"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан Симић"
+"(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
 "Winston Sung, ChinskiKaczynski, Rafael Fontenelle"
 
 #: changes/contributors/5.9.rst:14
@@ -27526,8 +27523,7 @@ msgstr "ביצוע תרגום אוטומטי"
 #| "Weblate user management is turned off, you can change permissions in the "
 #| "Django admin interface."
 msgid "Fixed add-on page crash in some corner cases."
-msgstr ""
-"ניהול המשתמשים ב־Weblate כבוי, ניתן לנהל הרשאות במנשק הניהול של Django."
+msgstr "ניהול המשתמשים ב־Weblate כבוי, ניתן לנהל הרשאות במנשק הניהול של Django."
 
 #: changes/v4.rst:198
 #, fuzzy
@@ -28763,8 +28759,7 @@ msgstr "ישנם כמה שינויים שלא הוגשו!"
 #| "Weblate user management is turned off, you can change permissions in the "
 #| "Django admin interface."
 msgid "Fixed string removal in some cases."
-msgstr ""
-"ניהול המשתמשים ב־Weblate כבוי, ניתן לנהל הרשאות במנשק הניהול של Django."
+msgstr "ניהול המשתמשים ב־Weblate כבוי, ניתן לנהל הרשאות במנשק הניהול של Django."
 
 #: changes/v4.rst:535
 #, fuzzy
@@ -28999,8 +28994,7 @@ msgstr "יצאה לאור ב־13 במאי 2024."
 #| "Weblate user management is turned off, you can change permissions in the "
 #| "Django admin interface."
 msgid "Fixed user removal in Django admin interface."
-msgstr ""
-"ניהול המשתמשים ב־Weblate כבוי, ניתן לנהל הרשאות במנשק הניהול של Django."
+msgstr "ניהול המשתמשים ב־Weblate כבוי, ניתן לנהל הרשאות במנשק הניהול של Django."
 
 #: changes/v4.rst:608
 msgid "Document add-on parameters in greater detail."
@@ -29318,8 +29312,7 @@ msgstr "ישנם כמה שינויים שלא הוגשו!"
 #| "Weblate user management is turned off, you can change permissions in the "
 #| "Django admin interface."
 msgid "The user management no longer needs Django admin interface."
-msgstr ""
-"ניהול המשתמשים ב־Weblate כבוי, ניתן לנהל הרשאות במנשק הניהול של Django."
+msgstr "ניהול המשתמשים ב־Weblate כבוי, ניתן לנהל הרשאות במנשק הניהול של Django."
 
 #: changes/v4.rst:694
 msgid ""
@@ -37302,8 +37295,8 @@ msgstr "תכונות"
 #: faq.rst:543
 msgid "Does Weblate support other VCSes than Git and Mercurial?"
 msgstr ""
-"האם ב־Weblate קיימת תמיכה במערכות ניהול גרסאות קוד אחרות מלבד Git "
-"ו־Mercurial?"
+"האם ב־Weblate קיימת תמיכה במערכות ניהול גרסאות קוד אחרות מלבד Git ו־"
+"Mercurial?"
 
 #: faq.rst:545
 msgid ""
@@ -44476,9 +44469,8 @@ msgid ""
 "as needing rewriting in Weblate. This way you can easily filter and edit "
 "translations created by the developers."
 msgstr ""
-"כשמחרוזת חדשה לתרגום מיובאת ממערכת ניהול הקוד, היא מסומנת כטעונת שכתוב "
-"ב־Weblate. באופן הזה ניתן לסנן ולערוך בקלות מחרוזות מקור שנכתבו על ידי "
-"המפתחים."
+"כשמחרוזת חדשה לתרגום מיובאת ממערכת ניהול הקוד, היא מסומנת כטעונת שכתוב ב־"
+"Weblate. באופן הזה ניתן לסנן ולערוך בקלות מחרוזות מקור שנכתבו על ידי המפתחים."
 
 #: snippets/addons-autogenerated.rst:750
 msgid "Flag updated translations from repository as \"Needs rewriting\""
@@ -44490,9 +44482,8 @@ msgid ""
 "needing rewriting in Weblate. Especially useful if translation files are "
 "often updated manually or by an external service."
 msgstr ""
-"כאשר תרגום של מחרוזת משתנה במערכת בקרת הגרסאות, הוא מסומן כטעון שכתוב "
-"ב־Weblate. שימושי במיוחד אם קובצי התרגום מעודכנים ידנית או על ידי שירות "
-"חיצוני."
+"כאשר תרגום של מחרוזת משתנה במערכת בקרת הגרסאות, הוא מסומן כטעון שכתוב ב־"
+"Weblate. שימושי במיוחד אם קובצי התרגום מעודכנים ידנית או על ידי שירות חיצוני."
 
 #: snippets/addons-autogenerated.rst:772
 msgid "Fill read-only strings with source"
@@ -44720,8 +44711,8 @@ msgid ""
 "Updates the ALL_LINGUAS variable in \"configure\", \"configure.in\" or "
 "\"configure.ac\" files, when a translation is added or removed."
 msgstr ""
-"עדכון המשתנה ALL_LINGUAS בקבצים „configure”,‏ „configure.in‏” או "
-"„configure.ac” כאשר נוסף תרגום חדש."
+"עדכון המשתנה ALL_LINGUAS בקבצים „configure”,‏ „configure.in‏” או „configure.ac"
+"” כאשר נוסף תרגום חדש."
 
 #: snippets/addons-autogenerated.rst:968
 #, fuzzy
@@ -44732,8 +44723,8 @@ msgid ""
 "Updates the ALL_LINGUAS variable in :file:`configure`, :file:`configure.in` "
 "or any :file:`configure.ac` files, when a translation is added or removed."
 msgstr ""
-"עדכון המשתנה ALL_LINGUAS בקבצים „configure”,‏ „configure.in‏” או "
-"„configure.ac” כאשר נוסף תרגום חדש."
+"עדכון המשתנה ALL_LINGUAS בקבצים „configure”,‏ „configure.in‏” או „configure.ac"
+"” כאשר נוסף תרגום חדש."
 
 #: snippets/addons-autogenerated.rst:974
 msgid "Customize gettext output"
@@ -44987,8 +44978,8 @@ msgid ""
 "Updates all PO files (as configured by \"File mask\") to match the POT file "
 "(as configured by \"Template for new translations\") using msgmerge."
 msgstr ""
-"מעדכן את כל קובצי ה־PO (כפי שמוגדר על ידי „מסכת הקובץ”) כדי שיתאימו לקובץ "
-"ה־POT (כפי שמוגדר על ידי „תבנית לתרגומים חדשים”) בעזרת msgmerge."
+"מעדכן את כל קובצי ה־PO (כפי שמוגדר על ידי „מסכת הקובץ”) כדי שיתאימו לקובץ ה־"
+"POT (כפי שמוגדר על ידי „תבנית לתרגומים חדשים”) בעזרת msgmerge."
 
 #: snippets/addons-autogenerated.rst:1146
 msgid ""
@@ -45203,8 +45194,8 @@ msgid ""
 "unless :guilabel:`Per author` is selected, or the commit message is "
 "customized to include it."
 msgstr ""
-"הודעות ההגשה המקוריות נשמרות אך הבעלות על ההגשות לא תישמר אלא אם כן בחרת "
-"ב„לפי מחבר” או שהתאמת אישית את הודעת ההגשה כדי שתכלול אותה."
+"הודעות ההגשה המקוריות נשמרות אך הבעלות על ההגשות לא תישמר אלא אם כן בחרת ב„"
+"לפי מחבר” או שהתאמת אישית את הודעת ההגשה כדי שתכלול אותה."
 
 #: snippets/addons-autogenerated.rst:1337
 msgid ""
@@ -48710,8 +48701,7 @@ msgstr "מספר משתנים ללא שם"
 msgid ""
 "There are multiple unnamed variables in the string, making it impossible for "
 "translators to reorder them."
-msgstr ""
-"יש מספר משתנים ללא שם במחרוזת, מה שלא מאפשר למתרגמים לשנות להם את הסדר."
+msgstr "יש מספר משתנים ללא שם במחרוזת, מה שלא מאפשר למתרגמים לשנות להם את הסדר."
 
 #: snippets/checks-autogenerated.rst:2509
 msgid ""
@@ -50209,8 +50199,7 @@ msgstr "כתובת נק׳ גישה ל־Azure OpenAI"
 #: snippets/machines-autogenerated.rst:217
 msgid ""
 "Endpoint URL of the instance, e.g: https://my-instance.openai.azure.com."
-msgstr ""
-"כתובת נקודת הגישה של המופע, למשל: https://my-instance.openai.azure.com."
+msgstr "כתובת נקודת הגישה של המופע, למשל: https://my-instance.openai.azure.com."
 
 #: snippets/machines-autogenerated.rst:219
 msgid "Azure OpenAI deployment"
