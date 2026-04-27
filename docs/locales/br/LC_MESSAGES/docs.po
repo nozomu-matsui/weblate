@@ -14,10 +14,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/"
 "documentation/\n"
 "POT-Creation-Date: 2026-04-21 02:17+0200\n"
-"PO-Revision-Date: 2026-04-26 22:41+0000\n"
-"Last-Translator: Fulup Jakez <fulup.jakez@gmail.com>\n"
-"Language-Team: Breton <https://hosted.weblate.org/projects/weblate/"
-"documentation/br/>\n"
+"PO-Revision-Date: 2026-04-27 08:24+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Breton <http://127.0.0.1:8000/projects/weblate/docs/br/>\n"
 "Language: br\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +26,7 @@ msgstr ""
 "&& n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && "
 "(n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 "
 "< 90 || n % 100 > 99)) ? 2 : ((n != 0 && n % 1000000 == 0) ? 3 : 4)));\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 5.16.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: admin/access.rst:4 admin/projects.rst:218
@@ -43,8 +42,9 @@ msgid ""
 msgstr ""
 
 #: admin/access.rst:14
+#, fuzzy
 msgid "Project access control"
-msgstr "Kontrol moned ouzh ar raktres"
+msgstr "Selladenn ouzh mammennoù an neudennadoù"
 
 #: admin/access.rst:18
 msgid ""
@@ -61,7 +61,7 @@ msgstr ""
 
 #: admin/access.rst:25 admin/config.rst:575
 msgid ":guilabel:`Public`"
-msgstr ":guilabel:`Foran`"
+msgstr ""
 
 #: admin/access.rst:26 admin/access.rst:34
 msgid "Visible to everybody."
@@ -83,11 +83,11 @@ msgstr ""
 
 #: admin/access.rst:33 admin/config.rst:577
 msgid ":guilabel:`Protected`"
-msgstr ":guilabel:`Gwarezet`"
+msgstr ""
 
 #: admin/access.rst:36 admin/access.rst:44 admin/access.rst:52
 msgid "Only chosen users can contribute."
-msgstr "N'eus nemet an implijerien diuzet a c'hall kemer perzh."
+msgstr ""
 
 #: admin/access.rst:38 admin/access.rst:46 admin/access.rst:54
 msgid "Only chosen users can access VCS repository."
@@ -101,11 +101,11 @@ msgstr ""
 
 #: admin/access.rst:41 admin/config.rst:579
 msgid ":guilabel:`Private`"
-msgstr ":guilabel:`Prevez`"
+msgstr ""
 
 #: admin/access.rst:42 admin/access.rst:50
 msgid "Visible only to chosen users."
-msgstr "Gwelus hepken evit an dud diuzet."
+msgstr ""
 
 #: admin/access.rst:48
 msgid ""
@@ -114,11 +114,12 @@ msgstr ""
 
 #: admin/access.rst:49 admin/config.rst:581
 msgid ":guilabel:`Custom`"
-msgstr ":guilabel:`Personelaet`"
+msgstr ""
 
 #: admin/access.rst:56
+#, fuzzy
 msgid "Not available on Hosted Weblate."
-msgstr "N'eo ket hegerz war Weblate."
+msgstr "Reiñ un dra bennak da Weblate"
 
 #: admin/access.rst:58
 msgid "You will have to set up all the permissions using :ref:`custom-acl`."
@@ -163,7 +164,7 @@ msgstr "Selladenn ouzh mammennoù an neudennadoù"
 
 #: admin/access.rst:93
 msgid "For `Public`, `Protected` and `Private` projects:"
-msgstr "Evit ar raktresoù `Foran`, `Gwarezet` ha`Prevez` :"
+msgstr ""
 
 #: admin/access.rst:95
 msgid ""
@@ -179,8 +180,9 @@ msgid ""
 msgstr ""
 
 #: admin/access.rst:102 snippets/roles.rst:10
+#, fuzzy
 msgid "`Administration`"
-msgstr "`Merañ`"
+msgstr "Enrollañ"
 
 #: admin/access.rst:103
 #, fuzzy
@@ -189,12 +191,14 @@ msgid "All available permissions for the project."
 msgstr "N'oc'h ket aotreet da ziskwel ar bajenn-mañ."
 
 #: admin/access.rst:105
+#, fuzzy
 msgid "`Review`"
-msgstr "`Adwelet`"
+msgstr "Adwelet"
 
 #: admin/access.rst:106
+#, fuzzy
 msgid "Approve translations in a review."
-msgstr "Aprouiñ an troidigezhioù en ur adlenn"
+msgstr "Treiñ emgefre"
 
 #: admin/access.rst:108
 msgid "Available only if :ref:`review workflow <reviews>` is on."
@@ -213,8 +217,9 @@ msgid "Translate the project and upload translations made offline."
 msgstr ""
 
 #: admin/access.rst:115
+#, fuzzy
 msgid "`Sources`"
-msgstr "`Mammennoù`"
+msgstr "Mammenn"
 
 #: admin/access.rst:116
 msgid ""
@@ -227,12 +232,14 @@ msgid "`Languages`"
 msgstr "`Yezhoù`"
 
 #: admin/access.rst:120
+#, fuzzy
 msgid "Manage translated languages (add or remove translations)."
-msgstr "Merañ ar yezhoù troet (ouzhpennañ pe lemel troidigezhioù)"
+msgstr "Yezhoù implijet"
 
 #: admin/access.rst:122
+#, fuzzy
 msgid "`Glossary`"
-msgstr "`Gerva`"
+msgstr "Geriaoueg"
 
 #: admin/access.rst:123
 #, fuzzy
@@ -241,33 +248,37 @@ msgid "Manage glossary (add, remove, and upload entries)."
 msgstr "Yezhoù implijet"
 
 #: admin/access.rst:125
+#, fuzzy
 msgid "`Memory`"
-msgstr "`Memor`"
+msgstr "``memory``"
 
 #: admin/access.rst:126
+#, fuzzy
 msgid "Manage translation memory."
-msgstr "Merañ ar memor treiñ."
+msgstr "Treiñ emgefre"
 
 #: admin/access.rst:128
+#, fuzzy
 msgid "`Screenshots`"
-msgstr "`Tapadennoù skramm`"
+msgstr "tapadennoù skramm"
 
 #: admin/access.rst:129
 msgid "Manage screenshots (add, remove, and associate them to source strings)."
 msgstr ""
 
 #: admin/access.rst:132 snippets/roles.rst:177
+#, fuzzy
 msgid "`Automatic translation`"
-msgstr "`Treiñ emgefre`"
+msgstr "Treiñ emgefre"
 
 #: admin/access.rst:133
+#, fuzzy
 msgid "Can use automatic translation."
-msgstr "A c'hall ober gant an treiñ emgefre."
+msgstr "Treiñ emgefre"
 
 #: admin/access.rst:135
-#, fuzzy
 msgid "`VCS`"
-msgstr "`VCS`"
+msgstr ""
 
 #: admin/access.rst:136
 #, fuzzy
@@ -276,8 +287,9 @@ msgid "Manage VCS and access the exported repository."
 msgstr "Kavlec'h Git :"
 
 #: admin/access.rst:138
+#, fuzzy
 msgid "`Billing`"
-msgstr "`Fakturenniñ`"
+msgstr "``billing``"
 
 #: admin/access.rst:139
 msgid "Access billing info and settings (see :ref:`billing`)."
@@ -296,8 +308,9 @@ msgid ""
 msgstr ""
 
 #: admin/access.rst:154
+#, fuzzy
 msgid "Team administrators"
-msgstr "Merourien ar skipailh"
+msgstr "Enrollañ"
 
 #: admin/access.rst:158
 msgid ""
@@ -22310,8 +22323,8 @@ msgstr ""
 "Johan Jacobsson, Peter Vančo, Sveinn í Felli, Oliver, Yvan Zo, meshari "
 "alnaim, தமிழ்நேரம், searinminecraft, Jwtiyar Nariman, gitelo4516, Vision, "
 "Chang-Chia Tseng, Kyotaro Iijima, Ricky Tigg, ei9, Martin Srebotnjak, "
-"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан "
-"Симић(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
+"Horus68, 이정희, Максим Горпиніч, Sylvain Pichon, Ldm Public, Слободан Симић"
+"(Slobodan Simić), Priit Jõerüüt, Hugo, UTUMI Hirosi, Сергей, symegac, "
 "Winston Sung, ChinskiKaczynski, Rafael Fontenelle"
 
 #: changes/contributors/5.9.rst:14
@@ -43707,8 +43720,7 @@ msgstr "Testeni SSL arval enkodet e PEM."
 
 #: snippets/addons-autogenerated.rst:424
 msgid "Sends notifications to a Fedora Messaging compatible AMQP exchange."
-msgstr ""
-"Kas kemennadennoù d'ur postelerezh Fedora kenglotus gant AMQP exchange."
+msgstr "Kas kemennadennoù d'ur postelerezh Fedora kenglotus gant AMQP exchange."
 
 #: snippets/addons-autogenerated.rst:428
 msgid ""
@@ -44701,8 +44713,7 @@ msgstr "Dre aozer"
 
 #: snippets/addons-autogenerated.rst:1310
 msgid "Append trailers to squashed commit message"
-msgstr ""
-"Ouzhpennañ maeziennoù talbennoù d'ar c'hemennadennoù diellaouiñ gwasket"
+msgstr "Ouzhpennañ maeziennoù talbennoù d'ar c'hemennadennoù diellaouiñ gwasket"
 
 #: snippets/addons-autogenerated.rst:1310
 msgid ""
@@ -48746,8 +48757,8 @@ msgstr ""
 #| msgid "Only wrap lines at newlines (like 'xgettext --no-wrap')"
 msgid "Only wrap lines at newlines (like ``xgettext --no-wrap``)"
 msgstr ""
-"Mont da linenn ent emgefre evit al linennoù nevez hepken (evel gant "
-"« xgettext --no-wrap »)"
+"Mont da linenn ent emgefre evit al linennoù nevez hepken (evel gant «"
+" xgettext --no-wrap »)"
 
 #: snippets/file-format-parameters.rst:112
 #: snippets/file-format-parameters.rst:181
